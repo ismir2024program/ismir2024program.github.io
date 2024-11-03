@@ -28,7 +28,9 @@ def main(site_data_path):
         elif typ == "yml":
             site_data[name] = yaml.load(open(f).read(), Loader=yaml.SafeLoader)
 
-    for typ in ["papers", "speakers", "workshops"]:
+    for typ in ["papers", "speakers", "workshops", "tutorials"]:
+        print(typ)
+        print(site_data[typ])
         by_uid[typ] = {}
         for p in site_data[typ]:
             by_uid[typ][p["UID"]] = p
@@ -114,6 +116,21 @@ def workshops():
         format_workshop(workshop) for workshop in site_data["workshops"]
     ]
     return render_template("workshops.html", **data)
+
+@app.route("/tutorials.html")
+def tutorials():
+    data = _data()
+    data["tutorials"] = site_data["tutorials"]
+    return render_template("tutorials.html", **data)
+
+@app.route("/tutorial_<tutorial>.html")
+def tutorial(tutorial):
+    uid = tutorial
+    v = by_uid["tutorials"][uid]
+    data = _data()
+    data["tutorial"] = v
+    return render_template("tutorial.html", **data)
+
 
 
 def extract_list_field(v, key):

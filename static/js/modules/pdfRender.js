@@ -88,7 +88,7 @@
     selector = selector || "#pdf_view";
     viewport = document.querySelector(selector);
 
-    pdfjsLib.getDocument(pdfURL).then((pdf) => {
+    pdfjsLib.getDocument({url: pdfURL, withCredentials: true}).then((pdf) => {
       pdfInstance = pdf;
       totalPagesCount = 1;
       render();

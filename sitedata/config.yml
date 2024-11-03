@@ -5,8 +5,8 @@ citation_date: May 2020
 proceedings_title: Proceedings of the First MiniCon Conference
 analytics: UA-
 logo:
-  image: static/images/MiniConf.png
-  width: 180px
+  image: static/images/ismir24_logo.svg
+  width: 95px
   height: auto
 # uncomment the following line to show the site title next to the logo image
 # site_title: MiniConf
@@ -36,4 +36,4 @@ calendar:
     ---: '#bed972'
     qa: '#4FCAEB'
     talk: '#ccc'
-  sunday_saturday: false  #  Include Sunday and Saturday
+  sunday_saturday: true  #  Include Sunday and Saturday

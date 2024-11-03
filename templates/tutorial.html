@@ -1,0 +1,36 @@
+{% set page_title = tutorial.title %}
+{% extends "base.html" %}
+{% block content %}
+
+<!-- Title -->
+<div class="pp-card mt-3 mb-3" style="">
+  <div class="card-header" style="background-color: rgba(0,0,0,0);">
+    <h2 class="card-title main-title text-left" >
+      {{tutorial.title}}
+    </h2>
+    <h3 class="card-subtitle mb-2 text-muted text-left">
+      {{ tutorial.presenters }}
+    </h3>
+  </div>
+</div>
+<div id="details" class="pp-card m-1">
+  <div class="card-body">
+    <div class="card-text">
+      <div id="abstractExample">
+        <h5 class="font-weight-bold">Abstract:</h5>
+        {{tutorial.abstract|safe}} <br /><br />
+      </div>
+    </div>
+    <div class="card-text">
+        <div id="bios">
+            <h5 class="font-weight-bold">Bios:</h5>
+            {{tutorial.bios|markdown}} <br /><br />
+        </div>
+    </div>
+  </div>
+</div>
+
+    
+
+
+{% endblock %}
