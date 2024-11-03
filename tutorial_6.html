@@ -1,0 +1,249 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- External Javascript libs_ext  -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js"
+            integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+
+    <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+            integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js"
+            integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js"
+            integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww="
+            crossorigin="anonymous"></script>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Gantari:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <!-- Library libs_ext --> 
+    <script src="static/js/libs_ext/typeahead.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!--    Internal Libs -->
+    <script src="static/js/data/api.js"></script>
+
+    
+
+    <!-- External CSS -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY="
+          crossorigin="anonymous">
+
+    <!-- External Fonts (no google for china) -->
+    <link
+            href="static/css/Lato.css"
+            rel="stylesheet"
+    />
+    <link href="static/css/Exo.css" rel="stylesheet"/>
+    <link
+            href="static/css/Cuprum.css"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="static/css/main.css"/>
+<!--    <link rel="stylesheet" href="static/css/fa_regular.css"/>-->
+    <link rel="stylesheet" href="static/css/fa_solid.css"/>
+    <link rel="stylesheet" href="static/css/lazy_load.css"/>
+    <link rel="stylesheet" href="static/css/typeahead.css"/>
+
+    <title>MiniConf 2020: Lyrics and Singing Voice Processing in Music Information Retrieval: Analysis, Alignment, Transcription and Applications</title>
+    
+</head>
+
+<body>
+<!-- NAV -->
+
+<nav
+        class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto"
+        id="main-nav"
+>
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img
+                    class="logo" src="static/images/ismir24_logo.svg"
+                    height="auto"
+            width="95px"
+            />
+        </a>
+        
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+                class="collapse navbar-collapse text-right flex-grow-1"
+                id="navbarNav"
+        >
+            <ul class="navbar-nav ml-auto">
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="calendar.html">Schedule</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="papers.html">Papers</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="tutorials.html">Tutorials</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="help.html">Help</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- User Overrides -->
+ 
+
+<div class="container">
+    <!-- Tabs -->
+    <div class="tabs">
+         
+    </div>
+    <!-- Content -->
+    <div class="content">
+        
+
+<!-- Title -->
+<div class="pp-card mt-3 mb-3" style="">
+  <div class="card-header" style="background-color: rgba(0,0,0,0);">
+    <h2 class="card-title main-title text-left" >
+      Lyrics and Singing Voice Processing in Music Information Retrieval: Analysis, Alignment, Transcription and Applications
+    </h2>
+    <h3 class="card-subtitle mb-2 text-muted text-left">
+      Daniel Stoller, Emir Demirel, Kento Watanabe, and Brendan O’Connor
+    </h3>
+  </div>
+</div>
+<div id="details" class="pp-card m-1">
+  <div class="card-body">
+    <div class="card-text">
+      <div id="abstractExample">
+        <h5 class="font-weight-bold">Abstract:</h5>
+        Singing, a universal human practice, intertwines with lyrics to form a core part of profound musical experiences, conveying emotions, narratives, and real-world connections. This tutorial explores the commonly used techniques and practices in lyrics and singing voice processing, which are vital in numerous music information retrieval tasks and applications.
+
+Despite the importance of song lyrics in MIR and the industry, high-quality paired audio & transcript annotations are often scarce. In the first part of this tutorial, we'll delve into automatic lyrics transcription and alignment techniques, which significantly reduce the annotation cost and enable more performant solutions. Our tutorial provides insights into the current state-of-the-art methods for transcription and alignment, highlighting their capabilities and limitations while fostering further research into these systems.
+
+Moreover, we present "lyrics information processing", which encompasses lyrics generation and leveraging lyrics to discern musically relevant aspects such as emotions, themes, and song structure. Understanding the rich information embedded in lyrics opens avenues for enhancing audio-based tasks by incorporating lyrics as supplementary input. 
+
+Finally, we discuss singing voice conversion as one such task, which involves the conversion of acoustic features embedded in a vocal signal, often relating to timbre and pitch. We explore how lyric-based features can facilitate a model's inherent disentanglement between acoustic and linguistic content, which leads to more convincing conversions. This section closes with a brief discussion on the ethical concerns and responsibilities that should be considered in this area.
+
+This tutorial caters especially to new researchers with an interest in lyrics and singing voice modeling, or those involved in improving lyrics alignment and transcription methodologies. It can also inspire researchers to leverage lyrics for improved performance on tasks like singing voice separation, music and singing voice generation, and cover song and emotion recognition. <br /><br />
+      </div>
+    </div>
+    <div class="card-text">
+        <div id="bios">
+            <h5 class="font-weight-bold">Bios:</h5>
+            <p><strong>Daniel Stoller</strong> is a research scientist at MIQ, the music intelligence team at Spotify. He obtained his PhD from Queen Mary University in 2020, before researching causal machine learning at the German center for neurodegenerative diseases (DZNE). Experienced in audio source separation as well as generative modeling and representation learning, he develops machine learning models and techniques scalable to high-dimensional data such as raw audio signals, publishing in both machine learning and audio-related venues. With a special passion for music, he also worked extensively on lyrics alignment, and singing voice processing including separation, detection and classification.</p>
+<p><strong>Emir Demirel</strong> is a Senior Data Scientist at Music.ai / Moises, leading projects on lyrics and vocal processing. He obtained his Ph.D. at Queen Mary University of London, as a fellow to the "New Frontiers in Music Information Processing '' project under EU’s Marie Curie/Skladowska Actions. After completing his Ph.D, he joined Spotify’s Music Intelligence team, enhancing his expertise before moving to Music.ai. His research interests span lyric transcription and alignment, speech recognition, and natural language processing, along with generative AI models. </p>
+<p><strong>Kento Watanabe</strong> is a senior researcher at the National Institute of Advanced Industrial Science and Technology (AIST), Japan. He received his Ph.D. from Tohoku University in 2018, and his work focuses on Lyrics Information Processing (LIP), natural language processing, and machine learning. He aims to bridge the gap between humans and computers in the field of music and language, and to improve interactions through advanced algorithms.</p>
+<p><strong>Brendan O’Connor</strong> has worked in music as a performer, composer, producer, teacher, and sound installation artist. He earned his Bachelor’s in classical music at the MTU Cork School of Music (Ireland), followed by his Master’s in music technology at the University of West London, specialising in the voice as the principal instrument in electroacoustic compositions. He then worked towards his Ph.D. in the field of singing voice conversion via neural networks at Queen Mary University of London. His research interests include the disentanglement of scarcely labelled vocal attributes, such as singing techniques. After completing his PhD, Brendan began working for a startup company in voice conversion, allowing him to continue working in his area of expertise with other researchers of the same field using SOTA machine learning techniques.</p> <br /><br />
+        </div>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+    </div>
+</div>
+
+
+
+<!-- Google Analytics -->
+<script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=UA-"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+  gtag("js", new Date());
+  gtag("config", "UA-");
+</script>
+
+<!-- Footer -->
+<footer class="footer bg-light p-4">
+    <div class="container">
+        <p class="float-right"><a href="#">Back to Top</a></p>
+        <p class="text-center">© 2020 MiniConf Organization Committee</p>
+    </div>
+</footer>
+
+<!-- Code for hash tags -->
+<script type="text/javascript">
+  $(document).ready(function () {
+    if (window.location.hash !== "") {
+      $(`a[href="${window.location.hash}"]`).tab("show");
+    }
+
+    $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+      const hash = $(e.target).attr("href");
+      if (hash.substr(0, 1) === "#") {
+        const position = $(window).scrollTop();
+        window.location.replace(`#${hash.substr(1)}`);
+        $(window).scrollTop(position);
+      }
+    });
+   
+  });
+</script>
+<!--    <script src="static/js/modules/lazyLoad.js"></script>-->
+
+</body>
+</html>

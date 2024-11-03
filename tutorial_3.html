@@ -1,0 +1,250 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- External Javascript libs_ext  -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js"
+            integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+
+    <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+            integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js"
+            integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js"
+            integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww="
+            crossorigin="anonymous"></script>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Gantari:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <!-- Library libs_ext --> 
+    <script src="static/js/libs_ext/typeahead.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!--    Internal Libs -->
+    <script src="static/js/data/api.js"></script>
+
+    
+
+    <!-- External CSS -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY="
+          crossorigin="anonymous">
+
+    <!-- External Fonts (no google for china) -->
+    <link
+            href="static/css/Lato.css"
+            rel="stylesheet"
+    />
+    <link href="static/css/Exo.css" rel="stylesheet"/>
+    <link
+            href="static/css/Cuprum.css"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="static/css/main.css"/>
+<!--    <link rel="stylesheet" href="static/css/fa_regular.css"/>-->
+    <link rel="stylesheet" href="static/css/fa_solid.css"/>
+    <link rel="stylesheet" href="static/css/lazy_load.css"/>
+    <link rel="stylesheet" href="static/css/typeahead.css"/>
+
+    <title>MiniConf 2020: From White Noise to Symphony: Diffusion Models for Music and Sound
+</title>
+    
+</head>
+
+<body>
+<!-- NAV -->
+
+<nav
+        class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto"
+        id="main-nav"
+>
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img
+                    class="logo" src="static/images/ismir24_logo.svg"
+                    height="auto"
+            width="95px"
+            />
+        </a>
+        
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+                class="collapse navbar-collapse text-right flex-grow-1"
+                id="navbarNav"
+        >
+            <ul class="navbar-nav ml-auto">
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="calendar.html">Schedule</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="papers.html">Papers</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="tutorials.html">Tutorials</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="help.html">Help</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- User Overrides -->
+ 
+
+<div class="container">
+    <!-- Tabs -->
+    <div class="tabs">
+         
+    </div>
+    <!-- Content -->
+    <div class="content">
+        
+
+<!-- Title -->
+<div class="pp-card mt-3 mb-3" style="">
+  <div class="card-header" style="background-color: rgba(0,0,0,0);">
+    <h2 class="card-title main-title text-left" >
+      From White Noise to Symphony: Diffusion Models for Music and Sound
+
+    </h2>
+    <h3 class="card-subtitle mb-2 text-muted text-left">
+      Chieh-Hsin Lai, Koichi Saito, Bac Nguyen Cong, Yuki Mitsufuji, and Stefano Ermon
+
+    </h3>
+  </div>
+</div>
+<div id="details" class="pp-card m-1">
+  <div class="card-body">
+    <div class="card-text">
+      <div id="abstractExample">
+        <h5 class="font-weight-bold">Abstract:</h5>
+        This tutorial will cover the theory and practice of diffusion models for music and sound. We will explain the methodology, explore its history, and demonstrate music and sound-specific applications such as real-time generation and various other downstream tasks. By bridging the gap from computer vision techniques and models, we aim to spark further research interest and democratize access to diffusion models for the music and sound domains. 
+
+The tutorial comprises four sections. The first provides an overview of deep generative models and delves into the fundamentals of diffusion models. The second section explores applications such as sound and music generation, as well as utilizing pre-trained models for music/sound editing and restoration. In the third section, a hands-on demonstration will focus on training diffusion models and applying pre-trained models for music/sound restoration. The final section outlines future research directions.
+
+We anticipate that this tutorial, emphasizing both the foundational principles and practical implementation of diffusion models, will stimulate interest among the music and sound signal processing community. It aims to illuminate insights and applications concerning diffusion models, drawn from methodologies in computer vision.
+ <br /><br />
+      </div>
+    </div>
+    <div class="card-text">
+        <div id="bios">
+            <h5 class="font-weight-bold">Bios:</h5>
+            <p><strong>Chieh-Hsin Lai</strong> earned his Ph.D. in Mathematics from University of Minnesota in 2021. Currently, he is a research scientist at Sony AI and a visiting assistant professor at the Department of Applied Mathematics of National Yang Ming Chiao Tung University, Taiwan. His expertise is in deep generative models, especially diffusion models and its application for media content restoration. He has organized an EXPO workshop at NeurIPS 2023 on “Media Content Restoration and Editing with Deep Generative Models and Beyond”. Please refer here for his detailed information https://chiehhsinjesselai.github.io/. </p>
+<p><strong>Koichi Saito</strong> is an AI engineer at Sony AI. He has been working on deep generative models for music and sound, especially, solving inverse problems for music signals based on diffusion models and diffusion-based text-to-sound generation. He has extensive experience in showcasing advanced diffusion model technologies to businesses and industries related to music. </p>
+<p><strong>Bac Nguyen Cong</strong> earned his M.Sc. degree (summa cum laude) in computer science from Universidad Central de Las Villas in 2015, followed by a Ph.D. from Ghent University in 2019. He joined Sony in 2019, focusing his research on representation learning, vision-language models, and generative modeling. With four years of hands-on professional industry experience in deep learning and machine learning, his work spans various application domains, such as text-to-speech and voice conversion, showing his important contributions to the field.</p>
+<p><strong>Yuki Mitsufuji</strong> holds dual roles at Sony, leading two departments, and is a specially appointed associate professor at TokyoTech, where he lectures on generative models. He's achieved Senior Member status in IEEE and serves on the IEEE AASP Technical Committee 2023-2026. He chaired  <code>Diffusion-based Generative Models for Audio and Speech'' at ICASSP 2023 and</code>Generative Semantic Communication: How Generative Models Enhance Semantic Communications'' at ICASSP 2024. Please refer here for his detailed information https://www.yukimitsufuji.com/.</p>
+<p><strong>Stefano Ermon</strong> is an associate professor at Stanford, specializing in probabilistic data modeling with a focus on computational sustainability. He has received Best Paper Awards from ICLR, AAAI, UAI, CP, and an NSF Career Award. He also organized a course on Diffusion Models at SIGGRAPH 2023. Please refer here for his detailed information https: //cs.stanford.edu/~ermon/.</p> <br /><br />
+        </div>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+    </div>
+</div>
+
+
+
+<!-- Google Analytics -->
+<script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=UA-"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+  gtag("js", new Date());
+  gtag("config", "UA-");
+</script>
+
+<!-- Footer -->
+<footer class="footer bg-light p-4">
+    <div class="container">
+        <p class="float-right"><a href="#">Back to Top</a></p>
+        <p class="text-center">© 2020 MiniConf Organization Committee</p>
+    </div>
+</footer>
+
+<!-- Code for hash tags -->
+<script type="text/javascript">
+  $(document).ready(function () {
+    if (window.location.hash !== "") {
+      $(`a[href="${window.location.hash}"]`).tab("show");
+    }
+
+    $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+      const hash = $(e.target).attr("href");
+      if (hash.substr(0, 1) === "#") {
+        const position = $(window).scrollTop();
+        window.location.replace(`#${hash.substr(1)}`);
+        $(window).scrollTop(position);
+      }
+    });
+   
+  });
+</script>
+<!--    <script src="static/js/modules/lazyLoad.js"></script>-->
+
+</body>
+</html>

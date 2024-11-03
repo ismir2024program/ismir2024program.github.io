@@ -1,0 +1,244 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- External Javascript libs_ext  -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js"
+            integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+
+    <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+            integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js"
+            integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js"
+            integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww="
+            crossorigin="anonymous"></script>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Gantari:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <!-- Library libs_ext --> 
+    <script src="static/js/libs_ext/typeahead.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!--    Internal Libs -->
+    <script src="static/js/data/api.js"></script>
+
+    
+
+    <!-- External CSS -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY="
+          crossorigin="anonymous">
+
+    <!-- External Fonts (no google for china) -->
+    <link
+            href="static/css/Lato.css"
+            rel="stylesheet"
+    />
+    <link href="static/css/Exo.css" rel="stylesheet"/>
+    <link
+            href="static/css/Cuprum.css"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="static/css/main.css"/>
+<!--    <link rel="stylesheet" href="static/css/fa_regular.css"/>-->
+    <link rel="stylesheet" href="static/css/fa_solid.css"/>
+    <link rel="stylesheet" href="static/css/lazy_load.css"/>
+    <link rel="stylesheet" href="static/css/typeahead.css"/>
+
+    <title>MiniConf 2020: Humans at the Center of MIR: Human-subjects Research Best Practices</title>
+    
+</head>
+
+<body>
+<!-- NAV -->
+
+<nav
+        class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto"
+        id="main-nav"
+>
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img
+                    class="logo" src="static/images/ismir24_logo.svg"
+                    height="auto"
+            width="95px"
+            />
+        </a>
+        
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+                class="collapse navbar-collapse text-right flex-grow-1"
+                id="navbarNav"
+        >
+            <ul class="navbar-nav ml-auto">
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="calendar.html">Schedule</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="papers.html">Papers</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="tutorials.html">Tutorials</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="help.html">Help</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- User Overrides -->
+ 
+
+<div class="container">
+    <!-- Tabs -->
+    <div class="tabs">
+         
+    </div>
+    <!-- Content -->
+    <div class="content">
+        
+
+<!-- Title -->
+<div class="pp-card mt-3 mb-3" style="">
+  <div class="card-header" style="background-color: rgba(0,0,0,0);">
+    <h2 class="card-title main-title text-left" >
+      Humans at the Center of MIR: Human-subjects Research Best Practices
+    </h2>
+    <h3 class="card-subtitle mb-2 text-muted text-left">
+      Claire Arthur, Nat Condit-Schultz, David R. W. Sears, John Ashley Burgoyne, and Josuha Albrecht
+
+    </h3>
+  </div>
+</div>
+<div id="details" class="pp-card m-1">
+  <div class="card-body">
+    <div class="card-text">
+      <div id="abstractExample">
+        <h5 class="font-weight-bold">Abstract:</h5>
+        In one form or another, most MIR research depends on the judgment of humans. Humans provide our ground-truth data, whether through explicit annotation or through observable behavior (e.g., listening histories); Humans also evaluate our results, whether in academic research reports or in the commercial marketplace. Will users like it? Will customers buy it? Does it sound good? These are all critical questions for MIR researchers which can only be answered by asking people. Unfortunately, measuring and interpreting the judgments and experiences of humans in a rigorous manner is difficult. Human responses can be fickle, changeable, and inconsistent—they are, by definition, subjective. There are many factors that influence human responses, some of which can be controlled or accounted for in experimental design, and others which must be tolerated but ameliorated through statistical analysis. Fortunately, researchers in the field of behavioral psychology have amassed extensive expertise and institutional knowledge related to the practice and pedagogy of human-subject research, but MIR researchers receive little exposure to research methods involving human subjects. This tutorial, led by MIR researchers with training (and publications) in psychological research, aims to share these insights with the ISMIR community. The tutorial will introduce key concepts, terminology, and concerns in carrying out human-subject research, all in the context of MIR. Through the discussion of real and hypothetical human research, we will explore the nuances of experiment and survey design, stimuli creation, sampling, psychometric modeling, and statistical analysis. We will review common pitfalls and confounds in human research, and present guidelines for best practices in the field. We will also cover fundamental ethical and legal requirements of human research. Any and all ISMIR members are welcome and encouraged to attend: it is never too early, or too late, in one’s research career to learn (or practice) these essential skills.
+ <br /><br />
+      </div>
+    </div>
+    <div class="card-text">
+        <div id="bios">
+            <h5 class="font-weight-bold">Bios:</h5>
+            <p><strong>Claire Arthur</strong> is an assistant professor in the School of Music and co-director of the Computational and Cognitive Musicology Lab at the Georgia Institute of Technology, and adjunct faculty in the School of Psychology. She received her PhD in music theory and cognition from Ohio State University under David Huron. Her research largely focuses on modeling musical structure from a statistical perspective, as well as examining the cognitive and behavioral correlates of those structures, especially as it relates to musical expectations and emotional responses. Her MIR-related research interests lie in the intersection of music perception, computational musicology, and emotion prediction, with an emphasis on melody, voice-leading, and harmony. </p>
+<p><strong>Nat Condit-Schultz</strong> is a Lecturer and the Director of the Graduate Program for the Georgia Tech School of Music. Nat is a musician, composer, and scientist, specializing in the statistical modeling of musical structure. Nat directs the Georgia Tech rock and pop bands, and teaches courses in research methodology, music psychology, and music production. Nat’s research interests include rhythm and tonality in popular music, the perceptual and structural roles of language and lyrics in music, and the music theory of hip-hop. Nat is a performer and composer, specializing in electric and classical guitar: as a composer, he specializes in imitative counterpoint and complex rhythmic/metric ideas like polyrhythm, “tempo spirals,” and irama, realized through classical guitar, rock instrumentation, and Indonesian Gamelan. </p>
+<p><strong>David Sears</strong> is Associate Professor of Interdisciplinary Arts and Co-Director of the Performing Arts Research Lab at Texas Tech University, where he teaches courses in arts psychology, arts informatics, and music theory. His current research examines the structural parallels between music and language using both behavioral and computational methods, with a particular emphasis on the many topics associated with pitch structure, including scale theory, tonality, harmony, cadence, and musical form. He also has ancillary interests in music on the global radio, music and emotion, and cross-cultural research. Recent publications appear in his Google Scholar profile. </p>
+<p><strong>John Ashley Burgoyne</strong> is Assistant Professor in Computational Musicology at the University of Amsterdam, teaching in the Musicology and Artificial Intelligence and conducting research in the Language and Music Cognition unit at the Institute for Logic, Language, and Computation. His current research focuses on using psychometric approaches in combination with representations and embeddings from deep learning models to improve the interpretability of AI models and flexibility in the design of musical stimuli and experiments. As director of the Amsterdam Music Lab, he is also interested in citizen science and online experimentation, and leads a team developing the MUSCLE infrastructure for facilitating online experiments requiring fine control of audio and music. </p>
+<p><strong>Joshua Albrecht</strong> is an Assistant Professor of Music Theory at the University of Iowa, and directs the Iowa Cognitive and Empirical Musicology lab. His current research blends statistical and computational musical analysis with behavioral studies to model listeners’ perception of musical affect, melodic and harmonic complexity, and intonation. Working in a traditional School of Music, his research also focused on applying computational methods to traditional historical and analytical problems, using compositional output as proxies for investigating the cognition of historical compositional practices.</p> <br /><br />
+        </div>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+    </div>
+</div>
+
+
+
+<!-- Google Analytics -->
+<script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=UA-"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+  gtag("js", new Date());
+  gtag("config", "UA-");
+</script>
+
+<!-- Footer -->
+<footer class="footer bg-light p-4">
+    <div class="container">
+        <p class="float-right"><a href="#">Back to Top</a></p>
+        <p class="text-center">© 2020 MiniConf Organization Committee</p>
+    </div>
+</footer>
+
+<!-- Code for hash tags -->
+<script type="text/javascript">
+  $(document).ready(function () {
+    if (window.location.hash !== "") {
+      $(`a[href="${window.location.hash}"]`).tab("show");
+    }
+
+    $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+      const hash = $(e.target).attr("href");
+      if (hash.substr(0, 1) === "#") {
+        const position = $(window).scrollTop();
+        window.location.replace(`#${hash.substr(1)}`);
+        $(window).scrollTop(position);
+      }
+    });
+   
+  });
+</script>
+<!--    <script src="static/js/modules/lazyLoad.js"></script>-->
+
+</body>
+</html>

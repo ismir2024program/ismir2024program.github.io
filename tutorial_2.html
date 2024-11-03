@@ -1,0 +1,246 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- External Javascript libs_ext  -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js"
+            integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+
+    <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+            integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js"
+            integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js"
+            integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww="
+            crossorigin="anonymous"></script>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Gantari:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <!-- Library libs_ext --> 
+    <script src="static/js/libs_ext/typeahead.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!--    Internal Libs -->
+    <script src="static/js/data/api.js"></script>
+
+    
+
+    <!-- External CSS -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY="
+          crossorigin="anonymous">
+
+    <!-- External Fonts (no google for china) -->
+    <link
+            href="static/css/Lato.css"
+            rel="stylesheet"
+    />
+    <link href="static/css/Exo.css" rel="stylesheet"/>
+    <link
+            href="static/css/Cuprum.css"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="static/css/main.css"/>
+<!--    <link rel="stylesheet" href="static/css/fa_regular.css"/>-->
+    <link rel="stylesheet" href="static/css/fa_solid.css"/>
+    <link rel="stylesheet" href="static/css/lazy_load.css"/>
+    <link rel="stylesheet" href="static/css/typeahead.css"/>
+
+    <title>MiniConf 2020: Exploring 25 Years of Music Information Retrieval: Perspectives and Insights</title>
+    
+</head>
+
+<body>
+<!-- NAV -->
+
+<nav
+        class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto"
+        id="main-nav"
+>
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img
+                    class="logo" src="static/images/ismir24_logo.svg"
+                    height="auto"
+            width="95px"
+            />
+        </a>
+        
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+                class="collapse navbar-collapse text-right flex-grow-1"
+                id="navbarNav"
+        >
+            <ul class="navbar-nav ml-auto">
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="calendar.html">Schedule</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="papers.html">Papers</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="tutorials.html">Tutorials</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="help.html">Help</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- User Overrides -->
+ 
+
+<div class="container">
+    <!-- Tabs -->
+    <div class="tabs">
+         
+    </div>
+    <!-- Content -->
+    <div class="content">
+        
+
+<!-- Title -->
+<div class="pp-card mt-3 mb-3" style="">
+  <div class="card-header" style="background-color: rgba(0,0,0,0);">
+    <h2 class="card-title main-title text-left" >
+      Exploring 25 Years of Music Information Retrieval: Perspectives and Insights
+    </h2>
+    <h3 class="card-subtitle mb-2 text-muted text-left">
+      Masataka Goto, Jin Ha Lee, and Meinard Müller
+
+    </h3>
+  </div>
+</div>
+<div id="details" class="pp-card m-1">
+  <div class="card-body">
+    <div class="card-text">
+      <div id="abstractExample">
+        <h5 class="font-weight-bold">Abstract:</h5>
+        This tutorial reflects on the journey of Music Information Retrieval (MIR) over the last 25 years, offering insights from three distinct perspectives: research, community, and education. Drawing from the presenters' personal experiences and reflections, it provides a holistic view of MIR's evolution, covering historical milestones, community dynamics, and pedagogical insights. Through this approach, the tutorial aims to give attendees a nuanced understanding of MIR’s past, present, and future directions, fostering a deeper appreciation for the field and its interdisciplinary and educational aspects.
+
+The tutorial is structured into three parts, each based on one of the aforementioned perspectives. The first part delves into the research journey of MIR. It covers the inception of query-by-humming and the emergence of MP3s, discusses the establishment of standard tasks such as beat tracking and genre classification, and highlights significant advancements, applications, and future challenges in the field. The second part explores the community aspect of ISMIR. It traces the growth of the society from a small symposium to a well-recognized international community, emphasizing core values such as interdisciplinary collaboration and diversity, and invites the audience to imagine the future of the ISMIR community together. Lastly, the third part discusses the role of music as an educational domain. It examines the broad implications of MIR research, the value of pursuing a PhD in MIR, and the significant educational resources available.
+
+Each part invites audience interaction, aiming to provide attendees with a deeper appreciation of MIR's past achievements and insights into its potential future directions. This tutorial is not just a historical overview but also a platform for fostering a deeper understanding of the interplay between technology and music.
+ <br /><br />
+      </div>
+    </div>
+    <div class="card-text">
+        <div id="bios">
+            <h5 class="font-weight-bold">Bios:</h5>
+            <p><strong>Masataka Goto</strong> received the Doctor of Engineering degree from Waseda University, Tokyo, Japan, in 1998. He is currently a Principal Researcher at the National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba, Japan. In 1992 he was one of the first to start working on automatic music understanding and has since been at the forefront of research in music technologies and music interfaces based on those technologies. Over the past 32 years he has published more than 300 papers in refereed journals and international conferences and has received 68 awards, including several best paper awards, best presentation awards, the Tenth Japan Academy Medal, and Tenth JSPS PRIZE. He has served as a committee member of over 120 scientific societies and conferences, including the General Chair of ISMIR 2009 and 2014, the Program Chair of ISMIR 2022, and the Member-at-large of the ISMIR Board from 2009 to 2011. As the research director, he began the OngaACCEL project in 2016 and the RecMus project in 2021, which are five-year JST-funded research projects (ACCEL and CREST) related to music technologies. He gave tutorials at major conferences, including ISMIR 2015, ACM Multimedia 2013, ICML 2013, ICPR 2012, and ICMR 2012.</p>
+<p><strong>Jin Ha Lee</strong> is a Professor and the Founder and Director of the GAMER (GAME Research) Group at the University of Washington Information School. She holds an M.S. (2002) and a Ph.D. (2008) in Library and Information Science from the University of Illinois at Urbana-Champaign. Her research focuses on exploring new ideas and approaches for organizing and providing access to popular music, multimedia, and interactive media, understanding user behavior related to the creation and consumption of these media, and using these media for informal learning in venues such as libraries and museums. She has been actively engaging with the ISMIR community from the early days of ISMIR, and was at the forefront of user-centered MIR research at ISMIR, contributing a number of papers on user perception of music similarity and mood, music listening and sharing behavior, cross-cultural aspects of MIR, and human-AI collaboration. She served as the Secretary of the ISMIR Board from the inception to 2015, and also as the General Co-Chair of ISMIR 2021, and the Scientific Program Co-Chair of ISMIR 2014, 2020, and 2024. She also serves as an Editorial Board Member for the Transactions of the International Society for Music Information Retrieval. </p>
+<p><strong>Meinard Müller</strong> received the Diploma degree (1997) in mathematics and the Ph.D. degree (2001) in computer science from the University of Bonn, Germany. Since 2012, he has held a professorship for Semantic Audio Signal Processing at the International Audio Laboratories Erlangen, a joint institute of the Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU) and the Fraunhofer Institute for Integrated Circuits IIS. His recent research interests include music processing, music information retrieval, audio signal processing, and motion processing. He was a member of the IEEE Audio and Acoustic Signal Processing Technical Committee (2010-2015), a member of the Senior Editorial Board of the IEEE Signal Processing Magazine (2018-2022), and a member of the Board of Directors, International Society for Music Information Retrieval (2009-2021, being its president in 2020/2021). In 2020, he was elevated to IEEE Fellow for contributions to music signal processing. Currently, he also serves as Editor-in-Chief for the Transactions of the International Society for Music Information Retrieval (TISMIR). Besides his scientific research, Meinard Müller has been very active in teaching music and audio processing. He gave numerous tutorials at major conferences, including ICASSP (2009, 2011, 2019) and ISMIR (2007, 2010, 2011, 2014, 2017, 2019, 2023). Furthermore, he wrote a monograph titled “Information Retrieval for Music and Motion” (Springer 2007) as well as a textbook titled “Fundamentals of Music Processing” (Springer-Verlag 2015).</p> <br /><br />
+        </div>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+    </div>
+</div>
+
+
+
+<!-- Google Analytics -->
+<script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=UA-"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+  gtag("js", new Date());
+  gtag("config", "UA-");
+</script>
+
+<!-- Footer -->
+<footer class="footer bg-light p-4">
+    <div class="container">
+        <p class="float-right"><a href="#">Back to Top</a></p>
+        <p class="text-center">© 2020 MiniConf Organization Committee</p>
+    </div>
+</footer>
+
+<!-- Code for hash tags -->
+<script type="text/javascript">
+  $(document).ready(function () {
+    if (window.location.hash !== "") {
+      $(`a[href="${window.location.hash}"]`).tab("show");
+    }
+
+    $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+      const hash = $(e.target).attr("href");
+      if (hash.substr(0, 1) === "#") {
+        const position = $(window).scrollTop();
+        window.location.replace(`#${hash.substr(1)}`);
+        $(window).scrollTop(position);
+      }
+    });
+   
+  });
+</script>
+<!--    <script src="static/js/modules/lazyLoad.js"></script>-->
+
+</body>
+</html>
