@@ -67,13 +67,22 @@ def favicon():
 # TOP LEVEL PAGES
 
 
+# @app.route("/index.html")
+# def home():
+#     data = _data()
+#     data["readme"] = open("README.md").read()
+#     data["committee"] = site_data["committee"]["committee"]
+#     return render_template("index.html", **data)
 @app.route("/index.html")
 def home():
     data = _data()
-    data["readme"] = open("README.md").read()
-    data["committee"] = site_data["committee"]["committee"]
-    return render_template("index.html", **data)
-
+    data["day"] = {
+        "speakers": site_data["speakers"],
+        # "highlighted": [
+        #     format_paper(by_uid["papers"][h["uid"]])
+        # ],
+    }
+    return render_template("schedule.html", **data)
 
 @app.route("/help.html")
 def about():
