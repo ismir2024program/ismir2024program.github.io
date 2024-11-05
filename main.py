@@ -338,10 +338,12 @@ def generator():
         yield "workshop", {"workshop": str(workshop["UID"])}
     for tutorial in site_data["tutorials"]:
         yield "tutorial", {"tutorial": str(tutorial["UID"])}
-
+    for day in site_data["days"]:
+        yield "day", {"day": str(day["uid"])}
 
     for key in site_data:
-        yield "serve", {"path": key}
+        if key != 'days':
+            yield "serve", {"path": key}
 
 
 def parse_arguments():
