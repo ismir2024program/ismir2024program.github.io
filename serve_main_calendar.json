@@ -1,6 +1,6 @@
 [
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-10T09:00:00-08:00",
     "location": "",
@@ -119,7 +119,7 @@
   {
     "calendarId": "qa",
     "category": "time",
-    "end": "2024-11-10T06:00:00-08:00",
+    "end": "2024-11-11T06:00:00-08:00",
     "location": "",
     "start": "2024-11-10T21:00:00-08:00",
     "title": "All Tutorials",
@@ -128,18 +128,18 @@
   {
     "calendarId": "qa",
     "category": "time",
-    "end": "2024-11-10T02:00:00-08:00",
+    "end": "2024-11-11T02:00:00-08:00",
     "location": "",
-    "start": "2024-11-10T01:00:00-08:00",
+    "start": "2024-11-11T01:00:00-08:00",
     "title": "Online Q&A w/ volunteers",
     "url": ""
   },
   {
     "calendarId": "qa",
     "category": "time",
-    "end": "2024-11-10T07:30:00-08:00",
+    "end": "2024-11-11T07:30:00-08:00",
     "location": "",
-    "start": "2024-11-10T06:00:00-08:00",
+    "start": "2024-11-11T06:00:00-08:00",
     "title": "Online social event",
     "url": ""
   },
@@ -281,7 +281,7 @@
   {
     "calendarId": "qa",
     "category": "time",
-    "end": "2024-11-11T00:00:00-08:00",
+    "end": "2024-11-11T23:59:59-08:00",
     "location": "",
     "start": "2024-11-11T19:00:00-08:00",
     "title": "Banquet/Jam Session",
@@ -326,7 +326,7 @@
   {
     "calendarId": "qa",
     "category": "time",
-    "end": "2024-11-11T00:45:00-08:00",
+    "end": "2024-11-12T00:45:00-08:00",
     "location": "",
     "start": "2024-11-11T23:45:00-08:00",
     "title": "Mindfulness session",
@@ -335,54 +335,54 @@
   {
     "calendarId": "qa",
     "category": "time",
-    "end": "2024-11-11T02:00:00-08:00",
+    "end": "2024-11-12T02:00:00-08:00",
     "location": "",
-    "start": "2024-11-11T01:00:00-08:00",
+    "start": "2024-11-12T01:00:00-08:00",
     "title": "Keynote I",
     "url": ""
   },
   {
     "calendarId": "qa",
     "category": "time",
-    "end": "2024-11-11T03:15:00-08:00",
+    "end": "2024-11-12T03:15:00-08:00",
     "location": "",
-    "start": "2024-11-11T02:00:00-08:00",
+    "start": "2024-11-12T02:00:00-08:00",
     "title": "Oral Session II",
     "url": ""
   },
   {
     "calendarId": "qa",
     "category": "time",
-    "end": "2024-11-11T04:45:00-08:00",
+    "end": "2024-11-12T04:45:00-08:00",
     "location": "",
-    "start": "2024-11-11T03:15:00-08:00",
+    "start": "2024-11-12T03:15:00-08:00",
     "title": "Posters II",
     "url": ""
   },
   {
     "calendarId": "qa",
     "category": "time",
-    "end": "2024-11-11T05:45:00-08:00",
+    "end": "2024-11-12T05:45:00-08:00",
     "location": "",
-    "start": "2024-11-11T04:45:00-08:00",
+    "start": "2024-11-12T04:45:00-08:00",
     "title": "DEI Keynote",
     "url": ""
   },
   {
     "calendarId": "qa",
     "category": "time",
-    "end": "2024-11-11T06:00:00-08:00",
+    "end": "2024-11-12T06:00:00-08:00",
     "location": "",
-    "start": "2024-11-11T05:45:00-08:00",
+    "start": "2024-11-12T05:45:00-08:00",
     "title": "Remembering Don Byrd",
     "url": ""
   },
   {
     "calendarId": "qa",
     "category": "time",
-    "end": "2024-11-11T07:00:00-08:00",
+    "end": "2024-11-12T07:00:00-08:00",
     "location": "",
-    "start": "2024-11-11T06:00:00-08:00",
+    "start": "2024-11-12T06:00:00-08:00",
     "title": "Online special session II",
     "url": ""
   },
@@ -509,7 +509,7 @@
     "end": "2024-11-12T22:30:00-08:00",
     "location": "",
     "start": "2024-11-12T19:00:00-08:00",
-    "title": "CP meetup at Riffusion",
+    "title": "Creative Practice meetup at Riffusion",
     "url": ""
   },
   {
@@ -542,7 +542,7 @@
   {
     "calendarId": "qa",
     "category": "time",
-    "end": "2024-11-12T00:00:00-08:00",
+    "end": "2024-11-13T00:01:00-08:00",
     "location": "",
     "start": "2024-11-12T23:00:00-08:00",
     "title": "Industry Session I",
@@ -551,45 +551,45 @@
   {
     "calendarId": "qa",
     "category": "time",
-    "end": "2024-11-12T01:00:00-08:00",
+    "end": "2024-11-13T01:00:00-08:00",
     "location": "",
-    "start": "2024-11-12T00:00:00-08:00",
+    "start": "2024-11-13T00:00:00-08:00",
     "title": "Mindfulness session",
     "url": ""
   },
   {
     "calendarId": "qa",
     "category": "time",
-    "end": "2024-11-12T02:15:00-08:00",
+    "end": "2024-11-13T02:15:00-08:00",
     "location": "",
-    "start": "2024-11-12T01:15:00-08:00",
+    "start": "2024-11-13T01:15:00-08:00",
     "title": "Creative Practice Session I",
     "url": ""
   },
   {
     "calendarId": "qa",
     "category": "time",
-    "end": "2024-11-12T03:30:00-08:00",
+    "end": "2024-11-13T03:30:00-08:00",
     "location": "",
-    "start": "2024-11-12T02:15:00-08:00",
+    "start": "2024-11-13T02:15:00-08:00",
     "title": "Oral Session IV",
     "url": ""
   },
   {
     "calendarId": "qa",
     "category": "time",
-    "end": "2024-11-12T05:00:00-08:00",
+    "end": "2024-11-13T05:00:00-08:00",
     "location": "",
-    "start": "2024-11-12T03:30:00-08:00",
+    "start": "2024-11-13T03:30:00-08:00",
     "title": "Posters IV",
     "url": ""
   },
   {
     "calendarId": "qa",
     "category": "time",
-    "end": "2024-11-12T06:00:00-08:00",
+    "end": "2024-11-13T06:00:00-08:00",
     "location": "",
-    "start": "2024-11-12T05:00:00-08:00",
+    "start": "2024-11-13T05:00:00-08:00",
     "title": "Keynote II",
     "url": ""
   },
@@ -758,7 +758,7 @@
   {
     "calendarId": "qa",
     "category": "time",
-    "end": "2024-11-13T00:15:00-08:00",
+    "end": "2024-11-14T00:15:00-08:00",
     "location": "",
     "start": "2024-11-13T23:00:00-08:00",
     "title": "Creative Practice Session II",
@@ -767,54 +767,54 @@
   {
     "calendarId": "qa",
     "category": "time",
-    "end": "2024-11-13T01:15:00-08:00",
+    "end": "2024-11-14T01:15:00-08:00",
     "location": "",
-    "start": "2024-11-13T00:15:00-08:00",
+    "start": "2024-11-14T00:15:00-08:00",
     "title": "Mindfulness session",
     "url": ""
   },
   {
     "calendarId": "qa",
     "category": "time",
-    "end": "2024-11-13T02:30:00-08:00",
+    "end": "2024-11-14T02:30:00-08:00",
     "location": "",
-    "start": "2024-11-13T01:30:00-08:00",
+    "start": "2024-11-14T01:30:00-08:00",
     "title": "Keynote III",
     "url": ""
   },
   {
     "calendarId": "qa",
     "category": "time",
-    "end": "2024-11-13T03:45:00-08:00",
+    "end": "2024-11-14T03:45:00-08:00",
     "location": "",
-    "start": "2024-11-13T02:30:00-08:00",
+    "start": "2024-11-14T02:30:00-08:00",
     "title": "Oral Session VI",
     "url": ""
   },
   {
     "calendarId": "qa",
     "category": "time",
-    "end": "2024-11-13T05:00:00-08:00",
+    "end": "2024-11-14T05:00:00-08:00",
     "location": "",
-    "start": "2024-11-13T03:45:00-08:00",
+    "start": "2024-11-14T03:45:00-08:00",
     "title": "Posters VI",
     "url": ""
   },
   {
     "calendarId": "qa",
     "category": "time",
-    "end": "2024-11-13T06:00:00-08:00",
+    "end": "2024-11-14T06:00:00-08:00",
     "location": "",
-    "start": "2024-11-13T05:00:00-08:00",
+    "start": "2024-11-14T05:00:00-08:00",
     "title": "Industry Session II",
     "url": ""
   },
   {
     "calendarId": "qa",
     "category": "time",
-    "end": "2024-11-13T08:00:00-08:00",
+    "end": "2024-11-14T08:00:00-08:00",
     "location": "",
-    "start": "2024-11-13T07:00:00-08:00",
+    "start": "2024-11-14T07:00:00-08:00",
     "title": "Meetup with Industry",
     "url": ""
   },
@@ -965,27 +965,27 @@
   {
     "calendarId": "qa",
     "category": "time",
-    "end": "2024-11-14T01:45:00-08:00",
+    "end": "2024-11-15T01:45:00-08:00",
     "location": "",
-    "start": "2024-11-14T00:45:00-08:00",
+    "start": "2024-11-15T00:45:00-08:00",
     "title": "Mindfulness session",
     "url": ""
   },
   {
     "calendarId": "qa",
     "category": "time",
-    "end": "2024-11-14T03:30:00-08:00",
+    "end": "2024-11-15T03:30:00-08:00",
     "location": "",
-    "start": "2024-11-14T02:00:00-08:00",
+    "start": "2024-11-15T02:00:00-08:00",
     "title": "Society meeting etc. ",
     "url": ""
   },
   {
     "calendarId": "qa",
     "category": "time",
-    "end": "2024-11-14T06:00:00-08:00",
+    "end": "2024-11-15T06:00:00-08:00",
     "location": "",
-    "start": "2024-11-14T03:30:00-08:00",
+    "start": "2024-11-15T03:30:00-08:00",
     "title": "Ideation sessions",
     "url": ""
   }

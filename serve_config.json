@@ -12,8 +12,8 @@
     "sunday_saturday": true
   },
   "chat_server": "miniconf.sloppy.zone",
-  "citation_date": "May 2020",
-  "date": "May 2020",
+  "citation_date": "May 2024",
+  "date": "November 2024",
   "default_poster_pdf": "/static/images/GLTR_poster.pdf",
   "default_presentation_id": 38922815,
   "logo": {
@@ -21,13 +21,13 @@
     "image": "static/images/ismir24_logo.svg",
     "width": "95px"
   },
-  "name": "MiniConf",
-  "organization": "MiniConf Organization Committee",
+  "name": "International Society for Music Information Retrieval",
+  "organization": "International Society for Music Information Retrieval",
   "page_title": {
-    "prefix": "MiniConf 2020",
+    "prefix": "MiniConf 2024",
     "separator": ": "
   },
-  "proceedings_title": "Proceedings of the First MiniCon Conference",
-  "tagline": "MINICONF <br> CONFERENCE <br> MANAGEMENT",
+  "proceedings_title": "Proceedings of the 25th International Society for Music Information Retrieval",
+  "tagline": "ISMIR 2024",
   "use_auth0": null
 }

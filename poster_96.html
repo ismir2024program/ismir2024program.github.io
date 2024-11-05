@@ -1,0 +1,384 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- External Javascript libs_ext  -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js"
+            integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+
+    <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+            integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js"
+            integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js"
+            integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww="
+            crossorigin="anonymous"></script>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Gantari:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <!-- Library libs_ext --> 
+    <script src="static/js/libs_ext/typeahead.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!--    Internal Libs -->
+    <script src="static/js/data/api.js"></script>
+
+    
+
+    <!-- External CSS -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY="
+          crossorigin="anonymous">
+
+    <!-- External Fonts (no google for china) -->
+    <link
+            href="static/css/Lato.css"
+            rel="stylesheet"
+    />
+    <link href="static/css/Exo.css" rel="stylesheet"/>
+    <link
+            href="static/css/Cuprum.css"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="static/css/main.css"/>
+<!--    <link rel="stylesheet" href="static/css/fa_regular.css"/>-->
+    <link rel="stylesheet" href="static/css/fa_solid.css"/>
+    <link rel="stylesheet" href="static/css/lazy_load.css"/>
+    <link rel="stylesheet" href="static/css/typeahead.css"/>
+
+    <title>MiniConf 2024</title>
+    
+<meta name="citation_title" content=""/>
+
+<meta name="citation_publication_date" content="May 2024"/>
+<meta name="citation_conference_title"
+      content="Ismir 2024"/>
+<meta name="citation_inbook_title" content="Proceedings of the 25th International Society for Music Information Retrieval"/>
+<meta name="citation_abstract" content=""/>
+
+<meta name="citation_pdf_url" content=""/>
+
+
+</head>
+
+<body>
+<!-- NAV -->
+
+<nav
+        class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto"
+        id="main-nav"
+>
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img
+                    class="logo" src="static/images/ismir24_logo.svg"
+                    height="auto"
+            width="95px"
+            />
+        </a>
+        
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+                class="collapse navbar-collapse text-right flex-grow-1"
+                id="navbarNav"
+        >
+            <ul class="navbar-nav ml-auto">
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Schedule</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="papers.html">Papers</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="tutorials.html">Tutorials</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="help.html">Help</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- User Overrides -->
+ 
+
+<div class="container">
+    <!-- Tabs -->
+    <div class="tabs">
+         
+    </div>
+    <!-- Content -->
+    <div class="content">
+        
+<div class="pp-card m-3" style="background-color: #fff">
+    <div class="card-header" style="background-color: rgba(0,0,0,0);">
+        <h2 class="card-title main-title text-left" style="color: #4383EC">
+            SpecMaskGIT: Masked Generative Modelling of Audio Spectrogram for Efficient Audio Synthesis and Beyond
+        </h2>
+        <h3 class="card-subtitle mb-2 text-muted text-left">
+            
+            <a href="papers.html?filter=authors&search=Comunita, Marco"
+               class="text-muted"
+            >Comunita, Marco</a
+            >,
+            
+            <a href="papers.html?filter=authors&search= Zhong, Zhi*"
+               class="text-muted"
+            > Zhong, Zhi*</a
+            >,
+            
+            <a href="papers.html?filter=authors&search= Takahashi, Akira"
+               class="text-muted"
+            > Takahashi, Akira</a
+            >,
+            
+            <a href="papers.html?filter=authors&search= Yang, Shiqi"
+               class="text-muted"
+            > Yang, Shiqi</a
+            >,
+            
+            <a href="papers.html?filter=authors&search= Zhao, Mengjie"
+               class="text-muted"
+            > Zhao, Mengjie</a
+            >,
+            
+            <a href="papers.html?filter=authors&search= Saito, Koichi"
+               class="text-muted"
+            > Saito, Koichi</a
+            >,
+            
+            <a href="papers.html?filter=authors&search= Ikemiya, Yukara"
+               class="text-muted"
+            > Ikemiya, Yukara</a
+            >,
+            
+            <a href="papers.html?filter=authors&search= Shibuya, Takashi"
+               class="text-muted"
+            > Shibuya, Takashi</a
+            >,
+            
+            <a href="papers.html?filter=authors&search= Takahashi, Shusuke"
+               class="text-muted"
+            > Takahashi, Shusuke</a
+            >,
+            
+            <a href="papers.html?filter=authors&search= Mitsufuji, Yuki"
+               class="text-muted"
+            > Mitsufuji, Yuki</a
+            >
+            
+        </h3>
+        <p class="card-text text-left">
+            <span class="">Keywords:</span>
+            
+            <a
+                    href="papers.html?filter=keywords&search=Generative Tasks -&gt; music and audio synthesis"
+                    class="text-secondary text-decoration-none"
+            >Generative Tasks -&gt; music and audio synthesis</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=Generative Tasks -&gt; interactions; Generative Tasks -&gt; real-time considerations; Generative Tasks -&gt; transformations; MIR tasks -&gt; automatic classification; Musical features and properties -&gt; representations of music"
+                    class="text-secondary text-decoration-none"
+            >Generative Tasks -&gt; interactions; Generative Tasks -&gt; real-time considerations; Generative Tasks -&gt; transformations; MIR tasks -&gt; automatic classification; Musical features and properties -&gt; representations of music</a
+            >
+            
+        </p>
+    </div>
+</div>
+<div id="details" class="pp-card m-3">
+    <div class="card-body">
+        <div class="card-text">
+            <div id="abstractExample">
+                <span class="font-weight-bold">Abstract:</span>
+                <p>Recent advances in generative models that iteratively synthesize audio clips sparked great success in text-to-audio synthesis (TTA), but at the cost of slow synthesis speed and heavy computation. Although there have been attempts to accelerate the iterative procedure, high-quality TTA systems remain inefficient due to the hundreds of iterations required in the inference phase and large amount of model parameters. To address these challenges, we propose SpecMaskGIT, a light-weight, efficient yet effective TTA model based on the masked generative modeling of spectrograms. First, SpecMaskGIT synthesizes a realistic 10 s audio clip in less than 16 iterations, an order of magnitude less than previous iterative TTA methods. As a discrete model, SpecMaskGIT outperforms larger VQ-Diffusion and auto-regressive models in a TTA benchmark, while being real-time with only 4 CPU cores or even 30× faster with a GPU. Next, built upon a latent space of Mel-spectrograms, SpecMaskGIT has a wider range of applications (e.g., zero-shot bandwidth extension) than similar methods built on latent wave domains. Moreover, we interpret SpecMaskGIT as a generative extension to previous discriminative audio masked Transformers, and shed light on its audio representation learning potential. We hope that our work will inspire the exploration of masked audio modeling toward further diverse scenarios.</p>
+            </div>
+        </div>
+        <p></p>
+    </div>
+</div>
+
+
+  
+  <div class="text-center">
+    <ul class="nav nav-tabs" id="posterTabs" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="paper-tab" data-toggle="tab" href="#paper" role="tab" aria-controls="paper" aria-selected="true">Paper</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="poster-tab" data-toggle="tab" href="#poster" role="tab" aria-controls="poster" aria-selected="false">Poster</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="video-tab" data-toggle="tab" href="#video" role="tab" aria-controls="video" aria-selected="false">Video</a>
+      </li>
+    </ul>
+  </div>
+  
+
+  <div class="tab-content" id="posterTabsContent">
+    <div class="tab-pane fade show active" id="paper" role="tabpanel" aria-labelledby="paper-tab">
+      
+      <div style="height: 80vh;">
+        <iframe src="https://drive.google.com/file/d/1Vinmy5AVoQSPJOvA-qYFu32kPhx8_r8x/preview" 
+                width="100%" 
+                height="100%" 
+                frameborder="0"
+                allow="autoplay"></iframe>
+      </div>
+      
+    </div>
+  
+    <div class="tab-pane fade" id="poster" role="tabpanel" aria-labelledby="poster-tab">
+      
+      <div style="height: 80vh;">
+        <iframe src="https://drive.google.com/file/d/1YZkyRX_07zw72sOvTA9eoaEjcDtPfVIm/preview" 
+                width="100%" 
+                height="100%" 
+                frameborder="0"
+                allow="autoplay"></iframe>
+      </div>
+      
+    </div>
+  
+    <div class="tab-pane fade" id="video" role="tabpanel" aria-labelledby="video-tab">
+      
+      <div class="text-center">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item"           
+                  src="https://drive.google.com/file/d/1GvfnJaoT73dkCHy0CsV5WcrTSjfomUFe/preview" 
+                  frameborder="0" 
+                  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen></iframe>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    console.log(JSON.stringify("{&#39;id&#39;: &#39;96&#39;, &#39;session&#39;: &#39;3&#39;, &#39;position&#39;: &#39;08&#39;, &#39;forum&#39;: &#39;96&#39;, &#39;pic_id&#39;: &#39;https://drive.google.com/file/d/1h34o3dFNby363faQnn4IYC8mFwPWu4fc/view?usp=sharing&#39;, &#39;content&#39;: {&#39;title&#39;: &#39;SpecMaskGIT: Masked Generative Modelling of Audio Spectrogram for Efficient Audio Synthesis and Beyond&#39;, &#39;paper_presentation&#39;: &#39;San Francisco&#39;, &#39;long_presentation&#39;: &#39;FALSE&#39;, &#39;authors&#39;: [&#39;Comunita, Marco&#39;, &#39; Zhong, Zhi*&#39;, &#39; Takahashi, Akira&#39;, &#39; Yang, Shiqi&#39;, &#39; Zhao, Mengjie&#39;, &#39; Saito, Koichi&#39;, &#39; Ikemiya, Yukara&#39;, &#39; Shibuya, Takashi&#39;, &#39; Takahashi, Shusuke&#39;, &#39; Mitsufuji, Yuki&#39;], &#39;authors_and_affil&#39;: [&#39;Marco Comunità (Queen Mary University of London)&#39;, &#39; Zhi Zhong (Sony Group Corporation)*&#39;, &#39; Akira Takahashi (Sony Group Corporation)&#39;, &#39; Shiqi Yang (Sony)&#39;, &#39; Mengjie Zhao (Sony Group Corporation)&#39;, &#39; Koichi Saito (Sony Gruop Corporation)&#39;, &#39; Yukara Ikemiya (Sony Research)&#39;, &#39; Takashi Shibuya (Sony AI)&#39;, &#39; Shusuke Takahashi (Sony Group Corporation)&#39;, &#39; Yuki Mitsufuji (Sony AI)&#39;], &#39;keywords&#39;: [&#39;Generative Tasks -&gt; music and audio synthesis&#39;, &#39;Generative Tasks -&gt; interactions; Generative Tasks -&gt; real-time considerations; Generative Tasks -&gt; transformations; MIR tasks -&gt; automatic classification; Musical features and properties -&gt; representations of music&#39;], &#39;abstract&#39;: &#39;Recent advances in generative models that iteratively synthesize audio clips sparked great success in text-to-audio synthesis (TTA), but at the cost of slow synthesis speed and heavy computation. Although there have been attempts to accelerate the iterative procedure, high-quality TTA systems remain inefficient due to the hundreds of it\x02erations required in the inference phase and large amount of model parameters. To address these challenges, we propose SpecMaskGIT, a light-weight, efficient yet effective TTA model based on the masked generative modeling of spectrograms. First, SpecMaskGIT synthesizes a realis\x02tic 10 s audio clip in less than 16 iterations, an order of magnitude less than previous iterative TTA methods. As a discrete model, SpecMaskGIT outperforms larger VQ-Diffusion and auto-regressive models in a TTA benchmark, while being real-time with only 4 CPU cores or even 30× faster with a GPU. Next, built upon a latent space of Mel-spectrograms, SpecMaskGIT has a wider range of appli\x02cations (e.g., zero-shot bandwidth extension) than similar methods built on latent wave domains. Moreover, we in\x02terpret SpecMaskGIT as a generative extension to previous discriminative audio masked Transformers, and shed light on its audio representation learning potential. We hope that our work will inspire the exploration of masked audio modeling toward further diverse scenarios.&#39;, &#39;TLDR&#39;: &#39;Recent advances in generative models that iteratively synthesize audio clips sparked great success in text-to-audio synthesis (TTA), but at the cost of slow synthesis speed and heavy computation. Although there have been attempts to accelerate the iterative procedure, high-quality TTA systems remain inefficient due to the hundreds of it\x02erations required in the inference phase and large amount of model parameters. To address these challenges, we propose SpecMaskGIT, a light-weight, efficient yet effective TTA model based on the masked generative modeling of spectrograms. First, SpecMaskGIT synthesizes a realis\x02tic 10 s audio clip in less than 16 iterations, an order of magnitude less than previous iterative TTA methods. As a discrete model, SpecMaskGIT outperforms larger VQ-Diffusion and auto-regressive models in a TTA benchmark, while being real-time with only 4 CPU cores or even 30× faster with a GPU. Next, built upon a latent space of Mel-spectrograms, SpecMaskGIT has a wider range of appli\x02cations (e.g., zero-shot bandwidth extension) than similar methods built on latent wave domains. Moreover, we in\x02terpret SpecMaskGIT as a generative extension to previous discriminative audio masked Transformers, and shed light on its audio representation learning potential. We hope that our work will inspire the exploration of masked audio modeling toward further diverse scenarios.&#39;, &#39;poster_pdf&#39;: &#39;https://drive.google.com/file/d/1YZkyRX_07zw72sOvTA9eoaEjcDtPfVIm/view?usp=sharing&#39;, &#39;session&#39;: [&#39;3&#39;], &#39;pdf_path&#39;: &#39;https://drive.google.com/file/d/1Vinmy5AVoQSPJOvA-qYFu32kPhx8_r8x/view?usp=sharing&#39;, &#39;video&#39;: &#39;https://drive.google.com/file/d/1GvfnJaoT73dkCHy0CsV5WcrTSjfomUFe/view?usp=sharing&#39;, &#39;channel_url&#39;: &#39;&#39;, &#39;slack_channel&#39;: &#39;&#39;, &#39;day&#39;: &#39;2&#39;}, &#39;poster_pdf&#39;: &#39;GLTR_poster.pdf&#39;}"));
+    // Ensure jQuery and Bootstrap are loaded
+    if (typeof $ === 'undefined') {
+      console.error('jQuery is not loaded');
+      return;
+    }
+    
+    // Initialize all tabs
+    $('#posterTabs a').on('click', function (e) {
+      e.preventDefault();
+      $(this).tab('show');
+    });
+  
+    // Show paper tab by default
+    $('#posterTabs a[href="#paper"]').tab('show');
+    MathJax.typesetPromise().then(() => {
+    // modify the DOM here
+        MathJax.typesetPromise();
+    }).catch((err) => console.log(err.message));
+  });
+  </script>
+  
+  
+    </div>
+</div>
+
+
+
+<!-- Google Analytics -->
+<script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=UA-"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+  gtag("js", new Date());
+  gtag("config", "UA-");
+</script>
+
+<!-- Footer -->
+<footer class="footer bg-light p-4">
+    <div class="container">
+        <p class="float-right"><a href="#">Back to Top</a></p>
+        <p class="text-center">© 2024 International Society for Music Information Retrieval</p>
+    </div>
+</footer>
+
+<!-- Code for hash tags -->
+<script type="text/javascript">
+  $(document).ready(function () {
+    if (window.location.hash !== "") {
+      $(`a[href="${window.location.hash}"]`).tab("show");
+    }
+
+    $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+      const hash = $(e.target).attr("href");
+      if (hash.substr(0, 1) === "#") {
+        const position = $(window).scrollTop();
+        window.location.replace(`#${hash.substr(1)}`);
+        $(window).scrollTop(position);
+      }
+    });
+   
+  });
+</script>
+<!--    <script src="static/js/modules/lazyLoad.js"></script>-->
+
+</body>
+</html>

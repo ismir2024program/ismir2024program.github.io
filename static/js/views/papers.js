@@ -103,8 +103,8 @@ const render = () => {
   Object.keys(filters).forEach((k) => {
     filters[k] ? f_test.push([k, filters[k]]) : null;
   });
-
-  // console.log(f_test, filters, "--- f_test, filters");
+  console.log(allPapers);
+  console.log(f_test, filters, "--- f_test, filters");
   if (f_test.length === 0) updateCards(allPapers);
   else {
     const fList = allPapers.filter((d) => {
@@ -113,10 +113,10 @@ const render = () => {
       while (i < f_test.length && pass_test) {
         if (f_test[i][0] === "titles") {
           pass_test &=
-            d.title.toLowerCase().indexOf(f_test[i][1].toLowerCase()) >
+            d.content.title.toLowerCase().indexOf(f_test[i][1].toLowerCase()) >
             -1;
         } else if (f_test[i][0] === "session") {
-          pass_test &= d["sessions"].indexOf(f_test[i][1]) > -1;
+          pass_test &= d["session"].indexOf(f_test[i][1]) > -1;
         } else {
           pass_test &= d[f_test[i][0]].indexOf(f_test[i][1]) > -1;
         }
@@ -221,6 +221,7 @@ const keyword = (kw) => `<a href="papers.html?filter=keywords&search=${kw}"
                        class="text-secondary text-decoration-none">${kw.toLowerCase()}</a>`;
 
 const card_image = (paper, show) => {
+  console.log(API.thumbnailPath(paper), "--- API.thumbnailPath(paper)");
   if (show)
     return ` <center><img class="lazy-load-img cards_img" data-src="${API.thumbnailPath(paper)}" width="80%"/></center>`;
   return "";
@@ -232,9 +233,9 @@ const card_detail = (paper, show) => {
      <div class="pp-card-header" style="overflow-y: auto;">
      <div style="width:100%; ">
         <p class="card-text"><span class="font-weight-bold">Keywords:</span>
-            ${paper.keywords.map(keyword).join(", ")}
+            ${paper.content.keywords.map(keyword).join(", ")}
         </p>
-        <p class="card-text"> ${paper.TLDR}</p>
+        <p class="card-text"> ${paper.content.abstract}</p>
         </div>
     </div>
 `;
@@ -287,6 +288,7 @@ const card_time_detail = (paper, show) => {
 
 // language=HTML
 const card_html = (paper) =>
+  // console.log(paper)
   `
         <div class="pp-card pp-mode-${render_mode} ">
             <div class="pp-card-header" style="">
@@ -297,10 +299,10 @@ const card_html = (paper) =>
                 target="_blank"
                    class="text-muted">
                    <h5 class="card-title" align="left"> ${
-    paper.title
+    paper.content.title
   } </h5></a>
                 <h6 class="card-subtitle text-muted" align="left">
-                        ${paper.authors.join(", ")}
+                        ${paper.content.authors.join(", ")}
                 </h6>
                 ${card_image(paper, render_mode !== MODE.mini)}
                 
