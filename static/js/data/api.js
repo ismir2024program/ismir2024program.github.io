@@ -67,7 +67,10 @@ class API {
    * @return {string}
    */
   static thumbnailPath(paper) {
-    return `https://iclr.github.io/iclr-images/small/${paper.UID}.jpg`;
+    // paper.pic_id contains a google drive url as follows: https://drive.google.com/file/d/1bDKJUha7CfprIh1jVxLcMZ1aUzb7_kJK/view?usp=drive_link. We need whatever comes after /d/
+    const id = paper.pic_id.split("/")[5];
+    return `https://drive.google.com/thumbnail?id=${id}`;
+    // return `https://drive.google.com/thumbnail?id=1bDKJUha7CfprIh1jVxLcMZ1aUzb7_kJK`;
   }
 
   /**
@@ -76,7 +79,7 @@ class API {
    * @return {string}
    */
   static posterLink(paper) {
-    return `poster_${paper.UID}.html`;
+    return `poster_${paper.id}.html`;
   }
 
   /**

@@ -32,6 +32,44 @@ def main(site_data_path):
         by_uid[typ] = {}
         for p in site_data[typ]:
             by_uid[typ][p["UID"]] = p
+    by_uid["days"] = {}
+    site_data["days"] = []
+    for day in ['1', '2', '3', '4', '5']:
+        speakers = [s for s in site_data["events"] if s["day"] == day and s["category"] == "All Meeting"]
+        posters = [p for p in site_data["events"] if p["day"] == day and p["category"] == "Poster session"]
+        lbd = [l for l in site_data["events"] if l["day"] == day and l["category"] == "LBD"]
+        music = [m for m in site_data["events"] if m["day"] == day and m["category"] == "Music"]
+        industry = [m for m in site_data["events"] if m["day"] == day and m["category"] == "Industry"]
+        meetup = [m for m in site_data["events"] if m["day"] == day and m["category"] == "Meetup"]
+        vmeetup = [m for m in site_data["events"] if m["day"] == day and m["category"] == "VMeetup"]
+        master = [m for m in site_data["events"] if m["day"] == day and m["category"] == "Masterclass"]
+        wimir = [w for w in site_data["events"] if w["day"] == day and w["category"] == "WiMIR Meetup"]
+        special = [s for s in site_data["events"] if s["day"] == day and s["category"] == "Meetup-Special"]
+        opening = [o for o in site_data["events"] if o["day"] == day and o["category"] == "Opening"]
+        business = [o for o in site_data["events"] if o["day"] == day and o["category"] == "Awards"]
+        social = [o for o in site_data["events"] if o["day"] == day and o["category"] == "Social"]
+        tutorials = [o for o in site_data["events"] if o["day"] == day and o["category"] == "Tutorials"]
+
+        by_uid["days"][day] = {
+            "uid": day,
+            "speakers": speakers,
+            "all": all,
+            "meetup": meetup,
+            "special": special,
+            "master": master,
+            "wimir": wimir,
+            "posters": posters,
+            "lbd": lbd,
+            "music": music,
+            "industry": industry,
+            "day": day,
+            "opening": opening,
+            "business": business,
+            "social": social,
+            "vmeetup":vmeetup,
+            "tutorials":tutorials
+        }
+        site_data["days"].append(by_uid["days"][day])
 
     print("Data Successfully Loaded")
     return extra_files
@@ -107,12 +145,44 @@ def paper_vis():
 @app.route("/calendar.html")
 def schedule():
     data = _data()
-    data["day"] = {
-        "speakers": site_data["speakers"],
-        "highlighted": [
-            format_paper(by_uid["papers"][h["UID"]]) for h in site_data["highlighted"]
-        ],
-    }
+    data["days"] = []
+    # data = _data()
+    for day in ['1', '2', '3', '4', '5']:
+        speakers = [s for s in site_data["events"] if s["day"] == day and s["category"] == "All Meeting"]
+        posters = [p for p in site_data["events"] if p["day"] == day and p["category"] == "Poster session"]
+        lbd = [l for l in site_data["events"] if l["day"] == day and l["category"] == "LBD"]
+        music = [m for m in site_data["events"] if m["day"] == day and m["category"] == "Music"]
+        industry = [m for m in site_data["events"] if m["day"] == day and m["category"] == "Industry"]
+        meetup = [m for m in site_data["events"] if m["day"] == day and m["category"] == "Meetup"]
+        vmeetup = [m for m in site_data["events"] if m["day"] == day and m["category"] == "VMeetup"]
+        master = [m for m in site_data["events"] if m["day"] == day and m["category"] == "Masterclass"]
+        wimir = [w for w in site_data["events"] if w["day"] == day and w["category"] == "WiMIR Meetup"]
+        special = [s for s in site_data["events"] if s["day"] == day and s["category"] == "Meetup-Special"]
+        opening = [o for o in site_data["events"] if o["day"] == day and o["category"] == "Opening"]
+        business = [o for o in site_data["events"] if o["day"] == day and o["category"] == "Awards"]
+        social = [o for o in site_data["events"] if o["day"] == day and o["category"] == "Social"]
+        tutorials = [o for o in site_data["events"] if o["day"] == day and o["category"] == "Tutorials"]
+
+        out = {
+            "speakers": speakers,
+            "all": all,
+            "meetup": meetup,
+            "special": special,
+            "master": master,
+            "wimir": wimir,
+            "posters": posters,
+            "lbd": lbd,
+            "music": music,
+            "industry": industry,
+            "day": day,
+            "opening": opening,
+            "business": business,
+            "social": social,
+            "vmeetup": vmeetup,
+            "tutorials": tutorials
+
+        }
+        data["days"].append(out)
     return render_template("schedule.html", **data)
 
 
@@ -147,29 +217,38 @@ def extract_list_field(v, key):
     else:
         return value.split("|")
 
-
 def format_paper(v):
-    list_keys = ["authors", "keywords", "sessions"]
+    print(v)
+    list_keys = ["authors", "primary_subject", "secondary_subject", "session", "authors_and_affil"]
     list_fields = {}
     for key in list_keys:
         list_fields[key] = extract_list_field(v, key)
-
+    print(list_fields, list_keys)
     return {
-        "UID": v["UID"],
-        "title": v["title"],
+        "id": v["UID"],
+        "session": v["session"],
+        "position": "{:02d}".format(int(v["position"])+1),
         "forum": v["UID"],
-        "authors": list_fields["authors"],
-        "keywords": list_fields["keywords"],
-        "abstract": v["abstract"],
-        "TLDR": v["abstract"],
-        "recs": [],
-        "sessions": list_fields["sessions"],
-        # links to external content per poster
-        "pdf_url": v.get("pdf_url", ""),  # render poster from this PDF
-        "code_link": "https://github.com/Mini-Conf/Mini-Conf",  # link to code
-        "link": "https://arxiv.org/abs/2007.12238",  # link to paper
+        "pic_id": v['thumbnail'],
+        "content": {
+            "title": v["title"],
+            "paper_presentation": v["paper_presentation"],
+            "long_presentation": v["long_presentation"],
+            "authors": list_fields["authors"][0].split(";"),
+            "authors_and_affil": list_fields["authors_and_affil"][0].split(";"),
+            "keywords": list(set(list_fields["primary_subject"] + list_fields["secondary_subject"])),
+            "abstract": v["Abstract"],
+            "TLDR": v["Abstract"],
+            "poster_pdf": v.get("poster_pdf", ""),
+            "session": list_fields["session"],
+            "pdf_path": v.get("pdf_name", ""),
+            "video": v["video"],
+            "channel_url": v["channel_url"],
+            "slack_channel": v["slack_channel"],
+            "day": v["day"],
+        },
+        "poster_pdf": "GLTR_poster.pdf",
     }
-
 
 def format_workshop(v):
     list_keys = ["authors"]
@@ -187,6 +266,14 @@ def format_workshop(v):
 
 # ITEM PAGES
 
+@app.route("/day_<day>.html")
+def day(day):
+    uid = day
+    v = by_uid["days"][uid]
+    data = _data()
+    data["day"] = v
+    data["daynum"] = uid
+    return render_template("day.html", **data)
 
 @app.route("/poster_<poster>.html")
 def poster(poster):

@@ -1,0 +1,99 @@
+{% set active_page = "Schedule" %}
+{% set page_title = "Day " + daynum  %}
+{% extends "base.html" %}
+<!--  ("day_1.html", "December 4th", "day_1-html"),-->  
+{% block tabs %}
+{{ components.navtabs([
+  ("calendar.html", "Calendar", "calendar-html"),
+  ("tutorials.html", "Nov 10", "tutorials-html"),
+  ("day_2.html", "Nov 11", "day_2-html"),
+  ("day_3.html", "Nov 12", "day_3-html"),
+  ("day_4.html", "Nov 13", "day_4-html"),
+  ("day_5.html", "Nov 14", "day_5-html"),
+  ])
+}}
+{% endblock %}
+
+{% block content %}
+
+<div id="day">
+
+  {% if day.tutorials %}
+  {{ components.subsection_tag("Tutorial", "tut") }}
+  {{ components.tutorialscard(tutorials, tzone, tut_md) }}
+  {% endif %}
+
+  {% if day.opening %}
+    {{ components.subsection_tag("Opening", "open") }}
+    {{ components.meetingcard(day.opening, tzone) }}
+  {% endif %}
+
+  {% if day.speakers %}
+  {{ components.subsection_tag("Keynote Speaker", "all") }}
+  {{ components.speakergroup(day.speakers, tzone) }}
+  {% endif %}
+
+  {% if day.posters %}
+    {{ components.subsection_tag("Poster Sessions", "pos") }}
+    {{ components.postercards(day.posters, tzone) }}
+  {% endif %}
+
+  {% if day.industry %}
+    {{ components.subsection_tag("Industry Session", "industry") }}
+    {{ components.meetingcard(day.industry, tzone) }}
+  {% endif %}
+
+
+  {% if day.meetup %}
+    {{ components.subsection_tag("Special Sessions", "meet") }}
+    {{ components.meetingcard(day.meetup, tzone) }}
+  {% endif %}
+
+  {% if day.business %}
+    {{ components.subsection_tag("Business Meeting and Awards", "awards") }}
+    {{ components.meetingcard(day.business, tzone) }}
+  {% endif %}
+
+  {% if day.lbd %}
+    {{ components.subsection_tag("Late Breaking Demo", "lbd") }}
+    {{ components.postercards(day.lbd, tzone) }}
+  {% endif %}
+
+  {% if day.wimir %}
+  {{ components.subsection_tag("WiMIR Meetups", "wimir") }}
+  {{ components.meetingcard(day.wimir, tzone) }}
+  {% endif %}
+
+  {% if day.music %}
+    {{ components.subsection_tag("Music Sessions", "mus") }}
+    {{ components.postercards(day.music, tzone) }}
+  {% endif %}
+
+  {% if day.social %}
+    {{ components.subsection_tag("Social Events", "social") }}
+    {{ components.meetingcard(day.social, tzone) }}
+  {% endif %}
+
+  {% if day.vmeetup %}
+    {{ components.subsection_tag("Virtual Special Sessions", "vmeet") }}
+    {{ components.meetingcard(day.vmeetup, tzone) }}
+  {% endif %}
+
+</div>
+
+<script>
+    $('.nav-pills .nav-item .nav-link').each(function() {
+  console.log(window.location.pathname.split('/')[1].split('.')[0])
+  if (window.location.pathname.split('/')[1].replace('.', '-').includes($(this).attr('id')) ) {
+    $(this).addClass('active');
+  }
+})
+</script> 
+<script> 
+$(document).ready(function() {
+  var offset = $(':target').offset();
+  var scrollto = offset.top - 150; // minus fixed header height
+  $('html, body').animate({scrollTop:scrollto}, 0);
+});
+</script> 
+{% endblock %}

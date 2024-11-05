@@ -7,8 +7,15 @@
 {% endblock %}
 
 {% block tabs %}
-{{ components.tabs([("calendar", "Calendar", "active"),
-        ("day", "Example Day", "")]) }}
+{{ components.navtabs([
+  ("calendar.html", "Calendar", "calendar-html"),
+  ("tutorials.html", "Nov 10", "tutorials-html"),
+  ("day_2.html", "Nov 11", "day_2-html"),
+  ("day_3.html", "Nov 12", "day_3-html"),
+  ("day_4.html", "Nov 13", "day_4-html"),
+  ("day_5.html", "Nov 14", "day_5-html"),
+  ])
+}}
 {% endblock %}
 
 {% block content %}
@@ -32,34 +39,10 @@
     <!-- small cal for smart phones-->
     <div id="calendar_small" class="d-sm-none"></div>
 
-<!--    <script type="text/javascript">-->
-<!--      // console.log(make_cal(),"-&#45;&#45; make_cal()");-->
-<!--      make_cal().then((d) => console.log(d, "-&#45;&#45; d"));-->
-<!--    </script>-->
+
   </div>
 
   <!-- Day Tab -->
-
-  <div
-    class="tab-pane fade"
-    id="tab-day"
-    role="tabpanel"
-    aria-labelledby="nav-profile-tab"
-  >
-    <div id="day">
-      <!-- Speakers -->
-      {{ components.section("Speakers") }}
-      <div class="speakers">
-        {{ components.speakergroup(day.speakers) }}
-      </div>
-      {{ components.section("Highlighted Papers") }}
-      <div class="papers">
-        {{ components.highlightgroup(day.highlighted, 1) }}
-      </div>
-    </div>
-
-
-  </div>
 
   <script type="text/javascript">
     window.onload = () => {

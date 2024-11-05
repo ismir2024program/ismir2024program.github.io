@@ -1,8 +1,8 @@
-name: MiniConf
-tagline: MINICONF <br> CONFERENCE <br> MANAGEMENT
-date: May 2020
-citation_date: May 2020
-proceedings_title: Proceedings of the First MiniCon Conference
+name: International Society for Music Information Retrieval
+tagline: ISMIR 2024
+date: November 2024
+citation_date: May 2024
+proceedings_title: Proceedings of the 25th International Society for Music Information Retrieval
 analytics: UA-
 logo:
   image: static/images/ismir24_logo.svg
@@ -11,10 +11,10 @@ logo:
 # uncomment the following line to show the site title next to the logo image
 # site_title: MiniConf
 page_title:
-  prefix: 'MiniConf 2020'
+  prefix: 'MiniConf 2024'
   separator: ': '
 background_image: static/images/main.jpg
-organization: MiniConf Organization Committee
+organization: International Society for Music Information Retrieval
 
 # Remove or change to your chat server.
 chat_server: miniconf.sloppy.zone

@@ -262,3 +262,187 @@ workshopgroup
   {% endfor %}
 </div>
 {%- endmacro %}
+
+{% macro navtabs(tab_group) -%}
+<ul class="nav nav-pills justify-content-center">
+  {% for tab in tab_group %}
+  <li class="nav-item">
+    <a
+      id="{{tab[2]}}"
+      class="nav-link text-muted"
+      href="{{tab[0]}}"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >{{tab[1]}}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+{%- endmacro %}
+
+{% macro subsection_tag(name, tag_text) -%}
+  <h2 class="day-title" id={{tag_text}}>{{name}}</h2>
+{%- endmacro %}
+
+
+{% macro tutorialscard(type, timezone, tut_md) -%}
+<div class="cards row p-4">
+  {% for meet in type %}
+  {% set str_index = loop.index | string %}
+  {% set local_date = meet.start_date %}
+  <div class="col-12 p-3" style="box-sizing: border-box;">
+    <div class="card" style="display: block; overflow: hidden; width: 100%;">
+      <div
+        class="card-header text-center"
+        style="min-height: 200px; width: 100%;"
+      >
+        {% if meet.channel_url %}
+          <a id="{{ meet.title[:2]}}" href="{{meet.channel_url}}">
+            <h3 class="card-title main-title m-3 text-left">{{meet.title}}</h3>
+          </a>
+        {% else %}
+          <a id="{{ meet.title[:2] }}" href="#">
+            <h3 class="card-title main-title m-3 text-left">{{meet.title}}</h3>
+          </a>
+        {% endif %}
+        <div class="m-3 text-left card-subtitle text-muted">
+          {{meet.organiser}}
+        </div>
+        <div class="m-3 text-left card-subtitle text-muted" style="display:flex; align-content: center;">
+          {{local_date[0]}} | {{local_date[1]}} ({{ timezone }})
+        </div>
+
+        {% if meet.channel_url %}
+          <a href="{{meet.channel_url}}" class="btn btn-primary mr-3">{% include 'slack_svg.html' %} {{meet.slack_channel}}</a>
+        {% endif %}
+
+        <div class="mt-3 ml-3 mr-3 mb-4 text-left card-subtitle">
+          {{meet.description | markdown}}
+        </div>
+
+        <h3 class="card-title m-3 text-left">Presenters</h3>
+        <div class="mt-3 ml-3 mr-3 mb-4 text-left card-subtitle">
+          {{meet.organiser_bio | markdown}}
+        </div>
+
+        <div class="m-3 text-left">
+        </div>
+<!--        {% if meet.category == "All Meeting" %}-->
+<!--          <div class="ml-3 mr-3 mt-4 mb-3 h5 text-left text-muted">-->
+<!--            Zoom links will be shared on Slack.-->
+<!--          </div>-->
+<!--        {% endif %}-->
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{%- endmacro %}
+
+
+
+{% macro meetingcard(type, timezone) -%}
+<div class="cards row p-4">
+  {% for meet in type %}
+  {% set local_date = meet.start_date %}
+  <div class="col-12 p-3" style="box-sizing: border-box;">
+    <div class="card" style="display: block; overflow: hidden; width: 100%;">
+      <div
+        class="card-header text-center"
+        style="min-height: 200px; width: 100%;"
+      >
+        {% if meet.channel_url %}
+          <a id="{{ meet.title[:2]}}" href="{{meet.channel_url}}">
+            <h3 class="card-title main-title m-3 text-left">{{meet.title}}</h3>
+          </a>
+        {% else %}
+          <a id="{{ meet.title[:2] }}" >
+            <h3 class="card-title main-title m-3 text-left">{{meet.title}}</h3>
+          </a>
+        {% endif %}
+        <div class="m-3 text-left card-subtitle text-muted">
+          {{meet.organiser | markdown}}
+        </div>
+        <div class="m-3 text-left card-subtitle" style="display:flex; align-content: center;">
+          {{local_date[0]}} | {{local_date[1]}} ({{ timezone }})
+        </div>
+<!--        <div class="m-3 text-center">-->
+<!--        {% if meet.channel_url %}-->
+<!--          <a href="{{meet.channel_url}}" class="btn btn-primary mr-3">{% include 'slack_svg.html' %} {{meet.slack_channel}}</a>-->
+<!--        {% endif %}-->
+<!--        </div>-->
+        <div class="mt-3 ml-3 mr-3 mb-4 text-left card-subtitle">
+          {{meet.description | markdown}}
+        </div>
+        {% if meet.category == "All Meeting" %}
+          <div class="ml-3 mr-3 mt-4 mb-3 h5 text-left text-muted">
+            Zoom links will be shared on Slack.
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+{%- endmacro %}
+
+{% macro postercards(type, timezone) -%}
+<div class="cards row p-4">
+  {% set index = type|length  %}
+  {% set session_list = [] %}
+  {% for i in range(0, index | int) %}
+    {{session_list.append([]) | default("", True)}}
+  {% endfor %}
+  {% for i in range(0, type|length) %}
+    {{session_list[i % index | int].append(type[i]) | default("", True)}}
+  {% endfor %}
+
+  {% for session in session_list %}
+<!--    <div class="col-md-6 col-sm-12 p-3" style="box-sizing: border-box;">-->
+        <div class="col-12 p-3" style="box-sizing: border-box;">
+      {% set category = session[0]['category'] %}
+
+      {% if category == 'LBD' %}{% set session_filter = session[0]['title'].split()[-1][1:-1] %}
+      {% elif category == 'Music' %}{% set session_filter = '' %}
+      {% elif category == 'Poster session' %}{% set session_filter = session[0]['title'].split(" ")[3] %}
+      {% endif %}
+
+
+
+      {% if category == 'LBD' %}{% set page = 'lbds.html'%}
+      {% elif category == 'Music' %}{% set page = 'music.html' %}
+      {% elif category == 'Poster session' %}{% set page = 'papers.html' %}
+      {% endif %}
+
+      <a class="full-card-link" href="{{page}}?session={{session_filter}}">
+        <div class="card" style="display: block; overflow: hidden; width: 100%;">
+          <div
+            class="card-header text-center"
+            style="width: 100%;"
+          >
+          {% for part in session %}
+            {% set local_date = part.start_date %}
+            <h3 class="m-3 card-title main-title text-left">
+              {{part.title}}
+            </h3>
+            <div class="m-3 text-left card-subtitle text-muted">
+              {{part.organiser | markdown}}
+            </div>
+            <div class="m-3 text-left card-subtitle">
+              {{local_date[0]}} | {{local_date[1]}} ({{ timezone }})
+            </div>
+
+            <div class="mt-3 ml-3 mr-3 mb-4 text-left card-subtitle">
+              {{part.description | markdown}}
+            </div>
+
+          {% endfor %}
+          </div>
+        </div>
+      </a>
+    </div>
+  {% endfor %}
+</div>
+
+{%- endmacro %}

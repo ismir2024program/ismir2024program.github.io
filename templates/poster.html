@@ -21,14 +21,13 @@
 {% endblock %}
 
 {% block content %}
-
 <div class="pp-card m-3" style="background-color: #fff">
-    <div class="card-header">
+    <div class="card-header" style="background-color: rgba(0,0,0,0);">
         <h2 class="card-title main-title text-left" style="color: #4383EC">
-            {{paper.title}}
+            {{paper.content.title}}
         </h2>
         <h3 class="card-subtitle mb-2 text-muted text-left">
-            {% for author in paper.authors %}
+            {% for author in paper.content.authors %}
             <a href="papers.html?filter=authors&search={{author}}"
                class="text-muted"
             >{{author}}</a
@@ -37,7 +36,7 @@
         </h3>
         <p class="card-text text-left">
             <span class="">Keywords:</span>
-            {% for keyword in paper.keywords %}
+            {% for keyword in paper.content.keywords %}
             <a
                     href="papers.html?filter=keywords&search={{keyword}}"
                     class="text-secondary text-decoration-none"
@@ -52,7 +51,7 @@
         <div class="card-text">
             <div id="abstractExample">
                 <span class="font-weight-bold">Abstract:</span>
-                {{paper.abstract}}
+                {{paper.content.abstract | markdown}}
             </div>
         </div>
         <p></p>
@@ -78,9 +77,9 @@
 
   <div class="tab-content" id="posterTabsContent">
     <div class="tab-pane fade show active" id="paper" role="tabpanel" aria-labelledby="paper-tab">
-      {% if paper.pdf_url %}
+      {% if paper.content.pdf_path %}
       <div style="height: 80vh;">
-        <iframe src="{{ paper.pdf_url | replace('/view?usp=sharing', '/preview') | replace('/view', '/preview') }}" 
+        <iframe src="{{ paper.content.pdf_path | replace('/view?usp=sharing', '/preview') | replace('/view', '/preview') }}" 
                 width="100%" 
                 height="100%" 
                 frameborder="0"
@@ -92,9 +91,9 @@
     </div>
   
     <div class="tab-pane fade" id="poster" role="tabpanel" aria-labelledby="poster-tab">
-      {% if paper.poster_pdf %}
+      {% if paper.content.poster_pdf %}
       <div style="height: 80vh;">
-        <iframe src="{{ paper.poster_pdf | replace('/view?usp=sharing', '/preview') | replace('/view', '/preview') }}" 
+        <iframe src="{{ paper.content.poster_pdf | replace('/view?usp=sharing', '/preview') | replace('/view', '/preview') }}" 
                 width="100%" 
                 height="100%" 
                 frameborder="0"
@@ -106,13 +105,13 @@
     </div>
   
     <div class="tab-pane fade" id="video" role="tabpanel" aria-labelledby="video-tab">
-      {% if paper.video_url %}
+      {% if paper.content.video %}
       <div class="text-center">
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" 
-                  src="{{ paper.video_url | replace('/view?usp=sharing', '/preview') | replace('/view', '/preview') }}" 
+          <iframe class="embed-responsive-item"           
+                  src="{{ paper.content.video | replace('/view?usp=sharing', '/preview') | replace('/view', '/preview') | replace('/view?usp=drive_link&#39', '/preview') }}" 
                   frameborder="0" 
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
                   allowfullscreen></iframe>
         </div>
       </div>
@@ -124,6 +123,7 @@
   
   <script>
   document.addEventListener('DOMContentLoaded', function() {
+    console.log(JSON.stringify("{{paper}}"));
     // Ensure jQuery and Bootstrap are loaded
     if (typeof $ === 'undefined') {
       console.error('jQuery is not loaded');
