@@ -1,6 +1,7 @@
 {% set active_page = "Tutorials" %}
 {% set page_title = "Tutorials" %}
 {% extends "base.html" %}
+{% block tabs %}
 {{ components.navtabs([
   ("calendar.html", "Calendar", "calendar-html"),
   ("tutorials.html", "Nov 10", "tutorials-html"),
@@ -10,14 +11,24 @@
   ("day_5.html", "Nov 14", "day_5-html"),
   ])
 }}
+{% endblock %}
 {% block content %}
 <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
   <div id="day">
     <!-- Workshops -->
-    {{ components.section("Tutorials") }}
+    <!-- {{ components.section("Tutorials") }} -->
     <div class="speakers">
       {{ components.tutorialgroup(tutorials) }}
     </div>
   </div>
 </div>
+<script>
+  $('.nav-pills .nav-item .nav-link').each(function() {
+console.log(window.location.pathname.split('/')[1].split('.')[0])
+if (window.location.pathname.split('/')[1].replace('.', '-').includes($(this).attr('id')) ) {
+  $(this).addClass('active');
+}
+})
+</script> 
 {% endblock %}
+
