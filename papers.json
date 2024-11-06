@@ -52,8 +52,8 @@
       "channel_url": "",
       "day": "2",
       "keywords": [
-        "MIR tasks -> music generation",
-        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR fundamentals and methodology -> symbolic music processing"
+        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR fundamentals and methodology -> symbolic music processing",
+        "MIR tasks -> music generation"
       ],
       "long_presentation": "FALSE",
       "paper_presentation": "San Francisco",
@@ -204,8 +204,8 @@
       "channel_url": "",
       "day": "1",
       "keywords": [
-        "Musical features and properties -> representations of music",
-        "Musical features and properties -> structure, segmentation, and form"
+        "Musical features and properties -> structure, segmentation, and form",
+        "Musical features and properties -> representations of music"
       ],
       "long_presentation": "FALSE",
       "paper_presentation": "San Francisco",
@@ -282,8 +282,8 @@
       "channel_url": "",
       "day": "4",
       "keywords": [
-        "Generative Tasks -> artistically-inspired generative tasks ; Generative Tasks -> evaluation metrics",
-        "Generative Tasks -> music and audio synthesis"
+        "Generative Tasks -> music and audio synthesis",
+        "Generative Tasks -> artistically-inspired generative tasks ; Generative Tasks -> evaluation metrics"
       ],
       "long_presentation": "FALSE",
       "paper_presentation": "San Francisco",
@@ -322,8 +322,8 @@
       "channel_url": "",
       "day": "2",
       "keywords": [
-        "Evaluation, datasets, and reproducibility -> novel datasets and use cases",
-        "Musical features and properties -> rhythm, beat, tempo"
+        "Musical features and properties -> rhythm, beat, tempo",
+        "Evaluation, datasets, and reproducibility -> novel datasets and use cases"
       ],
       "long_presentation": "FALSE",
       "paper_presentation": "San Francisco",
@@ -402,8 +402,8 @@
       "channel_url": "",
       "day": "1",
       "keywords": [
-        "Applications -> music heritage and sustainability; Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR fundamentals and methodology -> symbolic music processing; MIR tasks -> music generation",
-        "Applications -> music composition, performance, and production"
+        "Applications -> music composition, performance, and production",
+        "Applications -> music heritage and sustainability; Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR fundamentals and methodology -> symbolic music processing; MIR tasks -> music generation"
       ],
       "long_presentation": "TRUE",
       "paper_presentation": "San Francisco",
@@ -604,8 +604,8 @@
       "channel_url": "",
       "day": "2",
       "keywords": [
-        "MIR tasks -> optical music recognition",
-        "Applications -> digital libraries and archives"
+        "Applications -> digital libraries and archives",
+        "MIR tasks -> optical music recognition"
       ],
       "long_presentation": "FALSE",
       "paper_presentation": "San Francisco",
@@ -684,8 +684,8 @@
       "channel_url": "",
       "day": "1",
       "keywords": [
-        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR fundamentals and methodology -> music signal processing; Musical features and properties -> timbre, instrumentation, and singing voice",
-        "Musical features and properties -> rhythm, beat, tempo"
+        "Musical features and properties -> rhythm, beat, tempo",
+        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR fundamentals and methodology -> music signal processing; Musical features and properties -> timbre, instrumentation, and singing voice"
       ],
       "long_presentation": "FALSE",
       "paper_presentation": "San Francisco",
@@ -718,8 +718,8 @@
       "channel_url": "",
       "day": "2",
       "keywords": [
-        "Creativity -> human-ai co-creativity; MIR fundamentals and methodology -> symbolic music processing; MIR tasks -> music generation",
-        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music"
+        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music",
+        "Creativity -> human-ai co-creativity; MIR fundamentals and methodology -> symbolic music processing; MIR tasks -> music generation"
       ],
       "long_presentation": "FALSE",
       "paper_presentation": "San Francisco",
@@ -758,8 +758,8 @@
       "channel_url": "",
       "day": "3",
       "keywords": [
-        "MIR tasks -> music generation",
-        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR tasks -> music synthesis and transformation"
+        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR tasks -> music synthesis and transformation",
+        "MIR tasks -> music generation"
       ],
       "long_presentation": "FALSE",
       "paper_presentation": "San Francisco",
@@ -800,8 +800,8 @@
       "channel_url": "",
       "day": "1",
       "keywords": [
-        "MIR and machine learning for musical acoustics -> applications of musical acoustics to signal synthesis; MIR tasks -> music generation",
-        "Generative Tasks -> music and audio synthesis"
+        "Generative Tasks -> music and audio synthesis",
+        "MIR and machine learning for musical acoustics -> applications of musical acoustics to signal synthesis; MIR tasks -> music generation"
       ],
       "long_presentation": "FALSE",
       "paper_presentation": "San Francisco",
@@ -877,8 +877,8 @@
       "channel_url": "",
       "day": "1",
       "keywords": [
-        "Creativity -> human-ai co-creativity",
-        "Creativity; Creativity -> creativity and learning; Generative Tasks; Generative Tasks -> interactions; MIR tasks -> music generation"
+        "Creativity; Creativity -> creativity and learning; Generative Tasks; Generative Tasks -> interactions; MIR tasks -> music generation",
+        "Creativity -> human-ai co-creativity"
       ],
       "long_presentation": "FALSE",
       "paper_presentation": "San Francisco",
@@ -923,8 +923,8 @@
       "channel_url": "",
       "day": "2",
       "keywords": [
-        "Creativity -> human-ai co-creativity",
-        "Creativity -> computational creativity; Creativity -> creative practice involving MIR or generative technology ; Evaluation, datasets, and reproducibility -> novel datasets and use cases; Generative Tasks -> music and audio synthesis; Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music"
+        "Creativity -> computational creativity; Creativity -> creative practice involving MIR or generative technology ; Evaluation, datasets, and reproducibility -> novel datasets and use cases; Generative Tasks -> music and audio synthesis; Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music",
+        "Creativity -> human-ai co-creativity"
       ],
       "long_presentation": "FALSE",
       "paper_presentation": "San Francisco",
@@ -1001,8 +1001,8 @@
       "channel_url": "",
       "day": "1",
       "keywords": [
-        "Computational musicology",
-        "Applications -> music composition, performance, and production; Computational musicology -> digital musicology; Knowledge-driven approaches to MIR -> computational music theory and musicology; Musical features and properties -> musical style and genre"
+        "Applications -> music composition, performance, and production; Computational musicology -> digital musicology; Knowledge-driven approaches to MIR -> computational music theory and musicology; Musical features and properties -> musical style and genre",
+        "Computational musicology"
       ],
       "long_presentation": "FALSE",
       "paper_presentation": "Remote",
@@ -1095,8 +1095,8 @@
       "channel_url": "",
       "day": "2",
       "keywords": [
-        "Generative Tasks -> interactions; Generative Tasks -> real-time considerations; Generative Tasks -> transformations; MIR tasks -> automatic classification; Musical features and properties -> representations of music",
-        "Generative Tasks -> music and audio synthesis"
+        "Generative Tasks -> music and audio synthesis",
+        "Generative Tasks -> interactions; Generative Tasks -> real-time considerations; Generative Tasks -> transformations; MIR tasks -> automatic classification; Musical features and properties -> representations of music"
       ],
       "long_presentation": "FALSE",
       "paper_presentation": "San Francisco",
@@ -1249,8 +1249,8 @@
       "channel_url": "",
       "day": "3",
       "keywords": [
-        "Generative Tasks -> qualitative evaluations",
-        "Creativity -> human-ai co-creativity; Creativity -> humanistic discussions; Musical features and properties -> musical style and genre; Philosophical and ethical discussions -> ethical issues related to designing and implementing MIR tools and technologies; Philosophical and ethical discussions -> philosophical and methodological foundations"
+        "Creativity -> human-ai co-creativity; Creativity -> humanistic discussions; Musical features and properties -> musical style and genre; Philosophical and ethical discussions -> ethical issues related to designing and implementing MIR tools and technologies; Philosophical and ethical discussions -> philosophical and methodological foundations",
+        "Generative Tasks -> qualitative evaluations"
       ],
       "long_presentation": "FALSE",
       "paper_presentation": "San Francisco",
@@ -1285,8 +1285,8 @@
       "channel_url": "",
       "day": "2",
       "keywords": [
-        "Applications -> digital libraries and archives; Knowledge-driven approaches to MIR -> representations of music",
-        "MIR fundamentals and methodology -> symbolic music processing"
+        "MIR fundamentals and methodology -> symbolic music processing",
+        "Applications -> digital libraries and archives; Knowledge-driven approaches to MIR -> representations of music"
       ],
       "long_presentation": "FALSE",
       "paper_presentation": "San Francisco",
@@ -1557,8 +1557,8 @@
       "channel_url": "",
       "day": "1",
       "keywords": [
-        "Computational musicology",
-        "Computational musicology -> mathematical music theory; Knowledge-driven approaches to MIR -> computational music theory and musicology; Knowledge-driven approaches to MIR -> representations of music; Musical features and properties -> harmony, chords and tonality; Musical features and properties -> structure, segmentation, and form"
+        "Computational musicology -> mathematical music theory; Knowledge-driven approaches to MIR -> computational music theory and musicology; Knowledge-driven approaches to MIR -> representations of music; Musical features and properties -> harmony, chords and tonality; Musical features and properties -> structure, segmentation, and form",
+        "Computational musicology"
       ],
       "long_presentation": "TRUE",
       "paper_presentation": "Remote",
@@ -1635,8 +1635,8 @@
       "channel_url": "",
       "day": "4",
       "keywords": [
-        "Evaluation, datasets, and reproducibility -> evaluation methodology",
-        "Evaluation, datasets, and reproducibility -> evaluation metrics; Generative Tasks -> evaluation metrics; MIR tasks -> music generation; MIR tasks -> similarity metrics"
+        "Evaluation, datasets, and reproducibility -> evaluation metrics; Generative Tasks -> evaluation metrics; MIR tasks -> music generation; MIR tasks -> similarity metrics",
+        "Evaluation, datasets, and reproducibility -> evaluation methodology"
       ],
       "long_presentation": "FALSE",
       "paper_presentation": "San Francisco",
@@ -1673,8 +1673,8 @@
       "channel_url": "",
       "day": "3",
       "keywords": [
-        "Applications -> music retrieval systems; Creativity -> human-ai co-creativity; Creativity -> tools for artists; MIR and machine learning for musical acoustics -> applications of machine learning to musical acoustics; MIR tasks -> automatic classification",
-        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music"
+        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music",
+        "Applications -> music retrieval systems; Creativity -> human-ai co-creativity; Creativity -> tools for artists; MIR and machine learning for musical acoustics -> applications of machine learning to musical acoustics; MIR tasks -> automatic classification"
       ],
       "long_presentation": "FALSE",
       "paper_presentation": "San Francisco",
@@ -1709,8 +1709,8 @@
       "channel_url": "",
       "day": "3",
       "keywords": [
-        "Applications -> music recommendation and playlist generation; Creativity -> creative practice involving MIR or generative technology ; Human-centered MIR -> music interfaces and services; MIR tasks -> similarity metrics; Musical features and properties -> rhythm, beat, tempo",
-        "Creativity -> tools for artists"
+        "Creativity -> tools for artists",
+        "Applications -> music recommendation and playlist generation; Creativity -> creative practice involving MIR or generative technology ; Human-centered MIR -> music interfaces and services; MIR tasks -> similarity metrics; Musical features and properties -> rhythm, beat, tempo"
       ],
       "long_presentation": "FALSE",
       "paper_presentation": "San Francisco",
@@ -1749,8 +1749,8 @@
       "channel_url": "",
       "day": "1",
       "keywords": [
-        "Evaluation, datasets, and reproducibility -> evaluation metrics; MIR tasks -> music transcription and annotation; MIR tasks -> sound source separation",
-        "Evaluation, datasets, and reproducibility -> novel datasets and use cases"
+        "Evaluation, datasets, and reproducibility -> novel datasets and use cases",
+        "Evaluation, datasets, and reproducibility -> evaluation metrics; MIR tasks -> music transcription and annotation; MIR tasks -> sound source separation"
       ],
       "long_presentation": "FALSE",
       "paper_presentation": "San Francisco",
@@ -1789,8 +1789,8 @@
       "channel_url": "",
       "day": "1",
       "keywords": [
-        "Generative Tasks -> music and audio synthesis; MIR fundamentals and methodology -> music signal processing; MIR tasks -> sound source separation; Musical features and properties -> representations of music; Musical features and properties -> timbre, instrumentation, and singing voice",
-        "MIR tasks -> automatic classification"
+        "MIR tasks -> automatic classification",
+        "Generative Tasks -> music and audio synthesis; MIR fundamentals and methodology -> music signal processing; MIR tasks -> sound source separation; Musical features and properties -> representations of music; Musical features and properties -> timbre, instrumentation, and singing voice"
       ],
       "long_presentation": "FALSE",
       "paper_presentation": "San Francisco",
@@ -1829,8 +1829,8 @@
       "channel_url": "",
       "day": "3",
       "keywords": [
-        "MIR fundamentals and methodology -> lyrics and other textual data",
-        "Evaluation, datasets, and reproducibility; Evaluation, datasets, and reproducibility -> evaluation metrics; Evaluation, datasets, and reproducibility -> novel datasets and use cases"
+        "Evaluation, datasets, and reproducibility; Evaluation, datasets, and reproducibility -> evaluation metrics; Evaluation, datasets, and reproducibility -> novel datasets and use cases",
+        "MIR fundamentals and methodology -> lyrics and other textual data"
       ],
       "long_presentation": "FALSE",
       "paper_presentation": "San Francisco",
@@ -1867,8 +1867,8 @@
       "channel_url": "",
       "day": "3",
       "keywords": [
-        "MIR fundamentals and methodology -> multimodality",
-        "Evaluation, datasets, and reproducibility -> evaluation methodology; Evaluation, datasets, and reproducibility -> novel datasets and use cases; MIR fundamentals and methodology -> metadata, tags, linked data, and semantic web; MIR tasks -> automatic classification"
+        "Evaluation, datasets, and reproducibility -> evaluation methodology; Evaluation, datasets, and reproducibility -> novel datasets and use cases; MIR fundamentals and methodology -> metadata, tags, linked data, and semantic web; MIR tasks -> automatic classification",
+        "MIR fundamentals and methodology -> multimodality"
       ],
       "long_presentation": "FALSE",
       "paper_presentation": "San Francisco",
@@ -1911,8 +1911,8 @@
       "channel_url": "",
       "day": "2",
       "keywords": [
-        "MIR tasks -> music synthesis and transformation",
-        "Creativity -> computational creativity; Generative Tasks -> music and audio synthesis; Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR and machine learning for musical acoustics; MIR tasks -> music generation"
+        "Creativity -> computational creativity; Generative Tasks -> music and audio synthesis; Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR and machine learning for musical acoustics; MIR tasks -> music generation",
+        "MIR tasks -> music synthesis and transformation"
       ],
       "long_presentation": "FALSE",
       "paper_presentation": "San Francisco",
@@ -2021,8 +2021,8 @@
       "channel_url": "",
       "day": "2",
       "keywords": [
-        "Knowledge-driven approaches to MIR; Knowledge-driven approaches to MIR -> representations of music; MIR fundamentals and methodology -> symbolic music processing; Musical features and properties -> representations of music",
-        "MIR tasks -> automatic classification"
+        "MIR tasks -> automatic classification",
+        "Knowledge-driven approaches to MIR; Knowledge-driven approaches to MIR -> representations of music; MIR fundamentals and methodology -> symbolic music processing; Musical features and properties -> representations of music"
       ],
       "long_presentation": "FALSE",
       "paper_presentation": "San Francisco",
@@ -2059,8 +2059,8 @@
       "channel_url": "",
       "day": "3",
       "keywords": [
-        "MIR tasks",
-        "MIR tasks -> automatic classification"
+        "MIR tasks -> automatic classification",
+        "MIR tasks"
       ],
       "long_presentation": "FALSE",
       "paper_presentation": "San Francisco",
@@ -2093,8 +2093,8 @@
       "channel_url": "",
       "day": "3",
       "keywords": [
-        "Computational musicology; Knowledge-driven approaches to MIR -> computational music theory and musicology; MIR fundamentals and methodology -> symbolic music processing; MIR tasks -> automatic classification; Musical features and properties -> harmony, chords and tonality",
-        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music"
+        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music",
+        "Computational musicology; Knowledge-driven approaches to MIR -> computational music theory and musicology; MIR fundamentals and methodology -> symbolic music processing; MIR tasks -> automatic classification; Musical features and properties -> harmony, chords and tonality"
       ],
       "long_presentation": "FALSE",
       "paper_presentation": "San Francisco",
@@ -2135,8 +2135,8 @@
       "channel_url": "",
       "day": "1",
       "keywords": [
-        "MIR fundamentals and methodology -> lyrics and other textual data",
-        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR fundamentals and methodology -> web mining, and natural language processing"
+        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR fundamentals and methodology -> web mining, and natural language processing",
+        "MIR fundamentals and methodology -> lyrics and other textual data"
       ],
       "long_presentation": "FALSE",
       "paper_presentation": "San Francisco",
@@ -2213,8 +2213,8 @@
       "channel_url": "",
       "day": "4",
       "keywords": [
-        "Creativity -> creative practice involving MIR or generative technology",
-        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR fundamentals and methodology -> symbolic music processing; Musical features and properties -> rhythm, beat, tempo"
+        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR fundamentals and methodology -> symbolic music processing; Musical features and properties -> rhythm, beat, tempo",
+        "Creativity -> creative practice involving MIR or generative technology"
       ],
       "long_presentation": "FALSE",
       "paper_presentation": "San Francisco",
