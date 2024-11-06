@@ -144,7 +144,77 @@
 <div class="container">
     <!-- Tabs -->
     <div class="tabs">
-         
+        
+<ul class="nav nav-pills justify-content-center">
+  
+  <li class="nav-item">
+    <a
+      id="calendar-html"
+      class="nav-link text-muted"
+      href="calendar.html"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >Calendar
+    </a>
+  </li>
+  
+  <li class="nav-item">
+    <a
+      id="tutorials-html"
+      class="nav-link text-muted"
+      href="tutorials.html"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >Nov 10
+    </a>
+  </li>
+  
+  <li class="nav-item">
+    <a
+      id="day_2-html"
+      class="nav-link text-muted"
+      href="day_2.html"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >Nov 11
+    </a>
+  </li>
+  
+  <li class="nav-item">
+    <a
+      id="day_3-html"
+      class="nav-link text-muted"
+      href="day_3.html"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >Nov 12
+    </a>
+  </li>
+  
+  <li class="nav-item">
+    <a
+      id="day_4-html"
+      class="nav-link text-muted"
+      href="day_4.html"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >Nov 13
+    </a>
+  </li>
+  
+  <li class="nav-item">
+    <a
+      id="day_5-html"
+      class="nav-link text-muted"
+      href="day_5.html"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >Nov 14
+    </a>
+  </li>
+  
+</ul>
+
     </div>
     <!-- Content -->
     <div class="content">
@@ -152,12 +222,12 @@
 <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
   <div id="day">
     <!-- Workshops -->
-    <div class="border-top my-3"></div>
+    <!-- <div class="border-top my-3"></div>
 <div class="row p-4" id="faq">
   <div class="col-12 bd-content">
     <h2 class="text-center">Tutorials</h2>
   </div>
-</div>
+</div> -->
     <div class="speakers">
       <div class="cards row">
   
@@ -321,6 +391,14 @@ This tutorial caters especially to new researchers with an interest in lyrics an
     </div>
   </div>
 </div>
+<script>
+  $('.nav-pills .nav-item .nav-link').each(function() {
+console.log(window.location.pathname.split('/')[1].split('.')[0])
+if (window.location.pathname.split('/')[1].replace('.', '-').includes($(this).attr('id')) ) {
+  $(this).addClass('active');
+}
+})
+</script> 
 
     </div>
 </div>
