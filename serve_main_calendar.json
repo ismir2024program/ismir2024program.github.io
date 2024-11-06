@@ -506,9 +506,9 @@
   {
     "calendarId": "qa",
     "category": "time",
-    "end": "2024-11-12T22:30:00-08:00",
+    "end": "2024-11-12T22:00:00-08:00",
     "location": "",
-    "start": "2024-11-12T19:00:00-08:00",
+    "start": "2024-11-12T18:00:00-08:00",
     "title": "Creative Practice meetup at Riffusion",
     "url": ""
   },
