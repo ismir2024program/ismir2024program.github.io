@@ -28,7 +28,7 @@ def main(site_data_path):
         elif typ == "yml":
             site_data[name] = yaml.load(open(f).read(), Loader=yaml.SafeLoader)
 
-    for typ in ["papers", "speakers", "workshops", "tutorials"]:
+    for typ in ["papers", "speakers", "workshops", "tutorials", "lbd"]:
         by_uid[typ] = {}
         for p in site_data[typ]:
             by_uid[typ][p["UID"]] = p
@@ -134,6 +134,13 @@ def papers():
     data = _data()
     data["papers"] = site_data["papers"]
     return render_template("papers.html", **data)
+
+@app.route("/lbds.html")
+def lbds():
+    data = _data()
+    data["lbds"] = site_data["lbd"]
+    print(data["lbds"])
+    return render_template("lbds.html", **data)
 
 
 @app.route("/paper_vis.html")
@@ -250,6 +257,35 @@ def format_paper(v):
         "poster_pdf": "GLTR_poster.pdf",
     }
 
+def format_lbd(v):
+    print(v)
+    list_keys = ["authors", "primary_subject", "secondary_subject", "session", "authors_and_affil", "Author Names"]
+    list_fields = {}
+    for key in list_keys:
+        list_fields[key] = extract_list_field(v, key)
+    print(list_fields, list_keys)
+    return {
+        "id": v["UID"],
+        "forum": v["UID"],
+        "pic_id": v['Thumbnail link'],
+        "content": {
+            "title": v["Paper Title"],
+            "authors": list_fields["Author Names"][0].split(";"),
+            "authors_and_affil": list_fields["authors_and_affil"][0].split(";"),
+            "keywords": list(set(list_fields["primary_subject"] + list_fields["secondary_subject"])),
+            "abstract": v["Abstract"],
+            "TLDR": v["Abstract"],
+            "poster_pdf": v.get("Poster link", ""),
+            "session": list_fields["session"],
+            "pdf_path": v.get("Paper link", ""),
+            "video": v["Video link"],
+            "channel_url": v["channel_url"],
+            "slack_channel": v["slack_channel"],
+        },
+        "poster_pdf": "GLTR_poster.pdf",  
+    }
+  
+
 def format_workshop(v):
     list_keys = ["authors"]
     list_fields = {}
@@ -301,6 +337,13 @@ def workshop(workshop):
     data["workshop"] = format_workshop(v)
     return render_template("workshop.html", **data)
 
+@app.route("/lbd_<lbd>.html")
+def lbd(lbd):
+    uid = lbd
+    v = by_uid["lbd"][uid]
+    data = _data()
+    data["lbd"] = format_lbd(v)
+    return render_template("lbd.html", **data)
 
 
 # FRONT END SERVING
@@ -311,6 +354,16 @@ def paper_json():
     json = []
     for v in site_data["papers"]:
         json.append(format_paper(v))
+    return jsonify(json)
+
+
+
+
+@app.route("/lbds.json")
+def lbd_json():
+    json = []
+    for v in site_data["lbd"]:
+        json.append(format_lbd(v))
     return jsonify(json)
 
 

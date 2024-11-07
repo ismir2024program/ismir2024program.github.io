@@ -22,6 +22,10 @@ class API {
     return API.paperCache;
   }
 
+  static getLBDs() {
+    return $.get("lbds.json");
+  }
+
   static getPapersAndProjection() {
     return Promise.all([
       API.getPapers(),
@@ -82,6 +86,9 @@ class API {
     return `poster_${paper.id}.html`;
   }
 
+  static lbdLink(paper){ 
+    return `lbd_${paper.id}.html`;
+  }
   /**
    * link to the poster ICAL file for poster and repetition i
    * @param paper
