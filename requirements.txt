@@ -5,3 +5,4 @@ tqdm
 PyYAML
 tzlocal
 pytz
+python-dateutil
