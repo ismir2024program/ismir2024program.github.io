@@ -1,0 +1,358 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- External Javascript libs_ext  -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js"
+            integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+
+    <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+            integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js"
+            integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js"
+            integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww="
+            crossorigin="anonymous"></script>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Gantari:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <!-- Library libs_ext --> 
+    <script src="static/js/libs_ext/typeahead.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!--    Internal Libs -->
+    <script src="static/js/data/api.js"></script>
+
+    
+
+    <!-- External CSS -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY="
+          crossorigin="anonymous">
+
+    <!-- External Fonts (no google for china) -->
+    <link
+            href="static/css/Lato.css"
+            rel="stylesheet"
+    />
+    <link href="static/css/Exo.css" rel="stylesheet"/>
+    <link
+            href="static/css/Cuprum.css"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="static/css/main.css"/>
+<!--    <link rel="stylesheet" href="static/css/fa_regular.css"/>-->
+    <link rel="stylesheet" href="static/css/fa_solid.css"/>
+    <link rel="stylesheet" href="static/css/lazy_load.css"/>
+    <link rel="stylesheet" href="static/css/typeahead.css"/>
+
+    <title>MiniConf 2024</title>
+    
+<meta name="citation_title" content=""/>
+
+<meta name="citation_publication_date" content="May 2024"/>
+<meta name="citation_conference_title"
+      content="Ismir 2024"/>
+<meta name="citation_inbook_title" content="Proceedings of the 25th International Society for Music Information Retrieval"/>
+<meta name="citation_abstract" content=""/>
+
+<meta name="citation_pdf_url" content=""/>
+
+
+</head>
+
+<body>
+<!-- NAV -->
+
+<nav
+        class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto"
+        id="main-nav"
+>
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img
+                    class="logo" src="static/images/ismir24_logo.svg"
+                    height="auto"
+            width="95px"
+            />
+        </a>
+        
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+                class="collapse navbar-collapse text-right flex-grow-1"
+                id="navbarNav"
+        >
+            <ul class="navbar-nav ml-auto">
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Schedule</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="papers.html">Papers</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="tutorials.html">Tutorials</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="lbds.html">LBDs</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- User Overrides -->
+ 
+
+<div class="container">
+    <!-- Tabs -->
+    <div class="tabs">
+         
+    </div>
+    <!-- Content -->
+    <div class="content">
+        
+<div class="pp-card m-3" style="background-color: #fff">
+    <div class="card-header" style="background-color: rgba(0,0,0,0);">
+        <h2 class="card-title main-title text-left" style="color: #4383EC">
+            ITO-Master: Inference-Time Optimization for Music Mastering Style Transfer
+        </h2>
+        <h3 class="card-subtitle mb-2 text-muted text-left">
+            
+            <a href="lbds.html?filter=authors&search=Junghyun Koo (Sony AI)*"
+               class="text-muted"
+            >Junghyun Koo (Sony AI)*</a
+            >,
+            
+            <a href="lbds.html?filter=authors&search= Marco A Martinez Ramirez (Sony AI)"
+               class="text-muted"
+            > Marco A Martinez Ramirez (Sony AI)</a
+            >,
+            
+            <a href="lbds.html?filter=authors&search= Wei-Hsiang Liao (Sony Group Corporation)"
+               class="text-muted"
+            > Wei-Hsiang Liao (Sony Group Corporation)</a
+            >,
+            
+            <a href="lbds.html?filter=authors&search= Giorgio Fabbro (Sony)"
+               class="text-muted"
+            > Giorgio Fabbro (Sony)</a
+            >,
+            
+            <a href="lbds.html?filter=authors&search= Michele Mancusi (Sony Europe)"
+               class="text-muted"
+            > Michele Mancusi (Sony Europe)</a
+            >,
+            
+            <a href="lbds.html?filter=authors&search= Yuki Mitsufuji (Sony AI)"
+               class="text-muted"
+            > Yuki Mitsufuji (Sony AI)</a
+            >
+            
+        </h3>
+        <p class="card-text text-left">
+            <span class="">Keywords:</span>
+            
+            <a
+                    href="lbds.html?filter=keywords&search="
+                    class="text-secondary text-decoration-none"
+            ></a
+            >
+            
+        </p>
+    </div>
+</div>
+<div id="details" class="pp-card m-3">
+    <div class="card-body">
+        <div class="card-text">
+            <div id="abstractExample">
+                <span class="font-weight-bold">Abstract:</span>
+                <p>Music mastering style transfer involves applying the mastering-related audio features of a reference track to another, simulating the professional mastering process that enhances overall sound quality. In this paper, we propose the ITO-Master framework, which introduces Inference Time Optimization (ITO) on reference embeddings to improve the mastering style transfer process. Our approach achieves effective automatic mastering and gives users flexibility, enabling them to adapt the system to their preferences by adjusting the reference song or specific audio effects traits. We explore both black-box and differentiable methods, demonstrating that ITO improves performance on key metrics. The framework provides flexible, user-driven mastering style transfer with an interactive demo available on our demo page: https://tinyurl.com/ITO-Master.</p>
+            </div>
+        </div>
+        <p></p>
+    </div>
+</div>
+
+
+  
+  <div class="text-center">
+    <ul class="nav nav-tabs" id="posterTabs" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="lbd-tab" data-toggle="tab" href="#lbd" role="tab" aria-controls="lbd" aria-selected="true">Paper</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="poster-tab" data-toggle="tab" href="#poster" role="tab" aria-controls="poster" aria-selected="false">Poster</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="video-tab" data-toggle="tab" href="#video" role="tab" aria-controls="video" aria-selected="false">Video</a>
+      </li>
+    </ul>
+  </div>
+  
+
+  <div class="tab-content" id="posterTabsContent">
+    <div class="tab-pane fade show active" id="lbd" role="tabpanel" aria-labelledby="lbd-tab">
+      
+      <div style="height: 80vh;">
+        <iframe src="https://drive.google.com/file/d/1RUTud2s8-B_GYP7eIDrT4xIhJNGMnq7t/preview?usp=drive_link" 
+                width="100%" 
+                height="100%" 
+                frameborder="0"
+                allow="autoplay"></iframe>
+      </div>
+      
+    </div>
+  
+    <div class="tab-pane fade" id="poster" role="tabpanel" aria-labelledby="poster-tab">
+      
+      <div style="height: 80vh;">
+        <iframe src="https://drive.google.com/file/d/1gQFaZs6iMOwbGkBJO2qGeawawMpcYhGf/preview?usp=drive_link" 
+                width="100%" 
+                height="100%" 
+                frameborder="0"
+                allow="autoplay"></iframe>
+      </div>
+      
+    </div>
+  
+    <div class="tab-pane fade" id="video" role="tabpanel" aria-labelledby="video-tab">
+      
+      <div class="text-center">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item"           
+                  src="https://drive.google.com/file/d/1V69wnQv26BbuR55EOPaOAKoe-d_Fie4v/preview?usp=drive_link" 
+                  frameborder="0" 
+                  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen></iframe>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    console.log(JSON.stringify("{&#39;id&#39;: &#39;446&#39;, &#39;forum&#39;: &#39;446&#39;, &#39;pic_id&#39;: &#39;https://drive.google.com/file/d/1Qy66l1-QjzMdRcrqKF7dm1dCLHjNdeeO/view?usp=drive_link&#39;, &#39;content&#39;: {&#39;title&#39;: &#39;ITO-Master: Inference-Time Optimization for Music Mastering Style Transfer&#39;, &#39;authors&#39;: [&#39;Junghyun Koo (Sony AI)*&#39;, &#39; Marco A Martinez Ramirez (Sony AI)&#39;, &#39; Wei-Hsiang Liao (Sony Group Corporation)&#39;, &#39; Giorgio Fabbro (Sony)&#39;, &#39; Michele Mancusi (Sony Europe)&#39;, &#39; Yuki Mitsufuji (Sony AI)&#39;], &#39;authors_and_affil&#39;: [&#39;&#39;], &#39;keywords&#39;: [&#39;&#39;], &#39;abstract&#39;: &#39;Music mastering style transfer involves applying the mastering-related audio features of a reference track to another, simulating the professional mastering process that enhances overall sound quality. In this paper, we propose the ITO-Master framework, which introduces Inference Time Optimization (ITO) on reference embeddings to improve the mastering style transfer process. Our approach achieves effective automatic mastering and gives users flexibility, enabling them to adapt the system to their preferences by adjusting the reference song or specific audio effects traits. We explore both black-box and differentiable methods, demonstrating that ITO improves performance on key metrics. The framework provides flexible, user-driven mastering style transfer with an interactive demo available on our demo page: https://tinyurl.com/ITO-Master.&#39;, &#39;TLDR&#39;: &#39;Music mastering style transfer involves applying the mastering-related audio features of a reference track to another, simulating the professional mastering process that enhances overall sound quality. In this paper, we propose the ITO-Master framework, which introduces Inference Time Optimization (ITO) on reference embeddings to improve the mastering style transfer process. Our approach achieves effective automatic mastering and gives users flexibility, enabling them to adapt the system to their preferences by adjusting the reference song or specific audio effects traits. We explore both black-box and differentiable methods, demonstrating that ITO improves performance on key metrics. The framework provides flexible, user-driven mastering style transfer with an interactive demo available on our demo page: https://tinyurl.com/ITO-Master.&#39;, &#39;poster_pdf&#39;: &#39;https://drive.google.com/file/d/1gQFaZs6iMOwbGkBJO2qGeawawMpcYhGf/view?usp=drive_link&#39;, &#39;session&#39;: [&#39;&#39;], &#39;pdf_path&#39;: &#39;https://drive.google.com/file/d/1RUTud2s8-B_GYP7eIDrT4xIhJNGMnq7t/view?usp=drive_link&#39;, &#39;video&#39;: &#39;https://drive.google.com/file/d/1V69wnQv26BbuR55EOPaOAKoe-d_Fie4v/view?usp=drive_link&#39;, &#39;channel_url&#39;: &#39;&#39;, &#39;slack_channel&#39;: &#39;&#39;}, &#39;poster_pdf&#39;: &#39;GLTR_poster.pdf&#39;}"));
+    // Ensure jQuery and Bootstrap are loaded
+    if (typeof $ === 'undefined') {
+      console.error('jQuery is not loaded');
+      return;
+    }
+    
+    // Initialize all tabs
+    $('#posterTabs a').on('click', function (e) {
+      e.preventDefault();
+      $(this).tab('show');
+    });
+  
+    // Show lbd tab by default
+    $('#posterTabs a[href="#lbd"]').tab('show');
+    MathJax.typesetPromise().then(() => {
+    // modify the DOM here
+        MathJax.typesetPromise();
+    }).catch((err) => console.log(err.message));
+  });
+  </script>
+  
+  
+    </div>
+</div>
+
+
+
+<!-- Google Analytics -->
+<script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=UA-"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+  gtag("js", new Date());
+  gtag("config", "UA-");
+</script>
+
+<!-- Footer -->
+<footer class="footer bg-light p-4">
+    <div class="container">
+        <p class="float-right"><a href="#">Back to Top</a></p>
+        <p class="text-center">© 2024 International Society for Music Information Retrieval</p>
+    </div>
+</footer>
+
+<!-- Code for hash tags -->
+<script type="text/javascript">
+  $(document).ready(function () {
+    if (window.location.hash !== "") {
+      $(`a[href="${window.location.hash}"]`).tab("show");
+    }
+
+    $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+      const hash = $(e.target).attr("href");
+      if (hash.substr(0, 1) === "#") {
+        const position = $(window).scrollTop();
+        window.location.replace(`#${hash.substr(1)}`);
+        $(window).scrollTop(position);
+      }
+    });
+   
+  });
+</script>
+<!--    <script src="static/js/modules/lazyLoad.js"></script>-->
+
+</body>
+</html>

@@ -1,0 +1,524 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- External Javascript libs_ext  -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js"
+            integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+
+    <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+            integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js"
+            integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js"
+            integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww="
+            crossorigin="anonymous"></script>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Gantari:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <!-- Library libs_ext --> 
+    <script src="static/js/libs_ext/typeahead.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!--    Internal Libs -->
+    <script src="static/js/data/api.js"></script>
+
+    
+
+    <!-- External CSS -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY="
+          crossorigin="anonymous">
+
+    <!-- External Fonts (no google for china) -->
+    <link
+            href="static/css/Lato.css"
+            rel="stylesheet"
+    />
+    <link href="static/css/Exo.css" rel="stylesheet"/>
+    <link
+            href="static/css/Cuprum.css"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="static/css/main.css"/>
+<!--    <link rel="stylesheet" href="static/css/fa_regular.css"/>-->
+    <link rel="stylesheet" href="static/css/fa_solid.css"/>
+    <link rel="stylesheet" href="static/css/lazy_load.css"/>
+    <link rel="stylesheet" href="static/css/typeahead.css"/>
+
+    <title>MiniConf 2024</title>
+    
+<meta name="citation_title" content=""/>
+
+<meta name="citation_publication_date" content="May 2024"/>
+<meta name="citation_conference_title"
+      content="Ismir 2024"/>
+<meta name="citation_inbook_title" content="Proceedings of the 25th International Society for Music Information Retrieval"/>
+<meta name="citation_abstract" content=""/>
+
+<meta name="citation_pdf_url" content=""/>
+
+
+</head>
+
+<body>
+<!-- NAV -->
+
+<nav
+        class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto"
+        id="main-nav"
+>
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img
+                    class="logo" src="static/images/ismir24_logo.svg"
+                    height="auto"
+            width="95px"
+            />
+        </a>
+        
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+                class="collapse navbar-collapse text-right flex-grow-1"
+                id="navbarNav"
+        >
+            <ul class="navbar-nav ml-auto">
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Schedule</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="papers.html">Papers</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="tutorials.html">Tutorials</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="lbds.html">LBDs</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- User Overrides -->
+ 
+
+<div class="container">
+    <!-- Tabs -->
+    <div class="tabs">
+         
+    </div>
+    <!-- Content -->
+    <div class="content">
+        
+<div class="pp-card m-3" style="background-color: #fff">
+    <div class="card-header" style="background-color: rgba(0,0,0,0);">
+        <h2 class="card-title main-title text-left" style="color: #4383EC">
+            Streaming Piano Transcription Based on Consistent Onset and Offset Decoding with Sustain Pedal Detection
+        </h2>
+        <h3 class="card-subtitle mb-2 text-muted text-left">
+            
+            <a href="papers.html?filter=authors&search=Wei, Weixing*"
+               class="text-muted"
+            >Wei, Weixing*</a
+            >,
+            
+            <a href="papers.html?filter=authors&search= Zhao, Jiahao"
+               class="text-muted"
+            > Zhao, Jiahao</a
+            >,
+            
+            <a href="papers.html?filter=authors&search= Wu, Yulun"
+               class="text-muted"
+            > Wu, Yulun</a
+            >,
+            
+            <a href="papers.html?filter=authors&search= Yoshii, Kazuyoshi"
+               class="text-muted"
+            > Yoshii, Kazuyoshi</a
+            >
+            
+        </h3>
+        
+        <div class="btn-group ml-3 mb-3">
+          <a href="https://ismir2024.slack.com/archives/C07USGD286Q" class="btn btn-primary" style="background-color: #2294e0;"><svg style="display: inline-block; width: 23px;" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="75 75 150 150" style="enable-background:new 0 0 270 270;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<g>
+	<g>
+		<path class="st0" d="M99.4,151.2c0,7.1-5.8,12.9-12.9,12.9s-12.9-5.8-12.9-12.9c0-7.1,5.8-12.9,12.9-12.9h12.9V151.2z"/>
+		<path class="st0" d="M105.9,151.2c0-7.1,5.8-12.9,12.9-12.9s12.9,5.8,12.9,12.9v32.3c0,7.1-5.8,12.9-12.9,12.9
+			s-12.9-5.8-12.9-12.9C105.9,183.5,105.9,151.2,105.9,151.2z"/>
+	</g>
+	<g>
+		<path class="st0" d="M118.8,99.4c-7.1,0-12.9-5.8-12.9-12.9s5.8-12.9,12.9-12.9s12.9,5.8,12.9,12.9v12.9H118.8z"/>
+		<path class="st0" d="M118.8,105.9c7.1,0,12.9,5.8,12.9,12.9s-5.8,12.9-12.9,12.9H86.5c-7.1,0-12.9-5.8-12.9-12.9
+			s5.8-12.9,12.9-12.9C86.5,105.9,118.8,105.9,118.8,105.9z"/>
+	</g>
+	<g>
+		<path class="st0" d="M170.6,118.8c0-7.1,5.8-12.9,12.9-12.9c7.1,0,12.9,5.8,12.9,12.9s-5.8,12.9-12.9,12.9h-12.9V118.8z"/>
+		<path class="st0" d="M164.1,118.8c0,7.1-5.8,12.9-12.9,12.9c-7.1,0-12.9-5.8-12.9-12.9V86.5c0-7.1,5.8-12.9,12.9-12.9
+			c7.1,0,12.9,5.8,12.9,12.9V118.8z"/>
+	</g>
+	<g>
+		<path class="st0" d="M151.2,170.6c7.1,0,12.9,5.8,12.9,12.9c0,7.1-5.8,12.9-12.9,12.9c-7.1,0-12.9-5.8-12.9-12.9v-12.9H151.2z"/>
+		<path class="st0" d="M151.2,164.1c-7.1,0-12.9-5.8-12.9-12.9c0-7.1,5.8-12.9,12.9-12.9h32.3c7.1,0,12.9,5.8,12.9,12.9
+			c0,7.1-5.8,12.9-12.9,12.9H151.2z"/>
+	</g>
+</g>
+</svg> p6-12-streaming-piano-transcription</a>
+        </div>
+        
+        <p class="card-text text-left">
+            <span class="">Keywords:</span>
+            
+            <a
+                    href="papers.html?filter=keywords&search="
+                    class="text-secondary text-decoration-none"
+            ></a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=MIR tasks -&gt; music transcription and annotation"
+                    class="text-secondary text-decoration-none"
+            >MIR tasks -&gt; music transcription and annotation</a
+            >
+            
+        </p>
+    </div>
+
+</div>
+
+<div id="details" class="pp-card m-3">
+    <div class="card-body">
+        <div class="card-text">
+            <div id="abstractExample">
+                <span class="font-weight-bold">Abstract:</span>
+                <p>This paper describes a streaming audio-to-MIDI piano transcription approach that aims to sequentially translate a music signal into a sequence of note onset and offset events. The sequence-to-sequence nature of this task may call for the computationally-intensive transformer model for better performance, which has recently been used for offline transcription benchmarks and could be extended for streaming transcription with causal attention mechanisms. We assume that the performance limitation of this naive approach lies in the decoder. Although time-frequency features useful for onset detection are considerably different from those for offset detection, the single decoder is trained to output a mixed sequence of onset and offset events without guarantee of the correspondence between the onset and offset events of the same note. To overcome this limitation, we propose a streaming encoder-decoder model that uses a convolutional encoder aggregating local acoustic features, followed by an autoregressive Transformer decoder detecting a variable number of onset events and another decoder detecting the offset events for the active pitches with validation of the sustain pedal at each time frame. Experiments using the MAESTRO dataset showed that the proposed streaming method performed comparably with or even better than the state-of-the-art offline methods while significantly reducing the computational cost.</p>
+            </div>
+        </div>
+        <p></p>
+    </div>
+</div>
+
+
+  
+  <div class="text-center">
+    <ul class="nav nav-tabs" id="posterTabs" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="paper-tab" data-toggle="tab" href="#paper" role="tab" aria-controls="paper" aria-selected="true">Paper</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="poster-tab" data-toggle="tab" href="#poster" role="tab" aria-controls="poster" aria-selected="false">Poster</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="video-tab" data-toggle="tab" href="#video" role="tab" aria-controls="video" aria-selected="false">Video</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="Reviews-tab" data-toggle="tab" href="#Reviews" role="tab" aria-controls="Reviews" aria-selected="false">Reviews</a>
+      </li>
+    </ul>
+  </div>
+  
+
+  <div class="tab-content" id="posterTabsContent">
+    <div class="tab-pane fade show active" id="paper" role="tabpanel" aria-labelledby="paper-tab">
+      
+      <div style="height: 80vh;">
+        <iframe src="https://drive.google.com/file/d/1W4gBY_EmjutsJSn1xUUT4YikW3Nmbe1G/preview" 
+                width="100%" 
+                height="100%" 
+                frameborder="0"
+                allow="autoplay"></iframe>
+      </div>
+      
+    </div>
+  
+    <div class="tab-pane fade" id="poster" role="tabpanel" aria-labelledby="poster-tab">
+      
+      <div style="height: 80vh;">
+        <iframe src="https://drive.google.com/file/d/16lZk-YBqSk_ypmZkZlSXqRroFivWVxY3/preview" 
+                width="100%" 
+                height="100%" 
+                frameborder="0"
+                allow="autoplay"></iframe>
+      </div>
+      
+    </div>
+  
+    <div class="tab-pane fade" id="video" role="tabpanel" aria-labelledby="video-tab">
+      
+      <div class="text-center">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item"           
+                  src="https://drive.google.com/file/d/1_iXRxgXqrGNFVHh5XESpnD5jm169EMfM/preview" 
+                  frameborder="0" 
+                  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen></iframe>
+        </div>
+      </div>
+      
+    </div>
+    <div class="tab-pane fade" id="Reviews" role="tabpanel" aria-labelledby="Reviews-tab">
+      <div class="pp-card m-3">
+        <div class="card-body">
+          <h5 class="card-title">
+            Reviews
+          </h5>
+          <div class="card-text">
+            
+            <div> 
+                <b> Meta Review </b> 
+                <p> <p>This paper received generally good ratings from the four reviewers, as the proposed model achieves high performance while working in real time, which has been less studied. The main weakness is the lack of clarity in the model descriptions. In particular, reviewer #1 pointed out a lot of missing details that make it difficult to understand the exact model operation, and thus recommended a weak rejection. Through discussion, the reviewers concluded that many of the issues can be addressed in the camera-ready version and that the main contributions of the paper deserve to be presented at the ISMIR conference. Therefore, the authors are strongly encouraged to incorporate all comments in the revision and improve the clarity.</p></p>
+              </div>
+              <hr/>
+        
+            <div>
+                <b> Review 1 </b>
+                <p class="card-text"><p>This paper proposes a streaming-capable automatic piano transcription method. Automatic piano transcription is a well-known task with a somewhat standardized evaluation method used since the Onsets and Frames paper (Hawthorne 2018). To make the model streaming-capable, the authors improve upon the sequence-to-sequence piano transcription model (Hawthorne 2021) so that rather than generating a full sequence of MIDI-like tokens, the decoder concerns onset or offset events in a single time frame only, at each time. The onset decoder autoregressively predicts the sequence of note onsets, and the offset decoder takes the set of active onsets and non-autoregressively predicts if any of them reached the offset.</p>
+<p>The results in Table 1-2 show that the proposed method performs competitively with other SOTA models, while achieving 380 milliseconds of streaming latency, which I consider a strong result. While real-time / streaming capabilities are often overlooked in academic settings, a streaming-capable model can have a huge impact on the usability and interactive applications.</p>
+<p>The proposed method section could be improved a lot to have clearer descriptions of the model:</p>
+<ul>
+<li>some details of the model architecture are missing, such as how the encoder features are fed to the decoders; I could infer from Figure 2 that it's using cross attention (aka encoder-decoder attention) on the features with a causal mask to enable streaming, but this should have been explained in the main body of the text.</li>
+<li>In Figure 2, each decoder layer seems to have layernorms in both the beginning and the end of the block, which is unconventional. (For context, the original transformer paper had layernorms after attention and mlp, but most implementations including T5 put the layernorms before them).</li>
+<li>There should be a more detailed description on the sustain pedal detection, which in the title. I'm guessing from the output vocabulary that the pedal states are predicted as part of the onset decoder's prediction, but I can't tell if the tokens represent the states (presence or absence, as written in Section 4.1.3) or the state changes (press / release).</li>
+<li>In that sense, it'd be helpful to include some example output sequences, to clarify if there is a preferred order of the tokens, e.g. BOS, any pedal tokens followed by notes lower to higher, and  then EOS.</li>
+<li>The offset decoder is described to be operating non-autoregressively, which makes sense because it just needs to determine if each active onset note ended or not at each frame, but it's easy to (mis?)understand from the paper that offset decoder also does sequence prediction, from the notations in Section 3.1 and 3.3.</li>
+<li>I find the notation in Algorithm 1 is a little inconsistent. I have to guess that the superscript notations like <code>1:k_1</code> and <code>0:n_1</code> denote the variable-length onset and offset sequences in each time frame, but it's unclear why <code>Y_t^{0:k_t}</code> was computed but only <code>Y_t^{1:k_t}</code> is outputted. Maybe it is to exclude EOS, or the pedal token? In any case, a caption to the algorithms block would be nice, to provide a high-level overview of the algorithm explaining the overall flow. Lines 19-26 is pretty standard greedy LM decoding, so it could become a single line.</li>
+<li>Given all the intricacies like the above, an open-source code and model release would be able to foster faster and wider adoption of the streaming piano transcription model.</li>
+</ul>
+<p>Given that we have more space, further analyses like the following would have made it a stronger paper.</p>
+<ul>
+<li>A piano roll representation of the predicted MIDI or the "posteriorgrams" could be useful, space permitting, to show a qualitative visualization of the model behavior.</li>
+<li>Latency analysis: while 380ms is the systematic latency of the streaming architecture, the real-world latency would depend on the time between the actual and predicted onsets/offset events. A histogram of those latencies would be useful for understanding the real-world latency and its variability.</li>
+<li>A bonus point if a video of a piano performance getting transcribed in real time, showing the player and animated piano roll representation on the screen.</li>
+</ul>
+<p>To conclude, I really like the strong results and would love to see the paper accepted and the model becoming available for streaming piano transcription, but as above, I find the overall quality of the text to be below ISMIR's acceptance bar.</p></p>
+              </div>
+            </div>
+            <hr/>
+
+            <div> 
+                <b> Review 2 </b>
+                <p>The paper is well presented and the evualuation gaves promising results.</p>
+<p>It would be interesting to comment on the choice of using the same number of frames before and after for the input of the encoders after to reduce latency.</p>
+<p>L.5 “may call for a transformer” &lt;- for using a Transformer model?
+L.52 rephrase to avoid repeat
+L.67 “under these circumstances” -&gt; to overcome these limitations?
+L.87 “related <em>work</em>"
+L.384 "relying on long-term dependency <em>of</em> acoustic features"</p></p>
+              </div>
+              <hr/>
+
+
+            <div> 
+                <b> Review 3 </b>
+                <p>I found the paper to be clear, well-written, and easy to read. Congratulations to the authors. I don't have a lot of comments, and I think that this paper meets the requirements for publication at ISMIR.</p>
+<p>Comments:
+- It would be nice to know if the model is actually usable in real-world applications, i.e. if the model is already ready for streaming transcription. An experiment made by the authors in real conditions could be a nice addition to the paper.
+- I find inelegant the use of a "while True" loop in the pseudo-code of Algorithm 1. In my opinion, the code could be rewritten to remove this condition while keeping the same behavior (using a while y!= EOS condition and initializing y out of the loop).
+- The code should be made open-source. If the authors intend to make the code open-source, they should mention it (for instance with a placeholder instead of the real link for double-blind review).
+- Line 87: the word "work" is missing in "this section review related WORK".
+- Line 96: I think there is a word missing after mainstream in "In APT, the framewise transcription approach has still been the mainstream due to [...]". Maybe mainstream "use" or something of the like?
+- The definitions of "frame-level accuracy" and "note-level accuracy" are not given in Section 2.1.</p></p>
+              </div>
+              <hr/>
+
+            
+            <div> 
+            <b> Author description of changes: </b>
+            <p>We truly appreciate the valuable comments and suggestions and have made corresponding modifications on the original manuscript as much as possible.</p>
+<p>To Reviewer 1:</p>
+<ol>
+<li>
+<p>We have updated Figure 2 to illustrate how encoder features are fed to the decoder, and clarified this process in Section 3.1.</p>
+</li>
+<li>
+<p>Figure 2 has been revised to demonstrate the relationship between layer normalization and other layers.</p>
+</li>
+<li>
+<p>We've added Table 1 to showcase the detection of sustain pedal events and the resulting output sequences.</p>
+</li>
+<li>
+<p>In Section 3.1, we now emphasize that the offset decoder does not perform sequence prediction, but instead predicts the offset for each detected onset simultaneously.</p>
+</li>
+<li>
+<p>The caption for Algorithm 1 now specifies that index 0 in the offset sequence represents tokens for the sustain pedal.</p>
+</li>
+</ol>
+<p>To Reviewers 2 and 3:</p>
+<ol>
+<li>
+<p>We have corrected the spelling mistakes throughout the paper.</p>
+</li>
+<li>
+<p>The "while True" loop has been removed from Algorithm 1 to improve clarity.</p>
+</li>
+<li>
+<p>To avoid confusion, we've replaced "frame-level accuracy" with "frame-level transcription performance" throughout the paper.</p>
+</li>
+</ol>
+<p>To Meta Reviewer:</p>
+<ol>
+<li>
+<p>Section 4.1.3 now includes an explanation for maintaining the full vocabulary for all decoders.</p>
+</li>
+<li>
+<p>We've added an explanation for consistent onset and offset decoding in Section 3.4.</p>
+</li>
+<li>
+<p>We've included the missing references:</p>
+</li>
+<li>Kwon et al., "Polyphonic piano transcription using autoregressive multi-state note model," ISMIR 2020.</li>
+<li>
+<p>Dasaem Jeong, "Real-time Automatic Piano Music Transcription System," ISMIR LBD 2020.</p>
+</li>
+<li>
+<p>We acknowledge that Automatic Music Transcription (AMT) and Automatic Speech Recognition (ASR) face different challenges.</p>
+</li>
+</ol>
+<p>To All Reviewers:</p>
+<p>Due to limited research resources, we did not conduct more extensive model analysis. As noted in our conclusion, we recognize that decoding every frame may lead to unnecessary computations. We plan to address these issues and improve our model in future work and open-source our model in the future.</p></p>
+            </div>
+                   
+          </div>
+                    
+    
+        </div>
+      </div>
+    
+  </div>
+  
+
+
+
+
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    console.log(JSON.stringify("{&#39;id&#39;: &#39;18&#39;, &#39;session&#39;: &#39;6&#39;, &#39;position&#39;: &#39;13&#39;, &#39;forum&#39;: &#39;18&#39;, &#39;pic_id&#39;: &#39;https://drive.google.com/file/d/1ORPgbshIbOPrG7xibK3s_sUx0GZGmTDU/view?usp=sharing&#39;, &#39;content&#39;: {&#39;title&#39;: &#39;Streaming Piano Transcription Based on Consistent Onset and Offset Decoding with Sustain Pedal Detection&#39;, &#39;paper_presentation&#39;: &#39;San Francisco&#39;, &#39;long_presentation&#39;: &#39;FALSE&#39;, &#39;authors&#39;: [&#39;Wei, Weixing*&#39;, &#39; Zhao, Jiahao&#39;, &#39; Wu, Yulun&#39;, &#39; Yoshii, Kazuyoshi&#39;], &#39;authors_and_affil&#39;: [&#39;Weixing Wei (Kyoto University)*&#39;, &#39; Jiahao Zhao (Kyoto University)&#39;, &#39; Yulun Wu (Fudan University)&#39;, &#39; Kazuyoshi Yoshii (Kyoto University)&#39;], &#39;keywords&#39;: [&#39;&#39;, &#39;MIR tasks -&gt; music transcription and annotation&#39;], &#39;abstract&#39;: &#39;This paper describes a streaming audio-to-MIDI piano transcription approach that aims to sequentially translate a music signal into a sequence of note onset and offset events. The sequence-to-sequence nature of this task may call for the computationally-intensive transformer model for better performance, which has recently been used for offline transcription benchmarks and could be extended for streaming transcription with causal attention mechanisms. We assume that the performance limitation of this naive approach lies in the decoder. Although time-frequency features useful for onset detection are considerably different from those for offset detection, the single decoder is trained to output a mixed sequence of onset and offset events without guarantee of the correspondence between the onset and offset events of the same note. To overcome this limitation, we propose a streaming encoder-decoder model that uses a convolutional encoder aggregating local acoustic features, followed by an autoregressive Transformer decoder detecting a variable number of onset events and another decoder detecting the offset events for the active pitches with validation of the sustain pedal at each time frame. Experiments using the MAESTRO dataset showed that the proposed streaming method performed comparably with or even better than the state-of-the-art offline methods while significantly reducing the computational cost.&#39;, &#39;TLDR&#39;: &#39;This paper describes a streaming audio-to-MIDI piano transcription approach that aims to sequentially translate a music signal into a sequence of note onset and offset events. The sequence-to-sequence nature of this task may call for the computationally-intensive transformer model for better performance, which has recently been used for offline transcription benchmarks and could be extended for streaming transcription with causal attention mechanisms. We assume that the performance limitation of this naive approach lies in the decoder. Although time-frequency features useful for onset detection are considerably different from those for offset detection, the single decoder is trained to output a mixed sequence of onset and offset events without guarantee of the correspondence between the onset and offset events of the same note. To overcome this limitation, we propose a streaming encoder-decoder model that uses a convolutional encoder aggregating local acoustic features, followed by an autoregressive Transformer decoder detecting a variable number of onset events and another decoder detecting the offset events for the active pitches with validation of the sustain pedal at each time frame. Experiments using the MAESTRO dataset showed that the proposed streaming method performed comparably with or even better than the state-of-the-art offline methods while significantly reducing the computational cost.&#39;, &#39;poster_pdf&#39;: &#39;https://drive.google.com/file/d/16lZk-YBqSk_ypmZkZlSXqRroFivWVxY3/view?usp=sharing&#39;, &#39;session&#39;: [&#39;6&#39;], &#39;pdf_path&#39;: &#39;https://drive.google.com/file/d/1W4gBY_EmjutsJSn1xUUT4YikW3Nmbe1G/view?usp=sharing&#39;, &#39;video&#39;: &#39;https://drive.google.com/file/d/1_iXRxgXqrGNFVHh5XESpnD5jm169EMfM/view?usp=sharing&#39;, &#39;channel_url&#39;: &#39;https://ismir2024.slack.com/archives/C07USGD286Q&#39;, &#39;slack_channel&#39;: &#39;p6-12-streaming-piano-transcription&#39;, &#39;day&#39;: &#39;3&#39;, &#39;review_1&#39;: &#39;This paper proposes a streaming-capable automatic piano transcription method. Automatic piano transcription is a well-known task with a somewhat standardized evaluation method used since the Onsets and Frames paper (Hawthorne 2018). To make the model streaming-capable, the authors improve upon the sequence-to-sequence piano transcription model (Hawthorne 2021) so that rather than generating a full sequence of MIDI-like tokens, the decoder concerns onset or offset events in a single time frame only, at each time. The onset decoder autoregressively predicts the sequence of note onsets, and the offset decoder takes the set of active onsets and non-autoregressively predicts if any of them reached the offset.\n\nThe results in Table 1-2 show that the proposed method performs competitively with other SOTA models, while achieving 380 milliseconds of streaming latency, which I consider a strong result. While real-time / streaming capabilities are often overlooked in academic settings, a streaming-capable model can have a huge impact on the usability and interactive applications.\n\nThe proposed method section could be improved a lot to have clearer descriptions of the model:\n\n- some details of the model architecture are missing, such as how the encoder features are fed to the decoders; I could infer from Figure 2 that it\&#39;s using cross attention (aka encoder-decoder attention) on the features with a causal mask to enable streaming, but this should have been explained in the main body of the text.\n- In Figure 2, each decoder layer seems to have layernorms in both the beginning and the end of the block, which is unconventional. (For context, the original transformer paper had layernorms after attention and mlp, but most implementations including T5 put the layernorms before them).\n- There should be a more detailed description on the sustain pedal detection, which in the title. I\&#39;m guessing from the output vocabulary that the pedal states are predicted as part of the onset decoder\&#39;s prediction, but I can\&#39;t tell if the tokens represent the states (presence or absence, as written in Section 4.1.3) or the state changes (press / release).\n- In that sense, it\&#39;d be helpful to include some example output sequences, to clarify if there is a preferred order of the tokens, e.g. BOS, any pedal tokens followed by notes lower to higher, and  then EOS.\n- The offset decoder is described to be operating non-autoregressively, which makes sense because it just needs to determine if each active onset note ended or not at each frame, but it\&#39;s easy to (mis?)understand from the paper that offset decoder also does sequence prediction, from the notations in Section 3.1 and 3.3.\n- I find the notation in Algorithm 1 is a little inconsistent. I have to guess that the superscript notations like `1:k_1` and `0:n_1` denote the variable-length onset and offset sequences in each time frame, but it\&#39;s unclear why `Y_t^{0:k_t}` was computed but only `Y_t^{1:k_t}` is outputted. Maybe it is to exclude EOS, or the pedal token? In any case, a caption to the algorithms block would be nice, to provide a high-level overview of the algorithm explaining the overall flow. Lines 19-26 is pretty standard greedy LM decoding, so it could become a single line.\n- Given all the intricacies like the above, an open-source code and model release would be able to foster faster and wider adoption of the streaming piano transcription model.\n\nGiven that we have more space, further analyses like the following would have made it a stronger paper.\n\n- A piano roll representation of the predicted MIDI or the &#34;posteriorgrams&#34; could be useful, space permitting, to show a qualitative visualization of the model behavior.\n- Latency analysis: while 380ms is the systematic latency of the streaming architecture, the real-world latency would depend on the time between the actual and predicted onsets/offset events. A histogram of those latencies would be useful for understanding the real-world latency and its variability.\n- A bonus point if a video of a piano performance getting transcribed in real time, showing the player and animated piano roll representation on the screen.\n\n\nTo conclude, I really like the strong results and would love to see the paper accepted and the model becoming available for streaming piano transcription, but as above, I find the overall quality of the text to be below ISMIR\&#39;s acceptance bar.\n&#39;, &#39;review_2&#39;: &#39;The paper is well presented and the evualuation gaves promising results.\n\nIt would be interesting to comment on the choice of using the same number of frames before and after for the input of the encoders after to reduce latency.\n\nL.5 “may call for a transformer” &lt;- for using a Transformer model?\nL.52 rephrase to avoid repeat\nL.67 “under these circumstances” -&gt; to overcome these limitations?\nL.87 “related *work*&#34;\nL.384 &#34;relying on long-term dependency *of* acoustic features&#34;&#39;, &#39;review_3&#39;: &#39;I found the paper to be clear, well-written, and easy to read. Congratulations to the authors. I don\&#39;t have a lot of comments, and I think that this paper meets the requirements for publication at ISMIR.\n\nComments:\n- It would be nice to know if the model is actually usable in real-world applications, i.e. if the model is already ready for streaming transcription. An experiment made by the authors in real conditions could be a nice addition to the paper.\n- I find inelegant the use of a &#34;while True&#34; loop in the pseudo-code of Algorithm 1. In my opinion, the code could be rewritten to remove this condition while keeping the same behavior (using a while y!= EOS condition and initializing y out of the loop).\n- The code should be made open-source. If the authors intend to make the code open-source, they should mention it (for instance with a placeholder instead of the real link for double-blind review).\n- Line 87: the word &#34;work&#34; is missing in &#34;this section review related WORK&#34;.\n- Line 96: I think there is a word missing after mainstream in &#34;In APT, the framewise transcription approach has still been the mainstream due to [...]&#34;. Maybe mainstream &#34;use&#34; or something of the like?\n- The definitions of &#34;frame-level accuracy&#34; and &#34;note-level accuracy&#34; are not given in Section 2.1.&#39;, &#39;meta_review&#39;: &#39;This paper received generally good ratings from the four reviewers, as the proposed model achieves high performance while working in real time, which has been less studied. The main weakness is the lack of clarity in the model descriptions. In particular, reviewer #1 pointed out a lot of missing details that make it difficult to understand the exact model operation, and thus recommended a weak rejection. Through discussion, the reviewers concluded that many of the issues can be addressed in the camera-ready version and that the main contributions of the paper deserve to be presented at the ISMIR conference. Therefore, the authors are strongly encouraged to incorporate all comments in the revision and improve the clarity.&#39;, &#39;author_changes&#39;: &#39;We truly appreciate the valuable comments and suggestions and have made corresponding modifications on the original manuscript as much as possible.\n\nTo Reviewer 1:\n\n1. We have updated Figure 2 to illustrate how encoder features are fed to the decoder, and clarified this process in Section 3.1.\n\n2. Figure 2 has been revised to demonstrate the relationship between layer normalization and other layers.\n\n3. We\&#39;ve added Table 1 to showcase the detection of sustain pedal events and the resulting output sequences.\n\n4. In Section 3.1, we now emphasize that the offset decoder does not perform sequence prediction, but instead predicts the offset for each detected onset simultaneously.\n\n5. The caption for Algorithm 1 now specifies that index 0 in the offset sequence represents tokens for the sustain pedal.\n\nTo Reviewers 2 and 3:\n\n1. We have corrected the spelling mistakes throughout the paper.\n\n2. The &#34;while True&#34; loop has been removed from Algorithm 1 to improve clarity.\n\n3. To avoid confusion, we\&#39;ve replaced &#34;frame-level accuracy&#34; with &#34;frame-level transcription performance&#34; throughout the paper.\n\nTo Meta Reviewer:\n\n1. Section 4.1.3 now includes an explanation for maintaining the full vocabulary for all decoders.\n\n2. We\&#39;ve added an explanation for consistent onset and offset decoding in Section 3.4.\n\n3. We\&#39;ve included the missing references:\n   - Kwon et al., &#34;Polyphonic piano transcription using autoregressive multi-state note model,&#34; ISMIR 2020.\n   - Dasaem Jeong, &#34;Real-time Automatic Piano Music Transcription System,&#34; ISMIR LBD 2020.\n\n4. We acknowledge that Automatic Music Transcription (AMT) and Automatic Speech Recognition (ASR) face different challenges.\n\nTo All Reviewers:\n\nDue to limited research resources, we did not conduct more extensive model analysis. As noted in our conclusion, we recognize that decoding every frame may lead to unnecessary computations. We plan to address these issues and improve our model in future work and open-source our model in the future.&#39;}, &#39;poster_pdf&#39;: &#39;GLTR_poster.pdf&#39;}"));
+    // Ensure jQuery and Bootstrap are loaded
+    if (typeof $ === 'undefined') {
+      console.error('jQuery is not loaded');
+      return;
+    }
+    
+    // Initialize all tabs
+    $('#posterTabs a').on('click', function (e) {
+      e.preventDefault();
+      $(this).tab('show');
+    });
+  
+    // Show paper tab by default
+    $('#posterTabs a[href="#paper"]').tab('show');
+    MathJax.typesetPromise().then(() => {
+    // modify the DOM here
+        MathJax.typesetPromise();
+    }).catch((err) => console.log(err.message));
+  });
+  </script>
+  
+  
+    </div>
+</div>
+
+
+
+<!-- Google Analytics -->
+<script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=UA-"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+  gtag("js", new Date());
+  gtag("config", "UA-");
+</script>
+
+<!-- Footer -->
+<footer class="footer bg-light p-4">
+    <div class="container">
+        <p class="float-right"><a href="#">Back to Top</a></p>
+        <p class="text-center">© 2024 International Society for Music Information Retrieval</p>
+    </div>
+</footer>
+
+<!-- Code for hash tags -->
+<script type="text/javascript">
+  $(document).ready(function () {
+    if (window.location.hash !== "") {
+      $(`a[href="${window.location.hash}"]`).tab("show");
+    }
+
+    $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+      const hash = $(e.target).attr("href");
+      if (hash.substr(0, 1) === "#") {
+        const position = $(window).scrollTop();
+        window.location.replace(`#${hash.substr(1)}`);
+        $(window).scrollTop(position);
+      }
+    });
+   
+  });
+</script>
+<!--    <script src="static/js/modules/lazyLoad.js"></script>-->
+
+</body>
+</html>

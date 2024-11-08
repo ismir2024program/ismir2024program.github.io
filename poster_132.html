@@ -1,0 +1,467 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- External Javascript libs_ext  -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js"
+            integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+
+    <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+            integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js"
+            integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js"
+            integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww="
+            crossorigin="anonymous"></script>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Gantari:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <!-- Library libs_ext --> 
+    <script src="static/js/libs_ext/typeahead.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!--    Internal Libs -->
+    <script src="static/js/data/api.js"></script>
+
+    
+
+    <!-- External CSS -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY="
+          crossorigin="anonymous">
+
+    <!-- External Fonts (no google for china) -->
+    <link
+            href="static/css/Lato.css"
+            rel="stylesheet"
+    />
+    <link href="static/css/Exo.css" rel="stylesheet"/>
+    <link
+            href="static/css/Cuprum.css"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="static/css/main.css"/>
+<!--    <link rel="stylesheet" href="static/css/fa_regular.css"/>-->
+    <link rel="stylesheet" href="static/css/fa_solid.css"/>
+    <link rel="stylesheet" href="static/css/lazy_load.css"/>
+    <link rel="stylesheet" href="static/css/typeahead.css"/>
+
+    <title>MiniConf 2024</title>
+    
+<meta name="citation_title" content=""/>
+
+<meta name="citation_publication_date" content="May 2024"/>
+<meta name="citation_conference_title"
+      content="Ismir 2024"/>
+<meta name="citation_inbook_title" content="Proceedings of the 25th International Society for Music Information Retrieval"/>
+<meta name="citation_abstract" content=""/>
+
+<meta name="citation_pdf_url" content=""/>
+
+
+</head>
+
+<body>
+<!-- NAV -->
+
+<nav
+        class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto"
+        id="main-nav"
+>
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img
+                    class="logo" src="static/images/ismir24_logo.svg"
+                    height="auto"
+            width="95px"
+            />
+        </a>
+        
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+                class="collapse navbar-collapse text-right flex-grow-1"
+                id="navbarNav"
+        >
+            <ul class="navbar-nav ml-auto">
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Schedule</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="papers.html">Papers</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="tutorials.html">Tutorials</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="lbds.html">LBDs</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- User Overrides -->
+ 
+
+<div class="container">
+    <!-- Tabs -->
+    <div class="tabs">
+         
+    </div>
+    <!-- Content -->
+    <div class="content">
+        
+<div class="pp-card m-3" style="background-color: #fff">
+    <div class="card-header" style="background-color: rgba(0,0,0,0);">
+        <h2 class="card-title main-title text-left" style="color: #4383EC">
+            From Audio Encoders to Piano Judges: Benchmarking Performance Understanding for Solo Piano
+        </h2>
+        <h3 class="card-subtitle mb-2 text-muted text-left">
+            
+            <a href="papers.html?filter=authors&search=Zhang, Huan*"
+               class="text-muted"
+            >Zhang, Huan*</a
+            >,
+            
+            <a href="papers.html?filter=authors&search= Liang, Jinhua"
+               class="text-muted"
+            > Liang, Jinhua</a
+            >,
+            
+            <a href="papers.html?filter=authors&search= Dixon, Simon"
+               class="text-muted"
+            > Dixon, Simon</a
+            >
+            
+        </h3>
+        
+        <div class="btn-group ml-3 mb-3">
+          <a href="https://ismir2024.slack.com/archives/C07UHCQD31U" class="btn btn-primary" style="background-color: #2294e0;"><svg style="display: inline-block; width: 23px;" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="75 75 150 150" style="enable-background:new 0 0 270 270;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<g>
+	<g>
+		<path class="st0" d="M99.4,151.2c0,7.1-5.8,12.9-12.9,12.9s-12.9-5.8-12.9-12.9c0-7.1,5.8-12.9,12.9-12.9h12.9V151.2z"/>
+		<path class="st0" d="M105.9,151.2c0-7.1,5.8-12.9,12.9-12.9s12.9,5.8,12.9,12.9v32.3c0,7.1-5.8,12.9-12.9,12.9
+			s-12.9-5.8-12.9-12.9C105.9,183.5,105.9,151.2,105.9,151.2z"/>
+	</g>
+	<g>
+		<path class="st0" d="M118.8,99.4c-7.1,0-12.9-5.8-12.9-12.9s5.8-12.9,12.9-12.9s12.9,5.8,12.9,12.9v12.9H118.8z"/>
+		<path class="st0" d="M118.8,105.9c7.1,0,12.9,5.8,12.9,12.9s-5.8,12.9-12.9,12.9H86.5c-7.1,0-12.9-5.8-12.9-12.9
+			s5.8-12.9,12.9-12.9C86.5,105.9,118.8,105.9,118.8,105.9z"/>
+	</g>
+	<g>
+		<path class="st0" d="M170.6,118.8c0-7.1,5.8-12.9,12.9-12.9c7.1,0,12.9,5.8,12.9,12.9s-5.8,12.9-12.9,12.9h-12.9V118.8z"/>
+		<path class="st0" d="M164.1,118.8c0,7.1-5.8,12.9-12.9,12.9c-7.1,0-12.9-5.8-12.9-12.9V86.5c0-7.1,5.8-12.9,12.9-12.9
+			c7.1,0,12.9,5.8,12.9,12.9V118.8z"/>
+	</g>
+	<g>
+		<path class="st0" d="M151.2,170.6c7.1,0,12.9,5.8,12.9,12.9c0,7.1-5.8,12.9-12.9,12.9c-7.1,0-12.9-5.8-12.9-12.9v-12.9H151.2z"/>
+		<path class="st0" d="M151.2,164.1c-7.1,0-12.9-5.8-12.9-12.9c0-7.1,5.8-12.9,12.9-12.9h32.3c7.1,0,12.9,5.8,12.9,12.9
+			c0,7.1-5.8,12.9-12.9,12.9H151.2z"/>
+	</g>
+</g>
+</svg> p4-02-from-audio-encoders</a>
+        </div>
+        
+        <p class="card-text text-left">
+            <span class="">Keywords:</span>
+            
+            <a
+                    href="papers.html?filter=keywords&search=Evaluation, datasets, and reproducibility -&gt; novel datasets and use cases; Knowledge-driven approaches to MIR -&gt; machine learning/artificial intelligence for music; MIR fundamentals and methodology -&gt; music signal processing; MIR tasks -&gt; automatic classification; Musical features and properties -&gt; expression and performative aspects of music"
+                    class="text-secondary text-decoration-none"
+            >Evaluation, datasets, and reproducibility -&gt; novel datasets and use cases; Knowledge-driven approaches to MIR -&gt; machine learning/artificial intelligence for music; MIR fundamentals and methodology -&gt; music signal processing; MIR tasks -&gt; automatic classification; Musical features and properties -&gt; expression and performative aspects of music</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=Applications -&gt; music training and education"
+                    class="text-secondary text-decoration-none"
+            >Applications -&gt; music training and education</a
+            >
+            
+        </p>
+    </div>
+
+</div>
+
+<div id="details" class="pp-card m-3">
+    <div class="card-body">
+        <div class="card-text">
+            <div id="abstractExample">
+                <span class="font-weight-bold">Abstract:</span>
+                <p>Our study investigates an approach for understanding musical performances through the lens of audio encoding models, focusing on the domain of solo Western classical piano music. Compared to composition-level attribute understanding such as key or genre, we identify a knowledge gap in performance-level music understanding, and address three critical tasks: expertise ranking, difficulty estimation, and piano technique detection, introducing a comprehensive Pianism-Labelling Dataset (PLD) for this purpose.  We leverage pre-trained audio encoders, specifically Jukebox, Audio-MAE, MERT, and DAC, which demonstrate varied capabilities in tackling downstream tasks, to explore whether domain-specific fine-tuning enhances capability in capturing performance nuances.  Our best approach achieved 93.6% accuracy in expertise ranking, 33.7% in difficulty estimation, and 46.7% in technique detection, with Audio-MAE as the overall most effective encoder. Finally, we conducted a case study on Chopin Piano Competition data using trained models for expertise ranking, which highlights the challenge of accurately assessing top-tier performances.</p>
+            </div>
+        </div>
+        <p></p>
+    </div>
+</div>
+
+
+  
+  <div class="text-center">
+    <ul class="nav nav-tabs" id="posterTabs" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="paper-tab" data-toggle="tab" href="#paper" role="tab" aria-controls="paper" aria-selected="true">Paper</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="poster-tab" data-toggle="tab" href="#poster" role="tab" aria-controls="poster" aria-selected="false">Poster</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="video-tab" data-toggle="tab" href="#video" role="tab" aria-controls="video" aria-selected="false">Video</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="Reviews-tab" data-toggle="tab" href="#Reviews" role="tab" aria-controls="Reviews" aria-selected="false">Reviews</a>
+      </li>
+    </ul>
+  </div>
+  
+
+  <div class="tab-content" id="posterTabsContent">
+    <div class="tab-pane fade show active" id="paper" role="tabpanel" aria-labelledby="paper-tab">
+      
+      <div style="height: 80vh;">
+        <iframe src="https://drive.google.com/file/d/1rFIbPl_S3DB7RuKDouwM1G93VJs2xNyG/preview?usp=drive_link" 
+                width="100%" 
+                height="100%" 
+                frameborder="0"
+                allow="autoplay"></iframe>
+      </div>
+      
+    </div>
+  
+    <div class="tab-pane fade" id="poster" role="tabpanel" aria-labelledby="poster-tab">
+      
+      <div style="height: 80vh;">
+        <iframe src="https://drive.google.com/file/d/1vqusYksr6Y8gJrfP-wWV-3TjpQQQAMrZ/preview?usp=drive_link" 
+                width="100%" 
+                height="100%" 
+                frameborder="0"
+                allow="autoplay"></iframe>
+      </div>
+      
+    </div>
+  
+    <div class="tab-pane fade" id="video" role="tabpanel" aria-labelledby="video-tab">
+      
+      <div class="text-center">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item"           
+                  src="https://drive.google.com/file/d/1wi4OTC5XBQhQ7qpas0Rn9vleCH3E40W_/preview?usp=drive_link" 
+                  frameborder="0" 
+                  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen></iframe>
+        </div>
+      </div>
+      
+    </div>
+    <div class="tab-pane fade" id="Reviews" role="tabpanel" aria-labelledby="Reviews-tab">
+      <div class="pp-card m-3">
+        <div class="card-body">
+          <h5 class="card-title">
+            Reviews
+          </h5>
+          <div class="card-text">
+            
+            <div> 
+                <b> Meta Review </b> 
+                <p> <p>There has been a consensus among the reviewers regarding this paper for accepting it. I strongly advise the authors to look at the detailed comments from the reviewers and address the raised points in order to further improve the publication.</p></p>
+              </div>
+              <hr/>
+        
+            <div>
+                <b> Review 1 </b>
+                <p class="card-text"><p>As the title states, the paper demonstrated the three piano-performance-related tasks with pre-trained (and general-purpose) audio encoding embeddings. 
+The authors not only utilized existing task setups but also contributed to composing new datasets (expertise ranking and technique identification). 
+The paper is written clearly and is easy to read.</p>
+<p>The paper refers to many related papers and introduces related issues well. However, I expect more literature reviews on the downstream tasks. For example, what is each downstream task's state of the art, and what is the expectation? </p>
+<p>The paper covers quite a wide range of topics, as each downstream task does not have a firm benchmark. Thus, the authors also had to propose the dataset and the evaluation procedure. The paper is compact enough, but the experiments could be elaborated on more. That makes me feel the 6-page limit is short for this paper.</p>
+<p>I have two concerns about the message of the paper.
+First, I'm not convinced that the proposed projection model is the proper design for these downstream tasks. The CNN-based model only allows for the analysis of very local features, while difficulty and expertise ranking are expected to require some temporal features. I worried that the conclusion of the paper could not be general.</p>
+<p>Second, the correlation between piece selection and expertise ranking is not discussed enough. The network might only consider the piece, not the pianist's touch or sound. The ICPC-2015 dataset slightly resolves it, but I think the discussion on this issue is important but handled enough.</p>
+<p>I think the paper has many points of contribution. but also, I believe the paper's main message could be elaborated in both the discussion and the experiment.</p></p>
+              </div>
+            </div>
+            <hr/>
+
+            <div> 
+                <b> Review 2 </b>
+                <ul>
+<li>This paper discusses an approach for 3 tasks; expertise ranking, difficulty estimation, and 
+piano technique detection leveraging pre-trained audio encoders. </li>
+<li>Paper also introduces a dataset Pianism-Labelling Dataset (PLD).</li>
+<li>The authors have enumerated the contributions in the introduction. This is helpful for the reader to quickly get a clear idea about the paper. </li>
+<li>This approach is the first of its kind in piano technique detection and expertise ranking. It is good to explicitly state this. The research gap in difficulty estimation is not clear in the Related Work. </li>
+<li>Section 3.1.1: It is not very clear how R4 works, if a pair of performances have the same Q value. Looks like ranking is not possible with this metric when both the performances are from the persons with the same expertise level.</li>
+<li>
+<p>It is not clear how the neural network is designed to do the n-way ranking. </p>
+</li>
+<li>
+<p>Fine tuned Audio-MAE is performing better in case of Expertise Ranking whereas fine tuned DAC is performing better in the case of competition dataset. Looking a bit more into the data on which these embeddings are trained with may give an explanation for this. </p>
+</li>
+<li>
+<p>It will be interesting to see the how the embeddings of the performances of expert players differ from that of beginners. This may help to understand the nature of the information,  embeddings are able to communicate to the further layers in the neural network. </p>
+</li>
+</ul>
+<p>The authors present a relatively simple approach for the discussed tasks among which some of the tasks are novel. Experiments are quite rigourous considering different embeddings and, the design of the medthodology is driven by the nature of the tasks. Various relevant  metrics are employed for evaluation. </p></p>
+              </div>
+              <hr/>
+
+
+            <div> 
+                <b> Review 3 </b>
+                <p>The paper proposes new performance-based music evaluation tasks, introduces a new dataset, and evaluates several deep pretrained audio music models as feature generators for solving the tasks.
+The paper presents initial experiments with the tasks, but they are well executed and highlight the gaps that need to be addressed in the future.</p>
+<p>Some comments:
+- since fine-tuning does not seem to improve results or even seems to worsen them - explain how you chose the fine-tuning parameters (e.g. learning rate, number of epochs, etc.) and whether they might play a role in this.
+- I would not attribute the poorer performance of the expertise ranking in the Chopin competition to the "sight over sound phenomenon". I would imagine that it has much more to do with the fact that most of the participants in the competition are experts, whereas the model is trained to distinguish between beginner, advanced and virtuoso levels.</p></p>
+              </div>
+              <hr/>
+
+            
+            <div> 
+            <b> Author description of changes: </b>
+            <p>I mainly added to the background and literature reviews to make them more coherent with the work itself, as well as some explanation on the results. I'd love to add more discussions as suggested, but was limited by space.  </p>
+<p>I also highlighted some details that the reviewer are confused about.</p></p>
+            </div>
+                   
+          </div>
+                    
+    
+        </div>
+      </div>
+    
+  </div>
+  
+
+
+
+
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    console.log(JSON.stringify("{&#39;id&#39;: &#39;132&#39;, &#39;session&#39;: &#39;4&#39;, &#39;position&#39;: &#39;03&#39;, &#39;forum&#39;: &#39;132&#39;, &#39;pic_id&#39;: &#39;https://drive.google.com/file/d/1GtHVvjc3ynd1kpH5Yi-nMyLSmsxd49FV/view?usp=drive_link&#39;, &#39;content&#39;: {&#39;title&#39;: &#39;From Audio Encoders to Piano Judges: Benchmarking Performance Understanding for Solo Piano&#39;, &#39;paper_presentation&#39;: &#39;San Francisco&#39;, &#39;long_presentation&#39;: &#39;FALSE&#39;, &#39;authors&#39;: [&#39;Zhang, Huan*&#39;, &#39; Liang, Jinhua&#39;, &#39; Dixon, Simon&#39;], &#39;authors_and_affil&#39;: [&#39;Huan Zhang (Queen Mary University of London)*&#39;, &#39; Jinhua Liang (Queen Mary University of London)&#39;, &#39; Simon Dixon (Queen Mary University of London)&#39;], &#39;keywords&#39;: [&#39;Evaluation, datasets, and reproducibility -&gt; novel datasets and use cases; Knowledge-driven approaches to MIR -&gt; machine learning/artificial intelligence for music; MIR fundamentals and methodology -&gt; music signal processing; MIR tasks -&gt; automatic classification; Musical features and properties -&gt; expression and performative aspects of music&#39;, &#39;Applications -&gt; music training and education&#39;], &#39;abstract&#39;: &#39;Our study investigates an approach for understanding musical performances through the lens of audio encoding models, focusing on the domain of solo Western classical piano music. Compared to composition-level attribute understanding such as key or genre, we identify a knowledge gap in performance-level music understanding, and address three critical tasks: expertise ranking, difficulty estimation, and piano technique detection, introducing a comprehensive Pianism-Labelling Dataset (PLD) for this purpose.  We leverage pre-trained audio encoders, specifically Jukebox, Audio-MAE, MERT, and DAC, which demonstrate varied capabilities in tackling downstream tasks, to explore whether domain-specific fine-tuning enhances capability in capturing performance nuances.  Our best approach achieved 93.6% accuracy in expertise ranking, 33.7% in difficulty estimation, and 46.7% in technique detection, with Audio-MAE as the overall most effective encoder. Finally, we conducted a case study on Chopin Piano Competition data using trained models for expertise ranking, which highlights the challenge of accurately assessing top-tier performances.&#39;, &#39;TLDR&#39;: &#39;Our study investigates an approach for understanding musical performances through the lens of audio encoding models, focusing on the domain of solo Western classical piano music. Compared to composition-level attribute understanding such as key or genre, we identify a knowledge gap in performance-level music understanding, and address three critical tasks: expertise ranking, difficulty estimation, and piano technique detection, introducing a comprehensive Pianism-Labelling Dataset (PLD) for this purpose.  We leverage pre-trained audio encoders, specifically Jukebox, Audio-MAE, MERT, and DAC, which demonstrate varied capabilities in tackling downstream tasks, to explore whether domain-specific fine-tuning enhances capability in capturing performance nuances.  Our best approach achieved 93.6% accuracy in expertise ranking, 33.7% in difficulty estimation, and 46.7% in technique detection, with Audio-MAE as the overall most effective encoder. Finally, we conducted a case study on Chopin Piano Competition data using trained models for expertise ranking, which highlights the challenge of accurately assessing top-tier performances.&#39;, &#39;poster_pdf&#39;: &#39;https://drive.google.com/file/d/1vqusYksr6Y8gJrfP-wWV-3TjpQQQAMrZ/view?usp=drive_link&#39;, &#39;session&#39;: [&#39;4&#39;], &#39;pdf_path&#39;: &#39;https://drive.google.com/file/d/1rFIbPl_S3DB7RuKDouwM1G93VJs2xNyG/view?usp=drive_link&#39;, &#39;video&#39;: &#39;https://drive.google.com/file/d/1wi4OTC5XBQhQ7qpas0Rn9vleCH3E40W_/view?usp=drive_link&#39;, &#39;channel_url&#39;: &#39;https://ismir2024.slack.com/archives/C07UHCQD31U&#39;, &#39;slack_channel&#39;: &#39;p4-02-from-audio-encoders&#39;, &#39;day&#39;: &#39;2&#39;, &#39;review_1&#39;: &#34;As the title states, the paper demonstrated the three piano-performance-related tasks with pre-trained (and general-purpose) audio encoding embeddings. \nThe authors not only utilized existing task setups but also contributed to composing new datasets (expertise ranking and technique identification). \nThe paper is written clearly and is easy to read.\n\nThe paper refers to many related papers and introduces related issues well. However, I expect more literature reviews on the downstream tasks. For example, what is each downstream task&#39;s state of the art, and what is the expectation? \n\nThe paper covers quite a wide range of topics, as each downstream task does not have a firm benchmark. Thus, the authors also had to propose the dataset and the evaluation procedure. The paper is compact enough, but the experiments could be elaborated on more. That makes me feel the 6-page limit is short for this paper.\n\nI have two concerns about the message of the paper.\nFirst, I&#39;m not convinced that the proposed projection model is the proper design for these downstream tasks. The CNN-based model only allows for the analysis of very local features, while difficulty and expertise ranking are expected to require some temporal features. I worried that the conclusion of the paper could not be general.\n\nSecond, the correlation between piece selection and expertise ranking is not discussed enough. The network might only consider the piece, not the pianist&#39;s touch or sound. The ICPC-2015 dataset slightly resolves it, but I think the discussion on this issue is important but handled enough.\n\nI think the paper has many points of contribution. but also, I believe the paper&#39;s main message could be elaborated in both the discussion and the experiment.&#34;, &#39;review_2&#39;: &#39;- This paper discusses an approach for 3 tasks; expertise ranking, difficulty estimation, and \npiano technique detection leveraging pre-trained audio encoders. \n- Paper also introduces a dataset Pianism-Labelling Dataset (PLD).\n- The authors have enumerated the contributions in the introduction. This is helpful for the reader to quickly get a clear idea about the paper. \n- This approach is the first of its kind in piano technique detection and expertise ranking. It is good to explicitly state this. The research gap in difficulty estimation is not clear in the Related Work. \n- Section 3.1.1: It is not very clear how R4 works, if a pair of performances have the same Q value. Looks like ranking is not possible with this metric when both the performances are from the persons with the same expertise level.\n- It is not clear how the neural network is designed to do the n-way ranking. \n\n-  Fine tuned Audio-MAE is performing better in case of Expertise Ranking whereas fine tuned DAC is performing better in the case of competition dataset. Looking a bit more into the data on which these embeddings are trained with may give an explanation for this. \n\n- It will be interesting to see the how the embeddings of the performances of expert players differ from that of beginners. This may help to understand the nature of the information,  embeddings are able to communicate to the further layers in the neural network. \n\nThe authors present a relatively simple approach for the discussed tasks among which some of the tasks are novel. Experiments are quite rigourous considering different embeddings and, the design of the medthodology is driven by the nature of the tasks. Various relevant  metrics are employed for evaluation. &#39;, &#39;review_3&#39;: &#39;The paper proposes new performance-based music evaluation tasks, introduces a new dataset, and evaluates several deep pretrained audio music models as feature generators for solving the tasks.\nThe paper presents initial experiments with the tasks, but they are well executed and highlight the gaps that need to be addressed in the future.\n\nSome comments:\n- since fine-tuning does not seem to improve results or even seems to worsen them - explain how you chose the fine-tuning parameters (e.g. learning rate, number of epochs, etc.) and whether they might play a role in this.\n- I would not attribute the poorer performance of the expertise ranking in the Chopin competition to the &#34;sight over sound phenomenon&#34;. I would imagine that it has much more to do with the fact that most of the participants in the competition are experts, whereas the model is trained to distinguish between beginner, advanced and virtuoso levels.&#39;, &#39;meta_review&#39;: &#39;There has been a consensus among the reviewers regarding this paper for accepting it. I strongly advise the authors to look at the detailed comments from the reviewers and address the raised points in order to further improve the publication.&#39;, &#39;author_changes&#39;: &#34;I mainly added to the background and literature reviews to make them more coherent with the work itself, as well as some explanation on the results. I&#39;d love to add more discussions as suggested, but was limited by space.  \n\nI also highlighted some details that the reviewer are confused about.&#34;}, &#39;poster_pdf&#39;: &#39;GLTR_poster.pdf&#39;}"));
+    // Ensure jQuery and Bootstrap are loaded
+    if (typeof $ === 'undefined') {
+      console.error('jQuery is not loaded');
+      return;
+    }
+    
+    // Initialize all tabs
+    $('#posterTabs a').on('click', function (e) {
+      e.preventDefault();
+      $(this).tab('show');
+    });
+  
+    // Show paper tab by default
+    $('#posterTabs a[href="#paper"]').tab('show');
+    MathJax.typesetPromise().then(() => {
+    // modify the DOM here
+        MathJax.typesetPromise();
+    }).catch((err) => console.log(err.message));
+  });
+  </script>
+  
+  
+    </div>
+</div>
+
+
+
+<!-- Google Analytics -->
+<script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=UA-"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+  gtag("js", new Date());
+  gtag("config", "UA-");
+</script>
+
+<!-- Footer -->
+<footer class="footer bg-light p-4">
+    <div class="container">
+        <p class="float-right"><a href="#">Back to Top</a></p>
+        <p class="text-center">© 2024 International Society for Music Information Retrieval</p>
+    </div>
+</footer>
+
+<!-- Code for hash tags -->
+<script type="text/javascript">
+  $(document).ready(function () {
+    if (window.location.hash !== "") {
+      $(`a[href="${window.location.hash}"]`).tab("show");
+    }
+
+    $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+      const hash = $(e.target).attr("href");
+      if (hash.substr(0, 1) === "#") {
+        const position = $(window).scrollTop();
+        window.location.replace(`#${hash.substr(1)}`);
+        $(window).scrollTop(position);
+      }
+    });
+   
+  });
+</script>
+<!--    <script src="static/js/modules/lazyLoad.js"></script>-->
+
+</body>
+</html>

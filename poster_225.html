@@ -1,0 +1,474 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- External Javascript libs_ext  -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js"
+            integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+
+    <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+            integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js"
+            integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js"
+            integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww="
+            crossorigin="anonymous"></script>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Gantari:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <!-- Library libs_ext --> 
+    <script src="static/js/libs_ext/typeahead.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!--    Internal Libs -->
+    <script src="static/js/data/api.js"></script>
+
+    
+
+    <!-- External CSS -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY="
+          crossorigin="anonymous">
+
+    <!-- External Fonts (no google for china) -->
+    <link
+            href="static/css/Lato.css"
+            rel="stylesheet"
+    />
+    <link href="static/css/Exo.css" rel="stylesheet"/>
+    <link
+            href="static/css/Cuprum.css"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="static/css/main.css"/>
+<!--    <link rel="stylesheet" href="static/css/fa_regular.css"/>-->
+    <link rel="stylesheet" href="static/css/fa_solid.css"/>
+    <link rel="stylesheet" href="static/css/lazy_load.css"/>
+    <link rel="stylesheet" href="static/css/typeahead.css"/>
+
+    <title>MiniConf 2024</title>
+    
+<meta name="citation_title" content=""/>
+
+<meta name="citation_publication_date" content="May 2024"/>
+<meta name="citation_conference_title"
+      content="Ismir 2024"/>
+<meta name="citation_inbook_title" content="Proceedings of the 25th International Society for Music Information Retrieval"/>
+<meta name="citation_abstract" content=""/>
+
+<meta name="citation_pdf_url" content=""/>
+
+
+</head>
+
+<body>
+<!-- NAV -->
+
+<nav
+        class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto"
+        id="main-nav"
+>
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img
+                    class="logo" src="static/images/ismir24_logo.svg"
+                    height="auto"
+            width="95px"
+            />
+        </a>
+        
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+                class="collapse navbar-collapse text-right flex-grow-1"
+                id="navbarNav"
+        >
+            <ul class="navbar-nav ml-auto">
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Schedule</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="papers.html">Papers</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="tutorials.html">Tutorials</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="lbds.html">LBDs</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- User Overrides -->
+ 
+
+<div class="container">
+    <!-- Tabs -->
+    <div class="tabs">
+         
+    </div>
+    <!-- Content -->
+    <div class="content">
+        
+<div class="pp-card m-3" style="background-color: #fff">
+    <div class="card-header" style="background-color: rgba(0,0,0,0);">
+        <h2 class="card-title main-title text-left" style="color: #4383EC">
+            DIFF-A-RIFF: MUSICAL ACCOMPANIMENT CO-CREATION VIA LATENT DIFFUSION MODELS
+        </h2>
+        <h3 class="card-subtitle mb-2 text-muted text-left">
+            
+            <a href="papers.html?filter=authors&search=Nistal, Javier*"
+               class="text-muted"
+            >Nistal, Javier*</a
+            >,
+            
+            <a href="papers.html?filter=authors&search= Pasini, Marco"
+               class="text-muted"
+            > Pasini, Marco</a
+            >,
+            
+            <a href="papers.html?filter=authors&search= Aouameur , Cyran"
+               class="text-muted"
+            > Aouameur , Cyran</a
+            >,
+            
+            <a href="papers.html?filter=authors&search= Lattner, Stefan"
+               class="text-muted"
+            > Lattner, Stefan</a
+            >,
+            
+            <a href="papers.html?filter=authors&search= Grachten, Maarten"
+               class="text-muted"
+            > Grachten, Maarten</a
+            >
+            
+        </h3>
+        
+        <div class="btn-group ml-3 mb-3">
+          <a href="https://ismir2024.slack.com/archives/C07V2MUP4JV" class="btn btn-primary" style="background-color: #2294e0;"><svg style="display: inline-block; width: 23px;" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="75 75 150 150" style="enable-background:new 0 0 270 270;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<g>
+	<g>
+		<path class="st0" d="M99.4,151.2c0,7.1-5.8,12.9-12.9,12.9s-12.9-5.8-12.9-12.9c0-7.1,5.8-12.9,12.9-12.9h12.9V151.2z"/>
+		<path class="st0" d="M105.9,151.2c0-7.1,5.8-12.9,12.9-12.9s12.9,5.8,12.9,12.9v32.3c0,7.1-5.8,12.9-12.9,12.9
+			s-12.9-5.8-12.9-12.9C105.9,183.5,105.9,151.2,105.9,151.2z"/>
+	</g>
+	<g>
+		<path class="st0" d="M118.8,99.4c-7.1,0-12.9-5.8-12.9-12.9s5.8-12.9,12.9-12.9s12.9,5.8,12.9,12.9v12.9H118.8z"/>
+		<path class="st0" d="M118.8,105.9c7.1,0,12.9,5.8,12.9,12.9s-5.8,12.9-12.9,12.9H86.5c-7.1,0-12.9-5.8-12.9-12.9
+			s5.8-12.9,12.9-12.9C86.5,105.9,118.8,105.9,118.8,105.9z"/>
+	</g>
+	<g>
+		<path class="st0" d="M170.6,118.8c0-7.1,5.8-12.9,12.9-12.9c7.1,0,12.9,5.8,12.9,12.9s-5.8,12.9-12.9,12.9h-12.9V118.8z"/>
+		<path class="st0" d="M164.1,118.8c0,7.1-5.8,12.9-12.9,12.9c-7.1,0-12.9-5.8-12.9-12.9V86.5c0-7.1,5.8-12.9,12.9-12.9
+			c7.1,0,12.9,5.8,12.9,12.9V118.8z"/>
+	</g>
+	<g>
+		<path class="st0" d="M151.2,170.6c7.1,0,12.9,5.8,12.9,12.9c0,7.1-5.8,12.9-12.9,12.9c-7.1,0-12.9-5.8-12.9-12.9v-12.9H151.2z"/>
+		<path class="st0" d="M151.2,164.1c-7.1,0-12.9-5.8-12.9-12.9c0-7.1,5.8-12.9,12.9-12.9h32.3c7.1,0,12.9,5.8,12.9,12.9
+			c0,7.1-5.8,12.9-12.9,12.9H151.2z"/>
+	</g>
+</g>
+</svg> p2-08-diff-a-riff</a>
+        </div>
+        
+        <p class="card-text text-left">
+            <span class="">Keywords:</span>
+            
+            <a
+                    href="papers.html?filter=keywords&search=Generative Tasks -&gt; music and audio synthesis"
+                    class="text-secondary text-decoration-none"
+            >Generative Tasks -&gt; music and audio synthesis</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=Applications -&gt; music composition, performance, and production; Creativity -&gt; human-ai co-creativity; Creativity -&gt; tools for artists; Human-centered MIR -&gt; human-computer interaction; MIR tasks -&gt; music generation"
+                    class="text-secondary text-decoration-none"
+            >Applications -&gt; music composition, performance, and production; Creativity -&gt; human-ai co-creativity; Creativity -&gt; tools for artists; Human-centered MIR -&gt; human-computer interaction; MIR tasks -&gt; music generation</a
+            >
+            
+        </p>
+    </div>
+
+</div>
+
+<div id="details" class="pp-card m-3">
+    <div class="card-body">
+        <div class="card-text">
+            <div id="abstractExample">
+                <span class="font-weight-bold">Abstract:</span>
+                <p>Recent advancements in deep generative models present new opportunities for music production but also pose challenges, such as high computational demands and limited audio quality. Moreover, current systems frequently rely solely on text input and typically focus on producing complete musical pieces, which is incompatible with existing workflows in music production. To address these issues, we introduce Diff-A-Riff, a Latent Diffusion Model designed to generate high-quality instrumental accompaniments adaptable to any musical context. This model offers control through either audio references, text prompts, or both, and produces 48kHz pseudo-stereo audio while significantly reducing inference time and memory usage. We demonstrate the model's capabilities through objective metrics and subjective listening tests, with extensive examples available on the accompanying website.</p>
+            </div>
+        </div>
+        <p></p>
+    </div>
+</div>
+
+
+  
+  <div class="text-center">
+    <ul class="nav nav-tabs" id="posterTabs" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="paper-tab" data-toggle="tab" href="#paper" role="tab" aria-controls="paper" aria-selected="true">Paper</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="poster-tab" data-toggle="tab" href="#poster" role="tab" aria-controls="poster" aria-selected="false">Poster</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="video-tab" data-toggle="tab" href="#video" role="tab" aria-controls="video" aria-selected="false">Video</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="Reviews-tab" data-toggle="tab" href="#Reviews" role="tab" aria-controls="Reviews" aria-selected="false">Reviews</a>
+      </li>
+    </ul>
+  </div>
+  
+
+  <div class="tab-content" id="posterTabsContent">
+    <div class="tab-pane fade show active" id="paper" role="tabpanel" aria-labelledby="paper-tab">
+      
+      <div style="height: 80vh;">
+        <iframe src="https://drive.google.com/file/d/17kD9fcVGogcbAwqArNmF6T8HuJF_OU_5/preview" 
+                width="100%" 
+                height="100%" 
+                frameborder="0"
+                allow="autoplay"></iframe>
+      </div>
+      
+    </div>
+  
+    <div class="tab-pane fade" id="poster" role="tabpanel" aria-labelledby="poster-tab">
+      
+      <div style="height: 80vh;">
+        <iframe src="https://drive.google.com/file/d/1QBTWFHw78yg2xAQcWLAIyXrpiDC2L7Rg/preview" 
+                width="100%" 
+                height="100%" 
+                frameborder="0"
+                allow="autoplay"></iframe>
+      </div>
+      
+    </div>
+  
+    <div class="tab-pane fade" id="video" role="tabpanel" aria-labelledby="video-tab">
+      
+      <div class="text-center">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item"           
+                  src="https://drive.google.com/file/d/1dNMZ76lzlZFS_feWfNRjIv5Vkfx55749/preview" 
+                  frameborder="0" 
+                  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen></iframe>
+        </div>
+      </div>
+      
+    </div>
+    <div class="tab-pane fade" id="Reviews" role="tabpanel" aria-labelledby="Reviews-tab">
+      <div class="pp-card m-3">
+        <div class="card-body">
+          <h5 class="card-title">
+            Reviews
+          </h5>
+          <div class="card-text">
+            
+            <div> 
+                <b> Meta Review </b> 
+                <p> <p>This was generally very well received by the reviewers, congrats for a wonderful work, authors!</p>
+<p>I would encourage to thoroughly go over every reviewer's comments, particularly regarding the missed references that reviewer #5 brought up.</p></p>
+              </div>
+              <hr/>
+        
+            <div>
+                <b> Review 1 </b>
+                <p class="card-text"><p>Strengths:
+- The application of the proposed system - single instrument generation given a partial-production context - is highly practical and facilitates human creative processes.</p>
+<ul>
+<li>
+<p>A thorough human study is performed and its results are aligned with the paper method and quantitative results.  </p>
+</li>
+<li>
+<p>The ability to generate single instruments from a partial musical context, with or without specification through textual descriptions, is highly practical for music production - and is a major contribution.</p>
+</li>
+<li>
+<p>The ability to condition on a reference single instrument audio - is highly practical for music production - and enhances controllability compared to prior work.</p>
+</li>
+<li>
+<p>The reported human study, together with the supplementary demo page, demonstrate state-of-the-art quality of the generated samples. </p>
+</li>
+</ul>
+<p>Weaknesses:
+- Lacks an ablation study on the multi source classifier free guidance sampling, and on its chosen coefficients.
+- Lacks an ablation study on the chosen pseudo stereo width.</p></p>
+              </div>
+            </div>
+            <hr/>
+
+            <div> 
+                <b> Review 2 </b>
+                <p>Strengths:
+- Overall writing is high quality and easy to understand
+- Model architecture design is reasonably straightforward and builds upon existing diffusion design principles
+- Demo results seem particular strong, generating high quality musical accompaniments</p>
+<p>Weaknesses:
+Overall, the demo results are quite impressive, and the only current critiques are with regards to part of the evaluation: Though the paper's central goal is on building a TTM accompaniment model, the paper's evaluation does not fully assess this, in part due to a lack of comparison with relevant work. While omitting large-scale comparison to StemGen/SingSong is understandable given that they are closed-source, both models have a reasonable suite of public demo examples with the isolated context conditioning that could have been used in a listening study against the present work. More saliently, the paper omits comparison (and even mention) to the established Multi-Source Diffusion Models (MSDM), which is open source and is designed to perform tasks like accompaniment generation, and thus could be directly compared to Diff-a-Riff in large scale objective metrics (MSDM is not text-conditioned, though this shouldn't affect evaluation here). Without either comparison, it is hard to assess Diff-a-Riff's ability at its original goal of accompaniment generation relative to existing work, and such inclusions would improve the paper as a whole.</p></p>
+              </div>
+              <hr/>
+
+
+            <div> 
+                <b> Review 3 </b>
+                <p>This paper is great, the novelty of this paper is okay, but the systems are very well designed and conducted. I don't have issues with this paper. The demo page looks great. Other than the major contributions, one tiny design of the pseudo stereo method is smart.</p></p>
+              </div>
+              <hr/>
+
+            
+            <div> 
+            <b> Author description of changes: </b>
+            <p>We included missing references in the related work section as suggested by reviewers.
+Updated the Real-Time Factor results for CPU inference (there was a mistake in the calculation but results are slightly better).
+Clarified missing values in table 2
+Fixed reference formatting</p></p>
+            </div>
+                   
+          </div>
+                    
+    
+        </div>
+      </div>
+    
+  </div>
+  
+
+
+
+
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    console.log(JSON.stringify("{&#39;id&#39;: &#39;225&#39;, &#39;session&#39;: &#39;2&#39;, &#39;position&#39;: &#39;09&#39;, &#39;forum&#39;: &#39;225&#39;, &#39;pic_id&#39;: &#39;https://drive.google.com/file/d/1uMTTqCZzqQnVJHHJGHm0EEFkEUzd60hu/view?usp=sharing&#39;, &#39;content&#39;: {&#39;title&#39;: &#39;DIFF-A-RIFF: MUSICAL ACCOMPANIMENT CO-CREATION VIA LATENT DIFFUSION MODELS&#39;, &#39;paper_presentation&#39;: &#39;San Francisco&#39;, &#39;long_presentation&#39;: &#39;FALSE&#39;, &#39;authors&#39;: [&#39;Nistal, Javier*&#39;, &#39; Pasini, Marco&#39;, &#39; Aouameur , Cyran&#39;, &#39; Lattner, Stefan&#39;, &#39; Grachten, Maarten&#39;], &#39;authors_and_affil&#39;: [&#39;Javier Nistal (Sony CSL)*&#39;, &#39; Marco Pasini (Queen Mary University of London)&#39;, &#39; Cyran Aouameur  (Sony CSL)&#39;, &#39; Stefan Lattner (Sony Computer Science Laboratories, Paris)&#39;, &#39; Maarten Grachten (Machine Learning Consultant)&#39;], &#39;keywords&#39;: [&#39;Generative Tasks -&gt; music and audio synthesis&#39;, &#39;Applications -&gt; music composition, performance, and production; Creativity -&gt; human-ai co-creativity; Creativity -&gt; tools for artists; Human-centered MIR -&gt; human-computer interaction; MIR tasks -&gt; music generation&#39;], &#39;abstract&#39;: &#34;Recent advancements in deep generative models present new opportunities for music production but also pose challenges, such as high computational demands and limited audio quality. Moreover, current systems frequently rely solely on text input and typically focus on producing complete musical pieces, which is incompatible with existing workflows in music production. To address these issues, we introduce Diff-A-Riff, a Latent Diffusion Model designed to generate high-quality instrumental accompaniments adaptable to any musical context. This model offers control through either audio references, text prompts, or both, and produces 48kHz pseudo-stereo audio while significantly reducing inference time and memory usage. We demonstrate the model&#39;s capabilities through objective metrics and subjective listening tests, with extensive examples available on the accompanying website.&#34;, &#39;TLDR&#39;: &#34;Recent advancements in deep generative models present new opportunities for music production but also pose challenges, such as high computational demands and limited audio quality. Moreover, current systems frequently rely solely on text input and typically focus on producing complete musical pieces, which is incompatible with existing workflows in music production. To address these issues, we introduce Diff-A-Riff, a Latent Diffusion Model designed to generate high-quality instrumental accompaniments adaptable to any musical context. This model offers control through either audio references, text prompts, or both, and produces 48kHz pseudo-stereo audio while significantly reducing inference time and memory usage. We demonstrate the model&#39;s capabilities through objective metrics and subjective listening tests, with extensive examples available on the accompanying website.&#34;, &#39;poster_pdf&#39;: &#39;https://drive.google.com/file/d/1QBTWFHw78yg2xAQcWLAIyXrpiDC2L7Rg/view?usp=sharing&#39;, &#39;session&#39;: [&#39;2&#39;], &#39;pdf_path&#39;: &#39;https://drive.google.com/file/d/17kD9fcVGogcbAwqArNmF6T8HuJF_OU_5/view?usp=sharing&#39;, &#39;video&#39;: &#39;https://drive.google.com/file/d/1dNMZ76lzlZFS_feWfNRjIv5Vkfx55749/view?usp=sharing&#39;, &#39;channel_url&#39;: &#39;https://ismir2024.slack.com/archives/C07V2MUP4JV&#39;, &#39;slack_channel&#39;: &#39;p2-08-diff-a-riff&#39;, &#39;day&#39;: &#39;1&#39;, &#39;review_1&#39;: &#39;Strengths:\n- The application of the proposed system - single instrument generation given a partial-production context - is highly practical and facilitates human creative processes.\n   \n- A thorough human study is performed and its results are aligned with the paper method and quantitative results.  \n\n- The ability to generate single instruments from a partial musical context, with or without specification through textual descriptions, is highly practical for music production - and is a major contribution.\n\n- The ability to condition on a reference single instrument audio - is highly practical for music production - and enhances controllability compared to prior work.\n\n- The reported human study, together with the supplementary demo page, demonstrate state-of-the-art quality of the generated samples. \n\n\nWeaknesses:\n- Lacks an ablation study on the multi source classifier free guidance sampling, and on its chosen coefficients.\n- Lacks an ablation study on the chosen pseudo stereo width.&#39;, &#39;review_2&#39;: &#34;Strengths:\n- Overall writing is high quality and easy to understand\n- Model architecture design is reasonably straightforward and builds upon existing diffusion design principles\n- Demo results seem particular strong, generating high quality musical accompaniments\n\nWeaknesses:\nOverall, the demo results are quite impressive, and the only current critiques are with regards to part of the evaluation: Though the paper&#39;s central goal is on building a TTM accompaniment model, the paper&#39;s evaluation does not fully assess this, in part due to a lack of comparison with relevant work. While omitting large-scale comparison to StemGen/SingSong is understandable given that they are closed-source, both models have a reasonable suite of public demo examples with the isolated context conditioning that could have been used in a listening study against the present work. More saliently, the paper omits comparison (and even mention) to the established Multi-Source Diffusion Models (MSDM), which is open source and is designed to perform tasks like accompaniment generation, and thus could be directly compared to Diff-a-Riff in large scale objective metrics (MSDM is not text-conditioned, though this shouldn&#39;t affect evaluation here). Without either comparison, it is hard to assess Diff-a-Riff&#39;s ability at its original goal of accompaniment generation relative to existing work, and such inclusions would improve the paper as a whole.&#34;, &#39;review_3&#39;: &#34;This paper is great, the novelty of this paper is okay, but the systems are very well designed and conducted. I don&#39;t have issues with this paper. The demo page looks great. Other than the major contributions, one tiny design of the pseudo stereo method is smart.&#34;, &#39;meta_review&#39;: &#34;This was generally very well received by the reviewers, congrats for a wonderful work, authors!\n\nI would encourage to thoroughly go over every reviewer&#39;s comments, particularly regarding the missed references that reviewer #5 brought up.&#34;, &#39;author_changes&#39;: &#39;We included missing references in the related work section as suggested by reviewers.\nUpdated the Real-Time Factor results for CPU inference (there was a mistake in the calculation but results are slightly better).\nClarified missing values in table 2\nFixed reference formatting\n&#39;}, &#39;poster_pdf&#39;: &#39;GLTR_poster.pdf&#39;}"));
+    // Ensure jQuery and Bootstrap are loaded
+    if (typeof $ === 'undefined') {
+      console.error('jQuery is not loaded');
+      return;
+    }
+    
+    // Initialize all tabs
+    $('#posterTabs a').on('click', function (e) {
+      e.preventDefault();
+      $(this).tab('show');
+    });
+  
+    // Show paper tab by default
+    $('#posterTabs a[href="#paper"]').tab('show');
+    MathJax.typesetPromise().then(() => {
+    // modify the DOM here
+        MathJax.typesetPromise();
+    }).catch((err) => console.log(err.message));
+  });
+  </script>
+  
+  
+    </div>
+</div>
+
+
+
+<!-- Google Analytics -->
+<script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=UA-"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+  gtag("js", new Date());
+  gtag("config", "UA-");
+</script>
+
+<!-- Footer -->
+<footer class="footer bg-light p-4">
+    <div class="container">
+        <p class="float-right"><a href="#">Back to Top</a></p>
+        <p class="text-center">© 2024 International Society for Music Information Retrieval</p>
+    </div>
+</footer>
+
+<!-- Code for hash tags -->
+<script type="text/javascript">
+  $(document).ready(function () {
+    if (window.location.hash !== "") {
+      $(`a[href="${window.location.hash}"]`).tab("show");
+    }
+
+    $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+      const hash = $(e.target).attr("href");
+      if (hash.substr(0, 1) === "#") {
+        const position = $(window).scrollTop();
+        window.location.replace(`#${hash.substr(1)}`);
+        $(window).scrollTop(position);
+      }
+    });
+   
+  });
+</script>
+<!--    <script src="static/js/modules/lazyLoad.js"></script>-->
+
+</body>
+</html>
