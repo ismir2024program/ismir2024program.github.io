@@ -78,6 +78,9 @@
       <li class="nav-item" role="presentation">
         <a class="nav-link" id="video-tab" data-toggle="tab" href="#video" role="tab" aria-controls="video" aria-selected="false">Video</a>
       </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="Reviews-tab" data-toggle="tab" href="#Reviews" role="tab" aria-controls="Reviews" aria-selected="false">Reviews</a>
+      </li>
     </ul>
   </div>
   
@@ -126,8 +129,61 @@
       <p class="text-center mt-3"><em>No video available</em></p>
       {% endif %}
     </div>
+    <div class="tab-pane fade" id="Reviews" role="tabpanel" aria-labelledby="Reviews-tab">
+      <div class="pp-card m-3">
+        <div class="card-body">
+          <h5 class="card-title">
+            Reviews
+          </h5>
+          <div class="card-text">
+            {% if paper.content.meta_review %}
+            <div> 
+                <b> Meta Review </b> 
+                <p> {{paper.content.meta_review | markdown }}</p>
+              </div>
+              <hr/>
+        
+            <div>
+                <b> Review 1 </b>
+                <p class="card-text">{{paper.content.review_1 | markdown }}</p>
+              </div>
+            </div>
+            <hr/>
+
+            <div> 
+                <b> Review 2 </b>
+                {{paper.content.review_2 | markdown }}</p>
+              </div>
+              <hr/>
+
+
+            <div> 
+                <b> Review 3 </b>
+                {{paper.content.review_3 | markdown }}</p>
+              </div>
+              <hr/>
+
+            {% if paper.content.author_changes %}
+            <div> 
+            <b> Author description of changes: </b>
+            {{ paper.content.author_changes | markdown }}</p>
+            </div>
+            {% endif %}       
+          </div>
+          {% else %}
+          <p class="text-center mt-3"><em>No reviews available</em></p>
+          {% endif %}          
+    
+        </div>
+      </div>
+    
   </div>
   
+
+
+
+
+
   <script>
   document.addEventListener('DOMContentLoaded', function() {
     console.log(JSON.stringify("{{paper}}"));

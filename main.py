@@ -229,6 +229,7 @@ def extract_list_field(v, key):
         return value.split("|")
 
 def format_paper(v):
+    print(v)
     list_keys = ["authors", "primary_subject", "secondary_subject", "session", "authors_and_affil"]
     list_fields = {}
     for key in list_keys:
@@ -256,6 +257,11 @@ def format_paper(v):
             "channel_url": v["channel_url"],
             "slack_channel": v["slack_channel"],
             "day": v["day"],
+            "review_1": v.get("Review 1", ""),
+            "review_2": v.get("Review 2", ""),
+            "review_3": v.get("Review 3", ""),
+            "meta_review": v.get("Meta-review final summary", ""),
+            "author_changes": v.get("Author description of changes", ""),
         },
         "poster_pdf": "GLTR_poster.pdf",
     }
