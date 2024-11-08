@@ -251,7 +251,7 @@ def format_paper(v):
             "TLDR": v["Abstract"],
             "poster_pdf": v.get("poster_pdf", ""),
             "session": list_fields["session"],
-            "pdf_path": v.get("pdf_name", ""),
+            "pdf_path": v.get("pdf_path", ""),
             "video": v["video"],
             "channel_url": v["channel_url"],
             "slack_channel": v["slack_channel"],
