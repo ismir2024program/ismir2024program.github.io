@@ -277,6 +277,9 @@ workshopgroup
         <div class="card-subtitle text-muted">
           {{ workshop.presenters }}
         </div>
+        {% if workshop.channel_url %}
+        <a href="{{workshop.channel_url}}" class="btn btn-primary mr-3" style="background-color: #2294e0;">{% include 'slack_svg.html' %} {{workshop.slack_channel}}</a>
+        {% endif %}
         <div class="mt-3 mb-3 text-left card-subtitle font-italic" style="font-size: 0.95em">
           {{workshop.abstract|safe}}
         </div>
@@ -398,11 +401,11 @@ workshopgroup
         <div class="m-3 text-left card-subtitle" style="display:flex; align-content: center;">
           {{local_date[0]}} | {{local_date[1]}} ({{ timezone }})
         </div>
-       <!-- <div class="m-3 text-center">-->
-<!--        {% if meet.channel_url %}-->
-<!--          <a href="{{meet.channel_url}}" class="btn btn-primary mr-3">{% include 'slack_svg.html' %} {{meet.slack_channel}}</a>-->
-<!--        {% endif %}-->
-<!--        </div> -->
+      <div class="m-3 text-center">
+       {% if meet.channel_url %}
+         <a href="{{meet.channel_url}}" class="btn btn-primary mr-3">{% include 'slack_svg.html' %} {{meet.slack_channel}}</a>
+        {% endif %}
+        </div>
         <div class="mt-3 ml-3 mr-3 mb-4 text-left card-subtitle">
           {{meet.description | markdown}}
         </div>

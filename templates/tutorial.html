@@ -13,6 +13,9 @@
     </h3>
   </div>
 </div>
+{% if tutorial.channel_url %}
+<a href="{{tutorial.channel_url}}" class="btn btn-primary mr-3" style="background-color: #2294e0;">{% include 'slack_svg.html' %} {{tutorial.slack_channel}}</a>
+{% endif %}
 <div id="details" class="pp-card m-1">
   <div class="card-body">
     <div class="card-text">
