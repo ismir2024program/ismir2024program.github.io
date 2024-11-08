@@ -6,8 +6,11 @@
   "calendar": {
     "colors": {
       "---": "#bed972",
-      "qa": "#4FCAEB",
-      "talk": "#ccc"
+      "online": "#4383EC",
+      "onsite": "#C3542E",
+      "replay": "#F0C808",
+      "special": "#273C2C",
+      "talk": "#403D58"
     },
     "sunday_saturday": true
   },

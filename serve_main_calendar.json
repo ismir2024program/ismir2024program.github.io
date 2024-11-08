@@ -3,990 +3,990 @@
     "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-10T09:00:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-10T08:00:00-08:00",
-    "title": "Registration",
-    "url": ""
+    "title": "Registration"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-10T09:00:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-10T08:00:00-08:00",
-    "title": "Online Q&A w/ volunteers",
-    "url": ""
+    "title": "Online Q&A w/ volunteers"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-10T12:30:00-08:00",
-    "location": "",
+    "link": "/tutorial_1.html",
+    "location": "/tutorial_1.html",
     "start": "2024-11-10T09:00:00-08:00",
-    "title": "Morning Tutorial T1",
-    "url": ""
+    "title": "Morning Tutorial T1"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-10T12:30:00-08:00",
-    "location": "",
+    "link": "/tutorial_2.html",
+    "location": "/tutorial_2.html",
     "start": "2024-11-10T09:00:00-08:00",
-    "title": "Morning Tutorial T2",
-    "url": ""
+    "title": "Morning Tutorial T2"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-10T12:30:00-08:00",
-    "location": "",
+    "link": "/tutorial_3.html",
+    "location": "/tutorial_3.html",
     "start": "2024-11-10T09:00:00-08:00",
-    "title": "Morning Tutorial T3",
-    "url": ""
+    "title": "Morning Tutorial T3"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-10T14:00:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-10T12:30:00-08:00",
-    "title": "Lunch (on your own)",
-    "url": ""
+    "title": "Lunch (on your own)"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-10T14:00:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-10T13:00:00-08:00",
-    "title": "Online Q&A w/ volunteers",
-    "url": ""
+    "title": "Online Q&A w/ volunteers"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-10T17:30:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/tutorial_4.html",
     "start": "2024-11-10T14:00:00-08:00",
-    "title": "Afternoon Tutorial T4",
-    "url": ""
+    "title": "Afternoon Tutorial T4"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-10T17:30:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/tutorial_5.html",
     "start": "2024-11-10T14:00:00-08:00",
-    "title": "Afternoon Tutorial T5",
-    "url": ""
+    "title": "Afternoon Tutorial T5"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-10T17:30:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/tutorial_6.html",
     "start": "2024-11-10T14:00:00-08:00",
-    "title": "Afternoon Tutorial T6",
-    "url": ""
+    "title": "Afternoon Tutorial T6"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-10T21:00:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-10T19:00:00-08:00",
-    "title": "Welcome Reception",
-    "url": ""
+    "title": "Welcome Reception"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-10T19:30:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-10T18:00:00-08:00",
-    "title": "Online social event",
-    "url": ""
+    "title": "Online social event"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-10T21:00:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-10T20:00:00-08:00",
-    "title": "Online Q&A w/ volunteers",
-    "url": ""
+    "title": "Online Q&A w/ volunteers"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "replay",
     "category": "time",
     "end": "2024-11-11T06:00:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-10T21:00:00-08:00",
-    "title": "All Tutorials",
-    "url": ""
+    "title": "All Tutorials"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-11T02:00:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-11T01:00:00-08:00",
-    "title": "Online Q&A w/ volunteers",
-    "url": ""
+    "title": "Online Q&A w/ volunteers"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-11T07:30:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-11T06:00:00-08:00",
-    "title": "Online social event",
-    "url": ""
+    "title": "Online social event"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-11T08:30:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-11T08:00:00-08:00",
-    "title": "Registration",
-    "url": ""
+    "title": "Registration"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-11T08:30:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-11T08:00:00-08:00",
-    "title": "Online Q&A w/ volunteers",
-    "url": ""
+    "title": "Online Q&A w/ volunteers"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-11T09:00:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-11T08:30:00-08:00",
-    "title": "Opening Remarks",
-    "url": ""
+    "title": "Opening Remarks"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-11T10:15:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=1",
     "start": "2024-11-11T09:00:00-08:00",
-    "title": "Oral Session I",
-    "url": ""
+    "title": "Oral Session I"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-11T11:45:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=1",
     "start": "2024-11-11T10:15:00-08:00",
-    "title": "Posters and Coffee I",
-    "url": ""
+    "title": "Posters and Coffee I"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-11T11:45:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=1",
     "start": "2024-11-11T10:15:00-08:00",
-    "title": "Posters I",
-    "url": ""
+    "title": "Posters I"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-11T13:00:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-11T11:45:00-08:00",
-    "title": "Lunch (on your own)",
-    "url": ""
+    "title": "Lunch (on your own)"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-11T12:45:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-11T11:45:00-08:00",
-    "title": "Mindfulness session",
-    "url": ""
+    "title": "Mindfulness session"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-11T14:00:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/day_2.html",
     "start": "2024-11-11T13:00:00-08:00",
-    "title": "Keynote I",
-    "url": ""
+    "title": "Keynote I"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-11T15:15:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=2",
     "start": "2024-11-11T14:00:00-08:00",
-    "title": "Oral Session II",
-    "url": ""
+    "title": "Oral Session II"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-11T16:45:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=2",
     "start": "2024-11-11T15:15:00-08:00",
-    "title": "Posters and Coffee II",
-    "url": ""
+    "title": "Posters and Coffee II"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-11T16:45:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=2",
     "start": "2024-11-11T15:15:00-08:00",
-    "title": "Posters II",
-    "url": ""
+    "title": "Posters II"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-11T17:45:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/day_2.html",
     "start": "2024-11-11T16:45:00-08:00",
-    "title": "DEI Keynote",
-    "url": ""
+    "title": "DEI Keynote"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-11T18:00:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-11T17:45:00-08:00",
-    "title": "Remembering Don Byrd",
-    "url": ""
+    "title": "Remembering Don Byrd"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-11T19:00:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-11T18:00:00-08:00",
-    "title": "Online special session I",
-    "url": ""
+    "title": "Online special session I"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-11T23:59:59-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-11T19:00:00-08:00",
-    "title": "Banquet/Jam Session",
-    "url": ""
+    "title": "Banquet/Jam Session"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-11T20:30:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-11T20:00:00-08:00",
-    "title": "Online Q&A w/ volunteers",
-    "url": ""
+    "title": "Online Q&A w/ volunteers"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "replay",
     "category": "time",
     "end": "2024-11-11T21:00:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-11T20:30:00-08:00",
-    "title": "Opening Remarks",
-    "url": ""
+    "title": "Opening Remarks"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "replay",
     "category": "time",
     "end": "2024-11-11T22:15:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=1",
     "start": "2024-11-11T21:00:00-08:00",
-    "title": "Oral Session I",
-    "url": ""
+    "title": "Oral Session I"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "replay",
     "category": "time",
     "end": "2024-11-11T23:45:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=1",
     "start": "2024-11-11T22:15:00-08:00",
-    "title": "Posters I",
-    "url": ""
+    "title": "Posters I"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-12T00:45:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-11T23:45:00-08:00",
-    "title": "Mindfulness session",
-    "url": ""
+    "title": "Mindfulness session"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "replay",
     "category": "time",
     "end": "2024-11-12T02:00:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/day_2.html",
     "start": "2024-11-12T01:00:00-08:00",
-    "title": "Keynote I",
-    "url": ""
+    "title": "Keynote I"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "replay",
     "category": "time",
     "end": "2024-11-12T03:15:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=2",
     "start": "2024-11-12T02:00:00-08:00",
-    "title": "Oral Session II",
-    "url": ""
+    "title": "Oral Session II"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "replay",
     "category": "time",
     "end": "2024-11-12T04:45:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=2",
     "start": "2024-11-12T03:15:00-08:00",
-    "title": "Posters II",
-    "url": ""
+    "title": "Posters II"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "replay",
     "category": "time",
     "end": "2024-11-12T05:45:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/day_2.html",
     "start": "2024-11-12T04:45:00-08:00",
-    "title": "DEI Keynote",
-    "url": ""
+    "title": "DEI Keynote"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "replay",
     "category": "time",
     "end": "2024-11-12T06:00:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-12T05:45:00-08:00",
-    "title": "Remembering Don Byrd",
-    "url": ""
+    "title": "Remembering Don Byrd"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-12T07:00:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-12T06:00:00-08:00",
-    "title": "Online special session II",
-    "url": ""
+    "title": "Online special session II"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-12T08:30:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-12T08:00:00-08:00",
-    "title": "Registration",
-    "url": ""
+    "title": "Registration"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-12T08:30:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-12T08:00:00-08:00",
-    "title": "Online Q&A w/ volunteers",
-    "url": ""
+    "title": "Online Q&A w/ volunteers"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-12T09:45:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=3",
     "start": "2024-11-12T08:30:00-08:00",
-    "title": "Oral Session III",
-    "url": ""
+    "title": "Oral Session III"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-12T11:00:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=3",
     "start": "2024-11-12T09:45:00-08:00",
-    "title": "Posters and Coffee III",
-    "url": ""
+    "title": "Posters and Coffee III"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-12T11:00:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=3",
     "start": "2024-11-12T09:45:00-08:00",
-    "title": "Posters III",
-    "url": ""
+    "title": "Posters III"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-12T12:00:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-12T11:00:00-08:00",
-    "title": "Industry Session I",
-    "url": ""
+    "title": "Industry Session I"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-12T13:15:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-12T12:00:00-08:00",
-    "title": "Lunch (on your own)",
-    "url": ""
+    "title": "Lunch (on your own)"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-12T13:00:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-12T12:00:00-08:00",
-    "title": "Mindfulness session",
-    "url": ""
+    "title": "Mindfulness session"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-12T14:15:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/day_3.html",
     "start": "2024-11-12T13:15:00-08:00",
-    "title": "Creative Practice Session I",
-    "url": ""
+    "title": "Creative Practice Session I"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-12T15:30:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=4",
     "start": "2024-11-12T14:15:00-08:00",
-    "title": "Oral Session IV",
-    "url": ""
+    "title": "Oral Session IV"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-12T17:00:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=4",
     "start": "2024-11-12T15:30:00-08:00",
-    "title": "Posters and Coffee IV",
-    "url": ""
+    "title": "Posters and Coffee IV"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-12T17:00:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=4",
     "start": "2024-11-12T15:30:00-08:00",
-    "title": "Posters IV",
-    "url": ""
+    "title": "Posters IV"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-12T18:00:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/day_3.html",
     "start": "2024-11-12T17:00:00-08:00",
-    "title": "Keynote II",
-    "url": ""
+    "title": "Keynote II"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-12T22:00:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/day_3.html",
     "start": "2024-11-12T18:00:00-08:00",
-    "title": "Creative Practice meetup at Riffusion",
-    "url": ""
+    "title": "Creative Practice meetup at Riffusion"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-12T20:30:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-12T20:00:00-08:00",
-    "title": "Online Q&A w/ volunteers",
-    "url": ""
+    "title": "Online Q&A w/ volunteers"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "replay",
     "category": "time",
     "end": "2024-11-12T21:45:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=3",
     "start": "2024-11-12T20:30:00-08:00",
-    "title": "Oral Session III",
-    "url": ""
+    "title": "Oral Session III"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "replay",
     "category": "time",
     "end": "2024-11-12T23:00:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=3",
     "start": "2024-11-12T21:45:00-08:00",
-    "title": "Posters III",
-    "url": ""
+    "title": "Posters III"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "replay",
     "category": "time",
     "end": "2024-11-13T00:01:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-12T23:00:00-08:00",
-    "title": "Industry Session I",
-    "url": ""
+    "title": "Industry Session I"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-13T01:00:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-13T00:00:00-08:00",
-    "title": "Mindfulness session",
-    "url": ""
+    "title": "Mindfulness session"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "replay",
     "category": "time",
     "end": "2024-11-13T02:15:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-13T01:15:00-08:00",
-    "title": "Creative Practice Session I",
-    "url": ""
+    "title": "Creative Practice Session I"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "replay",
     "category": "time",
     "end": "2024-11-13T03:30:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=4",
     "start": "2024-11-13T02:15:00-08:00",
-    "title": "Oral Session IV",
-    "url": ""
+    "title": "Oral Session IV"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "replay",
     "category": "time",
     "end": "2024-11-13T05:00:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=4",
     "start": "2024-11-13T03:30:00-08:00",
-    "title": "Posters IV",
-    "url": ""
+    "title": "Posters IV"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "replay",
     "category": "time",
     "end": "2024-11-13T06:00:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/day_3.html",
     "start": "2024-11-13T05:00:00-08:00",
-    "title": "Keynote II",
-    "url": ""
+    "title": "Keynote II"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-13T08:30:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-13T08:00:00-08:00",
-    "title": "Registration",
-    "url": ""
+    "title": "Registration"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-13T08:30:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-13T08:00:00-08:00",
-    "title": "Online Q&A w/ volunteers",
-    "url": ""
+    "title": "Online Q&A w/ volunteers"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-13T09:45:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=5",
     "start": "2024-11-13T08:30:00-08:00",
-    "title": "Oral Session V",
-    "url": ""
+    "title": "Oral Session V"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-13T11:00:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=5",
     "start": "2024-11-13T09:45:00-08:00",
-    "title": "Posters and Coffee V",
-    "url": ""
+    "title": "Posters and Coffee V"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-13T11:00:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=5",
     "start": "2024-11-13T09:45:00-08:00",
-    "title": "Posters V",
-    "url": ""
+    "title": "Posters V"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-13T12:15:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/day_4.html",
     "start": "2024-11-13T11:00:00-08:00",
-    "title": "Creative Practice Session II",
-    "url": ""
+    "title": "Creative Practice Session II"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-13T13:30:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-13T12:15:00-08:00",
-    "title": "Lunch (on your own)",
-    "url": ""
+    "title": "Lunch (on your own)"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-13T13:15:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-13T12:15:00-08:00",
-    "title": "Mindfulness session",
-    "url": ""
+    "title": "Mindfulness session"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-13T14:30:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-13T13:30:00-08:00",
-    "title": "Keynote III",
-    "url": ""
+    "title": "Keynote III"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-13T15:45:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=6",
     "start": "2024-11-13T14:30:00-08:00",
-    "title": "Oral Session VI",
-    "url": ""
+    "title": "Oral Session VI"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-13T17:00:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=6",
     "start": "2024-11-13T15:45:00-08:00",
-    "title": "Posters and Coffee VI",
-    "url": ""
+    "title": "Posters and Coffee VI"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-13T17:00:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=6",
     "start": "2024-11-13T15:45:00-08:00",
-    "title": "Posters VI",
-    "url": ""
+    "title": "Posters VI"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-13T18:00:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/day_4.html",
     "start": "2024-11-13T17:00:00-08:00",
-    "title": "Industry Session II",
-    "url": ""
+    "title": "Industry Session II"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-13T20:00:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/day_4.html",
     "start": "2024-11-13T19:00:00-08:00",
-    "title": "Meetup with Industry",
-    "url": ""
+    "title": "Meetup with Industry"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-13T22:00:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/day_4.html",
     "start": "2024-11-13T20:00:00-08:00",
-    "title": "Industry networking",
-    "url": ""
+    "title": "Industry networking"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-13T20:30:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-13T20:00:00-08:00",
-    "title": "Online Q&A w/ volunteers",
-    "url": ""
+    "title": "Online Q&A w/ volunteers"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "replay",
     "category": "time",
     "end": "2024-11-13T21:45:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=5",
     "start": "2024-11-13T20:30:00-08:00",
-    "title": "Oral Session V",
-    "url": ""
+    "title": "Oral Session V"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "replay",
     "category": "time",
     "end": "2024-11-13T23:00:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=5",
     "start": "2024-11-13T21:45:00-08:00",
-    "title": "Posters V",
-    "url": ""
+    "title": "Posters V"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "replay",
     "category": "time",
     "end": "2024-11-14T00:15:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/day_4.html",
     "start": "2024-11-13T23:00:00-08:00",
-    "title": "Creative Practice Session II",
-    "url": ""
+    "title": "Creative Practice Session II"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-14T01:15:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-14T00:15:00-08:00",
-    "title": "Mindfulness session",
-    "url": ""
+    "title": "Mindfulness session"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "replay",
     "category": "time",
     "end": "2024-11-14T02:30:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/day_4.html",
     "start": "2024-11-14T01:30:00-08:00",
-    "title": "Keynote III",
-    "url": ""
+    "title": "Keynote III"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "replay",
     "category": "time",
     "end": "2024-11-14T03:45:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=6",
     "start": "2024-11-14T02:30:00-08:00",
-    "title": "Oral Session VI",
-    "url": ""
+    "title": "Oral Session VI"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "replay",
     "category": "time",
     "end": "2024-11-14T05:00:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=6",
     "start": "2024-11-14T03:45:00-08:00",
-    "title": "Posters VI",
-    "url": ""
+    "title": "Posters VI"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "replay",
     "category": "time",
     "end": "2024-11-14T06:00:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/day_4.html",
     "start": "2024-11-14T05:00:00-08:00",
-    "title": "Industry Session II",
-    "url": ""
+    "title": "Industry Session II"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "replay",
     "category": "time",
     "end": "2024-11-14T08:00:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/day_4.html",
     "start": "2024-11-14T07:00:00-08:00",
-    "title": "Meetup with Industry",
-    "url": ""
+    "title": "Meetup with Industry"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-14T08:30:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-14T08:00:00-08:00",
-    "title": "Registration",
-    "url": ""
+    "title": "Registration"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-14T08:30:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-14T08:00:00-08:00",
-    "title": "Online Q&A w/ volunteers",
-    "url": ""
+    "title": "Online Q&A w/ volunteers"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-14T09:45:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=7",
     "start": "2024-11-14T08:30:00-08:00",
-    "title": "Oral Session VII",
-    "url": ""
+    "title": "Oral Session VII"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-14T11:00:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=7",
     "start": "2024-11-14T09:45:00-08:00",
-    "title": "Posters and Coffee VII",
-    "url": ""
+    "title": "Posters and Coffee VII"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-14T11:00:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=7",
     "start": "2024-11-14T09:45:00-08:00",
-    "title": "Posters VII",
-    "url": ""
+    "title": "Posters VII"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-14T11:15:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-14T11:00:00-08:00",
-    "title": "LBD Setup",
-    "url": ""
+    "title": "LBD Setup"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-14T12:45:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/lbds.html",
     "start": "2024-11-14T11:15:00-08:00",
-    "title": "LBD / MIREX (onsite)",
-    "url": ""
+    "title": "LBD / MIREX (onsite)"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-14T12:45:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/lbds.html",
     "start": "2024-11-14T11:15:00-08:00",
-    "title": "LBD / MIREX (online)",
-    "url": ""
+    "title": "LBD / MIREX (online)"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-14T14:00:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-14T12:45:00-08:00",
-    "title": "Lunch (on your own)",
-    "url": ""
+    "title": "Lunch (on your own)"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-14T13:45:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-14T12:45:00-08:00",
-    "title": "Mindfulness session",
-    "url": ""
+    "title": "Mindfulness session"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-14T15:30:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-14T14:00:00-08:00",
-    "title": "Society meeting etc.",
-    "url": ""
+    "title": "Society meeting"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "onsite",
     "category": "time",
     "end": "2024-11-14T17:30:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/day_5.html",
     "start": "2024-11-14T15:30:00-08:00",
-    "title": "Unconference",
-    "url": ""
+    "title": "Unconference"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-14T20:30:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-14T20:00:00-08:00",
-    "title": "Online Q&A w/ volunteers",
-    "url": ""
+    "title": "Online Q&A w/ volunteers"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "replay",
     "category": "time",
     "end": "2024-11-14T21:45:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=7",
     "start": "2024-11-14T20:30:00-08:00",
-    "title": "Oral Session VII",
-    "url": ""
+    "title": "Oral Session VII"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "replay",
     "category": "time",
     "end": "2024-11-14T23:00:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/papers.html?session=7",
     "start": "2024-11-14T21:45:00-08:00",
-    "title": "Posters VII",
-    "url": ""
+    "title": "Posters VII"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "replay",
     "category": "time",
     "end": "2024-11-14T23:45:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/lbds.html",
     "start": "2024-11-14T23:15:00-08:00",
-    "title": "LBD / MIREX (online)",
-    "url": ""
+    "title": "LBD / MIREX (online)"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-15T01:45:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-15T00:45:00-08:00",
-    "title": "Mindfulness session",
-    "url": ""
+    "title": "Mindfulness session"
   },
   {
-    "calendarId": "qa",
+    "calendarId": "replay",
     "category": "time",
     "end": "2024-11-15T03:30:00-08:00",
+    "link": "",
     "location": "",
     "start": "2024-11-15T02:00:00-08:00",
-    "title": "Society meeting etc. ",
-    "url": ""
+    "title": "Society meeting etc. "
   },
   {
-    "calendarId": "qa",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-15T06:00:00-08:00",
-    "location": "",
+    "link": "",
+    "location": "/day_6.html",
     "start": "2024-11-15T03:30:00-08:00",
-    "title": "Ideation sessions",
-    "url": ""
+    "title": "Ideation sessions"
   }
 ]
