@@ -314,3 +314,8 @@ body .carousel-control-prev {
 /*    -webkit-text-fill-color: #bed972;*/
 /*  }*/
 /*}*/
+
+.tui-full-calendar-time-schedule-content{
+  border-left: none !important;
+  font-weight: 400;
+}
