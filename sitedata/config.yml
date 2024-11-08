@@ -37,6 +37,6 @@ calendar:
     onsite: "#C3542E"
     talk: "#403D58"
     special: "#273C2C"
-    online: "#4383EC"
-    replay: "#F0C808"
+    online: "#16BAC5"
+    replay: "#AF4D98"
   sunday_saturday: true  #  Include Sunday and Saturday
