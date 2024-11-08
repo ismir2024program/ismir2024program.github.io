@@ -17,11 +17,11 @@
 {% set tzone = 'America/Los_Angeles' %}
 {% block content %}
 
-<div id="day">
+<div id="day">  
 
   {% if day.tutorials %}
-  {{ components.subsection_tag("Tutorials", "tut") }}
-  {{ components.tutorialscard(tutorials, tzone, tut_md) }}
+    {{ components.subsection_tag("Tutorials", "tut") }}
+    {{ components.tutorialscard(tutorials, tzone, tut_md) }}
   {% endif %}
 
   {% if day.opening %}
@@ -44,9 +44,13 @@
     {{ components.meetingcard(day.industry, tzone) }}
   {% endif %}
 
+  {% if day.special %}
+    {{ components.subsection_tag("Special Sessions", "spec") }}
+    {{ components.meetingcard(day.special, tzone) }}
+  {% endif %}
 
   {% if day.meetup %}
-    {{ components.subsection_tag("Special Sessions", "meet") }}
+    {{ components.subsection_tag("Events", "meet") }}
     {{ components.meetingcard(day.meetup, tzone) }}
   {% endif %}
 

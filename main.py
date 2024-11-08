@@ -48,12 +48,12 @@ def main(site_data_path):
         vmeetup = [m for m in site_data["events"] if m["day"] == day and m["category"] == "VMeetup"]
         master = [m for m in site_data["events"] if m["day"] == day and m["category"] == "Masterclass"]
         wimir = [w for w in site_data["events"] if w["day"] == day and w["category"] == "WiMIR Meetup"]
-        special = [s for s in site_data["events"] if s["day"] == day and s["category"] == "Meetup-Special"]
+        special = [s for s in site_data["events"] if s["day"] == day and s["category"] == "Special Session"]
         opening = [o for o in site_data["events"] if o["day"] == day and o["category"] == "Opening"]
         business = [o for o in site_data["events"] if o["day"] == day and o["category"] == "Awards"]
         social = [o for o in site_data["events"] if o["day"] == day and o["category"] == "Social"]
         tutorials = [o for o in site_data["events"] if o["day"] == day and o["category"] == "Tutorials"]
-        print(tutorials)
+        print(special)
         by_uid["days"][day] = {
             "uid": day,
             "speakers": speakers,
@@ -168,12 +168,12 @@ def schedule():
         vmeetup = [m for m in site_data["events"] if m["day"] == day and m["category"] == "VMeetup"]
         master = [m for m in site_data["events"] if m["day"] == day and m["category"] == "Masterclass"]
         wimir = [w for w in site_data["events"] if w["day"] == day and w["category"] == "WiMIR Meetup"]
-        special = [s for s in site_data["events"] if s["day"] == day and s["category"] == "Meetup-Special"]
+        special = [s for s in site_data["events"] if s["day"] == day and s["category"] == "Special Session"]
         opening = [o for o in site_data["events"] if o["day"] == day and o["category"] == "Opening"]
         business = [o for o in site_data["events"] if o["day"] == day and o["category"] == "Awards"]
         social = [o for o in site_data["events"] if o["day"] == day and o["category"] == "Social"]
         tutorials = [o for o in site_data["events"] if o["day"] == day and o["category"] == "Tutorials"]
-
+        print(special)
         out = {
             "speakers": speakers,
             "all": all,
@@ -194,6 +194,7 @@ def schedule():
 
         }
         data["days"].append(out)
+        
     return render_template("schedule.html", **data)
 
 
