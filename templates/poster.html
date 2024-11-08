@@ -34,6 +34,11 @@
             >{{ "," if not loop.last }}
             {% endfor %}
         </h3>
+        {% if paper.content.channel_url %}
+        <div class="btn-group ml-3 mb-3">
+          <a href="{{paper.content.channel_url}}" class="btn btn-primary" style="background-color: #2294e0;">{% include 'slack_svg.html' %} {{paper.content.slack_channel}}</a>
+        </div>
+        {% endif %}
         <p class="card-text text-left">
             <span class="">Keywords:</span>
             {% for keyword in paper.content.keywords %}
@@ -45,7 +50,9 @@
             {% endfor %}
         </p>
     </div>
+
 </div>
+
 <div id="details" class="pp-card m-3">
     <div class="card-body">
         <div class="card-text">
