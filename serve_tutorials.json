@@ -24,7 +24,7 @@
     "end_time": "12:30",
     "presenters": "Chieh-Hsin Lai, Koichi Saito, Bac Nguyen Cong, Yuki Mitsufuji, and Stefano Ermon\n",
     "start_time": "9:00",
-    "title": "From White Noise to Symphony: Diffusion Models for Music and Sound\n"
+    "title": "T3: From White Noise to Symphony: Diffusion Models for Music and Sound\n"
   },
   {
     "UID": "4",
@@ -33,7 +33,7 @@
     "end_time": "17:30",
     "presenters": "Claire Arthur, Nat Condit-Schultz, David R. W. Sears, John Ashley Burgoyne, and Josuha Albrecht\n",
     "start_time": "14:00",
-    "title": "Humans at the Center of MIR: Human-subjects Research Best Practices"
+    "title": "T4: Humans at the Center of MIR: Human-subjects Research Best Practices"
   },
   {
     "UID": "5",
@@ -42,7 +42,7 @@
     "end_time": "17:30",
     "presenters": "Geoffroy Peeters, Gabriel Meseguer Brocal, Alain Riou, and Stefan Lattner\n",
     "start_time": "14:00",
-    "title": "Deep Learning 101 for Audio-based MIR"
+    "title": "T5: Deep Learning 101 for Audio-based MIR"
   },
   {
     "UID": "6",
@@ -51,6 +51,6 @@
     "end_time": "17:30",
     "presenters": "Daniel Stoller, Emir Demirel, Kento Watanabe, and Brendan O\u2019Connor",
     "start_time": "14:00",
-    "title": "Lyrics and Singing Voice Processing in Music Information Retrieval: Analysis, Alignment, Transcription and Applications"
+    "title": "T6: Lyrics and Singing Voice Processing in Music Information Retrieval: Analysis, Alignment, Transcription and Applications"
   }
 ]
