@@ -33,7 +33,10 @@ auth0_domain : miniconf.auth0.com
 
 calendar:
   colors: #  Colors for the different event hashtags:
-    ---: '#bed972'
-    qa: '#4FCAEB'
-    talk: '#ccc'
+    ---: "#bed972"
+    onsite: "#C3542E"
+    talk: "#403D58"
+    special: "#273C2C"
+    online: "#4383EC"
+    replay: "#F0C808"
   sunday_saturday: true  #  Include Sunday and Saturday

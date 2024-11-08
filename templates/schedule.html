@@ -8,7 +8,7 @@
 
 {% block tabs %}
 {{ components.navtabs([
-  ("calendar.html", "Calendar", "calendar-html"),
+  ("index.html", "Calendar", "calendar-html"),
   ("tutorials.html", "Nov 10", "tutorials-html"),
   ("day_2.html", "Nov 11", "day_2-html"),
   ("day_3.html", "Nov 12", "day_3-html"),
@@ -22,6 +22,9 @@
 {% block content %}
 <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
   <!-- Calender tab -->
+   <!-- Legend -->
+ 
+
   <div
     class="tab-pane active"
     id="tab-calendar"
@@ -41,6 +44,16 @@
     <div id="calendar_small" class="d-sm-none"></div>
 
 
+  </div>
+
+  <div class="row"> 
+    <div id="legend" class="col-12 col-md-6 col-lg-4">
+      <div id="onsite_event_legend" class="d-none">
+        <div class="d-flex align-items-center">
+          <div class="event_legend" style="background-color: #f8d7da;"></div>
+          <div class="ml-2">Onsite Event</div>
+        </div>
+    </div>
   </div>
 
   <!-- Day Tab -->
