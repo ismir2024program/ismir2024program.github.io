@@ -1,0 +1,114 @@
+{% set active_page = "Industry" %}
+{% set page_title = "Industry" %}
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container">
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" id="sponsorTabs" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" id="diamond-tab" data-toggle="tab" href="#diamond" role="tab">Diamond</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="platinum-tab" data-toggle="tab" href="#platinum" role="tab">Platinum</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="gold-tab" data-toggle="tab" href="#gold" role="tab">Gold</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="silver-tab" data-toggle="tab" href="#silver" role="tab">Silver</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="bronze-tab" data-toggle="tab" href="#bronze" role="tab">Bronze</a>
+    </li>
+  </ul>
+
+  <!-- Tab content -->
+  <div class="tab-content mt-4">
+    <div class="tab-pane fade show active" id="diamond" role="tabpanel">
+      <div class="row justify-content-center">
+        {% for sponsor in industry if sponsor.level == "Diamond" %}
+        <div class="col-12 mb-4">
+            <div class="sponsor-card d-flex flex-column align-items-center">
+            <a href="/industry_{{sponsor.UID}}"> <h3>{{sponsor.title}}</h3> 
+            <img src="/static/images/{{sponsor.image}}" alt="{{sponsor.title}}" class="img-fluid" style="max-width: 300px;">      
+            </a>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="tab-pane fade" id="platinum" role="tabpanel">
+      <div class="row justify-content-center">
+        {% for sponsor in industry if sponsor.level == "Platinum" %}
+        <div class="col-md-6 mb-4">
+          <div class="sponsor-card d-flex flex-column align-items-center">
+            <a href="/industry_{{sponsor.UID}}.html"> <h3>{{sponsor.title}}</h3> 
+            <img src="/static/images/{{sponsor.image}}" alt="{{sponsor.title}}" class="img-fluid" style="max-width: 250px;">      
+            </a>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="tab-pane fade" id="gold" role="tabpanel">
+      <div class="row justify-content-center">
+        {% for sponsor in industry if sponsor.level == "Gold" %}
+        <div class="col-md-4 mb-4">
+          <div class="sponsor-card d-flex flex-column align-items-center">
+            <a href="/industry_{{sponsor.UID}}.html"> <h3>{{sponsor.title}}</h3> 
+            <img src="/static/images/{{sponsor.image}}" alt="{{sponsor.title}}" class="img-fluid" style="max-width: 200px;">      
+            </a>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="tab-pane fade" id="silver" role="tabpanel">
+      <div class="row justify-content-center">
+        {% for sponsor in industry if sponsor.level == "Silver" %}
+        <div class="col-md-3 mb-4">
+          <div class="sponsor-card d-flex flex-column align-items-center">
+            <a href="/industry_{{sponsor.UID}}.html"> <h3>{{sponsor.title}}</h3> 
+            <img src="/static/images/{{sponsor.image}}" alt="{{sponsor.title}}" class="img-fluid" style="max-width: 200px;">      
+            </a>      
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="tab-pane fade" id="bronze" role="tabpanel">
+      <div class="row justify-content-center">
+        {% for sponsor in industry if sponsor.level == "Bronze" %}
+        <div class="col-md-2 col-sm-4 mb-4">
+          <div class="sponsor-card d-flex flex-column align-items-center">
+            <a href="/industry_{{sponsor.UID}}.html"> <h3>{{sponsor.title}}</h3> 
+            <img src="/static/images/{{sponsor.image}}" alt="{{sponsor.title}}" class="img-fluid" style="max-width: 100px;">      
+            </a>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.sponsor-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  height: 100%;
+  border-radius: 5px;
+}
+.sponsor-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+</style>
+
+{% endblock %}

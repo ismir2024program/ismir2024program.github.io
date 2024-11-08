@@ -1,0 +1,44 @@
+{% set active_page = industry.title %}
+{% set page_title = industry.title %}
+{% extends "base.html" %}
+{% block content %}
+<!-- Title -->
+<div class="pp-card m-3" style="">
+    <div class="card-header">
+        <h2 class="card-title main-title text-left" style="">
+        {{industry.title}}
+        </h2>
+        {% if industry.channel_url %}
+        <a href="{{industry.channel_url}}" class="btn btn-primary mr-3" style="background-color: #2294e0;">{% include 'slack_svg.html' %} {{industry.slack_channel}}</a>
+        {% endif %}       
+    </div>
+</div>
+<div id="details" class="pp-card m-3">
+    <div class="card-body">
+        {% if industry.image %}
+        <div class="card-logo"> 
+            <img src="/static/images/{{industry.image}}" class="card-img-top mb-3" alt="{{industry.title}}" style="max-width: 25%; height: auto;">
+        </div>
+        {% endif %}
+
+        <div class="card-text">     
+        {% if industry.abstract %}   
+        <div id="abstractExample">
+            <span class="font-weight-bold">Description:</span>
+            {{industry.abstract|markdown}}
+        </div>
+        {% endif %}
+        {% if industry.regitered_email %}
+        <div class="email">
+            Contact: <a href="mailto:{{industry.registered_email}}" class="card-link"> {{industry.registered_email}} </a>
+        {% endif %}
+        </div>
+        {% if industry.company_url %}
+        <div class="url">      
+            Visit: <a href="{{industry.company_url}}" class="card-link"> {{industry.company_url}} </a>
+        </div>
+        {% endif %}
+    </div>
+</div>
+<!-- Presentation Embed -->
+{% endblock %}

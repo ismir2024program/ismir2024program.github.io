@@ -1,0 +1,20 @@
+UID,title,level,registered_email,abstract,pdf,video,company,channel_name,channel_url,company_url,image
+1,Music.ai,Diamond,,,,,,,,,sponsors/musicai.png
+2,Adobe,Platinum,,,,,,,,,sponsors/adobe.png
+3,Riffusion,Gold,seth@riffusion.com,"We’re a small team of artists, engineers, researchers, and musicians pioneering the future of creative AI in San Francisco. We train foundation models for music generation, and envision Riffusion as a new musical instrument.<br/><br/>We strive to build an instrument that both empowers anyone to create music, while also enabling the deep levels of craft and experimentation that we love in physical instruments.",,,,,,https://riffusion.com,sponsors/riffusion.png
+4,Suno,Gold,,,,,,,,,sponsors/suno.png
+5,Splice,Gold,,,,,,,,,sponsors/splice.png
+6,Bytedance,Gold,,,,,,,,,sponsors/bytedance.png
+7,Pro Sound Effects,Silver,,,,,,,,,sponsors/prosoundeffects.png
+8,Yamaha,Silver,,,,,,,,,sponsors/yamaha.webp
+9,Steinberg,Silver,,,,,,,,,sponsors/steinberg.png
+10,Deezer,Silver,,,,,,,,,sponsors/deezer.png
+11,Universal Music Group,Silver,,,,,,,,,sponsors/umg.png
+12,cochl,Bronze,,,,,,,,,sponsors/cochl.webp
+13,Dolby,Bronze,,,,,,,,,sponsors/dolby.jpg
+14,Netflix,Bronze,,,,,,,,,sponsors/netflix.png
+15,Audible Magic,Bronze,,,,,,,,,sponsors/audiblemagic.png
+16,bmat,Bronze,,,,,,,,,sponsors/bmat.png
+17,yousician,Bronze,,,,,,,,,sponsors/yousician.png
+18,SiriusXM,Bronze,,,,,,,,,sponsors/siriusxm.png
+19,kits.ai,Bronze,,,,,,,,,sponsors/kitsai.png

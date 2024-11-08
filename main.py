@@ -32,7 +32,7 @@ def main(site_data_path):
         elif typ == "yml":
             site_data[name] = yaml.load(open(f).read(), Loader=yaml.SafeLoader)
 
-    for typ in ["papers", "speakers", "workshops", "tutorials", "lbd"]:
+    for typ in ["papers", "speakers", "workshops", "tutorials", "lbd", "industry"]:
         by_uid[typ] = {}
         for p in site_data[typ]:
             by_uid[typ][p["UID"]] = p
@@ -53,7 +53,6 @@ def main(site_data_path):
         business = [o for o in site_data["events"] if o["day"] == day and o["category"] == "Awards"]
         social = [o for o in site_data["events"] if o["day"] == day and o["category"] == "Social"]
         tutorials = [o for o in site_data["events"] if o["day"] == day and o["category"] == "Tutorials"]
-        print(special)
         by_uid["days"][day] = {
             "uid": day,
             "speakers": speakers,
@@ -143,7 +142,7 @@ def papers():
 def lbds():
     data = _data()
     data["lbds"] = site_data["lbd"]
-    print(data["lbds"])
+
     return render_template("lbds.html", **data)
 
 
@@ -173,7 +172,6 @@ def schedule():
         business = [o for o in site_data["events"] if o["day"] == day and o["category"] == "Awards"]
         social = [o for o in site_data["events"] if o["day"] == day and o["category"] == "Social"]
         tutorials = [o for o in site_data["events"] if o["day"] == day and o["category"] == "Tutorials"]
-        print(special)
         out = {
             "speakers": speakers,
             "all": all,
@@ -212,6 +210,19 @@ def tutorials():
     data["tutorials"] = site_data["tutorials"]
     return render_template("tutorials.html", **data)
 
+
+@app.route("/industry.html")
+def industry():
+    data = _data()
+    data["industry"] = site_data["industry"]
+    return render_template("industry.html", **data)
+
+@app.route("/industry_<uid>.html")
+def industry_page(uid):
+    data = _data()
+    data["industry"] = by_uid["industry"][uid]
+    return render_template("sponsor_booth.html", **data)
+
 @app.route("/tutorial_<tutorial>.html")
 def tutorial(tutorial):
     uid = tutorial
@@ -230,12 +241,11 @@ def extract_list_field(v, key):
         return value.split("|")
 
 def format_paper(v):
-    print(v)
+
     list_keys = ["authors", "primary_subject", "secondary_subject", "session", "authors_and_affil"]
     list_fields = {}
     for key in list_keys:
         list_fields[key] = extract_list_field(v, key)
-    print(list_fields, list_keys)
     return {
         "id": v["UID"],
         "session": v["session"],
@@ -272,7 +282,6 @@ def format_lbd(v):
     list_fields = {}
     for key in list_keys:
         list_fields[key] = extract_list_field(v, key)
-    print(list_fields, list_keys)
     return {
         "id": v["UID"],
         "forum": v["UID"],
@@ -294,6 +303,7 @@ def format_lbd(v):
         "poster_pdf": "GLTR_poster.pdf",  
     }
   
+
 
 def format_workshop(v):
     list_keys = ["authors"]
@@ -393,7 +403,6 @@ def datetimelocalcheck(s):
 
 @app.template_filter('localizetime')
 def localizetime(date,time,timezone):
-    print(date,time,timezone)
     to_zone = tz.gettz(str(timezone))
     date = datetime.datetime.strptime(date + ' ' + time, '%Y-%m-%d %H:%M')
     ref_date_tz = pytz.timezone('Asia/Kolkata').localize(date) #[TODO] take ref time zone as input
@@ -420,6 +429,8 @@ def generator():
         yield "day", {"day": str(day["uid"])}
     for lbd in site_data["lbd"]:
         yield "lbd", {"lbd": str(lbd["UID"])}
+    for industry in site_data["industry"]:
+        yield "industry", {"uid": str(industry["UID"])}
 
     for key in site_data:
         if key != 'days':
