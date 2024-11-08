@@ -6,9 +6,9 @@
   "calendar": {
     "colors": {
       "---": "#bed972",
-      "online": "#4383EC",
+      "online": "#16BAC5",
       "onsite": "#C3542E",
-      "replay": "#F0C808",
+      "replay": "#AF4D98",
       "special": "#273C2C",
       "talk": "#403D58"
     },

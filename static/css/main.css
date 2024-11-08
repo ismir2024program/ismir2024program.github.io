@@ -318,4 +318,5 @@ body .carousel-control-prev {
 .tui-full-calendar-time-schedule-content{
   border-left: none !important;
   font-weight: 400;
+  font-size: 0.95em;
 }
