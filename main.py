@@ -4,11 +4,15 @@ import csv
 import glob
 import json
 import os
-
+import pytz
+from pytz import timezone
+import tzlocal
 import yaml
 from flask import Flask, jsonify, redirect, render_template, send_from_directory
 from flask_frozen import Freezer
 from flaskext.markdown import Markdown
+from dateutil import tz
+import datetime
 
 site_data = {}
 by_uid = {}
@@ -34,7 +38,7 @@ def main(site_data_path):
             by_uid[typ][p["UID"]] = p
     by_uid["days"] = {}
     site_data["days"] = []
-    for day in ['1', '2', '3', '4', '5']:
+    for day in ['1', '2', '3', '4', '5', '6']:
         speakers = [s for s in site_data["events"] if s["day"] == day and s["category"] == "All Meeting"]
         posters = [p for p in site_data["events"] if p["day"] == day and p["category"] == "Poster session"]
         lbd = [l for l in site_data["events"] if l["day"] == day and l["category"] == "LBD"]
@@ -49,7 +53,7 @@ def main(site_data_path):
         business = [o for o in site_data["events"] if o["day"] == day and o["category"] == "Awards"]
         social = [o for o in site_data["events"] if o["day"] == day and o["category"] == "Social"]
         tutorials = [o for o in site_data["events"] if o["day"] == day and o["category"] == "Tutorials"]
-
+        print(tutorials)
         by_uid["days"][day] = {
             "uid": day,
             "speakers": speakers,
@@ -154,7 +158,7 @@ def schedule():
     data = _data()
     data["days"] = []
     # data = _data()
-    for day in ['1', '2', '3', '4', '5']:
+    for day in ['1', '2', '3', '4', '5', '6']:
         speakers = [s for s in site_data["events"] if s["day"] == day and s["category"] == "All Meeting"]
         posters = [p for p in site_data["events"] if p["day"] == day and p["category"] == "Poster session"]
         lbd = [l for l in site_data["events"] if l["day"] == day and l["category"] == "LBD"]
@@ -225,7 +229,6 @@ def extract_list_field(v, key):
         return value.split("|")
 
 def format_paper(v):
-    print(v)
     list_keys = ["authors", "primary_subject", "secondary_subject", "session", "authors_and_affil"]
     list_fields = {}
     for key in list_keys:
@@ -258,7 +261,6 @@ def format_paper(v):
     }
 
 def format_lbd(v):
-    print(v)
     list_keys = ["authors", "primary_subject", "secondary_subject", "session", "authors_and_affil", "Author Names"]
     list_fields = {}
     for key in list_keys:
@@ -377,6 +379,22 @@ def serve(path):
     return jsonify(site_data[path])
 
 
+
+@app.template_filter('localcheck')
+def datetimelocalcheck(s):
+    return tzlocal.get_localzone()
+
+@app.template_filter('localizetime')
+def localizetime(date,time,timezone):
+    print(date,time,timezone)
+    to_zone = tz.gettz(str(timezone))
+    date = datetime.datetime.strptime(date + ' ' + time, '%Y-%m-%d %H:%M')
+    ref_date_tz = pytz.timezone('Asia/Kolkata').localize(date) #[TODO] take ref time zone as input
+    local_date = ref_date_tz.astimezone(to_zone)
+    return local_date.strftime("%Y-%m-%d"), local_date.strftime("%H:%M")
+
+
+
 # --------------- DRIVER CODE -------------------------->
 # Code to turn it all static
 
@@ -393,6 +411,8 @@ def generator():
         yield "tutorial", {"tutorial": str(tutorial["UID"])}
     for day in site_data["days"]:
         yield "day", {"day": str(day["uid"])}
+    for lbd in site_data["lbd"]:
+        yield "lbd", {"lbd": str(lbd["UID"])}
 
     for key in site_data:
         if key != 'days':

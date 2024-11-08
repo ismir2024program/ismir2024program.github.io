@@ -44,8 +44,9 @@ workshopgroup
 </div>
 {%- endmacro %}
 
-{% macro speakergroup(speakers) -%}
+{% macro speakergroup(speakers, timezone) -%}
 {% for speaker in speakers %}
+{% set local_date_a = speaker.start_date | localizetime(speaker.start_time, timezone) %}
 <div class="row p-4">
   <div class="col-md-12">
     <div class="card">
@@ -57,19 +58,42 @@ workshopgroup
           <div class="col-md-10 col-sm-6">
             <div class="m-3 text-muted">
               <h3>
-                <a href="speaker_{{speaker.UID}}.html" class="main-title">
+                <a href="{{speaker.web_link}}" class="main-title">
                   {{speaker.title}}
                 </a>
               </h3>
             </div>
             <div class="m-3 text-muted">
               <span class="card-title h3">
-                {{speaker.speaker}}  /  {{speaker.institution}}
+                {{speaker.organiser}}  /  {{speaker.organiser_affiliation}}
               </span>
             </div>
-            <div class="m-3">
-              {{speaker.abstract|safe}}
+            <div class="m-3 text-left card-subtitle">
+              {{local_date_a[0]}} | {{local_date_a[1]}} ({{ timezone }})
             </div>
+
+            <div class="m-3 text-center">
+            {% if speaker.channel_url %}
+              <a href="{{speaker.channel_url}}" class="btn btn-primary mr-3">{% include 'slack_svg.html' %} {{speaker.slack_channel}}</a>
+            {% endif %}
+            </div>
+
+
+            <div class="m-3">
+              {{speaker.description|markdown}}
+            </div>
+            <div class="ml-3 mr-3 mt-4 mb-3 h5">
+              Bio
+            </div>
+
+            <div class="m-3">
+              {{speaker.organiser_bio|markdown}}
+            </div>
+
+
+<!--            <div class="ml-3 mr-3 mt-4 mb-3 h5 text-muted">-->
+<!--              Zoom links will be shared on Slack.-->
+<!--            </div>-->
           </div>
         </div>
       </div>
@@ -227,7 +251,7 @@ workshopgroup
           {{ workshop.organizers | join(", ") }}
         </div>
         <div class="m-3 text-left card-subtitle font-italic">
-          {{workshop.abstract|safe}}
+          <!-- {{workshop.abstract|safe}} -->
         </div>
       </div>
     </div>
@@ -285,13 +309,13 @@ workshopgroup
 {%- endmacro %}
 
 
-{% macro tutorialscard(type, timezone, tut_md) -%}
+<!-- {% macro tutorialscard(type, timezone, tut_md) -%}
 <div class="cards row p-4">
   {% for meet in type %}
   {% set str_index = loop.index | string %}
-  {% set local_date = meet.start_date %}
+  {% set local_date = meet.start_date | localizetime(meet.start_time, timezone) %}
   <div class="col-12 p-3" style="box-sizing: border-box;">
-    <div class="card" style="display: block; overflow: hidden; width: 100%;">
+      <div class="card" style="display: block; overflow: hidden; width: 100%;">
       <div
         class="card-header text-center"
         style="min-height: 200px; width: 100%;"
@@ -327,16 +351,23 @@ workshopgroup
 
         <div class="m-3 text-left">
         </div>
-<!--        {% if meet.category == "All Meeting" %}-->
-<!--          <div class="ml-3 mr-3 mt-4 mb-3 h5 text-left text-muted">-->
-<!--            Zoom links will be shared on Slack.-->
-<!--          </div>-->
-<!--        {% endif %}-->
       </div>
     </div>
   </div>
   {% endfor %}
 </div>
+{%- endmacro %} -->
+
+{% macro tutorialscard(type, timezone, tut_md) -%}
+  <div> 
+      {{type | safe}}
+  </div>
+  <div> 
+      {{timezone}}
+  </div>
+  <div> 
+      {{tut_md}}
+  </div>
 {%- endmacro %}
 
 
@@ -344,7 +375,7 @@ workshopgroup
 {% macro meetingcard(type, timezone) -%}
 <div class="cards row p-4">
   {% for meet in type %}
-  {% set local_date = meet.start_date %}
+  {% set local_date = meet.start_date | localizetime(meet.start_time, timezone) %}
   <div class="col-12 p-3" style="box-sizing: border-box;">
     <div class="card" style="display: block; overflow: hidden; width: 100%;">
       <div
@@ -366,11 +397,11 @@ workshopgroup
         <div class="m-3 text-left card-subtitle" style="display:flex; align-content: center;">
           {{local_date[0]}} | {{local_date[1]}} ({{ timezone }})
         </div>
-<!--        <div class="m-3 text-center">-->
+       <!-- <div class="m-3 text-center">-->
 <!--        {% if meet.channel_url %}-->
 <!--          <a href="{{meet.channel_url}}" class="btn btn-primary mr-3">{% include 'slack_svg.html' %} {{meet.slack_channel}}</a>-->
 <!--        {% endif %}-->
-<!--        </div>-->
+<!--        </div> -->
         <div class="mt-3 ml-3 mr-3 mb-4 text-left card-subtitle">
           {{meet.description | markdown}}
         </div>
@@ -422,7 +453,8 @@ workshopgroup
             style="width: 100%;"
           >
           {% for part in session %}
-            {% set local_date = part.start_date %}
+          {% set local_date = part.start_date | localizetime(part.start_time, timezone) %}
+
             <h3 class="m-3 card-title main-title text-left">
               {{part.title}}
             </h3>

@@ -1,31 +1,377 @@
 uid,title,day,start_date,start_time,end_time,category,description,organiser,organiser_emails,organiser_affiliation,organiser_bio,image,web_link,slack_channel,channel_url
-1,Registration,1,2024-11-10,8:00,9:00,Registration,,,,,,,,
-2,Tutorial 1: Connecting Music Audio and Natural Language,1,2024-11-10,9:00,12:30,Tutorials,,,,,,,,
-3,Tutorial 2: Exploring 25 Years of Music Information Retrieval,1,2024-11-10,9:00,12:30,Tutorials,,,,,,,,
-4,Tutorial 3: From White Noise to Symphony: Diffusion Models,1,2024-11-10,9:00,12:30,Tutorials,,,,,,,,
-5,Lunch,1,2024-11-10,12:30,14:00,Lunch,,,,,,,,
-6,Tutorial 4: Humans at the Center of MIR,1,2024-11-10,14:00,17:30,Tutorials,,,,,,,,
-7,Tutorial 5: Deep Learning 101 for Audio-based MIR,1,2024-11-10,14:00,17:30,Tutorials,,,,,,,,
-8,Tutorial 6: Lyrics and Singing Voice Processing in MIR,1,2024-11-10,14:00,17:30,Tutorials,,,,,,,,
-9,Welcome Reception,1,2024-11-10,19:00,21:00,Social,,,,,,,,
-10,Online Social Event,1,2024-11-10,18:00,19:30,Social,,,,,,,,
-11,Self-serve Tutorials,1,2024-11-10,21:00,06:00,Tutorials,,,,,,,,
-12,Online Social Event (Asia/Pacific),2,2024-11-11,06:00,07:30,Social,,,,,,,,
-13,Opening Remarks,2,2024-11-11,08:30,09:00,Opening,,,,,,,,
-14,Keynote I: Ed Newton-Rex,2,2024-11-11,13:00,14:00,Keynote,,,,,,,,
-15,DEI Keynote: Valerie Joseph,2,2024-11-11,16:45,17:45,Keynote,,,,,,,,
-16,Remembering Don Byrd,2,2024-11-11,17:45,18:00,Memorial,,,,,,,,
-17,Banquet and Jam Session,2,2024-11-11,19:00,00:00,Social,,,,,,,,
-18,Industry Session I,3,2024-11-12,11:00,12:00,Industry,,,,,,,,
-19,Creative Practice Session I,3,2024-11-12,13:15,14:15,Creative,,,,,,,,
-20,Keynote II: Elizabeth Moody,3,2024-11-12,17:00,18:00,Keynote,,,,,,,,
-21,Creative Practice Event,3,2024-11-12,19:00,22:30,Creative,,,,,,,,
-22,Creative Practice Session II,4,2024-11-13,11:00,12:15,Creative,,,,,,,,
-23,Keynote III: Douglas Eck,4,2024-11-13,13:30,14:30,Keynote,,,,,,,,
-24,Industry Session II,4,2024-11-13,17:00,18:00,Industry,,,,,,,,
-25,Industry Meetup Part 1,4,2024-11-13,19:00,20:00,Industry,,,,,,,,
-26,Industry Meetup Part 2,4,2024-11-13,20:00,22:00,Industry,,,,,,,,
-27,LBD/MIREX Session,5,2024-11-14,11:15,12:45,LBD,,,,,,,,
-28,Society Meeting & Awards,5,2024-11-14,14:00,15:45,Meeting,,,,,,,,
-29,Unconference,5,2024-11-14,15:45,17:45,Unconference,,,,,,,,
-30,Ideation Sessions,5,2024-11-14,03:45,05:45,Workshop,,,,,,,,
+1,Registration,1,2024-11-10,8:00,9:00,Registration,Register!,,,,,,,,
+2,Online Q&A w/ volunteers,1,2024-11-10,8:00,9:00,Meetup,"Language serves as an efficient interface for communication between humans as well as between humans and machines. Through the integration of recent advancements in deep learning-based language models, the understanding, search, and creation of music is becoming capable of catering to user preferences with better diversity and control. This tutorial will start with an introduction to how machines understand natural language, alongside recent advancements in language models, and their application across various domains. We will then shift our focus to MIR tasks that incorporate these cutting-edge language models. The core of our discussion will be segmented into three pivotal themes: music understanding through audio annotation and beyond, text-to-music retrieval for music search, and text-to-music generation to craft novel sounds. In parallel, we aim to establish a solid foundation for the emergent field of music-language research, and encourage participation from new researchers by offering comprehensive access to 1) relevant datasets, 2) evaluation methods, and 3) coding best practices.","Seung Heon Doh, Ilaria Manco, Zachary Novack, Jong Wook Kim and Ke Chen",,,,,,,
+3,Morning Tutorial T1,1,2024-11-10,9:00,12:30,Tutorials,"This tutorial reflects on the journey of Music Information Retrieval (MIR) over the last 25 years, offering insights from three distinct perspectives: research, community, and education. Drawing from the presenters' personal experiences and reflections, it provides a holistic view of MIR's evolution, covering historical milestones, community dynamics, and pedagogical insights. Through this approach, the tutorial aims to give attendees a nuanced understanding of MIR’s past, present, and future directions, fostering a deeper appreciation for the field and its interdisciplinary and educational aspects.
+ 
+
+ The tutorial is structured into three parts, each based on one of the aforementioned perspectives. The first part delves into the research journey of MIR. It covers the inception of query-by-humming and the emergence of MP3s, discusses the establishment of standard tasks such as beat tracking and genre classification, and highlights significant advancements, applications, and future challenges in the field. The second part explores the community aspect of ISMIR. It traces the growth of the society from a small symposium to a well-recognized international community, emphasizing core values such as interdisciplinary collaboration and diversity, and invites the audience to imagine the future of the ISMIR community together. Lastly, the third part discusses the role of music as an educational domain. It examines the broad implications of MIR research, the value of pursuing a PhD in MIR, and the significant educational resources available.
+ 
+
+ Each part invites audience interaction, aiming to provide attendees with a deeper appreciation of MIR's past achievements and insights into its potential future directions. This tutorial is not just a historical overview but also a platform for fostering a deeper understanding of the interplay between technology and music.","Masataka Goto, Jin Ha Lee, and Meinard Müller",,,,,,,
+4,Morning Tutorial T2,1,2024-11-10,9:00,12:30,Tutorials,"This tutorial will cover the theory and practice of diffusion models for music and sound. We will explain the methodology, explore its history, and demonstrate music and sound-specific applications such as real-time generation and various other downstream tasks. By bridging the gap from computer vision techniques and models, we aim to spark further research interest and democratize access to diffusion models for the music and sound domains. 
+ 
+
+ The tutorial comprises four sections. The first provides an overview of deep generative models and delves into the fundamentals of diffusion models. The second section explores applications such as sound and music generation, as well as utilizing pre-trained models for music/sound editing and restoration. In the third section, a hands-on demonstration will focus on training diffusion models and applying pre-trained models for music/sound restoration. The final section outlines future research directions.
+ 
+
+ We anticipate that this tutorial, emphasizing both the foundational principles and practical implementation of diffusion models, will stimulate interest among the music and sound signal processing community. It aims to illuminate insights and applications concerning diffusion models, drawn from methodologies in computer vision.","Chieh-Hsin Lai, Koichi Saito, Bac Nguyen Cong, Yuki Mitsufuji, and Stefano Ermon",,,,,,,
+5,Morning Tutorial T3,1,2024-11-10,9:00,12:30,Tutorials,,,,,,,,,
+,,,,,,,,,,,,,,,
+7,Online Q&A w/ volunteers,1,2024-11-10,13:00,14:00,Meetup,,,,,,,,,
+8,Afternoon Tutorial T4,1,2024-11-10,14:00,17:30,Tutorials,"In one form or another, most MIR research depends on the judgment of humans. Humans provide our ground-truth data, whether through explicit annotation or through observable behavior (e.g., listening histories); Humans also evaluate our results, whether in academic research reports or in the commercial marketplace. Will users like it? Will customers buy it? Does it sound good? These are all critical questions for MIR researchers which can only be answered by asking people. Unfortunately, measuring and interpreting the judgments and experiences of humans in a rigorous manner is difficult. Human responses can be fickle, changeable, and inconsistent—they are, by definition, subjective. There are many factors that influence human responses, some of which can be controlled or accounted for in experimental design, and others which must be tolerated but ameliorated through statistical analysis. Fortunately, researchers in the field of behavioral psychology have amassed extensive expertise and institutional knowledge related to the practice and pedagogy of human-subject research, but MIR researchers receive little exposure to research methods involving human subjects. This tutorial, led by MIR researchers with training (and publications) in psychological research, aims to share these insights with the ISMIR community. The tutorial will introduce key concepts, terminology, and concerns in carrying out human-subject research, all in the context of MIR. Through the discussion of real and hypothetical human research, we will explore the nuances of experiment and survey design, stimuli creation, sampling, psychometric modeling, and statistical analysis. We will review common pitfalls and confounds in human research, and present guidelines for best practices in the field. We will also cover fundamental ethical and legal requirements of human research. Any and all ISMIR members are welcome and encouraged to attend: it is never too early, or too late, in one’s research career to learn (or practice) these essential skills.","Claire Arthur, Nat Condit-Schultz, David R. W. Sears, John Ashley Burgoyne, and Josuha Albrecht",,,,,,,
+9,Afternoon Tutorial T5,1,2024-11-10,14:00,17:30,Tutorials,"Audio-based MIR (MIR based on the processing of audio signals) covers a broad range of tasks, including analysis (pitch, chord, beats, tagging), similarity/cover identification, and processing/generation of samples or music fragments. A wide range of techniques can be employed for solving each of these tasks, spanning from conventional signal processing and machine learning algorithms to the whole zoo of deep learning techniques.
+ 
+
+ This tutorial aims to review the various elements of this deep learning zoo commonly applied in Audio-based MIR tasks. We review typical audio front-ends (such as waveform, Log-Mel-Spectrogram, HCQT, SincNet, LEAF, quantization using VQ-VAE, RVQ), as well as projections (including 1D-Conv, 2D-Conv, Dilated-Conv, TCN, WaveNet, RNN, Transformer, Conformer, U-Net, VAE), and examine the various training paradigms (such as supervised, self-supervised, metric-learning, adversarial, encoder-decoder, diffusion). Rather than providing an exhaustive list of all of these elements, we illustrate their use within a subset of (commonly studied) Audio-based MIR tasks such as multi-pitch/chord-estimation, cover-detection, auto-tagging, source separation, music-translation or music generation. This subset of Audio-based MIR tasks is designed to encompass a wide range of deep learning elements. For each tack we address a) the goal of the tasks, b) how it is evaluated, c) provide some popular datasets to train a system, and d) explain (using slides and pytorch code) how we can solve it using deep learning.
+ 
+
+ The objective is to provide a 101 lecture (introductory lecture) on deep learning techniques for Audio-based MIR. It does not aim at being exhaustive in terms of Audio-based MIR tasks nor on deep learning techniques but to provide an overview for newcomers to Audio-Based MIR on how to solve the most common tasks using deep learning. It will provide a portfolio of codes (Colab notebooks and Jupyter book) to help newcomers achieve the various Audio-based MIR Tasks.","Geoffroy Peeters, Gabriel Meseguer Brocal, Alain Riou, and Stefan Lattner",,,,,,,
+10,Afternoon Tutorial T6,1,2024-11-10,14:00,17:30,Tutorials,"Singing, a universal human practice, intertwines with lyrics to form a core part of profound musical experiences, conveying emotions, narratives, and real-world connections. This tutorial explores the commonly used techniques and practices in lyrics and singing voice processing, which are vital in numerous music information retrieval tasks and applications.
+
+Despite the importance of song lyrics in MIR and the industry, high-quality paired audio & transcript annotations are often scarce. In the first part of this tutorial, we'll delve into automatic lyrics transcription and alignment techniques, which significantly reduce the annotation cost and enable more performant solutions. Our tutorial provides insights into the current state-of-the-art methods for transcription and alignment, highlighting their capabilities and limitations while fostering further research into these systems.
+
+Moreover, we present ""lyrics information processing"", which encompasses lyrics generation and leveraging lyrics to discern musically relevant aspects such as emotions, themes, and song structure. Understanding the rich information embedded in lyrics opens avenues for enhancing audio-based tasks by incorporating lyrics as supplementary input. 
+
+Finally, we discuss singing voice conversion as one such task, which involves the conversion of acoustic features embedded in a vocal signal, often relating to timbre and pitch. We explore how lyric-based features can facilitate a model's inherent disentanglement between acoustic and linguistic content, which leads to more convincing conversions. This section closes with a brief discussion on the ethical concerns and responsibilities that should be considered in this area.
+
+This tutorial caters especially to new researchers with an interest in lyrics and singing voice modeling, or those involved in improving lyrics alignment and transcription methodologies. It can also inspire researchers to leverage lyrics for improved performance on tasks like singing voice separation, music and singing voice generation, and cover song and emotion recognition.
+","Daniel Stoller, Emir Demirel, Kento Watanabe, and Brendan O’Connor",,,,,,,
+11,Welcome Reception,1,2024-11-10,19:00,21:00,Social,Join us at the conference venue to reconnect with old friends and meet new colleagues\! Appetizers and drinks will be provided. ,,,,,,,,
+12,Online Q&A w/ volunteers,1,2024-11-10,20:00,21:00,Meetup,,,,,,,,,
+13,All Tutorials,1,2024-11-10,21:00,6:00,Tutorials,,,,,,,,,
+14,Online Q&A w/ volunteers,2,2024-11-11,1:00,2:00,Meetup,,,,,,,,,
+15,Online social event,2,2024-11-11,6:00,7:30,Social,,,,,,,,,
+16,Registration,2,2024-11-11,8:00,8:30,Registration,,,,,,,,,
+17,Online Q&A w/ volunteers,2,2024-11-11,8:00,8:30,Meetup,,,,,,,,,
+18,Opening Remarks,2,2024-11-11,8:30,9:00,Special Session,,,,,,,,,
+,,,,,,,,,,,,,,,
+20,Poster Session - 1,2,2024-11-11,10:15,11:45,Poster session,"**In-person presentations:**
+
+* [Saraga Audiovisual: a large multimodal open data collection for the analysis of Carnatic Music - Sivasankar, Adithi Shankar*, Plaja-Roglans, Genís, Nuttall, Thomas, Rocamora, Martín, Serra, Xavier](/poster_352.html)
+* [X-Cover: Better music version identification system by integrating pretrained ASR model - Du, Xingjian*, Pei, Zou, Liu, Mingyu, Liang, Xia, Liang, Huidong, Chu, Minghang, Wang, Zijie, Zhu, Bilei](/poster_328.html)
+* [FruitsMusic: A Real-World Corpus of Japanese Idol-Group Songs - Suda, Hitoshi*, Yoshida, Shunsuke, Nakamura, Tomohiko, Fukayama, Satoru, Ogata, Jun](/poster_38.html)
+* [Classical Guitar Duet Separation using GuitarDuets - a Dataset of Real and Synthesized Guitar Recordings - Glytsos, Marios*, Garoufis, Christos, Zlatintsi, Athanasia, Maragos, Petros](/poster_262.html)
+* [Can LLMs ""Reason"" in Music? An Evaluation of LLMs' Capability of Music Understanding and Generation - Zhou, Ziya*, Wu, Yuhang, Wu, Zhiyue, Zhang, Xinyue, Yuan, Ruibin, MA, Yinghao, Wang, Lu, Benetos, Emmanouil, Xue, Wei, Guo, Yike](/poster_31.html)
+* [Music2Latent: Consistency Autoencoders for Latent Audio Compression - Pasini, Marco*, Lattner, Stefan, Fazekas, George](/poster_172.html)
+* [Robust and Accurate Audio Synchronization Using Raw Features From Transcription Models - Zeitler, Johannes*, Maman, Ben, Müller, Meinard](/poster_8.html)
+* [Selective Annotation of Few Data for Beat Tracking of Latin American Music Using Rhythmic Features - Lucas S. Maia, Martín Rocamora, Luiz W. P. Biscainho, Magdalena Fuentes](/poster_510.html)
+* [Harnessing the Power of Distributions: Probabilistic Representation Learning on Hypersphere for Multimodal Music Information Retrieval - Nakatsuka, Takayuki*, Hamasaki, Masahiro, Goto, Masataka](/poster_155.html)
+* [Towards Automated Personal Value Estimation in Song Lyrics - Demetriou, Andrew M.*, Kim, Jaehun, Liem, Cynthia](/poster_335.html)
+* [Audio Conditioning for Music Generation via Discrete Bottleneck Features - Rouard, Simon*, Defossez, Alexandre, Adi, Yossi, Copet, Jade, Roebel, Axel](/poster_41.html)
+* [Variation Transformer: New datasets, models, and comparative evaluation for symbolic music variation generation - Gao, Chenyu*, Reuben, Federico, Collins, Tom](/poster_72.html)
+* [Automatic Detection of Moral Values in Music Lyrics - Preniqi, Vjosa*, Ghinassi, Iacopo, Ive, Julia, Kalimeri, Kyriaki, Saitis, Charalampos](/poster_326.html)
+* [Semi-Supervised Piano Transcription Using Pseudo-Labeling Techniques - Strahl, Sebastian*, Müller, Meinard](/poster_214.html)
+* [Note-Level Transcription of Choral Music - Yu, Huiran*, Duan, Zhiyao](/poster_364.html)
+* [Learning Multifaceted Self-Similarity over Time and Frequency for Music Structure Analysis - Chen, Tsung-Ping*, Yoshii, Kazuyoshi](/poster_12.html)
+* [A Contrastive Self-Supervised Learning scheme for beat tracking amenable to few-shot learning - Gagneré, Antonin*, Essid, Slim, Peeters, Geoffroy](/poster_283.html)
+* [Using Pairwise Link Prediction and Graph Attention Networks for Music Structure Analysis - Buisson, Morgan*, McFee, Brian, Essid, Slim](/poster_405.html)
+
+**Remote presentations:**
+
+* [Formal Modeling of Structural Repetition using Tree Compression - Ren, Zeng*, Rammos, Yannis, Rohrmeier, Martin A](/poster_207.html)
+* [Harmonic and Transposition Constraints Arising from the Use of the Roland TR-808 Bass Drum - Deruty, Emmanuel*](/poster_86.html)
+",,,,,,,,
+,,,,,,,,,,,,,,,
+22,Mindfulness session,2,2024-11-11,11:45,12:45,Meetup,,,,,,,,,
+23,Keynote I,2,2024-11-11,13:00,14:00,All Meeting,TBD,Ed Newton-Rex,,,"Ed Newton-Rex is the founder of Fairly Trained, a non-profit that certifies generative AI companies for fair training data practices. He is also a Visiting Scholar at Stanford University.
+
+In 2010, Ed founded Jukedeck, one of the first AI music generation startups. Jukedeck let video creators generate music for their videos, and was used to create more than a million pieces of music. It was acquired by ByteDance in 2019\. At ByteDance, Ed led the AI Music lab, then led Product for TikTok in Europe.
+
+In 2022 Ed joined Stability AI, the company behind Stable Diffusion, to lead their Audio team. His team launched Stable Audio, Stability’s music generation product, which was named one of TIME Magazine’s best inventions of the year in 2023\. He resigned from Stability in November 2023 due to the company’s policy of training AI models on copyrighted work without consent, and in 2024 founded Fairly Trained. He is a published composer of choral music.",https://confcats-siteplex.s3.us-east-1.amazonaws.com/ismir24/large_ed_newton_rex_fairly_trained_ai_music_companies_copy_5c8e87ef06.jpg,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+26,Poster Session - 2,2,2024-11-11,15:15,16:45,Poster session,"**In-person presentations:**
+
+* [Six Dragons Fly Again: Reviving 15th-Century Korean Court Music with Transformers and Novel Encoding - Han, Danbinaerin, Gotham, Mark R H, Kim, DongMin, Park, Hannah, Lee, Sihun, Jeong, Dasaem*](/poster_35.html)
+* [Lessons learned from a project to encode Mensural music on a large scale with Optical Music Recognition - Rizo, David*, Calvo-Zaragoza, Jorge, Delgado-Sánchez, Teresa, García-Iasci, Patricia](/poster_104.html)
+* [The Changing Sound of Music: An Exploratory Corpus Study of Vocal Trends Over Time - Georgieva, Elena*, Ripollés, Pablo, McFee, Brian](/poster_57.html)
+* [Music Proofreading with RefinPaint: Where and How to Modify Compositions given Context - Ramoneda, Pedro*, Rocamora, Martín, Akama, Taketo](/poster_77.html)
+* [Notewise Evaluation of Source Separation: A Case Study For Separated Piano Tracks - Özer, Yigitcan*, Berendes, Hans-Ulrich, Arifi-Müller, Vlora, Stöter, Fabian-Robert, Müller, Meinard](/poster_13.html)
+* [Automatic Estimation of Singing Voice Musical Dynamics - Narang, Jyoti*, Tamer, Nazif Can, De La Vega, Viviana, Serra, Xavier](/poster_296.html)
+* [Joint Audio and Symbolic Audio Conditioning For Temporally Controlled Text-to-Music Generation - Tal, Or*, Ziv, Alon, Kreuk, Felix, Gat, Itai, Adi, Yossi](/poster_65.html)
+* [DIFF-A-RIFF: MUSICAL ACCOMPANIMENT CO-CREATION VIA LATENT DIFFUSION MODELS - Nistal, Javier*, Pasini, Marco, Aouameur , Cyran, Lattner, Stefan, Grachten, Maarten](/poster_225.html)
+* [Exploring Internet Radio Across the Globe with the MIRAGE Online Dashboard - Nguyen, Ngan V.T., Acosta, Elizabeth, Dang, Tommy, Sears, David*](/poster_334.html)
+* [The Sound Demixing Challenge 2023 – Cinematic Demixing Track - Stefan Uhlich, Giorgio Fabbro, Masato Hirano, Shusuke Takahashi, Gordon Wichern, Jonathan Le Roux, Dipam Chakraborty, Sharada Mohanty, Kai Li, Yi Luo, Jianwei Yu, Rongzhi Gu, Roman Solovyev, Alexander Stempkovskiy, Tatiana Habruseva, Mikhail Sukhovei, Yuki Mitsufuji](/poster_511.html)
+* [MIDI-to-Tab: Guitar Tablature Inference via Masked Language Modeling - Edwards, Andrew C*, Riley, Xavier, Sarmento, Pedro Pereira, Dixon, Simon](/poster_175.html)
+* [Transcription-based lyrics embeddings: simple extraction of effective lyrics embeddings from audio - Kim, Jaehun*, Henkel, Florian, Landau, Camilo, Sandberg, Samuel E., Ehmann, Andreas F.](/poster_365.html)
+* [A Method for MIDI Velocity Estimation for Piano Performance by a U-Net with Attention and FiLM - Kim, Hyon*, Serra, Xavier](/poster_42.html)
+* [MusiConGen: Rhythm and Chord Control for Transformer-Based Text-to-Music Generation - Lan, Yun-Han*, Hsiao, Wen-Yi, Cheng, Hao-Chung, Yang, Yi-Hsuan](/poster_91.html)
+* [End-to-end Piano Performance-MIDI to Score Conversion with Transformers - Beyer, Tim*, Dai, Angela](/poster_158.html)
+* [From Real to Cloned Singer Identification - Desblancs, Dorian*, Meseguer Brocal, Gabriel, Hennequin, Romain, Moussallam, Manuel](/poster_271.html)
+* [Emotion-driven Piano Music Generation via Two-stage Disentanglement and Functional Representation - Huang, Jingyue*, Chen, Ke, Yang, Yi-Hsuan](/poster_376.html)
+* [EFFICIENT ADAPTER TUNING FOR JOINT SINGING VOICE BEAT AND DOWNBEAT TRACKING WITH SELF-SUPERVISED LEARNING FEATURES - Deng, Jiajun*, Ju, Yaolong, Yang, Jing, Lui, Simon, Liu, Xunying](/poster_48.html)
+* [Which audio features can predict the dynamic musical emotions of both composers and listeners? - Oh, Eun Ji, Kim, Hyunjae, Lee, Kyung Myun*](/poster_305.html)
+* [Exploring Musical Roots: Applying Audio Embeddings to Empower Influence Attribution for a Generative Music Model - Barnett, Julia*, Pardo, Bryan, Flores García, Hugo](/poster_81.html)
+",,,,,,,,
+27,Listening For Diversity: The ways in which critical attention to words helps move us closer towards realizing our full humanity,2,2024-11-11,16:45,17:45,All Meeting,"Using her experience as a dancer, therapist, mediator, diversity trainer, anthropologist, college educator, and originator of Grounded Knowledge Panels®, Valerie Joseph distills lessons learned about the power of intentional and principled listening. She offers ideas on how to harness the energy derived from listening differently to fuel the capacity to have uncomfortable, rich, dynamic and productive thinking. This forms the basis upon which we are challenged to make transformative choices about how we operate with those other humans with whom we share the planet.",Valerie Joseph,,,"Valerie Joseph earned a Ph.D. in Cultural Anthropology from the University of Massachusetts at Amherst. Her doctoral research investigated the enduring legacies of British colonialism and African heritage memory among the members of the African Diaspora in Carriacou, Grenada. Specifically, she mapped how the game songs and dance play of Carriacouan Black girls as well as their words, beliefs, and attitudes reflected both the detrimental internalization of colonial ideology and the restorative nature of African retentions.
+
+Prior to her fieldwork in Carriacou, Dr. Joseph lived and worked in Botswana for seven years starting as a Peace Corps Volunteer science teacher in a junior secondary school, then as a training coordinator at the Cheshire Foundation's Mogoditshane Rehabilitation Center. She closed out her years in the country by working as co-director of the School for International Training's college semester abroad program. During her time in Botswana, Dr. Joseph sharpened her interest in cross-cultural conflicts, including those that seemed to be intractable, though traceable, in part, to cultural mores as well as historical and social patterns embedded in racial or ethnic bias and discrimination.
+
+Dr. Joseph has a Masters in Movement Therapy with a concentration in counseling psychology and a Masters in Social Justice Education. Her supplemental training, work and experience in several fields includes gymnastics coaching, dance performance, diversity training, Authentic Movement (a contemplative dance form), mediation, teaching and management in higher education.
+
+Dr. Joseph is an educator-interventionist working at Smith College as the Mentoring Administrative Director for AEMES (Achieving Excellence in Math Engineering and Science). In that role, she manages programs to support the most marginalized students who are pursuing STEM. She also teaches college success seminars within the AEMES Scholars Program.
+
+Dr. Joseph is co-founder of the Smith Roundtable Group. Started in 2020, the SRG is a small contingent of staff, faculty, and students dedicated to creating opportunities for information sharing and conversation about important current events. Past Roundtable offerings included: “Daring to be Hopeful: A Critical Response to the White Supremacist Storming of Our Capitol” and “Why is the Power of Young People so Threatening to the Status Quo?” The most recent Roundtable event took place in September of this year: ""'Calling In' for Democracy and Human Rights: A Consideration of Project 2025.""
+
+In and outside of Smith, Dr. Joseph convenes a unique form of public discourse that she originated. Grounded Knowledge Panels® are public conversations by small groups of people who have realistic, authentic and personal experience and understanding of a particular topic or question. Emerging from core Black culture, Grounded Knowledge Panels are a synthesis of Dr. Joseph's study and work in various fields including anthropology, Authentic Movement, education and mediation. As panelists converse among themselves, audience members are invited as “witnesses” to observe the discussion. Both groups \- panelists and witnesses – bring a distinctive power, depth and responsibility to the experience of speaking and listening.
+
+Dr. Joseph is a five time recipient of the Smith College Spotlight Award, an honor presented to staff members, chosen by peers, in appreciation of exceptional service. She is a 2020 recipient of the Elizabeth B. Wyant Gavel Award awarded by students to staff members who have performed outstanding work in the Smith community.
+
+Dr. Joseph's first children's book, [This is What Maisie Believes](https://www.groundedspaceconsulting.com/books), is published by 619 Wreath Publishing.",https://confcats-siteplex.s3.us-east-1.amazonaws.com/ismir24/small_valerie_j_6510850013.png,,,
+28,Remembering Don Byrd,2,2024-11-11,17:45,18:00,Social,"Don Byrd, the General Chair of the very first ISMIR conference in 2000, has recently left us. This session remembers and celebrates the vision and contributions of this legend for our community. ",Zhiyao Duan,,,,,,,
+29,Online special session I,2,2024-11-11,18:00,19:00,Special Session,"Join us for short presentations and informal conversations with invited researchers from the MIR community\!
+
+**Amanda Krause**
+
+Title: Can we categorise younger adult listeners?
+
+Abstract: The evolution of digital listening technologies continues to impact the way we think about music consumption and music listening practices. Krause and North’s (2016) findings suggest that, in addition to demographic characteristics, psychological constructs should be considered when investigating listening practices and technology use. The present study uses latent profile analysis (LPA), which is a statistical technique that focuses on identifying latent subgroups within a population based on a set of variables. With this study, LPA affords us the opportunity to attempt to categorise types of music listeners. To explore this possibility, we draw on data collected from a sample of 584 younger adults residing in Australia (Mage \= 19.62; 74.10% female). Participants were asked to complete an online questionnaire that included demographics, the musicianship module of the MUSEBAQ (Chin, et al., 2018), the Music Engagement Test (MET; Greenberg & Rentfrow, 2015), Langford’s (2003) Big Five proxy personality scale, Krause and Hargreave’s (2013) Music Self-Images Questionnaire, and Krause and Brown’s (2021) format use measure. With analyses underway, preliminary indications suggest that format use and MET scores may differentiate listener typologies. Study findings further our theoretical understanding of how individuals consume music in everyday life.
+
+Her passion for researching the social and applied psychology of music has led her to give guest lectures and public talks and serve as President of the Australian Music & Psychology Society (AMPS). She is the author of numerous peer-reviewed academic publications and has spoken on her research to academics and industry leaders at conferences around the world. Her research has made significant contributions to understanding how listening technologies influence people’s experiences and how musical engagement impacts well-being. Dr Krause’s current programs of research concern how everyday music and radio experiences influence people’s well-being.
+
+**Sebastian Stober**
+
+Title: ""Generative AI Training and Copyright Law”
+
+Abstract: Training generative AI models requires extensive amounts of data. A common practice is to collect such data through web scraping. In the USA, AI developers rely on ""fair use"" and in Europe, the prevailing view is that the exception for ""Text and Data Mining"" (TDM) applies. In a recent interdisciplinary tandem-study with a legal expert, I have argued in detail that this is actually not the case because generative AI training fundamentally differs from TDM. In this talk, I will share our main findings and the implications for both public and corporate research on generative models. I will further discuss how the phenomenon of training data memorization leads to copyright issues independently from the ""fair use"" and TDM exceptions. Finally, I would like to outline how the ISMIR could contribute to the ongoing discussion about fair practices with respect to generative AI that satisfy all stakeholders.","Amanda Krause, Sebastian Stober",,,"**Dr Amanda E. Krause** is a Senior Lecturer (Psychology) in the College of Healthcare Sciences at James Cook University (Queensland, Australia). As a music psychology scholar based at James Cook University, she studies how we experience music in our everyday lives.
+Her passion for researching the social and applied psychology of music has led her to give guest lectures and public talks and serve as President of the Australian Music & Psychology Society (AMPS). She is the author of numerous peer-reviewed academic publications and has spoken on her research to academics and industry leaders at conferences around the world. Her research has made significant contributions to understanding how listening technologies influence people’s experiences and how musical engagement impacts well-being. Dr Krause’s current programs of research concern how everyday music and radio experiences influence people’s well-being.
+
+**Sebastian Stober** is professor for Artificial Intelligence at the Otto-von-Guericke-University Magdeburg, Germany. He studied computer science with focus on intelligent systems in Magdeburg until 2005 and received his PhD with distinction on the topic of adaptive methods for user-centered organization of music collections in 2011\. From 2013 to 2015, he was postdoctoral fellow at the Brain and Mind Institute in London, Ontario where he pioneered deep learning techniques for studying brain activity during music perception and imagination. Afterwards, he was head of the Machine Learning in Cognitive Science Lab at the University of Potsdam, before returning to Magdeburg in 2018\. In his current research, he investigates and develops generative models for music and speech as well as methods to better understand what an artificial intelligence has learned and how it solves specific problems. To this end, he combines the fields of artificial intelligence and machine learning with cognitive neuroscience and music information retrieval.",,,,
+30,Banquet/Jam Session,2,2024-11-11,19:00,23:59,Social,,,,,,,,,
+31,Online Q&A w/ volunteers,2,2024-11-11,20:00,20:30,Meetup,,,,,,,,,
+32,Opening Remarks,2,2024-11-11,20:30,21:00,Special Session,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+40,Remembering Don Byrd,3,2024-11-12,5:45,6:00,time,,,,,,,,,
+41,Online special session II,3,2024-11-12,6:00,7:00,Special Session,"Join us for short presentations and informal conversations with invited researchers from the MIR community\!
+
+**Martin Hartmann**
+
+Title: Music and Movement: exploring Social and Multimodal Dimensions of Rhythmic Entrainment.
+
+Abstract: The talk addresses key challenges in the field of music and movement through two ongoing studies at the Centre of Excellence in Music, Mind, Body and Brain at the University of Jyväskylä. The first challenge explores rhythmic-social entrainment within the context of free dyadic dance. We present a study that examines the relationship between rhythmic-social entrainment and social as well as musical affiliation during adolescence, using markerless motion capture technology. Following a 2x2 factorial design, participants dance freely in dyads with a friend and with a stranger to music of their choice and to music selected by us. The second challenge focuses on the multimodality of rhythmic-social entrainment. We discuss a study that employs motion capture and surface electromyography to investigate the impact of visual cues and performed activities on acoustic features, physiological responses, and kinematic responses in choir singing. The goal is to understand how the visibility of other choir members and the performed activities (chat, homophony, polyphony, and musical improvisation) influence different types of individual and group responses. In addition to exploring the social aspects of rhythmic entrainment in dance and its multimodal nature in choir singing, we emphasize the extraction of musical features and individual and social acoustic and kinematic features. We also consider potential take-home messages from these studies for the music information retrieval community and beyond.
+
+About the speaker:  
+![][image4]  
+Martin Hartmann is an Assistant Professor of Musicology at the University of Jyväskylä, where he works for the Centre of Excellence in Music, Mind, Body, and Brain and for the European Research Council project MUSICONNECT. His research encompasses music and movement, perception, information retrieval, and therapy. Currently, he specializes in the computational modeling of multimodal interactions in music and dance contexts. He is an executive group member of the Finnish Doctoral Network for Music Research and the local coordinator of the EU-funded FORTHEM Alliance Lab for Arts and Aesthetics in Contemporary Society. He led the project “Interaction in Music Therapy for Depression”, maintains the MoCap (Motion Capture) Toolbox for MATLAB, and holds editorial roles for the journals *Music Perception* and *Psychology of Music*.",Martin Hartmann,,,"About the speaker:  
+![][image4]  
+Martin Hartmann is an Assistant Professor of Musicology at the University of Jyväskylä, where he works for the Centre of Excellence in Music, Mind, Body, and Brain and for the European Research Council project MUSICONNECT. His research encompasses music and movement, perception, information retrieval, and therapy. Currently, he specializes in the computational modeling of multimodal interactions in music and dance contexts. He is an executive group member of the Finnish Doctoral Network for Music Research and the local coordinator of the EU-funded FORTHEM Alliance Lab for Arts and Aesthetics in Contemporary Society. He led the project “Interaction in Music Therapy for Depression”, maintains the MoCap (Motion Capture) Toolbox for MATLAB, and holds editorial roles for the journals *Music Perception* and *Psychology of Music*.",,,,
+42,Registration,3,2024-11-12,8:00,8:30,Registration,,,,,,,,,
+43,Online Q&A w/ volunteers,3,2024-11-12,8:00,8:30,Meetup,,,,,,,,,
+,,,,,,,,,,,,,,,
+45,Poster Session - 3,3,2024-11-12,9:45,11:00,Poster session,"**In-person presentations:**
+
+* [Field Study on Children's Home Piano Practice: Developing a Comprehensive System for Enhanced Student-Teacher Engagement - Fukuda, Seikoh*, Fukuda, Yuko, Motomura, Ami, Sasao, Eri, Hosoda, Masamichi, Matsubara, Masaki, Niitsuma, Masahiro](/poster_128.html)
+* [Human-AI Music Process: A Dataset of AI-Supported Songwriting Processes from the AI Song Contest - Morris, Lidia J*, Leger, Rebecca, Newman, Michele, Burgoyne, John Ashley, Groves, Ryan, Mangal, Natasha, Lee, Jin Ha](/poster_79.html)
+* [Cue Point Estimation using Object Detection - Arguello, Giulia, Lanzendoerfer, Luca A*, Wattenhofer, Roger](/poster_19.html)
+* [The ListenBrainz Listens Dataset - Ohri, Kartik*, Kaye, Robert](/poster_317.html)
+* [SpecMaskGIT: Masked Generative Modelling of Audio Spectrogram for Efficient Audio Synthesis and Beyond - Comunita, Marco, Zhong, Zhi*, Takahashi, Akira, Yang, Shiqi, Zhao, Mengjie, Saito, Koichi, Ikemiya, Yukara, Shibuya, Takashi, Takahashi, Shusuke, Mitsufuji, Yuki](/poster_96.html)
+* [Long-form music generation with latent diffusion - Evans, Zach, Parker, Julian D*, Carr, CJ, Zuckowski, Zachary, Taylor, Josiah, Pons, Jordi](/poster_258.html)
+* [Composer's Assistant 2: Interactive Multi-Track MIDI Infilling with Fine-Grained User Control - Malandro, Martin E*](/poster_60.html)
+* [Piano Concerto Dataset (PCD): A Multitrack Dataset of Piano Concertos - Yigitcan Özer, Simon Schwär, Vlora Arifi-Müller, Jeremy Lawrence, Emre Sen, and Meinard Müller](/poster_512.html)
+* [Towards Zero-Shot Amplifier Modeling: One-to-Many Amplifier Modeling via Tone Embedding Control - Chen, Yu-Hua*, Yeh, Yen-Tung, Cheng , Yuan-Chiao, Wu, Jui-Te, Ho,  Yu-Hsiang, Jang, Jyh-Shing Roger, Yang, Yi-Hsuan](/poster_184.html)
+* [Mel-RoFormer for Vocal Separation and Vocal Melody Transcription - Wang, Ju-Chiang*, Lu, Wei-Tsung, Chen, Jitong](/poster_374.html)
+* [Unsupervised Synthetic-to-Real Adaptation for Optical Music Recognition - Luna-Barahona, Noelia N, Roselló, Adrián, Alfaro-Contreras, María, Rizo, David, Calvo-Zaragoza, Jorge*](/poster_45.html)
+* [MMT-BERT: Chord-aware Symbolic Music Generation Based on Multitrack Music Transformer and MusicBERT - ZHU, Jinlong*, Sakurai, Keigo, Togo, Ren, Ogawa, Takahiro, Haseyama, Miki](/poster_101.html)
+* [Discogs-VI: A Musical Version Identification Dataset Based on Public Editorial Metadata - Araz, Recep Oguz*, Serra, Xavier, Bogdanov, Dmitry](/poster_166.html)
+* [End-to-end automatic singing skill evaluation using cross-attention and data augmentation for solo singing and singing with accompaniment - Ju, Yaolong*, Wu, Chun Yat, Lorenzo , Betty Cortinas, Yang, Jing, Deng, Jiajun, FAN, FAN, Lui, Simon](/poster_89.html)
+
+**Remote presentations:**
+
+* [Green MIR? Investigating computational cost of recent music-Ai research in ISMIR - Holzapfel, Andre*, Kaila, Anna-Kaisa, Jääskeläinen, Petra](/poster_113.html)
+* [Inner Metric Analysis as a Measure of Rhythmic Syncopation - Bemman, Brian*, Christensen, Justin](/poster_251.html)
+* [WHO'S AFRAID OF THE `ARTYFYSHALL BYRD'? HISTORICAL NOTIONS AND CURRENT CHALLENGES OF MUSICAL ARTIFICIALITY - Cornia, Nicholas*, Forment, Bruno](/poster_212.html)
+",,,,,,,,
+46,Industry Session I,3,2024-11-12,11:00,12:00,Industry,,"Brandi Frisbie, Minz Won",,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+49,Creative Practice Session I,3,2024-11-12,13:15,14:15,Meetup,"Music information technology has the potential to transform creative and artistic practice. Many technologists working in music information retrieval also at least are music lovers (if not skilled players), and as such have strong commitment to having their tools and technologies being useful in practice. At the same time, are these technologists indeed sufficiently aligning to musical and creative practice? Are the needs and interests of relevant real-life music stakeholders (players, composers, producers, other types of practitioners) who never heard about ‘music information retrieval’ sufficiently identified and recognized in technological research and development?
+
+As Creative Practice chairs, considering ISMIR 2024’s special focus on ‘Bridging Technology and Musical Creativity’, we want to stimulate more awareness of (and joint learning on) these questions. In order to do this, we wish to facilitate dialogues and collaborations on this topic between technologists and creatives. While [several community members contributed ideas](https://docs.google.com/document/d/1p5yGNEVgW_W0lKgyIRWip0sgD_kOU1ki5iEkkvv6PhA/edit?tab=t.0) on which you can respond to collaborate, at ISMIR 2024, we also will host two panels featuring invited guests who all are active on the bridges between technology and creative practice.
+
+In today’s panel, we will host and have a conversation with:
+
+* **Mark Goldstein** \- Percussionist, programmer, teacher, inventor; with an interest in the nexus of musical gesture, sound, and expression.  
+* **Michelle Alexander** \-    
+* **Carlos Mosquera** \- ","Cynthia Liem, Tomàs Peire",,,,,,,
+,,,,,,,,,,,,,,,
+51,Poster Session - 4,3,2024-11-12,15:30,17:00,Poster session,"**In-person presentations:**
+
+* [Cluster and Separate: a GNN Approach to Voice and Staff Prediction for Score Engraving - Foscarin, Francesco*, Karystinaios, Emmanouil, Nakamura, Eita, Widmer, Gerhard](/poster_9.html)
+* [From Audio Encoders to Piano Judges: Benchmarking Performance Understanding for Solo Piano - Zhang, Huan*, Liang, Jinhua, Dixon, Simon](/poster_132.html)
+* [Towards Explainable and Interpretable Musical Difficulty Estimation: A Parameter-efficient Approach - Ramoneda, Pedro*, Eremenko, Vsevolod E, D'Hooge, Alexandre, Parada-Cabaleiro, Emilia, Serra, Xavier](/poster_78.html)
+* [Purposeful Play: Evaluation and Co-Design of Casual Music Creation Applications with Children - Newman, Michele*, Morris, Lidia J, Kato, Jun, Goto, Masataka, Yip, Jason, Lee, Jin Ha](/poster_83.html)
+* [El Bongosero: A Crowd-sourced Symbolic Dataset of Improvised Hand Percussion Rhythms Paired with Drum Patterns - Haki, Behzad, Evans, Nicholas*, Gómez, Daniel, Jordà, Sergi](/poster_24.html)
+* [Utilizing Listener-Provided Tags for Music Emotion Recognition: A Data-Driven Approach - Affolter, Joanne*, Rammos, Yannis, Rohrmeier, Martin A](/poster_173.html)
+* [PiCoGen2: Piano cover generation with transfer learning approach and weakly aligned data - Tan, Chih-Pin*, Ai, Hsin, Chang, Yi-Hsin, Guan, Shuen-Huei, Yang, Yi-Hsuan](/poster_114.html)
+* [Diff-MST: Differentiable Mixing Style Transfer - Vanka, Soumya Sai*, Steinmetz, Christian J., Rolland, Jean-Baptiste, Reiss, Joshua D., Fazekas, George](/poster_299.html)
+* [Semi-Supervised Contrastive Learning of Musical Representations - Guinot, Julien PM*, Quinton, Elio, Fazekas, George](/poster_84.html)
+* [A Dataset of Larynx Microphone Recordings for Singing Voice Reconstruction - Simon Schwär, Michael Krause, Michael Fast, Sebastian Rosenzweig, Frank Scherbaum, Meinard Müller](/poster_513.html)
+* [Improved symbolic drum style classification with grammar-based hierarchical representations - Géré, Léo*, Audebert, Nicolas, Rigaux, Philippe](/poster_293.html)
+* [Nested Music Transformer: Sequentially Decoding Compound Tokens in Symbolic Music and Audio Generation - Ryu, Jiwoo, Dong, Hao-Wen, Jung, Jongmin, Jeong, Dasaem*](/poster_5.html)
+* [Continual Learning for Music Classification - González-Barrachina, Pedro, Alfaro-Contreras, María, Calvo-Zaragoza, Jorge*](/poster_46.html)
+* [TheGlueNote: Learned Representations for Robust and Flexible Note Alignment - Peter, Silvan*, Widmer, Gerhard](/poster_103.html)
+* [GAPS: A Large and Diverse Classical Guitar Dataset and Benchmark Transcription Model - Riley, Xavier*, Guo, Zixun, Edwards, Andrew C, Dixon, Simon](/poster_171.html)
+* [Stem-JEPA: A Joint-Embedding Predictive Architecture for Musical Stem Compatibility Estimation - Riou, Alain, Lattner, Stefan, Hadjeres, Gaëtan*, Anslow, Michael, Peeters, Geoffroy](/poster_306.html)
+* [Audio Prompt Adapter: Unleashing Music Editing Abilities for Text-to-Music with Lightweight Finetuning - Tsai, Fang Duo*, Wu, Shih-Lun, Kim, Haven, Chen, Bo-Yu, Cheng, Hao-Chung, Yang, Yi-Hsuan](/poster_278.html)
+* [MelodyT5: A Unified Score-to-Score Transformer for Symbolic Music Processing - Wu, Shangda, Wang, Yashan, Li, Xiaobing, Yu, Feng, Sun, Maosong*](/poster_90.html)
+* [GraphMuse: A Library for Symbolic Music Graph Processing - Karystinaios, Emmanouil*, Widmer, Gerhard](/poster_142.html)
+
+**Remote presentations:**
+
+* [A Kalman Filter model for synchronization in musical ensembles - Carvalho, Hugo T*, Li, Min Susan, Di Luca, Massimiliano, Wing, Alan M.](/poster_347.html)
+",,,,,,,,
+52,Keynote II,3,2024-11-12,17:00,18:00,All Meeting,,Elizabeth Moody,,,"ELIZABETH MOODY, partner and chair of Granderson Des Rochers, LLP's New Media Group, is a pioneer in the digital media world. Moody has been spearheading digital music and video initiatives since the post-Napster era, both as outside counsel, and as a business executive in-house at companies like YouTube and Pandora. Today, Moody remains positioned at the intersection of technology and music rights and continues to advise her technology and rightsholder clients toward new and innovative business models and licensing deals.
+
+Moody is at the forefront of the developing issues and opportunities that AI presents to the music and entertainment industries. She counsels several prominent generative voice and audio AI companies, advises the non-profit **Fairly Trained**, which certifies AI companies who are training the data sets with fairly acquired, licensed or owned data, and **Audioshake**, an AI-based stem separation tool in use by record labels, movie studios, and entertainment companies today to ease production and marketing.  
+   
+She is also keyed into the gaming and the web 3.0 world. She is partnerships counsel for the gaming company **Roblox** and also works closely with **Wave XR**, a virtual reality concerts start-up that works with artists to create unique live performances as avatar versions of themselves in imaginative digital landscapes. She developed and continues to grow **Styngr’s** efforts to power music in video games and online gaming experiences.  
+   
+Along with gaming and the metaverse, she is passionate about the opportunities web 3.0 will bring to the music community and creators. She represents **Audius**, the blockchain-based music streaming service, in its efforts to help creators and their fans connect more authentically by embracing the opportunities offered through a decentralized network and **Revelator**, an all-in-one music platform providing digital distribution, analytics, and web 3.0 services to artists, record labels and publishers.  She advises **Copyright Delta**, providing data connections to rights holders and AI tech platforms.
+
+Moody is excited to bring opportunities to the music industry by forging deals with those in industries outside of music, including at the intersection of music and fitness. She represents connected fitness, yoga, pilates, mindfulness, cycling, and dance services to help them integrate music into their services. She has worked closely with **Hydrow**, the successful Peloton-style live reality-connected rowing experience, since its launch in 2019\. She believes that VR plays an important role in fitness and works with **Litesport** and **FitXR** to ensure they have access to top-notch music experiences. She has also been working in the medical and wellness space exploring licensing structures to use music in the treatment of pain, dementia, and mental illness concerns through her work with **MediMusic** and her advisory participation on the board of **Music Health**.",https://confcats-siteplex.s3.us-east-1.amazonaws.com/ismir24/large_Elizabeth_Moody_USE_c3dcedcde8.jpeg,,,
+53,Creative Practice meetup at Riffusion,3,2024-11-12,18:00,22:00,Meetup,"*Thank you to Riffusion for hosting this event\!*
+
+Riffusion is a small team of musicians, engineers, and researchers building creative AI tools in San Francisco. We train foundation models for music generation, and envision Riffusion as a new musical instrument.  ","Cynthia Liem, Tomàs Peire",,,,,,,
+54,Online Q&A w/ volunteers,3,2024-11-12,20:00,20:30,Meetup,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+64,Online Q&A w/ volunteers,4,2024-11-13,8:00,8:30,Meetup,,,,,,,,,
+,,,,,,,,,,,,,,,
+66,Poster Session - 5,4,2024-11-13,9:45,11:00,Poster session,"**In-person presentations:**
+
+* [ST-ITO: Controlling audio effects for style transfer with inference-time optimization - Steinmetz, Christian J.*, singh, Shubhr, Comunita, Marco, Ibnyahya, Ilias, Yuan, Shanxin, Benetos, Emmanouil, Reiss, Joshua D.](/poster_249.html)
+* [ComposerX: Multi-Agent Music Generation with LLMs - Deng, Qixin, Yang, Qikai, Yuan, Ruibin*, Huang , Yipeng, Wang, Yi, Liu, Xubo, Tian, Zeyue, Pan, Jiahao, Zhang, Ge, Lin, Hanfeng, Li, Yizhi, MA, Yinghao, Fu, Jie, Lin, Chenghua, Benetos, Emmanouil, Wang, Wenwu, Xia, Guangyu, Xue, Wei, Guo, Yike](/poster_237.html)
+* [Do Music Generation Models Encode Music Theory? - Wei, Megan*, Freeman, Michael, Donahue, Chris, Sun, Chen](/poster_189.html)
+* [PolySinger: Singing-Voice to Singing-Voice Translation from English to Japanese - Antonisen, Silas*, López-Espejo, Iván](/poster_218.html)
+* [Sanidha: A Studio Quality Multi-Modal Dataset for Carnatic Music - Vaidyanathapuram Krishnan, Venkatakrishnan*, Alben, Noel, Nair , Anish  A, Condit-Schultz, Nathaniel](/poster_354.html)
+* [Between the AI and Me: Analysing Listeners' Perspectives on AI- and Human-Composed Progressive Metal Music - Sarmento, Pedro Pereira, Loth, Jackson J*, Barthet, Mathieu](/poster_131.html)
+* [Combining audio control and style transfer using latent diffusion - Demerlé, Nils*, Esling, Philippe, Doras, Guillaume, Genova, David](/poster_316.html)
+* [Computational Analysis of Yaredawi YeZema Silt in Ethiopian Orthodox Tewahedo Church Chants - Muluneh, Mequanent Argaw*, Peng, Yan-Tsung, Su, Li](/poster_160.html)
+* [Wagner Ring Dataset: A Complex Opera Scenario for Music Processing and Computational Musicology - Christof Weiß, Vlora Arifi-Müller, Michael Krause, Frank Zalkow, Stephanie Klauk, Rainer Kleinertz, and Meinard Müller](/poster_514.html)
+* [Lyrics Transcription for Humans: A Readability-Aware Benchmark - Cífka, Ondřej*, Schreiber, Hendrik, Miner, Luke, Stöter, Fabian-Robert](/poster_272.html)
+* [Content-based Controls for Music Large-scale Language Modeling - Lin, Liwei*, Xia, Gus, Jiang, Junyan, Zhang, Yixiao](/poster_61.html)
+* [Exploring the inner mechanisms of large generative music models - Vélez Vásquez, Marcel A*, Pouw, Charlotte, Burgoyne, John Ashley, Zuidema, Willem](/poster_119.html)
+* [Quantitative Analysis of Melodic Similarity in Music Copyright Infringement Cases - Park, Saebyul*, Kim, Halla, Jung, Jiye, Park, Juyong, Kim, Jeounghoon, Nam, Juhan](/poster_181.html)
+* [Robust lossy audio compression identification - Koops, Hendrik Vincent*, Micchi, Gianluca, Quinton, Elio](/poster_304.html)
+* [RNBert: Fine-Tuning a Masked Language Model for Roman Numeral Analysis - Sailor, Malcolm*](/poster_322.html)
+* [Automatic Note-Level Score-to-Performance Alignments in the ASAP Dataset - Silvan David Peter, Carlos Eduardo Cancino-Chacón, Francesco Foscarin, Andrew Philip McLeod, Florian Henkel, Emmanouil Karystinaios, Gerhard Widmer](/poster_518.html)
+
+**Remote presentations:**
+
+* [On the validity of employing ChatGPT for distant reading of music similarity - Flexer, Arthur*](/poster_1.html)
+* [A Critical Survey of Research in Music Genre Recognition - Green, Owen*, Sturm, Bob L. T., Born, Georgina, Wald-Fuhrmann, Melanie](/poster_149.html)
+",,,,,,,,
+67,Creative Practice Session II,4,2024-11-13,11:00,12:15,Meetup,"Music information technology has the potential to transform creative and artistic practice. Many technologists working in music information retrieval also at least are music lovers (if not skilled players), and as such have strong commitment to having their tools and technologies being useful in practice. At the same time, are these technologists indeed sufficiently aligning to musical and creative practice? Are the needs and interests of relevant real-life music stakeholders (players, composers, producers, other types of practitioners) who never heard about ‘music information retrieval’ sufficiently identified and recognized in technological research and development?
+
+As Creative Practice chairs, considering ISMIR 2024’s special focus on ‘Bridging Technology and Musical Creativity’, we want to stimulate more awareness of (and joint learning on) these questions. In order to do this, we wish to facilitate dialogues and collaborations on this topic between technologists and creatives. While [several community members contributed ideas](https://docs.google.com/document/d/1p5yGNEVgW_W0lKgyIRWip0sgD_kOU1ki5iEkkvv6PhA/edit?tab=t.0) on which you can respond to collaborate, at ISMIR 2024, we also will host two panels featuring invited guests who all are active on the bridges between technology and creative practice.
+
+In today’s panel, we will host and have a conversation with:
+
+* **Eyal Amir** \- musician, software developer and musical instruments creator. Co-founder and CTO of the audio plugins company Modalics.  
+* **Ben Cantil** aka Encanti \- electronic music producer, software designer, educator, and scholar  
+* **Seth Forsgren** \- Amateur Musician, CEO at Riffusion  
+* **Spencer Salazar** \- ","Cynthia Liem, Tomàs Peire",,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+70,Keynote III,4,2024-11-13,13:30,14:30,All Meeting,,Douglas Eck,,,"Doug is a Senior Research Director at Google, and leads research efforts at Google DeepMind in Generative Media, including image, video, 3D, music and audio generation. His own research lies at the intersection of machine learning and human-computer interaction (HCI). In 2015, Doug created Magenta, an ongoing research project exploring the role of AI in art and music creation. Before joining Google in 2010, Doug did research in music perception, aspects of music performance, machine learning for large audio datasets and music recommendation. He completed his PhD in Computer Science and Cognitive Science at Indiana University in 2000 and went on to a postdoctoral fellowship with Juergen Schmidhuber at IDSIA in Lugano Switzerland. From 2003-2010, Doug was faculty in Computer Science in the University of Montreal machine learning group (now MILA machine learning lab), where he became Associate Professor.  ",https://confcats-siteplex.s3.us-east-1.amazonaws.com/ismir24/large_Doug_Eck_39e3112975.jpg,,,
+,,,,,,,,,,,,,,,
+72,Poster Session - 6,4,2024-11-13,15:45,17:00,Poster session,"**In-person presentations:**
+
+* [MuChoMusic: Evaluating Music Understanding in Multimodal Audio-Language Models - Weck, Benno*, Manco, Ilaria, Benetos, Emmanouil, Quinton, Elio, Fazekas, George, Bogdanov, Dmitry](/poster_333.html)
+* [Human Pose Estimation for Expressive Movement Descriptors in Vocal Musical Performance - Roychowdhury, Sujoy*, Rao, Preeti, Chandran, Sharat](/poster_273.html)
+* [Enhancing predictive models of music familiarity with EEG: Insights from fans and non-fans of K-pop group NCT127 - Park, Seokbeom, Kim, Hyunjae, Lee, Kyung Myun*](/poster_373.html)
+* [Mosaikbox: Improving Fully Automatic DJ Mixing Through Rule-based Stem Modification And Precise Beat-Grid Estimation - Sowula, Robert*, Knees, Peter](/poster_261.html)
+* [MidiCaps: A Large-scale MIDI Dataset with Text Captions - Melechovsky, Jan, Roy, Abhinaba*, Herremans, Dorien](/poster_198.html)
+* [A New Dataset, Notation Software, and Representation for Computational Schenkerian Analysis - Hahn, Stephen*, Xu, Weihan, Yin, Zirui, Zhu, Rico, Mak, Simon, Jiang, Yue, Rudin, Cynthia](/poster_367.html)
+* [DITTO-2: Distilled Diffusion Inference-Time T-Optimization for Music Generation - Novack, Zachary*, McAuley, Julian, Berg-Kirkpatrick, Taylor, Bryan, Nicholas J.](/poster_146.html)
+* [The Concatenator: A Bayesian Approach To Real Time Concatenative Musaicing - Tralie, Christopher J*, Cantil, Ben](/poster_340.html)
+* [DEEP RECOMBINANT TRANSFORMER: ENHANCING LOOP COMPATIBILITY IN DIGITAL MUSIC PRODUCTION - Haseeb, Muhammad Taimoor*, Hammoudeh, Ahmad, Xia, Gus](/poster_231.html)
+* [Repertoire-Specific Vocal Pitch Data Generation for Improved Melodic Analysis of Carnatic Music - Genís Plaja-Roglans, Thomas Nuttall, Lara Pearson, Xavier Serra, Marius Miron](/poster_515.html)
+* [I can listen but cannot read: An evaluation of two-tower multimodal systems for instrument recognition - Vasilakis, Yannis*, Bittner, Rachel, Pauwels, Johan](/poster_275.html)
+* [Streaming Piano Transcription Based on Consistent Onset and Offset Decoding with Sustain Pedal Detection - Wei, Weixing*, Zhao, Jiahao, Wu, Yulun, Yoshii, Kazuyoshi](/poster_18.html)
+* [Towards Universal Optical Music Recognition: A Case Study on Notation Types - Martinez-Sevilla, Juan Carlos*, Rizo, David, Calvo-Zaragoza, Jorge](/poster_66.html)
+* [Controlling Surprisal in Music Generation via Information Content Curve Matching - Bjare, Mathias Rose*, Lattner, Stefan, Widmer, Gerhard](/poster_143.html)
+* [Toward a More Complete OMR Solution - Yang, Guang*, Zhang, Muru, Qiu, Lin, Wan, Yanming, Smith, Noah A](/poster_193.html)
+* [Augment, Drop & Swap: Improving Diversity in LLM Captions for Efficient Music-Text Representation Learning - Manco, Ilaria*, Salamon, Justin, Nieto, Oriol](/poster_336.html)
+* [Music Discovery Dialogue Generation Using Human Intent Analysis and Large Language Model - Doh, Seungheon*, Choi, Keunwoo, Kwon, Daeyong, Kim, Taesoo, Nam, Juhan](/poster_396.html)
+* [STONE: Self-supervised tonality estimator - KONG, Yuexuan*, Lostanlen, Vincent, Meseguer Brocal, Gabriel, Wong, Stella, Lagrange, Mathieu, Hennequin, Romain](/poster_260.html)
+* [Beat this! Accurate beat tracking without DBN postprocessing - Foscarin, Francesco*, Schlüter, Jan, Widmer, Gerhard](/poster_10.html)
+* [The Sound Demixing Challenge 2023 – Music Demixing Track - Giorgio Fabbro, Stefan Uhlich, Chieh-Hsin Lai, Woosung Choi, Marco Martínez-Ramírez, Weihsiang Liao, Igor Gadelha, Geraldo Ramos, Eddie Hsu, Hugo Rodrigues, Fabian-Robert Stöter, Alexandre Défossez, Yi Luo, Jianwei Yu, Dipam Chakraborty, Sharada Mohanty, Roman Solovyev, Alexander Stempkovskiy, Tatiana Habruseva, Nabarun Goswami, Tatsuya Harada, Minseok Kim, Jun Hyung Lee, Yuanliang Dong, Xinran Zhang, Jiafeng Liu, Yuki Mitsufuji](/poster_519.html)
+",,,,,,,,
+73,Industry Session II,4,2024-11-13,17:00,18:00,Industry,,"Brandi Frisbie, Minz Won",,,,,,,
+74,Meetup with Industry,4,2024-11-13,19:00,20:00,Meetup,"Join us for a Meetup with Industry Panel for the 25th International Society for Music Information Retrieval (ISMIR) Conference\!  
+The panel aims to explore the intersection of technology and musical creativity, discussing current trends, challenges, and future possibilities in this rapidly evolving field. This year we are excited to be able to offer a set number of tickets to the public\!  
+We’re excited to welcome our very special guests:
+
+* Moderated by [Jessica Powell](https://www.linkedin.com/in/jessica-powell-28b8b7a/)  
+* [Stephen White](https://www.linkedin.com/in/stephenhwhite/)  
+* [Douglas McCausland](https://www.linkedin.com/in/douglasmccausland/)  
+* [Tony Brooke](https://www.linkedin.com/in/tonybrooke/)  
+* [Heidi Trefethen](https://www.linkedin.com/in/heidi-trefethen-a2901a6/)  
+* [Anna Huang](https://czhuang.github.io/)","Brandi Frisbie, Minz Won",,,,,,,
+75,ISMIR 2024 Meetup with Industry Panel: Bridging Technology and Musical Creativity,4,2024-11-13,20:00,22:00,Industry,Q\&A and Networking portion of the Meetup with Industry.,Brandi Frisbie and Minz Won,,,,,,,
+76,Online Q&A w/ volunteers,4,2024-11-13,20:00,20:30,Meetup,,,,,,,,,
+,Oral Session V,4,2024-11-13,20:30,21:45,Poster session,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+86,Registration,5,2024-11-14,8:00,8:30,Registration,,,,,,,,,
+87,Online Q&A w/ volunteers,5,2024-11-14,8:00,8:30,Meetup,,,,,,,,,
+,,,,,,,,,,,,,,,
+89,Poster Session - 7,5,2024-11-14,9:45,11:00,Poster session,"**In-person presentations:**
+
+* [Scoring Time Intervals Using Non-Hierarchical Transformer for Automatic Piano Transcription - Yan, Yujia*, Duan, Zhiyao](/poster_382.html)
+* [CADENZA: A Generative Framework for Expressive Musical Ideas and Variations - Lenz, Julian, Mani, Anirudh*](/poster_315.html)
+* [Looking for Tactus in All the Wrong Places: Statistical Inference of Metric Alignment in Rap Flow - Condit-Schultz, Nathaniel*](/poster_280.html)
+* [Exploring GPT's Ability as a Judge in Music Understanding - Fang, Kun*, Wang, Ziyu, Xia, Gus, Fujinaga, Ichiro](/poster_345.html)
+* [Towards Assessing Data Replication in Music Generation with Music Similarity Metrics on Raw Audio - Batlle-Roca, Roser*, Liao, Wei-Hsiang, Serra, Xavier, Mitsufuji, Yuki, Gomez, Emilia](/poster_216.html)
+* [Generating Sample-Based Musical Instruments Using Neural Audio Codec Language Models - Nercessian, Shahan*, Imort, Johannes, Devis, Ninon, Blang, Frederik](/poster_22.html)
+* [HIERARCHICAL GENERATIVE MODELING OF THE MELODIC VOICE IN HINDUSTANI CLASSICAL MUSIC - Shikarpur, Nithya Nadig*, Dendukuri, Krishna Maneesha, Wu, Yusong, CAILLON, Antoine, Huang, Cheng-Zhi Anna](/poster_163.html)
+* [SymPAC: Scalable Symbolic Music Generation With Prompts And Constraints - Chen, Haonan*, Smith, Jordan B. L., Spijkervet, Janne, Wang, Ju-Chiang, Zou, Pei, Li, Bochen, Kong, Qiuqiang, Du, Xingjian](/poster_366.html)
+* [Unsupervised Composable Representations for Audio - Bindi, Giovanni*, Esling, Philippe](/poster_254.html)
+* [CCOM-HuQin: An Annotated Multimodal Chinese Fiddle Performance Dataset - Yu Zhang, Ziya Zhou, Xiaobing Li, Feng Yu, Maosong Sun](/poster_516.html)
+* [A Stem-Agnostic Single-Decoder System for Music Source Separation Beyond Four Stems - Watcharasupat, Karn N*, Lerch, Alexander](/poster_32.html)
+* [Towards Musically Informed Evaluation of Piano Transcription Models - Hu, Patricia*, Marták, Lukáš Samuel, Cancino-Chacón, Carlos Eduardo, Widmer, Gerhard](/poster_144.html)
+* [Using Item Response Theory to Aggregate Music Annotation Results of Multiple Annotators - Nakano, Tomoyasu*, Goto, Masataka](/poster_205.html)
+* [Just Label the Repeats for In-The-Wild Audio-to-Score Alignment - Bukey, Irmak*, Feffer, Michael, Donahue, Chris](/poster_357.html)
+* [Investigating Time-Line-Based Music Traditions with Field Recordings: A Case Study of Candomblé Bell Patterns - Maia, Lucas S*, Namballa, Richa, Rocamora, Martín, Fuentes, Magdalena, Guedes, Carlos](/poster_360.html)
+* [PiJAMA: Piano Jazz with Automatic MIDI Annotations - Drew Edwards, Simon Dixon, Emmanouil Benetos](/poster_517.html)
+
+**Remote presentations:**
+
+* [Lyrically Speaking: Exploring the Link Between Lyrical Emotions, Themes and Depression Risk - Chowdary, Pavani B*, Singh, Bhavyajeet, Agarwal, Rajat, Alluri, Vinoo](/poster_43.html)
+* [In-depth performance analysis of the ADTOF-based algorithm for automatic drum transcription - Zehren, Mickael*](/poster_68.html)
+",,,,,,,,
+,,,,,,,,,,,,,,,
+91,LBD / MIREX (onsite),5,2024-11-14,11:15,12:45,LBD,"The LBD session is a forum for presenting prototype systems, initial concepts, and early results that are not yet fully matured but hold significance for the Music Information Retrieval (MIR) community. This joint session with MIREX includes poster presentations and live demos from both LBD and MIREX submissions. ","Chih-Wei Wu, Camile Noufi, Gus Xia",,,,,,,
+92,LBD / MIREX (online),5,2024-11-14,11:15,12:45,LBD,"The LBD session is a forum for presenting prototype systems, initial concepts, and early results that are not yet fully matured but hold significance for the Music Information Retrieval (MIR) community. This joint session with MIREX includes poster presentations and live demos from both LBD and MIREX submissions. ","Chih-Wei Wu, Camile Noufi, Gus Xia",,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+95,Society meeting,5,2024-11-14,14:00,15:30,Social ,,ISMIR,,,,,,,
+96,Unconference,5,2024-11-14,15:30,17:30,Meetup,"The unconference is a set of impromptu sessions/discussions on MIR topics of greatest interest.   
+During a first plenary, participants vote on their preferred topics, then join a 30-minute discussion group on this topic, after which they summarize their discussions in a second plenary, vote on new topics, and repeat the process with new groups. Topics do not need to be technical (example: what does MIR stands for ? do we need open-review ? does gen-ai cares about copyright ? how many multi-head do I need in my encoder ?). This is an informal and informative opportunity to get to know peers and colleagues from around the world. ",Geoffroy Peeters,,,,,,,
+97,Online Q&A w/ volunteers,5,2024-11-14,20:00,20:30,Meetup,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+100,LBD / MIREX (online),5,2024-11-14,23:15,23:45,LBD,"The LBD session is a forum for presenting prototype systems, initial concepts, and early results that are not yet fully matured but hold significance for the Music Information Retrieval (MIR) community. This joint session with MIREX includes poster presentations and live demos from both LBD and MIREX submissions. ","Chih-Wei Wu, Camile Noufi, Gus Xia",,,,,,,
+,,,,,,,,,,,,,,,
+102,Society meeting,6,2024-11-15,2:00,3:30,Awards,,ISMIR,,,,,,,
+103,Ideation sessions,6,2024-11-15,3:30,6:00,Meetup,"As a follow-up to the topics introduced by our Special Online Session Speakers, this ideation session invites ISMIR attendees to delve deeper into interdisciplinary connections. Participants will join break-out rooms to explore how various fields, including those beyond the session topics, can inform Music Information Retrieval (MIR) or, conversely, how MIR can contribute to advancements across disciplines. Each group will talk or present their discussions, highlighting their insights and proposed synergies. The session will conclude with a collective discussion and Q&A with the Speakers, aiming to foster collaboration and generate actionable ideas for pushing the boundaries of MIR research.",Vinoo Alluri,,,,,,,

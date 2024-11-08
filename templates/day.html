@@ -10,16 +10,17 @@
   ("day_3.html", "Nov 12", "day_3-html"),
   ("day_4.html", "Nov 13", "day_4-html"),
   ("day_5.html", "Nov 14", "day_5-html"),
+  ("day_6.html", "Nov 15", "day_6-html"),
   ])
 }}
 {% endblock %}
-
+{% set tzone = 'America/Los_Angeles' %}
 {% block content %}
 
 <div id="day">
 
   {% if day.tutorials %}
-  {{ components.subsection_tag("Tutorial", "tut") }}
+  {{ components.subsection_tag("Tutorials", "tut") }}
   {{ components.tutorialscard(tutorials, tzone, tut_md) }}
   {% endif %}
 
@@ -65,7 +66,7 @@
   {% endif %}
 
   {% if day.music %}
-    {{ components.subsection_tag("Music Sessions", "mus") }}
+    {{ components.subsection_tag("Creative Practice", "mus") }}
     {{ components.postercards(day.music, tzone) }}
   {% endif %}
 
