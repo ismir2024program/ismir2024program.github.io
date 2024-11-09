@@ -312,7 +312,7 @@ workshopgroup
 {%- endmacro %}
 
 
-<!-- {% macro tutorialscard(type, timezone, tut_md) -%}
+{% macro tutorialscard(type, timezone, tut_md) -%}
 <div class="cards row p-4">
   {% for meet in type %}
   {% set str_index = loop.index | string %}
@@ -324,11 +324,11 @@ workshopgroup
         style="min-height: 200px; width: 100%;"
       >
         {% if meet.channel_url %}
-          <a id="{{ meet.title[:2]}}" href="{{meet.channel_url}}">
+          <a id="{{ meet.title[:2]}}" href="/tutorial_{{meet.uid}}.html">
             <h3 class="card-title main-title m-3 text-left">{{meet.title}}</h3>
           </a>
         {% else %}
-          <a id="{{ meet.title[:2] }}" href="#">
+          <a id="{{ meet.title[:2] }}" href="/tutorials.html">
             <h3 class="card-title main-title m-3 text-left">{{meet.title}}</h3>
           </a>
         {% endif %}
@@ -340,18 +340,14 @@ workshopgroup
         </div>
 
         {% if meet.channel_url %}
-          <a href="{{meet.channel_url}}" class="btn btn-primary mr-3">{% include 'slack_svg.html' %} {{meet.slack_channel}}</a>
+          <div class="m-3 text-left"> 
+          <a href="{{meet.channel_url}}" class="btn btn-primary mr-3" style="background-color: #2294e0;">{% include 'slack_svg.html' %} {{meet.slack_channel}}</a>
+          </div>
         {% endif %}
 
         <div class="mt-3 ml-3 mr-3 mb-4 text-left card-subtitle">
           {{meet.description | markdown}}
         </div>
-
-        <h3 class="card-title m-3 text-left">Presenters</h3>
-        <div class="mt-3 ml-3 mr-3 mb-4 text-left card-subtitle">
-          {{meet.organiser_bio | markdown}}
-        </div>
-
         <div class="m-3 text-left">
         </div>
       </div>
@@ -359,18 +355,6 @@ workshopgroup
   </div>
   {% endfor %}
 </div>
-{%- endmacro %} -->
-
-{% macro tutorialscard(type, timezone, tut_md) -%}
-  <div> 
-      {{type | safe}}
-  </div>
-  <div> 
-      {{timezone}}
-  </div>
-  <div> 
-      {{tut_md}}
-  </div>
 {%- endmacro %}
 
 
@@ -446,11 +430,10 @@ workshopgroup
 
 
       {% if category == 'LBD' %}{% set page = 'lbds.html'%}
-      {% elif category == 'Music' %}{% set page = 'music.html' %}
       {% elif category == 'Poster session' %}{% set page = 'papers.html' %}
       {% endif %}
 
-      <a class="full-card-link" href="{{page}}?session={{session_filter}}">
+      <a class="full-card-link" href="{{page}}?session={{session_filter}}"> </a>
         <div class="card" style="display: block; overflow: hidden; width: 100%;">
           <div
             class="card-header text-center"
