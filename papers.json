@@ -101,8 +101,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UPU6SEN7",
       "day": "1",
       "keywords": [
-        "MIR tasks -> alignment, synchronization, and score following",
-        "MIR tasks -> music transcription and annotation"
+        "MIR tasks -> music transcription and annotation",
+        "MIR tasks -> alignment, synchronization, and score following"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -146,8 +146,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07U9EY9AAK",
       "day": "2",
       "keywords": [
-        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; Knowledge-driven approaches to MIR -> representations of music; MIR tasks -> music transcription and annotation; Musical features and properties -> representations of music",
-        "MIR fundamentals and methodology -> symbolic music processing"
+        "MIR fundamentals and methodology -> symbolic music processing",
+        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; Knowledge-driven approaches to MIR -> representations of music; MIR tasks -> music transcription and annotation; Musical features and properties -> representations of music"
       ],
       "long_presentation": "TRUE",
       "meta_review": "",
@@ -230,8 +230,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07VCQWBJ3A",
       "day": "1",
       "keywords": [
-        "Musical features and properties -> structure, segmentation, and form",
-        "Musical features and properties -> representations of music"
+        "Musical features and properties -> representations of music",
+        "Musical features and properties -> structure, segmentation, and form"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -322,8 +322,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07USGD286Q",
       "day": "3",
       "keywords": [
-        "",
-        "MIR tasks -> music transcription and annotation"
+        "MIR tasks -> music transcription and annotation",
+        ""
       ],
       "long_presentation": "FALSE",
       "meta_review": "This paper received generally good ratings from the four reviewers, as the proposed model achieves high performance while working in real time, which has been less studied. The main weakness is the lack of clarity in the model descriptions. In particular, reviewer #1 pointed out a lot of missing details that make it difficult to understand the exact model operation, and thus recommended a weak rejection. Through discussion, the reviewers concluded that many of the issues can be addressed in the camera-ready version and that the main contributions of the paper deserve to be presented at the ISMIR conference. Therefore, the authors are strongly encouraged to incorporate all comments in the revision and improve the clarity.",
@@ -602,8 +602,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07USGDGH1A",
       "day": "1",
       "keywords": [
-        "Applications -> music composition, performance, and production",
-        "Applications -> music heritage and sustainability; Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR fundamentals and methodology -> symbolic music processing; MIR tasks -> music generation"
+        "Applications -> music heritage and sustainability; Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR fundamentals and methodology -> symbolic music processing; MIR tasks -> music generation",
+        "Applications -> music composition, performance, and production"
       ],
       "long_presentation": "TRUE",
       "meta_review": "",
@@ -696,8 +696,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07V2MM27CZ",
       "day": "1",
       "keywords": [
-        "Creativity -> human-ai co-creativity; Generative Tasks -> music and audio synthesis; Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR fundamentals and methodology -> music signal processing",
-        "MIR tasks -> music generation"
+        "MIR tasks -> music generation",
+        "Creativity -> human-ai co-creativity; Generative Tasks -> music and audio synthesis; Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR fundamentals and methodology -> music signal processing"
       ],
       "long_presentation": "FALSE",
       "meta_review": "This paper was generally well received by the reviewers. Congrats, authors!\n\nPlease, address the reviewers comments as closely as possible. Especially the following:\n- Cite the appropriate previous work (i.e., this is not the only audio-conditioned music generative model)\n- Have a proficient English speaker to proofread the manuscript",
@@ -737,8 +737,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07USGDLYLU",
       "day": "1",
       "keywords": [
-        "MIR fundamentals and methodology -> music signal processing; Musical features and properties -> expression and performative aspects of music",
-        "MIR tasks -> music transcription and annotation"
+        "MIR tasks -> music transcription and annotation",
+        "MIR fundamentals and methodology -> music signal processing; Musical features and properties -> expression and performative aspects of music"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -829,8 +829,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UM5T53C5",
       "day": "2",
       "keywords": [
-        "MIR tasks -> optical music recognition",
-        "Applications -> digital libraries and archives"
+        "Applications -> digital libraries and archives",
+        "MIR tasks -> optical music recognition"
       ],
       "long_presentation": "FALSE",
       "meta_review": "All reviewers agree that the presented unsupervised domain adaptation framework to improve Optical Music Recognition performance would be of interest to the ISMIR community, would create discourse, possibly inspire work in other parallel areas, and in that sense the topic has high relevance to the conference. The readability of the paper is good, novelty and the scientific contributions are sufficient for publication.\n\nWe recommend acceptance of the paper provided the following issues are addressed in the final version.\n- Please see all reviews for detailed suggestions and changes to improve the clarity of the paper.\n- Code be made available as mentioned in the paper (but was not provided for this review).\n- Add comparison with previous works (Reviewer 1; R1) to the extent possible. Include a comparative discussion of the two references mentioned.\n- Consider the work in the papers listed by R3 on leveraging batch normalization statistics for domain adaptation and higher-order moment matching to tie in work in that area for a better grounding of presented approach. Make it clear that idea of domain adaptation is not being newly introduced in this work.\n",
@@ -919,8 +919,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07V2MM9281",
       "day": "1",
       "keywords": [
-        "Musical features and properties -> rhythm, beat, tempo",
-        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR fundamentals and methodology -> music signal processing; Musical features and properties -> timbre, instrumentation, and singing voice"
+        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR fundamentals and methodology -> music signal processing; Musical features and properties -> timbre, instrumentation, and singing voice",
+        "Musical features and properties -> rhythm, beat, tempo"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -962,8 +962,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UM5T97PX",
       "day": "1",
       "keywords": [
-        "Computational musicology -> digital musicology; MIR fundamentals and methodology -> music signal processing; Musical features and properties -> timbre, instrumentation, and singing voice",
-        "Computational musicology"
+        "Computational musicology",
+        "Computational musicology -> digital musicology; MIR fundamentals and methodology -> music signal processing; Musical features and properties -> timbre, instrumentation, and singing voice"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -1001,8 +1001,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07USGDV12Q",
       "day": "2",
       "keywords": [
-        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music",
-        "Creativity -> human-ai co-creativity; MIR fundamentals and methodology -> symbolic music processing; MIR tasks -> music generation"
+        "Creativity -> human-ai co-creativity; MIR fundamentals and methodology -> symbolic music processing; MIR tasks -> music generation",
+        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music"
       ],
       "long_presentation": "FALSE",
       "meta_review": "The reviewers broadly appreciate the contribution of a generative model integrated into a DAW. While I think the empirical evaluation is somewhat weak, this is counterbalanced by the relevance of the artifact. The system will be released and open source, making this a valuable baseline for future work on DAW-integrated models.",
@@ -1046,8 +1046,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UHCN1N8N",
       "day": "3",
       "keywords": [
-        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR tasks -> music synthesis and transformation",
-        "MIR tasks -> music generation"
+        "MIR tasks -> music generation",
+        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR tasks -> music synthesis and transformation"
       ],
       "long_presentation": "FALSE",
       "meta_review": "Reviewers agree that this paper is well written and clearly presented. Further, the code to be published along with the paper is a huge plus.\n\nIt is a logical approach to training controllable music generation with limited resources, using llama adaptors, and great to see a model that can take the range of modes of control that were presented. However, many reviewers point out that there is room for improvement in the evaluation. There are comments regarding the clarity around the description of the evaluation process, the presence of good baselines, and regarding limited insight into how useful each of the modes of control are to the model. Please take careful note of the each of the reviewer's comments and use them to address outstanding reviewers concerns.",
@@ -1093,8 +1093,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UQ1DBBS6",
       "day": "1",
       "keywords": [
-        "MIR and machine learning for musical acoustics -> applications of musical acoustics to signal synthesis; MIR tasks -> music generation",
-        "Generative Tasks -> music and audio synthesis"
+        "Generative Tasks -> music and audio synthesis",
+        "MIR and machine learning for musical acoustics -> applications of musical acoustics to signal synthesis; MIR tasks -> music generation"
       ],
       "long_presentation": "FALSE",
       "meta_review": "We have thoroughly reviewed this paper from various aspects, and we all believe that the paper is ready for publication with minor revisions. For more details, please see the comments of each reviewer. It is also highly recommended that you add more details about the user study",
@@ -1136,8 +1136,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UHCN4FQE",
       "day": "3",
       "keywords": [
-        "MIR tasks -> optical music recognition",
-        "Applications -> digital libraries and archives; Applications -> music heritage and sustainability; Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR tasks -> music transcription and annotation"
+        "Applications -> digital libraries and archives; Applications -> music heritage and sustainability; Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR tasks -> music transcription and annotation",
+        "MIR tasks -> optical music recognition"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -1175,8 +1175,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UQ1DE84S",
       "day": "4",
       "keywords": [
-        "Evaluation, datasets, and reproducibility; Evaluation, datasets, and reproducibility -> evaluation methodology; Evaluation, datasets, and reproducibility -> evaluation metrics",
-        "MIR tasks -> music transcription and annotation"
+        "MIR tasks -> music transcription and annotation",
+        "Evaluation, datasets, and reproducibility; Evaluation, datasets, and reproducibility -> evaluation methodology; Evaluation, datasets, and reproducibility -> evaluation metrics"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -1403,8 +1403,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07VCQXSCNL",
       "day": "1",
       "keywords": [
-        "MIR tasks -> similarity metrics",
-        "Philosophical and ethical discussions -> ethical issues related to designing and implementing MIR tools and technologies"
+        "Philosophical and ethical discussions -> ethical issues related to designing and implementing MIR tools and technologies",
+        "MIR tasks -> similarity metrics"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -1452,8 +1452,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UPU8LG4B",
       "day": "2",
       "keywords": [
-        "Creativity -> creativity and learning",
-        "Creativity -> creative practice involving MIR or generative technology ; Human-centered MIR -> human-computer interaction; Human-centered MIR -> music interfaces and services; Human-centered MIR -> user-centered evaluation"
+        "Creativity -> creative practice involving MIR or generative technology ; Human-centered MIR -> human-computer interaction; Human-centered MIR -> music interfaces and services; Human-centered MIR -> user-centered evaluation",
+        "Creativity -> creativity and learning"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -1495,8 +1495,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UPU8MTB5",
       "day": "2",
       "keywords": [
-        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; Knowledge-driven approaches to MIR -> representations of music; MIR fundamentals and methodology -> music signal processing; MIR tasks -> automatic classification; MIR tasks -> similarity metrics",
-        "Knowledge-driven approaches to MIR"
+        "Knowledge-driven approaches to MIR",
+        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; Knowledge-driven approaches to MIR -> representations of music; MIR fundamentals and methodology -> music signal processing; MIR tasks -> automatic classification; MIR tasks -> similarity metrics"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -1534,8 +1534,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07VCQY1D96",
       "day": "1",
       "keywords": [
-        "Computational musicology",
-        "Applications -> music composition, performance, and production; Computational musicology -> digital musicology; Knowledge-driven approaches to MIR -> computational music theory and musicology; Musical features and properties -> musical style and genre"
+        "Applications -> music composition, performance, and production; Computational musicology -> digital musicology; Knowledge-driven approaches to MIR -> computational music theory and musicology; Musical features and properties -> musical style and genre",
+        "Computational musicology"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -1632,8 +1632,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UM5U0SCV",
       "day": "2",
       "keywords": [
-        "MIR fundamentals and methodology -> symbolic music processing",
-        "Evaluation, datasets, and reproducibility -> novel datasets and use cases; MIR tasks -> music generation; Musical features and properties -> harmony, chords and tonality; Musical features and properties -> melody and motives; Musical features and properties -> structure, segmentation, and form"
+        "Evaluation, datasets, and reproducibility -> novel datasets and use cases; MIR tasks -> music generation; Musical features and properties -> harmony, chords and tonality; Musical features and properties -> melody and motives; Musical features and properties -> structure, segmentation, and form",
+        "MIR fundamentals and methodology -> symbolic music processing"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -1781,8 +1781,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07U9F0C4RM",
       "day": "2",
       "keywords": [
-        "MIR tasks -> music generation",
-        "MIR fundamentals and methodology -> symbolic music processing; Musical features and properties -> harmony, chords and tonality; Musical features and properties -> representations of music"
+        "MIR fundamentals and methodology -> symbolic music processing; Musical features and properties -> harmony, chords and tonality; Musical features and properties -> representations of music",
+        "MIR tasks -> music generation"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -1822,8 +1822,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UPU92QGK",
       "day": "2",
       "keywords": [
-        "MIR tasks -> alignment, synchronization, and score following",
-        "MIR fundamentals and methodology -> symbolic music processing"
+        "MIR fundamentals and methodology -> symbolic music processing",
+        "MIR tasks -> alignment, synchronization, and score following"
       ],
       "long_presentation": "FALSE",
       "meta_review": "This is a meta-review, summarising the main points of the individual reviews.\n\nTraditional methods like Dynamic Time Warping (DTW) or Hidden Markov Models (HMM) struggle with aligning symbolic note sequences that have large mismatches. This paper proposes a novel approach using various complex manipulations (e.g., repeats, skips, block insertions, and long trills) to train a model that predicts pairwise note similarities for two 512-note subsequences. As a post-processing step, DTW is used and compared to two alternatives. The approach is shown to lead to very high accuracy, even in the presence of large mismatches, and it is directly applicable to any kind of MIDI file.\n\nStrengths:\n- Innovative Approach: The paper proposes a novel method using a transformer-based model for aligning symbolic note sequences, which addresses the limitations of traditional methods like DTW and HMM, especially in the presence of large mismatches.  \n- Detailed Explanation: The model and experimental setup are explained in detail, providing a clear understanding of the approach and its implementation.  \n- High Accuracy: The proposed method demonstrates very high accuracy, outperforming baseline methods and showing robustness against a large number of mismatches.  \n- Reproducibility: The authors promise to provide code and datasets online, which facilitates reproducibility and further research.\n\nWeaknesses:\n- Clarity in Description: Some parts of the paper, particularly the data augmentations and certain concepts (see e.g. the comment on attention by reviewer 4) could be explained more clearly.  \n- Figures 1 and 2 have been noted to either lack informativeness or be too dense. Additionally, inconsistencies in terminology and numbering in tables need addressing.  \n\nPlease also consider the very detailed and helpful comments by the individual reviewers!\n\nOverall, the paper is a valuable contribution to ISMIR and recommended for acceptance.",
@@ -1867,8 +1867,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07VCQYBRG8",
       "day": "1",
       "keywords": [
-        "MIR tasks -> optical music recognition",
-        "Applications -> digital libraries and archives"
+        "Applications -> digital libraries and archives",
+        "MIR tasks -> optical music recognition"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -1957,8 +1957,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07V2MNBZT3",
       "day": "2",
       "keywords": [
-        "Applications -> music composition, performance, and production; Generative Tasks -> transformations; Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR tasks -> music generation; Musical features and properties -> musical style and genre",
-        "Generative Tasks"
+        "Generative Tasks",
+        "Applications -> music composition, performance, and production; Generative Tasks -> transformations; Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR tasks -> music generation; Musical features and properties -> musical style and genre"
       ],
       "long_presentation": "FALSE",
       "meta_review": "Based on the reveiwers and internal discussion, we would like to  voted for a weak acceptance. Please see R2 on the concern on evaluation, and please also do incorporate the important missing reference to deliver a complete study.",
@@ -2002,8 +2002,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07USGF4WSY",
       "day": "3",
       "keywords": [
-        "Knowledge-driven approaches to MIR -> representations of music; MIR and machine learning for musical acoustics -> applications of machine learning to musical acoustics; MIR tasks -> music synthesis and transformation; Musical features and properties -> musical style and genre; Musical features and properties -> timbre, instrumentation, and singing voice",
-        "MIR tasks -> music generation"
+        "MIR tasks -> music generation",
+        "Knowledge-driven approaches to MIR -> representations of music; MIR and machine learning for musical acoustics -> applications of machine learning to musical acoustics; MIR tasks -> music synthesis and transformation; Musical features and properties -> musical style and genre; Musical features and properties -> timbre, instrumentation, and singing voice"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -2053,8 +2053,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UM5V2669",
       "day": "2",
       "keywords": [
-        "",
-        "Applications -> music training and education"
+        "Applications -> music training and education",
+        ""
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -2139,8 +2139,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UHCQD31U",
       "day": "2",
       "keywords": [
-        "Evaluation, datasets, and reproducibility -> novel datasets and use cases; Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR fundamentals and methodology -> music signal processing; MIR tasks -> automatic classification; Musical features and properties -> expression and performative aspects of music",
-        "Applications -> music training and education"
+        "Applications -> music training and education",
+        "Evaluation, datasets, and reproducibility -> novel datasets and use cases; Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR fundamentals and methodology -> music signal processing; MIR tasks -> automatic classification; Musical features and properties -> expression and performative aspects of music"
       ],
       "long_presentation": "FALSE",
       "meta_review": "There has been a consensus among the reviewers regarding this paper for accepting it. I strongly advise the authors to look at the detailed comments from the reviewers and address the raised points in order to further improve the publication.",
@@ -2180,8 +2180,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UM5W2E0M",
       "day": "2",
       "keywords": [
-        "Applications -> digital libraries and archives; Knowledge-driven approaches to MIR -> representations of music",
-        "MIR fundamentals and methodology -> symbolic music processing"
+        "MIR fundamentals and methodology -> symbolic music processing",
+        "Applications -> digital libraries and archives; Knowledge-driven approaches to MIR -> representations of music"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -2268,8 +2268,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UHCRP206",
       "day": "4",
       "keywords": [
-        "Evaluation, datasets, and reproducibility -> evaluation metrics; Evaluation, datasets, and reproducibility -> reproducibility; MIR fundamentals and methodology -> music signal processing; MIR fundamentals and methodology -> symbolic music processing; Musical features and properties -> expression and performative aspects of music",
-        "MIR tasks -> music transcription and annotation"
+        "MIR tasks -> music transcription and annotation",
+        "Evaluation, datasets, and reproducibility -> evaluation metrics; Evaluation, datasets, and reproducibility -> reproducibility; MIR fundamentals and methodology -> music signal processing; MIR fundamentals and methodology -> symbolic music processing; Musical features and properties -> expression and performative aspects of music"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -2313,8 +2313,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07U9F3LCNT",
       "day": "3",
       "keywords": [
-        "Generative Tasks -> music and audio synthesis",
-        "Generative Tasks -> real-time considerations; MIR tasks -> music generation"
+        "Generative Tasks -> real-time considerations; MIR tasks -> music generation",
+        "Generative Tasks -> music and audio synthesis"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -2401,8 +2401,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07USGJJ8G4",
       "day": "1",
       "keywords": [
-        "MIR and machine learning for musical acoustics",
-        "MIR fundamentals and methodology -> multimodality"
+        "MIR fundamentals and methodology -> multimodality",
+        "MIR and machine learning for musical acoustics"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -2442,8 +2442,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UHCSSRSA",
       "day": "1",
       "keywords": [
-        "MIR fundamentals and methodology -> symbolic music processing; MIR tasks -> music synthesis and transformation; Musical features and properties -> rhythm, beat, tempo; Musical features and properties -> structure, segmentation, and form",
-        "MIR tasks -> music transcription and annotation"
+        "MIR tasks -> music transcription and annotation",
+        "MIR fundamentals and methodology -> symbolic music processing; MIR tasks -> music synthesis and transformation; Musical features and properties -> rhythm, beat, tempo; Musical features and properties -> structure, segmentation, and form"
       ],
       "long_presentation": "FALSE",
       "meta_review": "This paper describes end-to-end MIDI-to-score conversion, which has not been focused on in the MIR field.\n\nThe paper is written very well. The proposed method is technically solid and its effectiveness was clearly shown by the well-designed experiments.",
@@ -2487,8 +2487,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UM5YDGLV",
       "day": "3",
       "keywords": [
-        "Applications -> music heritage and sustainability; Knowledge-driven approaches to MIR -> computational ethnomusicology; Knowledge-driven approaches to MIR -> computational music theory and musicology; Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR tasks -> automatic classification",
-        "Knowledge-driven approaches to MIR"
+        "Knowledge-driven approaches to MIR",
+        "Applications -> music heritage and sustainability; Knowledge-driven approaches to MIR -> computational ethnomusicology; Knowledge-driven approaches to MIR -> computational music theory and musicology; Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR tasks -> automatic classification"
       ],
       "long_presentation": "FALSE",
       "meta_review": "After the review process and the discussion phase, all reviewers and myself agree unanimously that this paper should be accepted for ISMIR 2024. However, the paper still needs to be revised before the camera-ready version. I strongly suggest the authors to carefully read all the reviews and consider all the suggestions proposed in them, since they will surely improve the current status of the paper. I will also summarize here the reasons for this recommendation and the aspects that need improvement.\n\nAll reviewers have agreed on the great value that the new dataset has for the ISMIR community, since, firstly, it introduces a tradition not previously studied by this community, especially coming from one of the most underrepresented continents in ISMIR, Africa, but also, and equally important, for the quality of the dataset, as described by the authors. Secondly, it offers an interesting analysis performed on this dataset, which proves its validity for MIR studies on it, and provides meaningful insights on its music tradition.\n\nHowever, the authors should improve the paper before submitting the camera-ready version on the following aspects.\n\nFirst, the readability of the paper should be improved, since the language at some points is not clear enough.\n\nSecondly, this paper will be the reference for this dataset in the future. As such, the music tradition should be better, more systematically described. Of course, it is impossible to cover all the dimensions of any music traditions in few pages of a conference paper. Therefore, the authors should focus on those elements of the tradition that are relevant for understanding the data and its potential for computational analysis. Other aspects, such as language or notation, should be minimized, at least at this stage of the dataset. (If in the future lyrics or scores are added to the dataset, those aspects should be then explained.)\n\nThirdly, the design of the experiment should be better explained. Since this not my main field of expertise, I suggest the authors to carefully read the comments by the three reviewers on this aspect, and to consider them for the improvement of the paper.\n\nFinally, details about reproducibility, regarding not only access to the data, but to the code, should be given.",
@@ -2535,8 +2535,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UPUDDVDZ",
       "day": "4",
       "keywords": [
-        "Generative Tasks -> artistically-inspired generative tasks ; MIR tasks -> music generation; Musical features and properties -> expression and performative aspects of music",
-        "Generative Tasks -> music and audio synthesis"
+        "Generative Tasks -> music and audio synthesis",
+        "Generative Tasks -> artistically-inspired generative tasks ; MIR tasks -> music generation; Musical features and properties -> expression and performative aspects of music"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -2623,8 +2623,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UQ1JTRDG",
       "day": "2",
       "keywords": [
-        "Evaluation, datasets, and reproducibility -> novel datasets and use cases",
-        "MIR tasks -> music transcription and annotation"
+        "MIR tasks -> music transcription and annotation",
+        "Evaluation, datasets, and reproducibility -> novel datasets and use cases"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -2709,8 +2709,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07USGKV0TE",
       "day": "2",
       "keywords": [
-        "Applications -> music recommendation and playlist generation; Evaluation, datasets, and reproducibility -> novel datasets and use cases; MIR fundamentals and methodology -> lyrics and other textual data; MIR fundamentals and methodology -> metadata, tags, linked data, and semantic web; MIR fundamentals and methodology -> web mining, and natural language processing",
-        "Musical features and properties -> musical affect, emotion and mood"
+        "Musical features and properties -> musical affect, emotion and mood",
+        "Applications -> music recommendation and playlist generation; Evaluation, datasets, and reproducibility -> novel datasets and use cases; MIR fundamentals and methodology -> lyrics and other textual data; MIR fundamentals and methodology -> metadata, tags, linked data, and semantic web; MIR fundamentals and methodology -> web mining, and natural language processing"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -2854,8 +2854,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07V2MTPMMF",
       "day": "2",
       "keywords": [
-        "Applications -> music composition, performance, and production; Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR tasks -> music synthesis and transformation; Musical features and properties -> timbre, instrumentation, and singing voice",
-        "MIR fundamentals and methodology -> music signal processing"
+        "MIR fundamentals and methodology -> music signal processing",
+        "Applications -> music composition, performance, and production; Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR tasks -> music synthesis and transformation; Musical features and properties -> timbre, instrumentation, and singing voice"
       ],
       "long_presentation": "FALSE",
       "meta_review": "Summary\n\nIn this work, the authors present a new method to perform zero-shot amplifier/tone transfer from one recording to another. Compared to past work, the method focuses on the amplifier/tone application and the idea of having a single network simultaneously model multiple amplified devices instead of a single device with multiple parameters. In this case, all devices are various forms of tone/amplifier fx. To train a style transfer model, a tone embedding module is learned via contrastive learning. This embedding module is then used to condition a second module to process audio. Evaluation is done via comparing a few within method configurations as well as comparing against a search-based method. The search-based method, however, is only used for testing out-of-domain tones.\n\n\nInitial Reviews\n\n\nOverall, the initial reviews for this work are mostly positive with 2x weak accept, 1 strong accept, and weak reject (meta). Positive points for the work include\n\u2022\tR2 \u201c well motivated and effectively builds on previous work to enable zero-shot audio effect style transfer in the context of guitar amplifier modeling.\u201d\n\u2022\tR2 \u201cwell organized and the proposed method is described in sufficient detail.\u201d\n\u2022\tR3 \u201cPersonally, I appreciated the approach of this work. \u201c\n\u2022\tR4 \u201ca strong piece of research with a clearly motivated model design, sufficient evaluation, and a generally high quality of presentation. \u201c\n\u2022\t\n\nAreas for improvement include\n\u2022\tR2 \u201cdiscussion on similarities and differences with related work would help to place the proposed method within the context of existing work.\u201d\n\u2022\tR2 \u201cevaluation may be lacking to fully understand the efficacy of the proposed method\u201d\n\u2022\tR2 \u201cno discussion on the computational efficiency of this method. Does this model enable real-time processing\u201d\n\u2022\tR3 \u201c the architecture used for the encoder \"3.5 Implementation Details\" is unclear\u2026 t of guesswork to anyone trying to reproduce or compare to this approach.. \u201c\n\u2022\tR4 \u201cThe authors appear to have chosen not to reveal which architecture they have used for the tone embedding encoder\u201d\n\u2022\tSee also the initial meta review.\n\n\nDiscussion\n\nDuring the discussion, there were some comments on issues that could cause a reject, but multiple reviewers commented seeking to hold their positive results to champion the current scores. \n\n\nRecommendation\n\nDue to the initial reviews and discussion of reviewers seeking to champion the work, we recommend to accept. Please see several issues in the initial meta review to address as well.\n",
@@ -2899,8 +2899,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07U9F62P9V",
       "day": "3",
       "keywords": [
-        "Musical features and properties",
-        "Knowledge-driven approaches to MIR -> computational music theory and musicology; Musical features and properties -> representations of music; Musical features and properties -> rhythm, beat, tempo"
+        "Knowledge-driven approaches to MIR -> computational music theory and musicology; Musical features and properties -> representations of music; Musical features and properties -> rhythm, beat, tempo",
+        "Musical features and properties"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -2946,8 +2946,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UM5ZULS1",
       "day": "3",
       "keywords": [
-        "MIR tasks -> optical music recognition",
-        "Evaluation, datasets, and reproducibility -> evaluation metrics; Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music"
+        "Evaluation, datasets, and reproducibility -> evaluation metrics; Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music",
+        "MIR tasks -> optical music recognition"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -3030,8 +3030,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UHCURWMC",
       "day": "4",
       "keywords": [
-        "",
-        "MIR tasks -> music transcription and annotation"
+        "MIR tasks -> music transcription and annotation",
+        ""
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -3114,8 +3114,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UHELJVTQ",
       "day": "2",
       "keywords": [
-        "Philosophical and ethical discussions -> philosophical and methodological foundations",
-        "Creativity -> computational creativity; Creativity -> humanistic discussions; MIR tasks -> optical music recognition; Philosophical and ethical discussions -> ethical issues related to designing and implementing MIR tools and technologies; Philosophical and ethical discussions -> legal and societal aspects of MIR"
+        "Creativity -> computational creativity; Creativity -> humanistic discussions; MIR tasks -> optical music recognition; Philosophical and ethical discussions -> ethical issues related to designing and implementing MIR tools and technologies; Philosophical and ethical discussions -> legal and societal aspects of MIR",
+        "Philosophical and ethical discussions -> philosophical and methodological foundations"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -3155,8 +3155,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UQ1LBAUA",
       "day": "1",
       "keywords": [
-        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; Knowledge-driven approaches to MIR -> representations of music",
-        "MIR tasks -> music transcription and annotation"
+        "MIR tasks -> music transcription and annotation",
+        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; Knowledge-driven approaches to MIR -> representations of music"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -3500,8 +3500,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UQ1M20JW",
       "day": "2",
       "keywords": [
-        "MIR fundamentals and methodology -> symbolic music processing; Musical features and properties -> rhythm, beat, tempo",
-        "Computational musicology"
+        "Computational musicology",
+        "MIR fundamentals and methodology -> symbolic music processing; Musical features and properties -> rhythm, beat, tempo"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -3680,8 +3680,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07V2MVH8TT",
       "day": "3",
       "keywords": [
-        "Applications -> music recommendation and playlist generation; Creativity -> creative practice involving MIR or generative technology ; Human-centered MIR -> music interfaces and services; MIR tasks -> similarity metrics; Musical features and properties -> rhythm, beat, tempo",
-        "Creativity -> tools for artists"
+        "Creativity -> tools for artists",
+        "Applications -> music recommendation and playlist generation; Creativity -> creative practice involving MIR or generative technology ; Human-centered MIR -> music interfaces and services; MIR tasks -> similarity metrics; Musical features and properties -> rhythm, beat, tempo"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -3770,8 +3770,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UQ1MJEBC",
       "day": "1",
       "keywords": [
-        "MIR tasks -> automatic classification",
-        "Generative Tasks -> music and audio synthesis; MIR fundamentals and methodology -> music signal processing; MIR tasks -> sound source separation; Musical features and properties -> representations of music; Musical features and properties -> timbre, instrumentation, and singing voice"
+        "Generative Tasks -> music and audio synthesis; MIR fundamentals and methodology -> music signal processing; MIR tasks -> sound source separation; Musical features and properties -> representations of music; Musical features and properties -> timbre, instrumentation, and singing voice",
+        "MIR tasks -> automatic classification"
       ],
       "long_presentation": "FALSE",
       "meta_review": "The reviews of this paper found the task to be important and the experimental validation to be thorough and rigorous. While there were comments about the paper's clarity and title that we hope the authors will address, we feel that this paper will make a strong candidate for publication at this year's ISMIR.",
@@ -3858,8 +3858,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07USGNDRUL",
       "day": "3",
       "keywords": [
-        "Applications -> music videos, multimodal music systems",
-        "MIR fundamentals and methodology -> multimodality"
+        "MIR fundamentals and methodology -> multimodality",
+        "Applications -> music videos, multimodal music systems"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -3901,8 +3901,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UM61SQ85",
       "day": "3",
       "keywords": [
-        "Evaluation, datasets, and reproducibility -> evaluation methodology; Evaluation, datasets, and reproducibility -> novel datasets and use cases; MIR fundamentals and methodology -> metadata, tags, linked data, and semantic web; MIR tasks -> automatic classification",
-        "MIR fundamentals and methodology -> multimodality"
+        "MIR fundamentals and methodology -> multimodality",
+        "Evaluation, datasets, and reproducibility -> evaluation methodology; Evaluation, datasets, and reproducibility -> novel datasets and use cases; MIR fundamentals and methodology -> metadata, tags, linked data, and semantic web; MIR tasks -> automatic classification"
       ],
       "long_presentation": "FALSE",
       "meta_review": "Most reviewers agree that the paper provides a good overview of the problem space with one or two comments regarding some additional work that may be included there. Overall the introduction and definition of the problem is well done. Most reviewer criticisms come down to the interpretation of results, and more incorporation of future work into the current work. Specifically, many of the conclusions drawn in the text are not clearly evident in the results shown, and reviewer's raise the need for a clearer discussion of results in the text that specifically is proven in the results presented.\n\nPlease take into careful consideration the reviewer's comments to improve this work for the camera ready version.",
@@ -4075,8 +4075,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07U9F8BYB1",
       "day": "2",
       "keywords": [
-        "MIR tasks -> automatic classification",
-        "Knowledge-driven approaches to MIR; Knowledge-driven approaches to MIR -> representations of music; MIR fundamentals and methodology -> symbolic music processing; Musical features and properties -> representations of music"
+        "Knowledge-driven approaches to MIR; Knowledge-driven approaches to MIR -> representations of music; MIR fundamentals and methodology -> symbolic music processing; Musical features and properties -> representations of music",
+        "MIR tasks -> automatic classification"
       ],
       "long_presentation": "FALSE",
       "meta_review": "The discussion of this paper was by and large positive. There is some question of the generality of the representation, and whether the rules extracted by qparse are sufficiently general to allow lots of different rhythmic possibilities. Its proximity to the qparse implementation is also concerning. The authors should spend some time improving their paper long the several directions identified by the reviewers.",
@@ -4120,8 +4120,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07V2MW9G57",
       "day": "1",
       "keywords": [
-        "Evaluation, datasets, and reproducibility -> annotation protocols",
-        "Applications -> music training and education; Knowledge-driven approaches to MIR -> representations of music; MIR tasks -> automatic classification; MIR tasks -> music transcription and annotation; Musical features and properties -> representations of music"
+        "Applications -> music training and education; Knowledge-driven approaches to MIR -> representations of music; MIR tasks -> automatic classification; MIR tasks -> music transcription and annotation; Musical features and properties -> representations of music",
+        "Evaluation, datasets, and reproducibility -> annotation protocols"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -4253,8 +4253,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UQ3CHBQA",
       "day": "1",
       "keywords": [
-        "Human-centered MIR -> user behavior analysis and mining, user modeling; Human-centered MIR -> user-centered evaluation; Musical features and properties -> expression and performative aspects of music",
-        "Musical features and properties -> musical affect, emotion and mood"
+        "Musical features and properties -> musical affect, emotion and mood",
+        "Human-centered MIR -> user behavior analysis and mining, user modeling; Human-centered MIR -> user-centered evaluation; Musical features and properties -> expression and performative aspects of music"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -4341,8 +4341,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07USJDDWHJ",
       "day": "4",
       "keywords": [
-        "Applications -> music composition, performance, and production",
-        "Creativity -> human-ai co-creativity; Creativity -> tools for artists; Generative Tasks -> artistically-inspired generative tasks ; Generative Tasks -> transformations; Musical features and properties -> representations of music"
+        "Creativity -> human-ai co-creativity; Creativity -> tools for artists; Generative Tasks -> artistically-inspired generative tasks ; Generative Tasks -> transformations; Musical features and properties -> representations of music",
+        "Applications -> music composition, performance, and production"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -4386,8 +4386,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07USGP5JMA",
       "day": "3",
       "keywords": [
-        "Generative Tasks -> music and audio synthesis",
-        "Applications -> music composition, performance, and production; Creativity -> tools for artists; Generative Tasks -> artistically-inspired generative tasks ; Generative Tasks -> interactions; Generative Tasks -> transformations"
+        "Applications -> music composition, performance, and production; Creativity -> tools for artists; Generative Tasks -> artistically-inspired generative tasks ; Generative Tasks -> interactions; Generative Tasks -> transformations",
+        "Generative Tasks -> music and audio synthesis"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -4427,8 +4427,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UPUHDYF5",
       "day": "2",
       "keywords": [
-        "Applications -> digital libraries and archives; Applications -> music recommendation and playlist generation; MIR fundamentals and methodology -> metadata, tags, linked data, and semantic web",
-        "Evaluation, datasets, and reproducibility -> novel datasets and use cases"
+        "Evaluation, datasets, and reproducibility -> novel datasets and use cases",
+        "Applications -> digital libraries and archives; Applications -> music recommendation and playlist generation; MIR fundamentals and methodology -> metadata, tags, linked data, and semantic web"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -4513,8 +4513,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UHCXC8T0",
       "day": "1",
       "keywords": [
-        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR fundamentals and methodology -> web mining, and natural language processing",
-        "MIR fundamentals and methodology -> lyrics and other textual data"
+        "MIR fundamentals and methodology -> lyrics and other textual data",
+        "Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR fundamentals and methodology -> web mining, and natural language processing"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -4615,8 +4615,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07V2PM1SP3",
       "day": "3",
       "keywords": [
-        "Evaluation, datasets, and reproducibility -> novel datasets and use cases",
-        "MIR fundamentals and methodology -> lyrics and other textual data; MIR fundamentals and methodology -> multimodality; MIR fundamentals and methodology -> web mining, and natural language processing"
+        "MIR fundamentals and methodology -> lyrics and other textual data; MIR fundamentals and methodology -> multimodality; MIR fundamentals and methodology -> web mining, and natural language processing",
+        "Evaluation, datasets, and reproducibility -> novel datasets and use cases"
       ],
       "long_presentation": "TRUE",
       "meta_review": "",
@@ -4746,8 +4746,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UQ0TV4HH",
       "day": "3",
       "keywords": [
-        "Applications -> music retrieval systems; Applications -> music videos, multimodal music systems; Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR fundamentals and methodology -> multimodality; MIR fundamentals and methodology -> web mining, and natural language processing",
-        "Knowledge-driven approaches to MIR -> representations of music"
+        "Knowledge-driven approaches to MIR -> representations of music",
+        "Applications -> music retrieval systems; Applications -> music videos, multimodal music systems; Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music; MIR fundamentals and methodology -> multimodality; MIR fundamentals and methodology -> web mining, and natural language processing"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -4877,8 +4877,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07U9F9FQLF",
       "day": "2",
       "keywords": [
-        "Musical features and properties",
-        "MIR tasks -> alignment, synchronization, and score following; Musical features and properties -> expression and performative aspects of music; Musical features and properties -> rhythm, beat, tempo"
+        "MIR tasks -> alignment, synchronization, and score following; Musical features and properties -> expression and performative aspects of music; Musical features and properties -> rhythm, beat, tempo",
+        "Musical features and properties"
       ],
       "long_presentation": "FALSE",
       "meta_review": "The reviewers all agree that the music syntonization problem is well formulated reconciling music cognition and the KF approach is a promising approach. Reviewer #3 emphasized that this framework has a lot of potential in other MIR tasks as well. At the same time, all reviewers pointed out that the evaluation part is weak. Specifically, the experiment was conducted on a small dataset in limited music scenarios. The results are presented qualitatively without model comparison. Nevertheless, all reviewers are generally in favor of this paper, mainly because of its potential impact on the ISMIR community.",
@@ -5100,8 +5100,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UPUJCBEX",
       "day": "1",
       "keywords": [
-        "Applications -> music retrieval systems; Evaluation, datasets, and reproducibility -> novel datasets and use cases; Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music",
-        "MIR tasks -> music transcription and annotation"
+        "MIR tasks -> music transcription and annotation",
+        "Applications -> music retrieval systems; Evaluation, datasets, and reproducibility -> novel datasets and use cases; Knowledge-driven approaches to MIR -> machine learning/artificial intelligence for music"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -5200,8 +5200,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UM63JPRT",
       "day": "4",
       "keywords": [
-        "Creativity -> creative practice involving MIR or generative technology ; Generative Tasks -> evaluation metrics; Generative Tasks -> interactions; Musical features and properties -> representations of music",
-        "Generative Tasks -> artistically-inspired generative tasks"
+        "Generative Tasks -> artistically-inspired generative tasks",
+        "Creativity -> creative practice involving MIR or generative technology ; Generative Tasks -> evaluation metrics; Generative Tasks -> interactions; Musical features and properties -> representations of music"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -5251,8 +5251,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07VCR7PY6L",
       "day": "3",
       "keywords": [
-        "Evaluation, datasets, and reproducibility -> novel datasets and use cases",
-        "Human-centered MIR -> music interfaces and services; MIR fundamentals and methodology -> symbolic music processing; Musical features and properties -> structure, segmentation, and form"
+        "Human-centered MIR -> music interfaces and services; MIR fundamentals and methodology -> symbolic music processing; Musical features and properties -> structure, segmentation, and form",
+        "Evaluation, datasets, and reproducibility -> novel datasets and use cases"
       ],
       "long_presentation": "FALSE",
       "meta_review": "All the reviewers appreciated that the paper is well-written and clear, with an appropriate bibliography, and is scientifically sound, making it a valuable contribution to the community.\n\nSome remarks were done about the availability of the data (all reviewers) and some suggestions of improvement were made, to explain more in details the dataset, its metadata and its links to other datasets (R2, R3, MR), to provide more details on the notation software (R2) and to improve and clarify the figures (all reviewers).\n\nPlease take into account those comments for the final version of your paper.",
@@ -5294,8 +5294,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UHENKTPG",
       "day": "3",
       "keywords": [
-        "Human-centered MIR -> user behavior analysis and mining, user modeling; Musical features and properties -> musical affect, emotion and mood",
-        "Musical features and properties"
+        "Musical features and properties",
+        "Human-centered MIR -> user behavior analysis and mining, user modeling; Musical features and properties -> musical affect, emotion and mood"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -5337,8 +5337,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UM63P4TF",
       "day": "2",
       "keywords": [
-        "MIR tasks -> music transcription and annotation; MIR tasks -> sound source separation",
-        "MIR fundamentals and methodology -> music signal processing"
+        "MIR fundamentals and methodology -> music signal processing",
+        "MIR tasks -> music transcription and annotation; MIR tasks -> sound source separation"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -5380,8 +5380,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07V2MXSA49",
       "day": "1",
       "keywords": [
-        "Musical features and properties -> expression and performative aspects of music; Musical features and properties -> musical affect, emotion and mood",
-        "MIR tasks -> music generation"
+        "MIR tasks -> music generation",
+        "Musical features and properties -> expression and performative aspects of music; Musical features and properties -> musical affect, emotion and mood"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
@@ -5421,8 +5421,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07UM63SRNH",
       "day": "4",
       "keywords": [
-        "MIR fundamentals and methodology -> music signal processing",
-        "MIR tasks -> music transcription and annotation"
+        "MIR tasks -> music transcription and annotation",
+        "MIR fundamentals and methodology -> music signal processing"
       ],
       "long_presentation": "TRUE",
       "meta_review": "",
@@ -5468,8 +5468,8 @@
       "channel_url": "https://ismir2024.slack.com/archives/C07U9FA5DMM",
       "day": "3",
       "keywords": [
-        "MIR tasks -> indexing and querying",
-        "MIR fundamentals and methodology -> metadata, tags, linked data, and semantic web"
+        "MIR fundamentals and methodology -> metadata, tags, linked data, and semantic web",
+        "MIR tasks -> indexing and querying"
       ],
       "long_presentation": "FALSE",
       "meta_review": "",
