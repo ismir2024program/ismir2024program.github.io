@@ -405,7 +405,7 @@ def datetimelocalcheck(s):
 def localizetime(date,time,timezone):
     to_zone = tz.gettz(str(timezone))
     date = datetime.datetime.strptime(date + ' ' + time, '%Y-%m-%d %H:%M')
-    ref_date_tz = pytz.timezone('Asia/Kolkata').localize(date) #[TODO] take ref time zone as input
+    ref_date_tz = pytz.timezone('America/Los_Angeles').localize(date) #[TODO] take ref time zone as input
     local_date = ref_date_tz.astimezone(to_zone)
     return local_date.strftime("%Y-%m-%d"), local_date.strftime("%H:%M")
 

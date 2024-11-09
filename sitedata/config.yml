@@ -11,7 +11,7 @@ logo:
 # uncomment the following line to show the site title next to the logo image
 # site_title: MiniConf
 page_title:
-  prefix: 'MiniConf 2024'
+  prefix: 'ISMIR 2024'
   separator: ': '
 background_image: static/images/main.jpg
 organization: International Society for Music Information Retrieval
