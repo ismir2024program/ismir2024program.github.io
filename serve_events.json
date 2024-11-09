@@ -813,7 +813,7 @@
     "category": "All Meeting",
     "channel_url": "https://ismir2024.slack.com/archives/C0805L30JTV",
     "day": "4",
-    "description": "",
+    "description": "I finished my PhD in 2000; a lot has happened over the ensuing ~25 years in the field of music and computation. It seems like an appropriate moment to look back at where we were, how far we\u2019ve come, and where we\u2019re going next.  I will discuss early experiments in RNN-generated music, the open-source Magenta project, the rise of LLM and diffusion models for music generation, and more recent work we\u2019ve done at Google DeepMind in text, image, video and music generation. I\u2019ll also address the question of how AI might help us better understand music and maybe even give rise to new forms of musical expression.",
     "end_time": "14:30",
     "image": "https://confcats-siteplex.s3.us-east-1.amazonaws.com/ismir24/large_Doug_Eck_39e3112975.jpg",
     "organiser": "Douglas Eck",
@@ -823,7 +823,7 @@
     "slack_channel": "keynote-3-eck",
     "start_date": "2024-11-13",
     "start_time": "13:30",
-    "title": "Keynote III",
+    "title": "Status Report: AI Music in Q1 of the 21st Century",
     "uid": "70",
     "web_link": ""
   },
