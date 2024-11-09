@@ -18,10 +18,10 @@
     "UID": "423",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1H6N229-8QDOXCv9-aCw4AvZP-dlzktzA/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0800QNARM0",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-423-mshoxxdb-a-versioned"
   },
   {
     "Abstract": "MusicGen is a music generation language model (LM) that can be conditioned on textual descriptions and melodic features. We introduce \bMusicGen-Chord, which extends this capability by incorporating chord progression features. This model modifies one-hot encoded melody chroma vectors into multi-hot encoded chord chroma vectors, enabling the generation of music that reflects both chord progressions and textual descriptions. Furthermore, we developed MusicGen-Remixer, an application utilizing MusicGen-Chord to generate remixes of input music conditioned on textual descriptions. Both models are integrated into Replicate\u2019s web-UI using cog, facilitating broad accessibility and user-friendly controllable interaction for creating and experiencing AI-generated music.",
@@ -42,10 +42,10 @@
     "UID": "424",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1XbSX99ikb7f2t5_ZTUuXqC7EZR0tTb-7/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07V86HKJA2",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-424-musicgen-chord-advancing"
   },
   {
     "Abstract": "The Jeongganbo notation, the first music notation system in East Asia capable of jointly expressing pitch and duration, has been extensively used in the Korean music tradition since its invention in the 15th century. \n While the Optical Music Recognition (OMR) field has addressed the issue of automatically transcribing music sheets into digital formats in a number of music notations from the Western tradition, no previous research has considered Jeongganbo scores. \n In this context, This work proposes a framework for the automatic recognition and transcription of Korean court music Jeongak (\uc815\uc545) in Jeongganbo notation utilizing synthetic data. \n Our evaluations show performance rates close to 90% success, validating the proposed approach.",
@@ -66,10 +66,10 @@
     "UID": "425",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1ltMP6z1MIDCk-Kd4U5gL8yvIhUV01x7P/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0800QNMXNE",
     "comments": "check generated captions, srt linking failed",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-425-optical-music-recognition"
   },
   {
     "Abstract": "This paper introduces symusic, a swift and unified toolkit for symbolic music processing. It provides high-level APIs for symbolic music manipulation, and an optimized IO engine which supports multiple file formats. Symusic addresses key challenges in symbolic music processing by offering exceptional speed, multi-format support, flexible time unit conversion, and comprehensive batch operations. With up to 1000 times faster parsing than existing libraries, symusic is poised to accelerate large-scale music analysis and generation. Code and pre-built package of symusic are available at Github and PyPI.",
@@ -90,10 +90,10 @@
     "UID": "426",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1IVbILS3hEESbeEedw0XiUMGYDJme85bW/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07V86J1U4W",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-426-symusic-a-swift"
   },
   {
     "Abstract": "Cinematic audio source separation (CASS), as a standalone problem of extracting individual stems from their mixture, is a fairly new subtask of audio source separation. A typical setup of CASS is a three-stem problem, with the aim of separating the mixture into the dialogue (DX), music (MX), and effects (FX) stems. Given the creative nature of cinematic sound production, however, several edge cases exist; some sound sources do not fit neatly in any of these three stems, necessitating the use of additional auxiliary stems in production. One very common edge case is the singing voice in film audio, which may belong in either the DX or MX or neither, depending heavily on the cinematic context. In this work, we demonstrate a very straightforward extension of the dedicated-decoder Bandit and query-based single-decoder Banquet models to a four-stem problem, treating non-musical dialogue, instrumental music, singing voice, and effects as separate stems. Interestingly, the query-based Banquet model outperformed the dedicated-decoder Bandit model. We hypothesized that this is due to a better feature alignment at the bottleneck as enforced by the band-agnostic FiLM layer.",
@@ -114,10 +114,10 @@
     "UID": "427",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1ki1T4ihG9Shl8f9Ya-Kb4L3QRATtA_bs/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07V86J8P7Y",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-427-facing-the-music"
   },
   {
     "Abstract": "Latin music has intricate rhythms with microtming and dy-\n namic variations. Modern deep learning based generative\n systems generate realistic sounding drum outputs. How-\n ever, most rhythm generation datasets focus have a focus\n on pop and rock music which leads to the generations be-\n ing biased towards those categories. In this work, we\n tend to specifically develop a system that can learn the\n groove in Brazilian Rhythms",
@@ -138,10 +138,10 @@
     "UID": "428",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1Epl7nPpqYfFe1MZiKvrGTF12zbC9NlqK/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0800QPEY5Q",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-428-groove-transfer-vst"
   },
   {
     "Abstract": ".",
@@ -162,10 +162,10 @@
     "UID": "429",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1K7cLr1Cc5HM3DIRI9AbhxZRnRL4AzcLH/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07V86JR8KY",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-429-optimizing-music-captioning"
   },
   {
     "Abstract": "This study explores the generation of classical piano performances conditioned on individual performers' expressive styles. \n The interpretative diversity in classical music naturally results in comparisons and preferences for different interpretations of the same piece, fostering a desire to explore performances in varied styles.\n However, most research in music style transfer has primarily focused on timbre and compositional changes, with limited success in transferring performance style due to the difficulty of separating style from music content.\n To address this, we propose a novel approach that utilizes easily obtainable audio data and employs a flow matching model to generate high-quality, style-conditioned audio performances.\n We created datasets from pianists Seong-Jin Cho and Lang Lang to demonstrate our method, successfully generating performances in their distinct styles. \n This work expands the possibilities for performance style transfer and can potentially be applied to other performers' styles with additional audio data.",
@@ -186,10 +186,10 @@
     "UID": "430",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1jv0guf8Arbni5tonywdaF7nOae6ZYHsf/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0803A923N0",
     "comments": "video is a bit small (720x332)",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-430-conditional-piano-music"
   },
   {
     "Abstract": "TokenSynth is a neural synthesizer that uses neural audio codecs and transformers to generate single-instrument musical audio from MIDI information and CLAP embeddings. The model can perform instrument cloning, text-to-instrument synthesis, and text-guided timbre manipulation without fine-tuning. This enables various creative sound design applications and intuitive timbre control. The timbral similarity to target audio/text, and synthesis accuracy were evaluated using objective measures.",
@@ -210,10 +210,10 @@
     "UID": "431",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1UkRqiH-3DRoBIEqInGM77hJTpN-asMWD/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07V08WRV71",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-431-a-token-based"
   },
   {
     "Abstract": "We propose a model to learn latent representations of pitch and timbre of each individual source of instrument tones from a mixture of instruments. We employ variational autoencoders to train the model using a query-based inference network. Given a mixture, the model allows for precise source-level attribute editing, e.g., instrument or pitch replacement, by manipulating the pitch and timbre latents. On the synthetic audio clips of chords compiled using the JSB Chorales dataset, our quantitative evaluation protocol shows empirical success of the model on both pitch-timbre disentanglement of individual sources and source-level attribute manipulation of mixtures.",
@@ -234,10 +234,10 @@
     "UID": "432",
     "Video checklist ok?": "https://drive.google.com/file/d/1yEb_vANrctDvvcxrEHZr1Vichy9ZExAe/view?usp=drive_link",
     "Video link": "https://drive.google.com/file/d/1UmGP_4m4bNYI0DakfnTUQQS1ovPS9rUW/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0800N3BYDR",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-432-source-level-pitch"
   },
   {
     "Abstract": "This paper addresses the unique challenge of conducting research in lyric studies, where direct use of lyrics is often restricted due to copyright concerns. Unlike typical data, internet-sourced lyrics are frequently protected under copyright law, necessitating alternative approaches. Our study introduces a novel method for generating copyright-free lyrics from publicly available Bag-of-Words (BoW) dataset, which contain the vocabulary of lyrics but not the lyrics themselves. Utilizing metadata associated with BoW datasets and large language models, we successfully reconstructed lyrics. We have compiled and made available a dataset of reconstructed lyrics, LyCon, aligned with metadata from renowned sources including the Million Song Dataset, Deezer Mood Detection Dataset, and AllMusic Genre Dataset, available for public access. We believe that the integration of metadata such as mood annotations or genres enables a variety of academic experiments on lyrics, such as conditional lyric generation.",
@@ -258,10 +258,10 @@
     "UID": "433",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1A4QGz7PHdte9265VIxjLug2tK0KUKaJ0/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0800N3HSJF",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-433-lycon-lyrics-reconstruction"
   },
   {
     "Abstract": "We present PyNeuralFx, an open-source Python toolkit designed for research on neural audio effect modeling. The toolkit provides an intuitive framework and offers a comprehensive suite of features, including standardized implementation of well-established model architectures, loss functions, and easy-to-use visualization tools. As such, it helps promote reproducibility for research on neural audio effect modeling, and enable in-depth performance comparison of different models, offering insight into the behavior and operational characteristics of models through DSP methodology. The toolkit can be found at https://github.com/ytsrt66589/pyneuralfx.",
@@ -282,10 +282,10 @@
     "UID": "434",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1SbEcGUZlZZKPvx_APQWbmM1Qy2ZMxwAU/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0803A9NM0C",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-434-pyneuralfx-a-python"
   },
   {
     "Abstract": "Music alignment is a fundamental MIR task, and real-time music alignment is a necessary component of many interactive applications (e.g., automatic accompaniment systems, automatic page turning). This paper introduces Matchmaker, an open source Python library for real-time music alignment. Unlike offline alignment methods, for which state-of-the-art implementations are publicly available, real-time (online) methods have no standard implementation, forcing researchers and developers to build them from scratch for their projects. We aim to provide efficient reference implementations of score followers for use in real-time applications which can be easily integrated into existing projects. We also aim to provide guidelines to help researchers and developers select an appropriate configuration for their applications.",
@@ -306,10 +306,10 @@
     "UID": "435",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1HZeRrvwPUcCx1b6KnZJoaG3KsHRT20Yp/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07V86KU05C",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-435-matchmaker-a-python"
   },
   {
     "Abstract": "We introduce Audio Atlas, an interactive web application for visualizing audio data using text-audio embeddings. Audio Atlas is designed to facilitate the exploration and analysis of audio datasets using a contrastive embedding model and a vector database for efficient data management and semantic search. The system maps audio embeddings into a two-dimensional space and leverages DeepScatter for dynamic visualization. Designed for extensibility, Audio Atlas allows easy integration of new datasets, enabling users to better understand their audio data and identify both patterns and outliers. We open-source the codebase of Audio Atlas, and provide an initial implementation containing various audio and music datasets.",
@@ -330,10 +330,10 @@
     "UID": "437",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1fH3s3TRPbFON3snuP_lvi60HGUB7gqF_/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C080DFG1CJV",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-437-audio-atlas-visualizing"
   },
   {
     "Abstract": "Recent years have seen many audio-domain text-to-music generation models that rely on large amounts of text-audio pairs for training. However, symbolic-domain controllable music generation has lagged behind due to the lack of a large-scale symbolic music dataset with extensive metadata and captions. In this paper, we present MetaScore, a new dataset consisting of 963K musical scores paired with rich metadata collected from an online music forum and generated psudo captions. With MetaScore, we explore tag- and text-based controllable symbolic music generation. \n Both subjective test and objective test showcase the potential of our dataset in tag- and text-conditioned music generation.",
@@ -354,10 +354,10 @@
     "UID": "438",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/167qlX0Wf2Tpbn23PjEKUKuMiT4w6qoF2/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07VBV60C6R",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-438-a-new-dataset"
   },
   {
     "Abstract": "Network analysis, especially through models like Exponential Random Graph Models (ERGMs), is crucial in understanding how musical styles, trends, and cultural influences diffuse through networks of musicians. However, ERGMs often face challenges like degeneracy, particularly when analyzing higher-order patterns within these networks. The Latent Order Logistic Regression (LOLOG) model provides an alternative by modeling connections as they form sequentially, which helps avoid degeneracy. To further enhance this model, we propose incorporating triadic independency, wherein we can capture more complex relationships in musical collaborations, offering deeper insights into how cultural information spreads and evolves within these networks. This enhanced model is being tested on networks of Australian musicians to assess its effectiveness in tracing collaboration patterns and enhancing music information retrieval, while also reflecting the cultural dynamics within these communities.",
@@ -372,16 +372,16 @@
     "Paper checklist ok?": "1",
     "Paper link": "https://drive.google.com/file/d/1RN5tPORDe88QNM7vRKc3YuCbI2Dpew9i/view?usp=drive_link",
     "Poster checklist ok?": "1",
-    "Poster link": "https://drive.google.com/file/d/18jn4JQjRMoyI_4tMqaSiwbw4f7rJNiTw/view?usp=drive_link",
+    "Poster link": "https://drive.google.com/file/d/1XqqvSfiiBUVxApshhjiK9qCgcWtXeDaG/view?usp=drive_link",
     "Thumbnail checklist ok?": "1.0",
     "Thumbnail link": "https://drive.google.com/file/d/15qLUkAvFxaHaL8tQzzdSTCjrJtFJTJQM/view?usp=drive_link",
     "UID": "439",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1pD8q3R9R3qSgVYdiJ4pfo6L1j3NQB3dN/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07V86LEYQN",
     "comments": "burn-in sub, thumbnail too big",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-439-enhanced-formulation-of"
   },
   {
     "Abstract": "Wavetable synthesis generates quasi-periodic waveforms of musical tones by interpolating a list of waveforms called wavetable. Studies in wavetable generation with invertible architecture have arisen recently. However, it is still challenging to generate wavetables with detailed controls within the latent representation. In response, we present Wavespace, a framework for wavetable generation that empowers users with enhanced parameter controls. Our model allows users to apply timbral conditions to the output wavetables. Users handle a latent space factorized by each timbral group called style. Then they adjust timbral details with descriptors. This way, users can create wavetables by manipulating timbral parameters step by step. Our framework is efficient enough for practical use; we prototyped an oscillator plug-in for real-time integration of Wavespace within digital audio workspaces (DAWs).",
@@ -402,10 +402,10 @@
     "UID": "440",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1TyBAf6ijNY3maKtWrbQEyutt3pLq17lw/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0803AAM38C",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-440-wavespace-a-highly"
   },
   {
     "Abstract": "In a general Deep Neural Network (DNN)-based beat and downbeat tracking pipeline, a post-processing stage is required to refine the beat/downbeat posteriors estimated by the DNN. \n A widely used post-processing method is to infer the beat/downbeat sequence that maximizes the likelihood of a probabilistic model such as the Dynamic Bayesian Network (DBN). In this work, we aim to train a DNN that can directly estimate consistent beat/downbeat posteriors without the need for post-processing. We adopt regularization approach that minimizes the difference between the DNN and the DBN. We experimentally show that the DNN trained with the regularization loss can estimate beat and downbeat posteriors with higher temporal consistency, reducing the need for post-processing.",
@@ -426,10 +426,10 @@
     "UID": "441",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1bJj9FCfBjzPYWFVbIYKRtD5xdK_k5rQR/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07V86LS82J",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-441-a-dbn-based"
   },
   {
     "Abstract": "In breaking, the timing of the technique and rhythm needs to be matched, but the audience has trouble judging whether or not the timing is correct. Therefore, We developed a system that shows the future rhythm of the sound source the DJ is playing.",
@@ -450,10 +450,10 @@
     "UID": "442",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1m7kc1GPbT1OxaFqME44NCXXk7q5TEAbp/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07V08YMWUX",
     "comments": "srt is missing, but they don't really need it honestly",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-442-real-time-future"
   },
   {
     "Abstract": "Creating orchestral accompaniments for solo piano performances of concertos is challenging, especially when aiming for a system that adapts to the pianist's tempo and dynamics. In this work, we present a semi-automatic offline approach using source separation, alignment, and time-scale modification techniques to generate orchestral accompaniments from public-domain recordings. Our approach separates the orchestral part, aligns it with a new solo-piano performance played by the user, and adjusts the tempo and dynamics to match the user's interpretation. While some processes are automated, significant manual adjustments are needed for temporal alignment and sound production. Our results demonstrate the feasibility of this method while highlighting the need for further automation. We have made the multi-track recordings of the created mixes publicly available for research purposes at https://www.audiolabs-erlangen.de/resources/MIR/PCD_AudioLabs.",
@@ -474,10 +474,10 @@
     "UID": "443",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/153jkPslX3wxwgCdW0vBIYxD-h8lB28gH/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0800QS37TL",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-443-piano-concerto-accompaniment"
   },
   {
     "Abstract": "To meet the challenge of analyzing and visualizing large music corpora, we have developed a web platform that simplifies the path from raw data processing to data visualization, search and comparison. Our platform can process both symbolic (MusicXML) and audio data, allowing users to easily access and compare different corpora. It provides a web-based interface for intuitive browsing and filtering as well as comparison of selected features of music pieces. It simplifies the exploration and comparison of growing digital music collections and speeds up the analysis process for users with different levels of knowledge.",
@@ -498,10 +498,10 @@
     "UID": "445",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1YiB63tqyE8m1KEXL_3obm7dHkmEfuMJ5/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0800QS6E7L",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-445-vizmuc-vizualization-of"
   },
   {
     "Abstract": "Music mastering style transfer involves applying the mastering-related audio features of a reference track to another, simulating the professional mastering process that enhances overall sound quality. In this paper, we propose the ITO-Master framework, which introduces Inference Time Optimization (ITO) on reference embeddings to improve the mastering style transfer process. Our approach achieves effective automatic mastering and gives users flexibility, enabling them to adapt the system to their preferences by adjusting the reference song or specific audio effects traits. We explore both black-box and differentiable methods, demonstrating that ITO improves performance on key metrics. The framework provides flexible, user-driven mastering style transfer with an interactive demo available on our demo page: https://tinyurl.com/ITO-Master.",
@@ -522,10 +522,10 @@
     "UID": "446",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1V69wnQv26BbuR55EOPaOAKoe-d_Fie4v/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0800QS9T0S",
     "comments": "no speech. Srt is not needed; thumbnail is a bit small...",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-446-ito-master-inference"
   },
   {
     "Abstract": "Electric guitar tone modeling typically focuses on the non-linear transformation from clean to amplifier-rendered audio. Traditional methods rely on one-to-one mappings, incorporating device parameters into neural models to replicate specific amplifiers. However, these methods are limited by the need for specific training data. \nIn this paper, we adapt a model based on the previous work, which leverages a tone embedding encoder and a feature wise linear modulation (FiLM) condition method. In this work, we altered conditioning method using a hypernetwork-based gated convolutional network (GCN) to generate audio that blends clean input with the tone characteristics of reference audio.\nBy extending the training data to cover a wider variety of amplifier tones, our model is able to capture a broader range of tones. Additionally, we developed a real-time plugin to demonstrate the system's practical application, allowing users to experience its performance interactively. Our results indicate that the proposed system achieves superior tone modeling versatility compared to traditional methods.",
@@ -546,10 +546,10 @@
     "UID": "447",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1C5sQBWdUo5jVKVexYBrQI6kQ7JhyXzCV/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C080DFHF56D",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-447-demo-of-zero"
   },
   {
     "Abstract": "We present in this paper the extended online HI-AUDIO platform which relies on a distributed and iterative music recording paradigm to asynchronously record musicians localised at different remote individual sites. The major goal of this platform is to become a key enabling tool for building a large, varied, multi-genre, multi-track, multi-instrument music dataset, to be ultimately publicly distributed for MIR research purposes. We describe in this paper the main characteristics of the web platform and discuss some of the major challenges for collecting music data on the web. The platform will be demonstrated on site with local and distant access and illustrate its merits for recording collaborative compositions.",
@@ -570,10 +570,10 @@
     "UID": "448",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/186178KvHVwWoN8hNOgw-xqanh4qNpwYu/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0803ABS8MA",
     "comments": "audio clipped... well...",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-448-hi-audio-online"
   },
   {
     "Abstract": "In this study we introduce early results for a music video structured extraction framework designed to extract key metadata and descriptions such as genre, mood, video style, and summaries of general music, lyrical and visual narrative content. Leveraging video language models (VLM) and zero-shot prompting techniques, the system supports three key applications: entity discovery and browsing, multimodal self-querying retrieval, and playlist generation. The multimodal self-querying retrieval setup intelligently combines structured metadata filtering (e.g., video style, musical genre, emotion, visual elements) with lexical and semantic search, allowing users to query music videos using multiple facets. Additionally, the structured extraction powers entity discovery, enabling exploration of videos based on extracted metadata across the dataset. We provide qualitative examples of structured information extraction over an initial dataset of over 60K music videos to showcase the potential for search and video playlist generation.",
@@ -594,10 +594,10 @@
     "UID": "449",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1MLZDLLKbdnyYq_tIeThbkvl9qpol_xsy/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0800QT0JF4",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-449-multimodal-structured-extraction"
   },
   {
     "Abstract": "pyAMPACT (Python-based Automatic Music Performance\nAnalysis and Comparison Toolkit) links symbolic and audio music representations to facilitate score-informed estimation of performance data in audio as well as general linking of symbolic and audio music representations with a variety of annotations. pyAMPACT can read a range of symbolic formats and can output note-linked audio descriptors/performance data into MEI and Humdrum kern files. The audio analysis uses score alignment to calculate time-frequency regions of importance for each note in the symbolic representation from which to estimate a range of\nparameters. These include tuning-, dynamics-, and timbre-\nrelated performance descriptors, while timing-related information is available from the score alignment. Beyond performance data estimation, pyAMPACT also facilitates multi-modal investigations through its robust infrastructure for linking symbolic representations and annotations to audio.",
@@ -618,10 +618,10 @@
     "UID": "450",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1IBY3-Lzoe066pSEd37zglDqYHlIaEx3G/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C080PJVCK2L",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-450-pyampact-a-score"
   },
   {
     "Abstract": "ChordNamer is a web app tool that takes in a MusicXML file, and uses Music21 to generate chord symbols for it.  More specifically, it implements logic to utilize the chordify() and chordSymbolFigureFromChord() to provide one chord symbol per measure, like in a jazz or pop lead sheet. In our demonstration, we apply the tool to songs from soundtracks for the games \"I Am Setsuna\" and \"The Legend of Zelda: Ocarina of Time\"\n",
@@ -642,10 +642,10 @@
     "UID": "452",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/140_eNWD_E-NBFKsaDjGavf6MpUBPPsOx/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07V0906279",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-452-chord-naming-for"
   },
   {
     "Abstract": "Implementations of popular symbolic music generative models often differ significantly in terms of the libraries utilized and overall project structure. Therefore, directly comparing the methods or becoming acquainted with them may present challenges. To mitigate this issue we introduce Symbotunes, an open-source unified hub for symbolic music generative models. Symbotunes contains several modern Python implementations of well-known methods for symbolic music generation, as well as a unified pipeline for generating and training.",
@@ -666,10 +666,10 @@
     "UID": "453",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1YQOYEFMpmjT3LPEVNpiFgO1w7Qg6gENo/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0800N6K1PV",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-453-symbotunes-unified-hub"
   },
   {
     "Abstract": "We present OpenMU-LightBench, a large-scale benchmark for training and evaluating music understanding models based on large language models\n(LLMs). OpenMU-LightBench consists of approximately one million data examples of two music understanding subtasks: music captioning and music reasoning. We provide details on the construction process of\nOpenMU-LightBench, including metadata collection and conversion. Next, we showcase data generated by prompting GPT-3.5. We release OpenMU-LightBench, and hope that its rich annotations can facilitate future research and development of building music understanding models based on LLMs.",
@@ -690,10 +690,10 @@
     "UID": "454",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1oigG7u-34Zqd71Um06jqvD9OATnaInAX/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0803ACSLUU",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-454-demonstrating-openmu-lightbench"
   },
   {
     "Abstract": "Symbolic music research plays a crucial role in music-related machine learning, but MIDI data can be complex for those without musical expertise. To address this issue, we present MidiTok Visualizer, a web application designed to facilitate the exploration and visualization of various MIDI tokenization methods from the \\texttt{MidiTok} Python package. MidiTok Visualizer offers numerous customizable parameters, enabling users to upload MIDI files to visualize tokenized data alongside an interactive piano roll.",
@@ -714,10 +714,10 @@
     "UID": "455",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1K_flJLTMyx8_npWijzPzh63Pwr1pisLi/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0803AD0JRJ",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-455-miditok-visualizer-a"
   },
   {
     "Abstract": "We adapt the Sonic Visualiser music audio analysis software to create a set of analysis and visualisation plugins that can be used in a digital audio workstation (DAW). These proof-of-concept plugins, written to the industry standard Audio Random Access (ARA) plugin format, explore a number of dedicated purposes: pitch analysis, comparative spectral viewing, precise frequency inspection, chord extraction, and track segmentation.\nHere we describe our work so far, report on our findings, and consider the future work necessary to produce plugins that are truly useful in a DAW context. In our demo, we will show and discuss examples of our proof-of-concept pitch visualisation and chord plugins used interactively within sessions in some popular DAWs.",
@@ -738,10 +738,10 @@
     "UID": "456",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1ZZoNlo5U2die_uN1JQJ9iU81Y3zSm58Y/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07V86P5WES",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-456-revamp-visualisation-and"
   },
   {
     "Abstract": "Music foundation models have been playing a more and more important role in many downstream tasks for music understanding. Previous foundation models typically adopt an auto-regressive language modeling or masked language modeling as a training objective, which yields limited performance on some downstream tasks like source separation. In this extended abstract, we propose a new training target via self-supervised demixing of two randomly mixed music pieces. We show that with this only training target, the model learns strong general-propose representation, and also shows good performance on source separation tasks when Parameter-Efficient Fine-Tuning (PEFT) is applied.",
@@ -762,10 +762,10 @@
     "UID": "457",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1a6OXzhavNHiFLCsYORQkJdOCfhdC-om3/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07VBV8U64D",
     "comments": "The license is incorrect; email sent; fixed",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-457-the-surprising-effect"
   },
   {
     "Abstract": "Music processing is known to emerge spontaneously in early development, yet the impact of music exposure on brain development and cognitive abilities, such as language acquisition, remains unclear. In this study, we investigated this effect on artificial neural networks by training identical autoencoders to recreate speech excerpts using datasets with varying proportions of music. We then assessed the models' performance by using transfer learning to apply the encoder to a language classification task. Our findings indicate that incorporating a small share of music into the pre-training data improved the ability of the model trained on English data to classify other languages, including Japanese and Korean, suggesting a potential benefit of music exposure in enhancing model generalization to linguistically distant languages.",
@@ -786,10 +786,10 @@
     "UID": "458",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/10ppi18SZsalJmssLfgMW1IHDqomRfvUc/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07VBV94VHT",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-458-enhancement-of-speech"
   },
   {
     "Abstract": "to be updated",
@@ -810,10 +810,10 @@
     "UID": "460",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1XTtbQIFqMPKeLM4LtjW_3OZ1qFouNb7X/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07V86PMVLN",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-460-understanding-human-perception"
   },
   {
     "Abstract": "In the field of ludomusicology that overlaps the interests of sound and games, video game music (VGM) is often studied under the same lens as film music, which largely focuses on its theoretical functionality with relation to the perceived genres of the media. However, till date, we are unaware of any systematic approach that analyzes the quantifiable musical features in VGM across several perceived game genres. Therefore, we built an interactive system that extracts musical features from VGM on different perceived genres of video games, and then hypothesized how different musical features are correlated to the perceptions of each genre. This observed correlation may be used to further suggest such features are relevant to the expected elements associated with the sub-genre.",
@@ -834,10 +834,10 @@
     "UID": "461",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1zRP5eo1kVD__uw4GEzRKwf_z_MqqpQvQ/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07V091EM5M",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-461-a-music-information"
   },
   {
     "Abstract": "We are investigating whether an AI-based generative music (Gen-AI) system returns original song audio in response to the same text prompts.  To determine a similarity threshold for our analysis, we compare audio from human-composed song pairs that were previously involved in actual copyright disputes. Participants are tasked with sending the same 8 text prompts, specifically designed for our investigation, to the Gen-AI system.  By comparing all returned Gen-AI songs to each other, a maximum 8-beat correlation value is determined for each unique song pairing. Gen-AI songs pairs are deemed too similar -- or unoriginal relative to each other -- if their maximum 8-beat correlation value exceeds the similarity threshold. We observe that 54% of Gen-AI song pairs fall into this category. Prompts that exhibit the highest probability for exceeding the threshold include mentions of a specific musical genre or song title.  Our preliminary results suggest that the Gen-AI system struggles to generate original material when different users send the same prompts.",
@@ -858,10 +858,10 @@
     "UID": "462",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1wfoif1YM1aFNcTExKQJvrkR4EYKDh9Nn/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0800N7TPEF",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-462-analysis-of-the"
   },
   {
     "Abstract": "The scarcity of symbolic music datasets has long been a challenge in the field of music information retrieval. Many studies have emphasized the need for high-quality, manually annotated datasets that include multifaceted labels, or focus on underrepresented periods like the Romantic period. In this paper, we present the S3, Symbolic Symphony Set, a comprehensive collection featuring four symphonies, totalling 16 movements, by Mozart, Beethoven, Dvorak, and Tchaikovsky. This dataset includes XML files and detailed annotations in the CSV format for notes and musical structure on both horizontal and vertical aspects, which are commonly known as form-related and texture-related information.  The note annotations are semi-automatically generated. Form-related information includes form analysis, cadence, and harmony, while orchestral texture include the role (melody, rhythm, harmony, or mixed) for each instrument. All annotations have been converted into CSV format to facilitate further analysis and modeling. Additionally, manually annotated PDF files are included in the dataset for reference. Our dataset is available on https://github.com/iis-mctl/mctl-symphony-dataset.",
@@ -882,10 +882,10 @@
     "UID": "463",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1hnYjKxQnpB_tOGGNJcbzQPmeQiFZSv6v/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0800QV1VJ6",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-463-s3-a-symbolic"
   },
   {
     "Abstract": "Localify.org is a personalized music recommendation service that helps users discover local artists and find live music events at small and medium-sized venues. Most local artists are relatively unknown and tend to reside in the long-tail of the artist popularity distribution. In this demo paper, we describe how we have designed Localify to contextualize long-tail artists for local music discovery. This focus on contextualization is reflected in our UI/UX design, our focus on explainable recommendations, our playlist generation algorithm, and our personalized weekly email digest.",
@@ -906,10 +906,10 @@
     "UID": "464",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1iZPuRfbNgesL2iSrgISDLV0eQI93DTQM/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07V0920CFR",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-464-localify-org-contextualizing"
   },
   {
     "Abstract": "This paper provides a detailed analysis of the NeuroPiano dataset, which comprise 104 audio recordings of student piano performances accompanied with 2255 textual feedback and ratings given by professional pianists. We offer a statistical overview of the dataset, focusing on the standardization of annotations and inter-annotator agreement across 12 evaluative questions concerning performance quality. We also explore the predictive relationship between audio features and teacher ratings via machine learning, as well as annotations provided for text analysis of the responses.",
@@ -930,10 +930,10 @@
     "UID": "465",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1xV7RhPeOvmltCyuIW4-dSDW1anBbSxVz/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07VBVA6T9T",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-465-how-does-the"
   },
   {
     "Abstract": "In this work, we propose a new efficient solution, which is a Mamba-based model named BMACE (Bidirectional Mamba-based network, for Automatic Chord Estimation), which utilizes selective structured state-space models in a bidirectional Mamba layer to effectively model temporal dependencies. Our model achieves high prediction performance comparable to state-of-the-art models, with the advantage of requiring  fewer parameters and lower computational resources, while still captureing and leveraging long-term dependencies.",
@@ -954,10 +954,10 @@
     "UID": "466",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1-TCrsB8VqwYmIGKW_aRRIm9qKaxhWt2A/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C080PJXRHH6",
     "comments": "The license is incorrect; email sent; fixed",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-466-mamba-based-model"
   },
   {
     "Abstract": "Previous research suggests that musical phrase structures may synchronise listeners' autonomic variables. We use a computational method to automatically identify probabilistic phrase arc boundaries from music audio and compare them to physiological envelopes (respiration and RR intervals). Automating the evaluation of synchronisation of autonomic responses to musical phrases enables the empirical evaluation of music's physiology-modulating power. Participants' respiration and RR intervals were recorded while listening to versions of Prokofiev's Gavotte Op.12 No.2. A novel Bayesian dynamic programming algorithm is used to derive phrase boundary credence profiles from the loudness. \nIncreased curve similarity is observed between loudness phrase boundary credences and listeners' physiological signal envelopes, with the degree of response affected by track version. Loudness credence and RR interval entrainment is statistically significant for the original version.\nWe developed a fully automated system for evaluating musical phrase arc-autonomic variable entrainment. Initial findings suggest that phrase structures can affect physiological signals.",
@@ -978,10 +978,10 @@
     "UID": "467",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1dJvvWy7IzhC-avsqKpZEBYUgL0zzn6l3/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07V092G7HD",
     "comments": "volume a bit too low",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-467-computationally-validating-synchronisation"
   },
   {
     "Abstract": "We introduce Text2EQ, a human-in-the-loop semantic audio production interface that bridges the gap between intuitive language descriptors and equalization (EQ) parameters. Text2EQ enables users to describe their desired audio sound in natural language and maps these descriptors to EQ settings. The system offers initial suggestions and supports iterative refinement, allowing users to adjust parameters through direct manipulation of the EQ parameters or additional natural language inputs. We aim to contribute to the current dialogue on the role and incorporation of intelligent audio tools into pre-existing workflows, highlighting the importance of balancing usability with creativity.",
@@ -1002,10 +1002,10 @@
     "UID": "468",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1I6D4497SwQjOOJF7Fn8d69Z_zUgpLpWG/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07V86R47EJ",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-468-text2eq-human-in"
   },
   {
     "Abstract": "Music therapy has been shown in recent years to provide multiple health benefits related to emotional wellness. In turn, maintaining a healthy emotional state has proven to be effective for patients undergoing treatment, such as Parkinson's patients or patients suffering from stress and anxiety. We propose fine-tuning MusicGen, a music-generating transformer model, to create short musical clips that assist patients in transitioning from negative to desired emotional states. Using low-rank decomposition fine-tuning on the MTG-Jamendo Dataset with emotion tags, we generate 30-second clips that adhere to the iso principle, guiding patients through intermediate states in the valence-arousal circumplex. The generated music is evaluated using a music emotion recognition model to ensure alignment with intended emotions. By concatenating these clips, we produce a 15-minute \"music medicine\" resembling a music therapy session. Our approach is the first model to leverage Language Models to generate music medicine. Ultimately, the output will be used as a temporary relief between music therapy sessions with a licensed therapist.",
@@ -1026,10 +1026,10 @@
     "UID": "469",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1TAmuQygIuCJ4XD8c0zLF4tItc7piOerK/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0800N9CXMZ",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-469-language-models-for"
   },
   {
     "Abstract": "Voice style transfer has focused on transforming speech between speakers, leaving singing style, independent of speaker, unexplored. We introduce SingStyleTransfer, a VAE-GAN to perform singing style transfer across genres. The model is evaluated on the SingStyle111 dataset for its ability to carry out genre-to-genre transformations.",
@@ -1050,10 +1050,10 @@
     "UID": "470",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1f_zGJGI5-xQTu910bUgxYsSsz5yvjhbO/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07VBVBBTKP",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-470-generative-singing-style"
   },
   {
     "Abstract": "The musicologists Jesse Rodin and Joshua Rifkin have presented an important taxonomy of works that could potentially be attributed to the Renaissance composer Josquin des Prez. It is broken into five categories indicating how strong the evidence is that Josquin was the composer of the given pieces, based primarily on historical evidence from sources and biography. We apply statistical analysis and machine learning to features extracted from the scores of all this music using our jSymbolic software to see how well a purely content-based approach supports (or contradicts) this taxonomy. We also identify particularly statistically characteristic features of Josquin\u2019s style.",
@@ -1074,10 +1074,10 @@
     "UID": "471",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/13ugDIWrnPS2x7wscij_xplro8N0PGR3E/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0803AG0YTW",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-471-using-feature-based"
   },
   {
     "Abstract": "Visual cues are essential for synchronization in ensemble performances, especially at the start of a piece or during fermatas with sudden tempo changes, where gestures facilitate coordination. However, in human-automated piano ensembles, traditional gesture cues are inapplicable due to the absence of a pianist. To address this, we propose a real-time gesture cue detection and visual feedback system which is structured into two main components: (1) the development of an accompaniment system that detects flutists\u2019 gesture cues and predicts onset timings for initiating playback, and (2) the provision of real-time visual feedback regarding cue detection status, enabling performers to synchronize with the system effectively.\nThe bidirectional gesture cue detection and visual feedback system was empirically validated in live performances with professional musicians, demonstrating its capability to maintain a natural musical flow. This approach surpasses the limitations of previous audio-based accompaniment systems by incorporating gesture cues at critical moments, such as the start of pieces and fermata passages, enabling optimized reactive accompaniment.",
@@ -1098,10 +1098,10 @@
     "UID": "472",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1MTqufFVhaVgTu6PbzpUgvv0LKjRtRJxj/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07V86S74DU",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-472-real-time-flutist"
   },
   {
     "Abstract": "This study explores the tokenization of multitrack sheet music in ABC notation, introducing two methods\u2014bar-stream and line-stream patching. We compare these methods against existing techniques, including bar patching, byte patching, and Byte Pair Encoding (BPE). In terms of both computational efficiency and the musicality of the generated compositions, experimental results show that bar-stream patching performs best overall compared to the others, which makes it a promising tokenization strategy for sheet music generation.",
@@ -1122,10 +1122,10 @@
     "UID": "473",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1eaAlFXR0D7Cz9ES3Hnlyye1EAt0w07R9/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07V0943DP1",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-473-exploring-tokenization-methods"
   },
   {
     "Abstract": "Musicians often represent drum beats through sound gestures such as vocal imitation and finger tapping. While these gestures can convey rich rhythmic information, realizing them as fully-produced drum beats requires time and skill. We propose a system for mapping arbitrary percussive sound gestures to high-fidelity drum recordings. Our system, dubbed TRIA (The Rhythm In Anything), takes as input two audio prompts -- one specifying the desired drum timbre, and one specifying the desired rhythm -- and generates audio satisfying both prompts (i.e. playing the desired rhythm with the desired timbre). TRIA can synthesize realistic drum audio given rhythm prompts from a variety of non-drum sound sources (e.g. beatboxing, environmental sound) in a zero-shot manner, enabling novel creative interactions.",
@@ -1146,10 +1146,10 @@
     "UID": "474",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1SETjengbSOtBNuaMQymE8OTBHRJJjTi9/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0800NAK283",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-474-masked-token-modeling"
   },
   {
     "Abstract": "In our demo, participants are invited to explore the Diff-MST^C prototype, which integrates the Diff-MST model into Steinberg's digital audio workstation (DAW), Cubase. Diff-MST, a deep learning model for mixing style transfer, forecasts mixing console parameters for tracks using a reference song. The system processes up to 20 raw tracks along with a reference song to predict mixing console parameters that can be used to create an initial mix. Users have the option to manually adjust these parameters further for greater control. In contrast to earlier deep learning systems that are limited to research ideas, Diff-MST^C is a first-of-its-kind prototype integrated into a DAW. This integration facilitates mixing decisions on multitracks and lets users input context through a reference song, followed by fine-tuning of audio effects in a traditional manner.",
@@ -1170,10 +1170,10 @@
     "UID": "475",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1Hyyhp1UBuHb6sn6odMuOabMI867uUSe3/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C080PJZU8V6",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-475-diff-mst-c"
   },
   {
     "Abstract": "In recent years, the spread of music streaming services has\n greatly increased access to music, but it seems that oppor\ntunities to deeply appreciate music have decreased. There\nfore, we believe that verbalizing and explaining music is\n one way to help listeners understand music and enhance\n satisfaction in the music experience. Conventional meth\nods for verbalization of music has focused on superficially\n explaining the song using acoustic information. In this\n study, we attempted to verbalize the impression and atmo\nsphere of the song by generating review text that takes into\n account lyrics in addition to acoustic information.",
@@ -1194,10 +1194,10 @@
     "UID": "477",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1o4uMoyOobzhYG3spIIv4GuW0z-qnftro/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0800NB3B9R",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-477-song-review-generation"
   },
   {
     "Abstract": "The presentation of Indian Classical Music admits the use of microtones (\"shruti\"s or frequency ratios) that are characteristic of each Raag which can be described as a set of notes (a scale) plus a \"chalan\" (melody patterns and rules regarding permissible/emphasized combinations of notes) meant to create a certain mood. Often, the Raag's definition as appearing in pedagogy does not include microtonal information. Hindustani Classical Music is transcribed and spoken of with a 12-note system. Despite this, most advanced vocalists or musicians with a continuous-frequency-domain instrument will tend to use appropriate microtones during rendition. This suggests that the microtonal information may be consistently derived based on the given description of the Raag. In this study, we attempt to use empirical analysis and MIR techniques to discover rules, if any, that may guide this derivation algorithmically.",
@@ -1218,10 +1218,10 @@
     "UID": "478",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1c_3zvZlB3HV5lFAw-KpyPmuo0WKdJZeE/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07V094SSBH",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-478-uncovering-the-microtones"
   },
   {
     "Abstract": "This paper explores transformer-based models for music overpainting, focusing on jazz piano variations. Music overpainting generates new variations while preserving the melodic and harmonic structure of the input. Existing approaches are limited by small datasets, restricting scalability and diversity. We introduce VAR4000, a subset of a larger dataset for jazz piano performances, consisting of 4,352 training pairs. Using a semi-automatic pipeline, we evaluate two transformer configurations on VAR4000, comparing their performance with the smaller JAZZVAR dataset. Preliminary results show promising improvements in generalisation and performance with the larger dataset configuration, highlighting the potential of transformer models to scale effectively for music overpainting on larger and more diverse datasets.",
@@ -1242,10 +1242,10 @@
     "UID": "479",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1pv2-7r1dl2ccStz7r9MS4nknyxS9ASe3/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C080PK0GN64",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-479-exploring-transformer-based"
   },
   {
     "Abstract": "In monophonic instrument sound generation tasks, integrating continuous pitch control with text-to-audio (TTA) models is crucial for practical music production. To address this, we propose Pitch-ControlNet, a framework leveraging ControlNet to reflect time-varying pitch expressions in the generated audio of pretrained AudioLDM. Our approach enables sequence-level pitch manipulation by utilizing fundamental frequency (f0) contours, while retaining the benefits of high-quality text-prompted generation from the pretrained model. Experimental results show that our framework consistently achieves high pitch accuracy across a wide frequency range, preserving the target instrument\u2019s timbre and high audio quality. The model\u2019s potential for practical application in music production is showcased on our demo website.",
@@ -1266,10 +1266,10 @@
     "UID": "480",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/18be9r0WcGflWwevqbkB6jGGyuj9U9t2a/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0803AHJVJQ",
     "comments": "generated captions don't show, srt link failed",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-480-pitch-controlnet-continuous"
   },
   {
     "Abstract": "In this paper, we introduce CloserMusicDB, a collection of full length studio quality tracks annotated by a team of human experts. We describe the selected qualities of our dataset, along with three example tasks possible to perform using this dataset: hook detection, contextual tagging and artist identification. We conduct baseline experiments and provide initial benchmarks for these tasks.",
@@ -1290,10 +1290,10 @@
     "UID": "481",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1R7ldjD-qv5jJZfXIvGUi_AM6qys5GlEO/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0803AHRMK6",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-481-closermusicdb-a-modern"
   },
   {
     "Abstract": "Automatic Drum Transcription (ADT) remains a challenging task in MIR but recent advances allow accurate transcription of drum kits with up 5 classes - kick, snare, hi-hats, toms and cymbals - via the ADTOF package. In addition, several drum kit stem separation models in the open source community support separation for more than 6 stem classes, including for distinct crash and ride cymbals. In this work we explore the benefits of combining these tools to improve the realism and accuracy of drum transcriptions. We describe a simple post-processing step which expands the transcription output from five to seven classes. Furthermore, we are able to estimate MIDI velocity values based on the separated stems. Our solution achieves strong performance when assessed against a baseline of 8-class drum transcription and produces realistic MIDI transcriptions suitable for MIR or music production tasks.",
@@ -1314,10 +1314,10 @@
     "UID": "482",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1ANCBR8YXKfm8XkC0DlcgrZSm6MpCyDk0/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C080PK14BUG",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-482-enhanced-automatic-drum"
   },
   {
     "Abstract": "Most music consumption involves multi-instrument audio, and thus modeling complex timbres is vital for real-world music analysis and Music Information Retrieval (MIR) tasks. However, this task remains challenging in musical mixtures where definitions of timbre are less clear. Additionally, the advent of generative and multi-modal music models necessitates precise timbre representation for enhanced control in music generation and editing. Based on previous work highlighting the difficulties with learning instrument timbres in the context of Predominant Instrument Recognition (PIR), we explore the potential of diffusion networks to learn salient timbre representations for predominant instrument generation and timbre transfer. The results highlight the power of generative models to deepen our understanding of instrument timbre for complex scenarios with limited real-world data.",
@@ -1338,10 +1338,10 @@
     "UID": "483",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1fWiB1jQQRPivvGGXxdsRU8m01HvMnt6_/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C080PK1A924",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-483-modeling-predominant-instrumentation"
   },
   {
     "Abstract": "Beat and downbeat tracking models are predominantly developed using datasets with music in 4/4 meter, which decreases their generalization to repertories in other time signatures.  In this work, we propose a simple augmentation technique to increase the representation of time signatures beyond 4/4, namely 2/4 and 3/4. Our augmentation procedure works by removing beat intervals from 4/4 annotated tracks. We show that the augmented\ndata helps to improve downbeat tracking for underrepresented meters while preserving the overall performance of beat tracking in two different models. We also show that this technique helps improve downbeat tracking in an unseen Samba dataset.",
@@ -1362,10 +1362,10 @@
     "UID": "485",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1w0ZIqMIwTD6c4PdF8FMzyrLwwO1UnE6i/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C080DFQB58R",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-485-skip-that-beat"
   },
   {
     "Abstract": "This paper presents a set of harmonic function annotations for Isophonics' The Beatles datasets. Harmonic function annotations characterize chord labels as stable (tonic) or unstable (predominant, dominant). They operate at the level of musical phrases and thus serve as a link between chord labels and higher-level formal structures.",
@@ -1386,10 +1386,10 @@
     "UID": "486",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1usG1LJFI97rFMlXHRayjwv9whqWMRURe/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C080DFQHN1F",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-486-beatlesfc-harmonic-function"
   },
   {
     "Abstract": "Recent progress on audio-based music structure analysis has closely aligned with the appearance of new deep learning paradigms, notably for the extraction of robust spectro-temporal audio features and their sequential modeling. However, most recent methods resort to supervised learning, which requires careful annotation of audio music pieces. Such annotations may sometimes operate at different temporal scales from one dataset to another or comprise inconsistent variation markers across repetitions of identical segments. This work explores language models as an alternative to manual pre-processing of the section label space, thus facilitating training and predictions across different annotated corpora. We propose a joint audio-to-text embedding space in which latent representations of audio frames and their respective section labels are close. We take inspiration from recent works on cross-modal contrastive learning and demonstrate the plausibility of this paradigm in the context of music structure analysis.",
@@ -1410,10 +1410,10 @@
     "UID": "487",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1Fa2ZpA7eMEWnYMSyCCm9FpBepGaIPofu/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0800NCSDFV",
     "comments": "the author used the main paper track format... ",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-487-zero-shot-structure"
   },
   {
     "Abstract": "We present the Infinite Music Player, a web application\ncapable of generating symbolic music using a large-scale\ngenerative AI model locally on commodity hardware. Creating this demo involved porting the Anticipatory Music\nTransformer, a large language model (LLM) pre-trained\non the Lakh MIDI dataset, to the Machine Learning Compilation (MLC) framework. Once the model is ported,\nMLC facilitates inference on a variety of runtimes including C++, mobile, and the browser. We envision that MLC\nhas the potential to bridge the gap between the landscape\nof increasingly capable music AI models and technology\nmore familiar to music software developers. As a proof\nof concept, we build a web application that allows users to\ngenerate endless streams of multi-instrumental MIDI in the\nbrowser, either from scratch or conditioned on a prompt.\nOn commodity hardware (an M3 Macbook Pro), our demo\ncan generate 51 notes per second, which is faster than real-\ntime playback for 72.9% of generations, and increases to\n86.3% with 2 seconds of upfront buffering.",
@@ -1434,10 +1434,10 @@
     "UID": "488",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1lf3P5jxIRKkEkK-1eFyFm79uME6qa5rM/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07VC00PN21",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-488-local-deployment-of"
   },
   {
     "Abstract": "We present Hookpad Aria, a generative AI system designed to assist musicians in writing Western pop songs. Our system is seamlessly integrated into Hookpad, a web-based editor designed for the composition of lead sheets - symbolic music scores that describe melody and harmony. Hookpad Aria has numerous generation capabilities designed to assist users in non-sequential composition workflows, including: (1) generating left-to-right continuations of existing material, (2) filling in missing spans in the middle of existing material, and (3) generating harmony from melody and vice versa. Hookpad Aria is also a scalable data flywheel for music co-creation\u2014since its release in March 2024, Aria has generated 318k suggestions for 3k users who have accepted 74k into their songs.",
@@ -1458,10 +1458,10 @@
     "UID": "489",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1999UU9h6yiTv5VKlz281Syl73j1zZsK_/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0800NDALPM",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-489-hookpad-aria-a"
   },
   {
     "Abstract": "Musical source separation (MSS) has recently seen a big breakthrough in separating instruments from a mixture in the context of Western music, but research on non-Western instruments is still limited due to a lack of data. In this demo, we use an existing dataset of Brazilian samba percussion to create artificial mixtures for training a U-Net model to separate the surdo drum, a traditional instrument in samba. Despite limited training data, the model effectively isolates the surdo, given the drum's repetitive patterns and its characteristic low-pitched timbre. These results suggest that MSS systems can be successfully harnessed to work in more culturally-inclusive scenarios without the need of collecting extensive amounts of data.",
@@ -1482,10 +1482,10 @@
     "UID": "490",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1NCccreEwDCs4CHAJWfwr7j1r41UXQWeG/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0800R0EJD8",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-490-musical-source-separation"
   },
   {
     "Abstract": "Much of the research in Music Information Retrieval (MIR) relies on data: collections of audio recordings, musical scores, meta-information about music, human opinions, and more. The International Society for MIR (ISMIR) Conference offers a glimpse into the data being used in MIR research and thus what is (and is not) studied by the field. Unlike past ISMIR conference proceedings with consistent metadata on each paper, there does not exist a comprehensive repository with detailed metadata on the datasets used in ISMIR papers. We propose a collection tool for community-sourcing the meta information about the data of ISMIR as well as a procedure for processing and cleaning that collected data. We view this as a necessary first step towards being able to quantify the influence of certain datasets across MIR as well as address questions of data diversity and generalizability of MIR work.",
@@ -1506,10 +1506,10 @@
     "UID": "491",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1sYkke96_uJUUwdb7k-81kzaFB9d-AwrI/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C080DFRL6TT",
     "comments": "Author reached ... will send by Monday...; fixed",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-491-collecting-managing-the"
   },
   {
     "Abstract": "This project demonstrates a method for artificially manipulating acoustic piano resonance through real-time sound filtering and reproduction using a soundboard-mounted shaker. Various filters are applied to shape the harmonic and timbral characteristics of the instrument, which are then reproduced through vibrations in the soundboard. The acoustic and filtered sounds are played simultaneously, allowing listeners to perceive how different filters color the natural resonance of the piano. This investigation focuses on how specific filters alter the tonal quality of the instrument and explores their potential for creative sound manipulation within acoustic contexts.",
@@ -1530,10 +1530,10 @@
     "UID": "492",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1tjiLt3D3vsuocMLbvooE-2Hq1FaeLe1p/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07VC01JTEH",
     "comments": "no speech",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-492-artificial-acoustic-piano"
   },
   {
     "Abstract": "Inter-subject correlation (ISC) of electroencephalographic\n(EEG) responses to natural stimuli is thought to index at-\ntention, engagement, and salient stimulus events. We in-\nvestigate correspondences between EEG ISC and com-\nputationally derived music structure segmentation bound-\naries. Using a publicly available EEG dataset, we com-\nputed time-resolved ISC of spatially optimized responses\nto a full-length Bollywood song. We also used the MSAF\ntoolbox to compute structural segmentation boundaries\nfrom the stimulus audio. Preliminary results reveal that dif-\nferent segmentation algorithms produce different boundary\ntimestamps and that some but not all segmentation bound-\naries align with ISC peaks. These findings encourage fur-\nther research aimed toward advancing music neuroscience\nand multimodal approaches to music structure analysis",
@@ -1554,10 +1554,10 @@
     "UID": "493",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/18fxMJXopRF7ARl-HY9Du9o_awZSoPXGt/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07VC01N9JR",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-493-an-exploration-of"
   },
   {
     "Abstract": "Use of data in AI systems without consent or in violation of copyright agreements has become a pressing concern as AI systems have become increasingly capable and commercialized. In the audio domain, these concerns extend to music styles, voice prints, and lyrics being replicated and extended, causing economic, security, and representation harms. In this paper we present initial work on protecting audio from unauthorized AI inference, including voice cloning and music extension. We utilize encoder-based attacks to add noise to audio to distort the encoded latent while minimally changing the original audio. We conduct small-scale experiments showing the effectiveness of our protection, and discuss next steps needed to develop a defense that is both effective and acceptable to audio workers. We present our results at tinyurl.com/audio-protection.",
@@ -1578,15 +1578,15 @@
     "UID": "494",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1gOlpLG22nvjClQGbWZyFq995c0AjxymO/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C080PK3BQL8",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-494-audio-data-defenses"
   },
   {
     "Abstract": "Quantifying similarity of melodic features has been a chal-\nlenge not only in Music Information Retrieval (MIR), but\nmusic theory in general. Despite this, music theoretical\nmodels are often underutilized in music informatics. Mu-\nsic theory informed models can provide certain advan-\ntages over pure machine learning models, such as resource-\nefficiency and interpretability. This paper proposes the ap-\nplication of Earth Mover\u2019s Distance onto a novel represen-\ntation of the interval content of a song based on the cir-\ncle of fifths, dubbing the resulting distance metric Inter-\nval Mover\u2019s Distance. Interval Mover\u2019s Distance may be\napplied to various MIR tasks concerning stylistic similar-\nity, such as music recommendation algorithms, and par-\nticularly, novel machine learning tasks such as manifold\nlearning. Uniform Manifold Approximation and Projec-\ntion (UMAP) is then used to demonstrate this metric in\nmanifold learning resulting in a large corpus of music rep-\nresented on a \"music map\" by melodic content. This mu-\nsic map, dubbed \"Every Interval at Once\", visualizes\nand sonifies the spectrum of data available, thus blurring\nthe lines between music data visualization and data-driven\nsound art.In addition, the MIDI dataset collected for this project,\nspanning 23,059 songs across 75 unique genres, is released\nfor public use.",
     "All ok?": "1",
-    "Author Names": "Dmitry Sazonov (University of Alabama)*",
+    "Author Names": "Valeri Sazonov (University of Alabama)*",
     "Captions checklist ok?": "1",
     "Captions link": "https://drive.google.com/file/d/1Vn9lcazpIyHmwaLrQw0LN98-jOt7t-f1/view?usp=drive_link",
     "Correct paper?": "1",
@@ -1602,10 +1602,10 @@
     "UID": "495",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1cb-As6_pVMicgKaChL8bWsUD6gUdZ-Gv/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C080DFSCDQR",
     "comments": "poster is landscape....but the presenter is virtual... so no problem",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-495-interval-mover-s"
   },
   {
     "Abstract": "Recent advancements in Automatic Piano Transcription (APT) have significantly improved system performance, but the impact of noisy environments on the system performance remains largely unexplored. This study investigates the impact of white noise at various Signal-to-Noise Ratio (SNR) levels on state-of-the-art APT models and evaluates the performance of the Onsets and Frames model when trained on noise-augmented data. We hope this research provides valuable insights as preliminary work toward developing transcription models that maintain consistent performance across a range of acoustic conditions.",
@@ -1626,10 +1626,10 @@
     "UID": "496",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1WsCfHqi4TkTj1Zjv-gJU3R61MbrLZQo-/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0800R1G84S",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-496-towards-robust-transcription"
   },
   {
     "Abstract": "HARP 2.0 brings deep learning models to digital audio workstation (DAW) software through hosted, asynchronous, remote processing, allowing users to route audio from a plug-in interface through any compatible Gradio endpoint to perform arbitrary transformations. HARP renders endpoint-defined controls and processed audio in-plugin, meaning users can explore a variety of cutting-edge deep learning models without ever leaving the DAW. In the 2.0 release we introduce support for MIDI-based models and audio/MIDI labeling models, provide a streamlined pyharp Python API for model developers, and implement numerous interface and stability improvements. Through this work, we hope to bridge the gap between model developers and creatives, improving access to deep learning models by seamlessly intrgrating them into DAW workflows.",
@@ -1650,10 +1650,10 @@
     "UID": "497",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1zTeocgH_ADCjMr7TtLxgvt_zFX5QouD3/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07V098F0KZ",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-497-harp-2-0"
   },
   {
     "Abstract": "In genres like Hip-Hop, RnB, Reggae, Dancehall and just about every Electronic/Dance/Club style, DJ tools are a special set of audio files curated to heighten the DJ's musical performance and creative mixing choices. In this work we demonstrate an approach to discovering DJ tools in personal music collections. Leveraging open-source libraries for speech/music activity, music boundary analysis and a Contrastive Language-Audio Pretraining (CLAP) model for zero-shot audio classification, we demonstrate a novel system designed to retrieve (or rediscover) compelling DJ tools for use live or in the studio.",
@@ -1674,10 +1674,10 @@
     "UID": "498",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/14yU-TGYS4KkIoHnQUWCg8Tu9Dtr6T7b1/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07V86X2ETG",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-498-zero-shot-crate"
   },
   {
     "Abstract": "This work explores the feature of x-vector to analyze the extent to which it embeds musical content by recreating the experiment in the work 'You\u2019re Not You When You\u2019re Angry: Robust Emotion Features Emerge by Recognizing Speakers' of emotion modulation in natural speech. As actors, we take instruments playing with four emotions; we use an autoencoder to observe changes in the reconstruction error, which allows us to find a similarity between the emotional modulation that occurred in speech in instruments.",
@@ -1698,10 +1698,10 @@
     "UID": "499",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1Itj1l2UImzSlAlfL1D2K4DwESodz9Jay/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0800R22GBU",
     "comments": "",
     "reviewer": "CW",
-    "slack_channel": ""
+    "slack_channel": "lbd-499-the-voice-of"
   },
   {
     "Abstract": "Music perception is shaped by both enculturation and musical training. This pilot study explores how musicians from different cultural and training backgrounds perceive music. Participants rated the perceived \"Westernness\" of raga samples in an online survey. Our analysis revealed significant differences in ratings between Western and Indian musicians, with a strong correlation between the perceived Westernness of the raga samples and their pitch class distributions. These findings suggest that musical training and cultural background influence familiarity with specific pitch class structures, leading to variations in music perception. Ongoing research will investigate the neural correlates of music perception across diverse musical cultures.\n",
@@ -1722,10 +1722,10 @@
     "UID": "500",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/16AvAvBxPurGfZquw8egMdnPWEfD2ms0T/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07VC02TH0V",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-500-perception-of-ragas"
   },
   {
     "Abstract": "With the advancement of generative models, controllable music generation (e.g., emotion-based) has gradually become feasible. However, achieving a balance between controllability and musicality/generative quality remains a challenging task in current research. Existing latent space-based methods, such as MusER, have struggled to capture the complex patterns underlying emotional expression and music theory. In this late-breaking demo, we present a preliminary study on emotion-based piano score generation. Our approach aims to enhance the controllability and accuracy of emotional content by disentangling musical elements. Additionally, we introduce a two-stage generation structure with pre-training to address the scarcity of emotion-labeled datasets, thereby improving the quality of the generated content and the robustness of the generation process.",
@@ -1746,10 +1746,10 @@
     "UID": "501",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1ciXOueg2BIR4eo9AnEEWx2U0s4yb9OKv/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07V86XCZN2",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-501-emotion-based-piano"
   },
   {
     "Abstract": "Self-supervised learning (SSL) offers a powerful way to learn robust, generalizable representations without labeled data. In music, where labeled data is scarce, existing SSL methods typically use generated supervision and multi-view redundancy to create pretext tasks. However, these approaches often produce entangled representations and lose view-specific information. We propose a novel self-supervised multi-view learning framework for audio designed to incentivize separation between private and shared representation spaces. A case study of results on audio disentanglement in a controlled setting demonstrates the effectiveness of our method.",
@@ -1770,10 +1770,10 @@
     "UID": "502",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1KYaEUEH1kSoR2mbXaUjIpzLmccGi0lNA/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07V86XK0F8",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-502-self-supervised-multi"
   },
   {
     "Abstract": "Pansori is one of the most representative vocal genres\nof Korean traditional music, which has an elaborated vocal melody line with strong vibrato. Although the music\nis transmitted orally without any music notation, transcribing pansori music in Western staff notation has been introduced for several purposes, such as documentation of\nmusic, education, or research. In this paper, we introduce\ncomputational analysis of pansori based on both audio and\ncorresponding transcription, how modern Music Information Retrieval tasks can be used in analyzing traditional\nmusic and how it revealed different audio characteristics\nof what pansori contains.",
@@ -1794,10 +1794,10 @@
     "UID": "503",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1Nzu8SE9gVgNEez0fGSi0UzwCBVGFeSsz/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C080DFTMUD7",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-503-towards-computational-analysis"
   },
   {
     "Abstract": "Album sequencing has long been a critical part of the album production process. Recently, a data-driven approach was proposed by Ashley and Herrmann et al. (2024) for sequencing general collections of independent media by extracting the narrative essence of the items in the collection. While their approach implies an album sequencing technique, it is not widely accessible to a less technical audience, requiring advanced knowledge of machine learning techniques to use. To address this, we introduce a new user-friendly web-based tool that allows a less technical audience to upload music tracks, execute this technique in one click, and subsequently presents the result in a clean visualization to the user. To both increase the number of templates available to the user and address shortcomings of the work of Ashley and Herrmann et al., we also introduce a new direct transformer-based album sequencing method. We find that our more direct method outperforms a random baseline but does not reach the same performance as the narrative essence approach. Both methods are included in our web-based user interface, and this\u2014alongside a full copy of our implementation\u2014is publicly available at REDACTED",
@@ -1818,10 +1818,10 @@
     "UID": "504",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1LVURXADHlAsJuxNT5_tTBhPe0ihn8vvA/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C080DFTUFHP",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-504-automatic-album-sequencing"
   },
   {
     "Abstract": "Music captioning has emerged as a promising task, fueled by the advent of advanced language generation models. However, the evaluation of music captioning relies heavily on traditional metrics such as BLEU, METEOR, and ROUGE which were developed for other domains, without proper justification for their use in this new field. We present cases where traditional metrics are vulnerable to syntactic changes, and show they do not correlate well with human judgments. By addressing these issues, we aim to emphasize the need for a critical reevaluation of how music captions are assessed.",
@@ -1842,10 +1842,10 @@
     "UID": "505",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1o87GLdeMC8j4-J_cxjQW2F-WbHMElz9m/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0803AN66GL",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-505-do-captioning-metrics"
   },
   {
     "Abstract": "Leitmotifs are musical phrases that reprise in various forms throughout a piece. Detecting the occurrence of leitmotifs from audio recordings is a highly challenging task, due to diverse variations and instrumentation. Leitmotif detection can be regarded as a subcategory of audio event detection, where the appearance of leitmotifs is predicted at the frame level. However, as leitmotifs carry distinct temporal structures and musical coherence, a more holistic approach akin to bounding box regression in visual object detection can be helpful. This would capture the entirety of the motif rather than fragmenting it into individual frames, thereby preserving its musical integrity and enhancing detection accuracy. We present our results on tackling leitmotif detection as a boundary regression task.",
@@ -1866,10 +1866,10 @@
     "UID": "506",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1GQ0H1X4-cgq6K6a3npZFKJFlZDdMq5fd/view?usp=drive_link",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0800R37TJ6",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-506-boundary-regression-for"
   },
   {
     "Abstract": "We are interested in score reduction, specifically the task of adapting musical scores originally composed for another instrument (e.g. piano) into scores playable on the guitar. This process, traditionally performed by experienced guitarists, is complex and time-consuming. This study proposes to automate this task by framing score reduction as a combinatorial optimization problem under constraints and use Reinforcement Learning (RL) to solve it. The RL agent sequentially evaluates notes in the input score, deciding whether to keep or discard each note and selecting its position on the guitar fretboard. We use a graph representation for scores and utilize a transformer encoder to capture the state. The guitar's physical characteristics and the need to retain the musicality of the original score present challenging constraints. We design two reward functions to balance the trade-off between musicality and playability and train the agent using Proximal Policy Optimization (PPO).",
@@ -1890,10 +1890,10 @@
     "UID": "507",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1B6ba99qlae5IofApvfjfOSRQ-smQdcOl/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C0800R3HRJN",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-507-score-reduction-for"
   },
   {
     "Abstract": "This paper introduces an extendable modular system that compiles a range of music feature extraction models to aid music information retrieval research. The features include musical elements like key, downbeats, and genre, as well as audio characteristics like instrument recognition, vocals/instrumental classification, and vocals gender detection. The integrated models are state-of-the-art or latest open-source. The features can be extracted as latent or post-processed labels, enabling integration into music applications such as generative music, recommendation, and playlist generation. The modular design allows easy integration of newly developed systems, making it a good benchmarking and comparison tool. This versatile toolkit supports the research community in developing innovative solutions by providing concrete musical features.",
@@ -1914,10 +1914,10 @@
     "UID": "508",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/14inEgdotibJQkUmjjDMsaHEhonFAbZoq/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07VC04DG7P",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-508-mirflex-music-information"
   },
   {
     "Abstract": "",
@@ -1938,9 +1938,9 @@
     "UID": "509",
     "Video checklist ok?": "1",
     "Video link": "https://drive.google.com/file/d/1AxJXBsHaJNJNoZJ6QicNgZyTGgupD_dX/view",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C080PK60M5W",
     "comments": "",
     "reviewer": "CN",
-    "slack_channel": ""
+    "slack_channel": "lbd-509-reffly-melody-constrained"
   }
 ]
