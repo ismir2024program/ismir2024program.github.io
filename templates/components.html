@@ -381,7 +381,7 @@ workshopgroup
   {% for meet in type %}
   {% set local_date = meet.start_date | localizetime(meet.start_time, timezone) %}
   <div class="col-12 p-3" style="box-sizing: border-box;">
-    <div class="card" style="display: block; overflow: hidden; width: 100%;">
+    <div class="card" style="display: block; overflow: hidden; width: 100%;" id="{{meet.uid}}">
       <div
         class="card-header text-center"
         style="min-height: 200px; width: 100%;"

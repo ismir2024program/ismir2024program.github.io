@@ -44,7 +44,6 @@ This tutorial caters especially to new researchers with an interest in lyrics an
 16,Registration,2,2024-11-11,8:00,8:30,Registration,,,,,,,,,
 17,Online Q&A w/ volunteers,2,2024-11-11,8:00,8:30,Meetup,Having issues with Zoom or Slack? Need help navigating the conference program or materials? Virtual volunteers will be available to meet with you and answer any questions you may have!,,,,,,,help-desk,https://ismir2024.slack.com/archives/C07TPGHFWR0
 18,Opening Remarks,2,2024-11-11,8:30,9:00,Special Session,Join the General Chairs of ISMIR 2024 to kick off this year’s conference!,"Gautham Mysore, Oriol Nieto, Blair Kaneshiro",,,,,,session-chatter,https://ismir2024.slack.com/archives/C07V56WJC07
-,,,,,,,,,,,,,,,
 20,Poster Session - 1,2,2024-11-11,10:15,11:45,Poster session,"**In-person presentations:**
 
 * [Formal Modeling of Structural Repetition using Tree Compression - Ren, Zeng*, Rammos, Yannis, Rohrmeier, Martin A](/poster_207.html)
@@ -73,13 +72,11 @@ This tutorial caters especially to new researchers with an interest in lyrics an
 ",,,,,,,session-chatter,https://ismir2024.slack.com/archives/C07V56WJC07
 ,,,,,,,,,,,,,,,
 22,Mindfulness session,2,2024-11-11,11:45,12:45,Meetup,,,,,,,,,
-23,Towards a fairer approach to generative AI training,2,2024-11-11,13:00,14:00,All Meeting,TBD,Ed Newton-Rex,,,"Ed Newton-Rex is the founder of Fairly Trained, a non-profit that certifies generative AI companies for fair training data practices. He is also a Visiting Scholar at Stanford University.
+23,Towards a fairer approach to generative AI training,2,2024-11-11,13:00,14:00,All Meeting,,Ed Newton-Rex,,,"Ed Newton-Rex is the founder of Fairly Trained, a non-profit that certifies generative AI companies for fair training data practices. He is also a Visiting Scholar at Stanford University.
 
 In 2010, Ed founded Jukedeck, one of the first AI music generation startups. Jukedeck let video creators generate music for their videos, and was used to create more than a million pieces of music. It was acquired by ByteDance in 2019\. At ByteDance, Ed led the AI Music lab, then led Product for TikTok in Europe.
 
 In 2022 Ed joined Stability AI, the company behind Stable Diffusion, to lead their Audio team. His team launched Stable Audio, Stability’s music generation product, which was named one of TIME Magazine’s best inventions of the year in 2023\. He resigned from Stability in November 2023 due to the company’s policy of training AI models on copyrighted work without consent, and in 2024 founded Fairly Trained. He is a published composer of choral music.",https://confcats-siteplex.s3.us-east-1.amazonaws.com/ismir24/large_ed_newton_rex_fairly_trained_ai_music_companies_copy_5c8e87ef06.jpg,,keynote-1-newton-rex,https://ismir2024.slack.com/archives/C0805NPRK8A
-,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
 26,Poster Session - 2,2,2024-11-11,15:15,16:45,Poster session,"**In-person presentations:**
 
 * [Six Dragons Fly Again: Reviving 15th-Century Korean Court Music with Transformers and Novel Encoding - Han, Danbinaerin, Gotham, Mark R H, Kim, DongMin, Park, Hannah, Lee, Sihun, Jeong, Dasaem*](/poster_35.html)
@@ -188,18 +185,7 @@ Martin Hartmann is an Assistant Professor of Musicology at the University of Jyv
 - Riffusion
 - Pro Sound Effects
 - Yamaha","Brandi Frisbie, Minz Won",,,,,,session-chatter,https://ismir2024.slack.com/archives/C07V56WJC07
-,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
-49,Creative Practice Session I,3,2024-11-12,13:15,14:15,Meetup,"Music information technology has the potential to transform creative and artistic practice. Many technologists working in music information retrieval also at least are music lovers (if not skilled players), and as such have strong commitment to having their tools and technologies being useful in practice. At the same time, are these technologists indeed sufficiently aligning to musical and creative practice? Are the needs and interests of relevant real-life music stakeholders (players, composers, producers, other types of practitioners) who never heard about ‘music information retrieval’ sufficiently identified and recognized in technological research and development?
-
-As Creative Practice chairs, considering ISMIR 2024’s special focus on ‘Bridging Technology and Musical Creativity’, we want to stimulate more awareness of (and joint learning on) these questions. In order to do this, we wish to facilitate dialogues and collaborations on this topic between technologists and creatives. While [several community members contributed ideas](https://docs.google.com/document/d/1p5yGNEVgW_W0lKgyIRWip0sgD_kOU1ki5iEkkvv6PhA/edit?tab=t.0) on which you can respond to collaborate, at ISMIR 2024, we also will host two panels featuring invited guests who all are active on the bridges between technology and creative practice.
-
-In today’s panel, we will host and have a conversation with:
-
-* **Mark Goldstein** \- Percussionist, programmer, teacher, inventor; with an interest in the nexus of musical gesture, sound, and expression.  
-* **Michelle Alexander** \-    
-* **Carlos Mosquera** \- ","Cynthia Liem, Tomàs Peire",,,,,,session-chatter,https://ismir2024.slack.com/archives/C07V56WJC07
-,,,,,,,,,,,,,,,
+49,Creative Practice Session I,3,2024-11-12,13:15,14:15,Music,Music,"Cynthia Liem, Tomàs Peire",,,,,,session-chatter,https://ismir2024.slack.com/archives/C07V56WJC07
 51,Poster Session - 4,3,2024-11-12,15:30,17:00,Poster session,"**In-person presentations:**
 
 * [Cluster and Separate: a GNN Approach to Voice and Staff Prediction for Score Engraving - Foscarin, Francesco*, Karystinaios, Emmanouil, Nakamura, Eita, Widmer, Gerhard](/poster_9.html)
@@ -235,19 +221,10 @@ She is also keyed into the gaming and the web 3.0 world. She is partnerships cou
 Along with gaming and the metaverse, she is passionate about the opportunities web 3.0 will bring to the music community and creators. She represents **Audius**, the blockchain-based music streaming service, in its efforts to help creators and their fans connect more authentically by embracing the opportunities offered through a decentralized network and **Revelator**, an all-in-one music platform providing digital distribution, analytics, and web 3.0 services to artists, record labels and publishers.  She advises **Copyright Delta**, providing data connections to rights holders and AI tech platforms.
 
 Moody is excited to bring opportunities to the music industry by forging deals with those in industries outside of music, including at the intersection of music and fitness. She represents connected fitness, yoga, pilates, mindfulness, cycling, and dance services to help them integrate music into their services. She has worked closely with **Hydrow**, the successful Peloton-style live reality-connected rowing experience, since its launch in 2019\. She believes that VR plays an important role in fitness and works with **Litesport** and **FitXR** to ensure they have access to top-notch music experiences. She has also been working in the medical and wellness space exploring licensing structures to use music in the treatment of pain, dementia, and mental illness concerns through her work with **MediMusic** and her advisory participation on the board of **Music Health**.",https://confcats-siteplex.s3.us-east-1.amazonaws.com/ismir24/large_Elizabeth_Moody_USE_c3dcedcde8.jpeg,,keynote-2-moody,https://ismir2024.slack.com/archives/C080JDEU39P
-53,Creative Practice meetup at Riffusion,3,2024-11-12,18:00,22:00,Meetup,"*Thank you to Riffusion for hosting this event\!*
+53,Creative Practice meetup at Riffusion,3,2024-11-12,18:00,22:00,Music,"*Thank you to Riffusion for hosting this event\!*
 
 Riffusion is a small team of musicians, engineers, and researchers building creative AI tools in San Francisco. We train foundation models for music generation, and envision Riffusion as a new musical instrument.  ","Cynthia Liem, Tomàs Peire",,,,,,session-chatter,https://ismir2024.slack.com/archives/C07V56WJC07
 54,Online Q&A w/ volunteers,3,2024-11-12,20:00,20:30,Meetup,Having issues with Zoom or Slack? Need help navigating the conference program or materials? Virtual volunteers will be available to meet with you and answer any questions you may have!,,,,,,,help-desk,https://ismir2024.slack.com/archives/C07TPGHFWR0
-,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
 64,Online Q&A w/ volunteers,4,2024-11-13,8:00,8:30,Meetup,Having issues with Zoom or Slack? Need help navigating the conference program or materials? Virtual volunteers will be available to meet with you and answer any questions you may have!,,,,,,,help-desk,https://ismir2024.slack.com/archives/C07TPGHFWR0
 ,,,,,,,,,,,,,,,
 66,Poster Session - 5,4,2024-11-13,9:45,11:00,Poster session,"**In-person presentations:**
@@ -331,15 +308,6 @@ We’re excited to welcome our very special guests:
 * [Anna Huang](https://czhuang.github.io/)","Brandi Frisbie, Minz Won",,,,,,session-chatter,https://ismir2024.slack.com/archives/C07V56WJC07
 75,ISMIR 2024 Meetup with Industry Panel: Bridging Technology and Musical Creativity,4,2024-11-13,20:00,22:00,Industry,Q\&A and Networking portion of the Meetup with Industry.,Brandi Frisbie and Minz Won,,,,,,session-chatter,https://ismir2024.slack.com/archives/C07V56WJC07
 76,Online Q&A w/ volunteers,4,2024-11-13,20:00,20:30,Meetup,Having issues with Zoom or Slack? Need help navigating the conference program or materials? Virtual volunteers will be available to meet with you and answer any questions you may have!,,,,,,,help-desk,https://ismir2024.slack.com/archives/C07TPGHFWR0
-,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
 86,Registration,5,2024-11-14,8:00,8:30,Registration,,,,,,,,,
 87,Online Q&A w/ volunteers,5,2024-11-14,8:00,8:30,Meetup,Having issues with Zoom or Slack? Need help navigating the conference program or materials? Virtual volunteers will be available to meet with you and answer any questions you may have!,,,,,,,help-desk,https://ismir2024.slack.com/archives/C07TPGHFWR0
 ,,,,,,,,,,,,,,,
@@ -370,14 +338,10 @@ We’re excited to welcome our very special guests:
 ,,,,,,,,,,,,,,,
 91,LBD / MIREX (onsite),5,2024-11-14,11:15,12:45,LBD,"The LBD session is a forum for presenting prototype systems, initial concepts, and early results that are not yet fully matured but hold significance for the Music Information Retrieval (MIR) community. This joint session with MIREX includes poster presentations and live demos from both LBD and MIREX submissions. ","Chih-Wei Wu, Camile Noufi, Gus Xia",,,,,,session-chatter,https://ismir2024.slack.com/archives/C07V56WJC07
 92,LBD / MIREX (online),5,2024-11-14,11:15,12:45,LBD,"The LBD session is a forum for presenting prototype systems, initial concepts, and early results that are not yet fully matured but hold significance for the Music Information Retrieval (MIR) community. This joint session with MIREX includes poster presentations and live demos from both LBD and MIREX submissions. ","Chih-Wei Wu, Camile Noufi, Gus Xia",,,,,,session-chatter,https://ismir2024.slack.com/archives/C07V56WJC07
-,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
 95,Society meeting,5,2024-11-14,14:00,15:30,Social ,,ISMIR,,,,,,session-chatter,https://ismir2024.slack.com/archives/C07V56WJC07
 96,Unconference,5,2024-11-14,15:30,17:30,Meetup,"The unconference is a set of impromptu sessions/discussions on MIR topics of greatest interest.   
 During a first plenary, participants vote on their preferred topics, then join a 30-minute discussion group on this topic, after which they summarize their discussions in a second plenary, vote on new topics, and repeat the process with new groups. Topics do not need to be technical (example: what does MIR stands for ? do we need open-review ? does gen-ai cares about copyright ? how many multi-head do I need in my encoder ?). This is an informal and informative opportunity to get to know peers and colleagues from around the world. ",Geoffroy Peeters,,,,,,unconference,https://ismir2024.slack.com/archives/C07V6E270HX
 97,Online Q&A w/ volunteers,5,2024-11-14,20:00,20:30,Meetup,Having issues with Zoom or Slack? Need help navigating the conference program or materials? Virtual volunteers will be available to meet with you and answer any questions you may have!,,,,,,,help-desk,https://ismir2024.slack.com/archives/C07TPGHFWR0
-,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
 100,LBD / MIREX (online),5,2024-11-14,23:15,23:45,LBD,"The LBD session is a forum for presenting prototype systems, initial concepts, and early results that are not yet fully matured but hold significance for the Music Information Retrieval (MIR) community. This joint session with MIREX includes poster presentations and live demos from both LBD and MIREX submissions. ","Chih-Wei Wu, Camile Noufi, Gus Xia",,,,,,session-chatter,https://ismir2024.slack.com/archives/C07V56WJC07
 ,,,,,,,,,,,,,,,
 102,Society meeting,6,2024-11-15,2:00,3:30,Awards,,ISMIR,,,,,,session-chatter,https://ismir2024.slack.com/archives/C07V56WJC07
