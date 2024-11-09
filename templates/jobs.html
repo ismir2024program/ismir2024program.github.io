@@ -15,12 +15,12 @@
                     {% for sponsor in industry %}
                     {% if sponsor.jobs %}
                     <tr>
-                        <td style="width: 30%">
+                        <td style="width: 40%">
                             {% if sponsor.image %}
-                            <img src="/static/images/{{sponsor.image}}" alt="{{sponsor.title}}" style="max-width: 45%; height: auto;">
+                            <img src="/static/images/{{sponsor.image}}" alt="{{sponsor.title}}" style="max-width: 85%; height: auto;">
                             {% endif %}
                         </td>
-                        <td style="width: 50%">
+                        <td style="width: 40%">
                             {{ sponsor.jobs | markdown }}
                         </td>
                         <td style="width: 20%"> 
