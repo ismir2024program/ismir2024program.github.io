@@ -11,11 +11,12 @@
     <h3 class="card-subtitle mb-2 text-muted text-left">
       {{ tutorial.presenters }}
     </h3>
+    {% if tutorial.channel_url %}
+    <a href="{{tutorial.channel_url}}" class="btn btn-primary mr-3 mt-3 mb-3 " style="background-color: #2294e0;">{% include 'slack_svg.html' %} {{tutorial.slack_channel}}</a>
+    {% endif %}
   </div>
 </div>
-{% if tutorial.channel_url %}
-<a href="{{tutorial.channel_url}}" class="btn btn-primary mr-3" style="background-color: #2294e0;">{% include 'slack_svg.html' %} {{tutorial.slack_channel}}</a>
-{% endif %}
+
 <div id="details" class="pp-card m-1">
   <div class="card-body">
     <div class="card-text">
