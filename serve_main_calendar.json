@@ -94,7 +94,7 @@
     "category": "time",
     "end": "2024-11-10T21:00:00-08:00",
     "link": "",
-    "location": "",
+    "location": "/day_1.html#social",
     "start": "2024-11-10T19:00:00-08:00",
     "title": "Welcome Reception"
   },
@@ -103,7 +103,7 @@
     "category": "time",
     "end": "2024-11-10T19:30:00-08:00",
     "link": "",
-    "location": "",
+    "location": "/day_2.html#social",
     "start": "2024-11-10T18:00:00-08:00",
     "title": "Online social event"
   },
@@ -121,7 +121,7 @@
     "category": "time",
     "end": "2024-11-11T06:00:00-08:00",
     "link": "",
-    "location": "",
+    "location": "/tutorials.html",
     "start": "2024-11-10T21:00:00-08:00",
     "title": "All Tutorials"
   },
@@ -436,7 +436,7 @@
     "category": "time",
     "end": "2024-11-12T12:00:00-08:00",
     "link": "",
-    "location": "",
+    "location": "/day_3.html#industry",
     "start": "2024-11-12T11:00:00-08:00",
     "title": "Industry Session I"
   },
@@ -463,7 +463,7 @@
     "category": "time",
     "end": "2024-11-12T14:15:00-08:00",
     "link": "",
-    "location": "/day_3.html",
+    "location": "/day_3.html#mus",
     "start": "2024-11-12T13:15:00-08:00",
     "title": "Creative Practice Session I"
   },
@@ -508,7 +508,7 @@
     "category": "time",
     "end": "2024-11-12T22:00:00-08:00",
     "link": "",
-    "location": "/day_3.html",
+    "location": "/day_3.html#mus",
     "start": "2024-11-12T18:00:00-08:00",
     "title": "Creative Practice meetup at Riffusion"
   },
@@ -544,7 +544,7 @@
     "category": "time",
     "end": "2024-11-13T00:01:00-08:00",
     "link": "",
-    "location": "",
+    "location": "/day_3.html#industry",
     "start": "2024-11-12T23:00:00-08:00",
     "title": "Industry Session I"
   },
@@ -562,7 +562,7 @@
     "category": "time",
     "end": "2024-11-13T02:15:00-08:00",
     "link": "",
-    "location": "",
+    "location": "/day_2.html#mus",
     "start": "2024-11-13T01:15:00-08:00",
     "title": "Creative Practice Session I"
   },
@@ -643,7 +643,7 @@
     "category": "time",
     "end": "2024-11-13T12:15:00-08:00",
     "link": "",
-    "location": "/day_4.html",
+    "location": "/day_4.html#mus",
     "start": "2024-11-13T11:00:00-08:00",
     "title": "Creative Practice Session II"
   },
@@ -706,7 +706,7 @@
     "category": "time",
     "end": "2024-11-13T18:00:00-08:00",
     "link": "",
-    "location": "/day_4.html",
+    "location": "/day_4.html#industry",
     "start": "2024-11-13T17:00:00-08:00",
     "title": "Industry Session II"
   },
@@ -715,7 +715,7 @@
     "category": "time",
     "end": "2024-11-13T20:00:00-08:00",
     "link": "",
-    "location": "/day_4.html",
+    "location": "/day_4.html#industry",
     "start": "2024-11-13T19:00:00-08:00",
     "title": "Meetup with Industry"
   },
@@ -724,7 +724,7 @@
     "category": "time",
     "end": "2024-11-13T22:00:00-08:00",
     "link": "",
-    "location": "/day_4.html",
+    "location": "/day_4.html#industry",
     "start": "2024-11-13T20:00:00-08:00",
     "title": "Industry networking"
   },
@@ -760,7 +760,7 @@
     "category": "time",
     "end": "2024-11-14T00:15:00-08:00",
     "link": "",
-    "location": "/day_4.html",
+    "location": "/day_4.html#mus",
     "start": "2024-11-13T23:00:00-08:00",
     "title": "Creative Practice Session II"
   },
@@ -805,7 +805,7 @@
     "category": "time",
     "end": "2024-11-14T06:00:00-08:00",
     "link": "",
-    "location": "/day_4.html",
+    "location": "/day_4.html#industry",
     "start": "2024-11-14T05:00:00-08:00",
     "title": "Industry Session II"
   },
@@ -814,7 +814,7 @@
     "category": "time",
     "end": "2024-11-14T08:00:00-08:00",
     "link": "",
-    "location": "/day_4.html",
+    "location": "/day_4.html#industry",
     "start": "2024-11-14T07:00:00-08:00",
     "title": "Meetup with Industry"
   },
