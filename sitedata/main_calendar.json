@@ -93,7 +93,7 @@
       "title": "Welcome Reception",
       "start": "2024-11-10T19:00:00-08:00",
       "end": "2024-11-10T21:00:00-08:00",
-      "location": "",
+      "location": "/day_1.html#social",
       "link": "",
       "category": "time",
       "calendarId": "onsite"
@@ -102,7 +102,7 @@
       "title": "Online social event",
       "start": "2024-11-10T18:00:00-08:00",
       "end": "2024-11-10T19:30:00-08:00",
-      "location": "",
+      "location": "/day_2.html#social",
       "link": "",
       "category": "time",
       "calendarId": "online"
@@ -120,7 +120,7 @@
       "title": "All Tutorials",
       "start": "2024-11-10T21:00:00-08:00",
       "end": "2024-11-11T06:00:00-08:00",
-      "location": "",
+      "location": "/tutorials.html",
       "link": "",
       "category": "time",
       "calendarId": "replay"
@@ -435,7 +435,7 @@
       "title": "Industry Session I",
       "start": "2024-11-12T11:00:00-08:00",
       "end": "2024-11-12T12:00:00-08:00",
-      "location": "",
+      "location": "/day_3.html#industry",
       "link": "",
       "category": "time",
       "calendarId": "onsite"
@@ -462,7 +462,7 @@
       "title": "Creative Practice Session I",
       "start": "2024-11-12T13:15:00-08:00",
       "end": "2024-11-12T14:15:00-08:00",
-      "location": "/day_3.html",
+      "location": "/day_3.html#mus",
       "link": "",
       "category": "time",
       "calendarId": "onsite"
@@ -507,7 +507,7 @@
       "title": "Creative Practice meetup at Riffusion",
       "start": "2024-11-12T18:00:00-08:00",
       "end": "2024-11-12T22:00:00-08:00",
-      "location": "/day_3.html",
+      "location": "/day_3.html#mus",
       "link": "",
       "category": "time",
       "calendarId": "onsite"
@@ -543,7 +543,7 @@
       "title": "Industry Session I",
       "start": "2024-11-12T23:00:00-08:00",
       "end": "2024-11-13T00:01:00-08:00",
-      "location": "",
+      "location": "/day_3.html#industry",
       "link": "",
       "category": "time",
       "calendarId": "replay"
@@ -561,7 +561,7 @@
       "title": "Creative Practice Session I",
       "start": "2024-11-13T01:15:00-08:00",
       "end": "2024-11-13T02:15:00-08:00",
-      "location": "",
+      "location": "/day_2.html#mus",
       "link": "",
       "category": "time",
       "calendarId": "replay"
@@ -642,7 +642,7 @@
       "title": "Creative Practice Session II",
       "start": "2024-11-13T11:00:00-08:00",
       "end": "2024-11-13T12:15:00-08:00",
-      "location": "/day_4.html",
+      "location": "/day_4.html#mus",
       "link": "",
       "category": "time",
       "calendarId": "onsite"
@@ -705,7 +705,7 @@
       "title": "Industry Session II",
       "start": "2024-11-13T17:00:00-08:00",
       "end": "2024-11-13T18:00:00-08:00",
-      "location": "/day_4.html",
+      "location": "/day_4.html#industry",
       "link": "",
       "category": "time",
       "calendarId": "onsite"
@@ -714,7 +714,7 @@
       "title": "Meetup with Industry",
       "start": "2024-11-13T19:00:00-08:00",
       "end": "2024-11-13T20:00:00-08:00",
-      "location": "/day_4.html",
+      "location": "/day_4.html#industry",
       "link": "",
       "category": "time",
       "calendarId": "onsite"
@@ -723,7 +723,7 @@
       "title": "Industry networking",
       "start": "2024-11-13T20:00:00-08:00",
       "end": "2024-11-13T22:00:00-08:00",
-      "location": "/day_4.html",
+      "location": "/day_4.html#industry",
       "link": "",
       "category": "time",
       "calendarId": "onsite"
@@ -759,7 +759,7 @@
       "title": "Creative Practice Session II",
       "start": "2024-11-13T23:00:00-08:00",
       "end": "2024-11-14T00:15:00-08:00",
-      "location": "/day_4.html",
+      "location": "/day_4.html#mus",
       "link": "",
       "category": "time",
       "calendarId": "replay"
@@ -804,7 +804,7 @@
       "title": "Industry Session II",
       "start": "2024-11-14T05:00:00-08:00",
       "end": "2024-11-14T06:00:00-08:00",
-      "location": "/day_4.html",
+      "location": "/day_4.html#industry",
       "link": "",
       "category": "time",
       "calendarId": "replay"
@@ -813,7 +813,7 @@
       "title": "Meetup with Industry",
       "start": "2024-11-14T07:00:00-08:00",
       "end": "2024-11-14T08:00:00-08:00",
-      "location": "/day_4.html",
+      "location": "/day_4.html#industry",
       "link": "",
       "category": "time",
       "calendarId": "replay"
