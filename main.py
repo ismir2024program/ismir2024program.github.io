@@ -223,6 +223,12 @@ def industry_page(uid):
     data["industry"] = by_uid["industry"][uid]
     return render_template("sponsor_booth.html", **data)
 
+@app.route("/jobs.html") 
+def jobs_page(): 
+    data = _data() 
+    data["industry"] = site_data["industry"]
+    return render_template("jobs.html", **data)
+
 @app.route("/tutorial_<tutorial>.html")
 def tutorial(tutorial):
     uid = tutorial

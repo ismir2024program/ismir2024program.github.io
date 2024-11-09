@@ -1,0 +1,39 @@
+{% set active_page = "Jobs" %}
+{% set page_title = "Jobs" %}
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        {{ components.section("Jobs") }}
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <table class="table">
+                <tbody>
+                    {% for sponsor in industry %}
+                    {% if sponsor.jobs %}
+                    <tr>
+                        <td style="width: 30%">
+                            {% if sponsor.image %}
+                            <img src="/static/images/{{sponsor.image}}" alt="{{sponsor.title}}" style="max-width: 45%; height: auto;">
+                            {% endif %}
+                        </td>
+                        <td style="width: 50%">
+                            {{ sponsor.jobs | markdown }}
+                        </td>
+                        <td style="width: 20%"> 
+                            <a href="{{sponsor.channel_url}}" class="btn btn-primary" style="background-color: #2294e0;">{% include 'slack_svg.html' %} {{sponsor.channel_name}}</a>
+                        </td>
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>  
+
+{% endblock %}
