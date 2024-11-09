@@ -436,7 +436,7 @@ def generator():
     for lbd in site_data["lbd"]:
         yield "lbd", {"lbd": str(lbd["UID"])}
     for industry in site_data["industry"]:
-        yield "industry", {"uid": str(industry["UID"])}
+        yield "industry_page", {"uid": str(industry["UID"])}
 
     for key in site_data:
         if key != 'days':
