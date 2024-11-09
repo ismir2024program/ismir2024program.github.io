@@ -35,7 +35,7 @@
             {% endfor %}
         </h3>
         {% if paper.content.channel_url %}
-        <div class="btn-group ml-3 mb-3">
+        <div class="btn-group mb-3 mt-3">
           <a href="{{paper.content.channel_url}}" class="btn btn-primary" style="background-color: #2294e0;">{% include 'slack_svg.html' %} {{paper.content.slack_channel}}</a>
         </div>
         {% endif %}

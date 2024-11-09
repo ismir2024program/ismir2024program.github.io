@@ -320,3 +320,8 @@ body .carousel-control-prev {
   font-weight: 400;
   font-size: 0.95em;
 }
+
+.btn:hover{ 
+  cursor: pointer; 
+  filter: brightness(120%);
+}
