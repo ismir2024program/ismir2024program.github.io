@@ -393,6 +393,11 @@ workshopgroup
         <div class="mt-3 ml-3 mr-3 mb-4 text-left card-subtitle">
           {{meet.description | markdown}}
         </div>
+        {% if meet.organiser_bio %}
+        <div class="m-3 text-left card-subtitle">
+          <h5>Bio</h5>
+          {{meet.organiser_bio | markdown}}
+        {% endif %}
         {% if meet.category == "All Meeting" %}
           <div class="ml-3 mr-3 mt-4 mb-3 h5 text-left text-muted">
             Zoom links will be shared on Slack.
