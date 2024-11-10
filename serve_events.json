@@ -1,5 +1,6 @@
 [
   {
+    "Zoom link": "",
     "category": "Registration",
     "channel_url": "",
     "day": "1",
@@ -18,6 +19,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "",
     "category": "Meetup",
     "channel_url": "https://ismir2024.slack.com/archives/C07TPGHFWR0",
     "day": "1",
@@ -36,6 +38,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/87844902244?pwd=K6qQ3aCfsUKaNalKwZZKJ07wnRpNOa.1",
     "category": "Tutorials",
     "channel_url": "https://ismir2024.slack.com/archives/C07USUU43NF",
     "day": "1",
@@ -54,6 +57,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/82635337236?pwd=hZdTOdR5SaXa3tES9kbfYkZPnUM4sn.1",
     "category": "Tutorials",
     "channel_url": "https://ismir2024.slack.com/archives/C07UW844R7U",
     "day": "1",
@@ -72,6 +76,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/82145705825?pwd=BgRaFJb9Zabtlqr8ylgUPNIikQkLcl.1",
     "category": "Tutorials",
     "channel_url": "https://ismir2024.slack.com/archives/C07UPKD2SS2",
     "day": "1",
@@ -90,6 +95,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "Meetup",
     "channel_url": "https://ismir2024.slack.com/archives/C07TPGHFWR0",
     "day": "1",
@@ -108,6 +114,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/83619614732?pwd=zG13FTM11QpdnTmGM6D6rA4IIfChs0.1",
     "category": "Tutorials",
     "channel_url": "https://ismir2024.slack.com/archives/C07V8U99MMX",
     "day": "1",
@@ -126,6 +133,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/87836725996?pwd=s1D2bvzrbPplz8ZrYVQSkY1Gqg7ENn.1",
     "category": "Tutorials",
     "channel_url": "https://ismir2024.slack.com/archives/C07UFMQUV7H",
     "day": "1",
@@ -144,6 +152,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/84459641676?pwd=ZAwXfgHHP9bh9eWa1uEcGYyZ2sOaG2.1",
     "category": "Tutorials",
     "channel_url": "https://ismir2024.slack.com/archives/C07UW5HJH7D",
     "day": "1",
@@ -162,6 +171,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "",
     "category": "Social",
     "channel_url": "",
     "day": "1",
@@ -180,6 +190,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "Meetup",
     "channel_url": "https://ismir2024.slack.com/archives/C07TPGHFWR0",
     "day": "1",
@@ -198,6 +209,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "",
     "category": "Tutorials",
     "channel_url": "",
     "day": "1",
@@ -216,6 +228,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "Meetup",
     "channel_url": "https://ismir2024.slack.com/archives/C07TPGHFWR0",
     "day": "2",
@@ -234,8 +247,9 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "Social",
-    "channel_url": "",
+    "channel_url": "https://ismir2024.slack.com/archives/C07V56WJC07",
     "day": "2",
     "description": "",
     "end_time": "7:30",
@@ -244,7 +258,7 @@
     "organiser_affiliation": "",
     "organiser_bio": "",
     "organiser_emails": "",
-    "slack_channel": "",
+    "slack_channel": "session-chatter",
     "start_date": "2024-11-11",
     "start_time": "6:00",
     "title": "Online social event",
@@ -252,6 +266,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "",
     "category": "Registration",
     "channel_url": "",
     "day": "2",
@@ -270,6 +285,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "Meetup",
     "channel_url": "https://ismir2024.slack.com/archives/C07TPGHFWR0",
     "day": "2",
@@ -288,6 +304,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "Special Session",
     "channel_url": "https://ismir2024.slack.com/archives/C07V56WJC07",
     "day": "2",
@@ -306,6 +323,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "",
     "category": "Poster session",
     "channel_url": "https://ismir2024.slack.com/archives/C07V56WJC07",
     "day": "2",
@@ -324,6 +342,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "",
     "category": "",
     "channel_url": "",
     "day": "",
@@ -342,6 +361,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "Meetup",
     "channel_url": "",
     "day": "2",
@@ -360,6 +380,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "All Meeting",
     "channel_url": "https://ismir2024.slack.com/archives/C0805NPRK8A",
     "day": "2",
@@ -378,6 +399,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "",
     "category": "Poster session",
     "channel_url": "https://ismir2024.slack.com/archives/C07V56WJC07",
     "day": "2",
@@ -396,6 +418,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "All Meeting",
     "channel_url": "https://ismir2024.slack.com/archives/C07VD4K0CJ2",
     "day": "2",
@@ -414,6 +437,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "Special Session",
     "channel_url": "https://ismir2024.slack.com/archives/C07VARAKF5J",
     "day": "2",
@@ -432,6 +456,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "Special Session",
     "channel_url": "https://ismir2024.slack.com/archives/C07V56WJC07",
     "day": "2",
@@ -450,6 +475,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "",
     "category": "Social",
     "channel_url": "",
     "day": "2",
@@ -468,6 +494,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "Meetup",
     "channel_url": "https://ismir2024.slack.com/archives/C07TPGHFWR0",
     "day": "2",
@@ -486,6 +513,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "time",
     "channel_url": "https://ismir2024.slack.com/archives/C07VARAKF5J",
     "day": "3",
@@ -504,6 +532,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "Special Session",
     "channel_url": "https://ismir2024.slack.com/archives/C07V56WJC07",
     "day": "3",
@@ -522,6 +551,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "",
     "category": "Registration",
     "channel_url": "",
     "day": "3",
@@ -540,6 +570,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "Meetup",
     "channel_url": "https://ismir2024.slack.com/archives/C07TPGHFWR0",
     "day": "3",
@@ -558,6 +589,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "",
     "category": "",
     "channel_url": "",
     "day": "",
@@ -576,13 +608,14 @@
     "web_link": ""
   },
   {
+    "Zoom link": "",
     "category": "Poster session",
     "channel_url": "https://ismir2024.slack.com/archives/C07V56WJC07",
     "day": "3",
     "description": "**In-person presentations:**\n\n* [Field Study on Children's Home Piano Practice: Developing a Comprehensive System for Enhanced Student-Teacher Engagement - Seikoh Fukuda (PTNA Research Institute of Music)*, Yuko Fukuda (Kyoritsu Women\u2019s University, To-on Kikaku Company), Ami Motomura (To-on Kikaku Company), Eri Sasao (To-on Kikaku Company), Masamichi Hosoda (NTT East Corporation), Masaki Matsubara (University of Tsukuba), Masahiro Niitsuma (Keio University)](/poster_128.html)\n* [Human-AI Music Process: A Dataset of AI-Supported Songwriting Processes from the AI Song Contest - Lidia J Morris (University of Washington)*, Rebecca Leger (Fraunhofer IIS), Michele Newman (University of Washington), John Ashley Burgoyne (University of Amsterdam), Ryan Groves (Self-employed), Natasha Mangal (CISAC), Jin Ha Lee (University of Washington)](/poster_79.html)\n* [Cue Point Estimation using Object Detection - Giulia Arguello (ETH Zurich), Luca A Lanzendoerfer (ETH Zurich)*, Roger Wattenhofer (ETH Zurich)](/poster_19.html)\n* [The ListenBrainz Listens Dataset - Kartik Ohri (MetaBrainz Foundation Inc.)*, Robert Kaye (MetaBrainz Foundation Inc.)](/poster_317.html)\n* [SpecMaskGIT: Masked Generative Modelling of Audio Spectrogram for Efficient Audio Synthesis and Beyond - Marco Comunit\u00e0 (Queen Mary University of London), Zhi Zhong (Sony Group Corporation)*, Akira Takahashi (Sony Group Corporation), Shiqi Yang (Sony), Mengjie Zhao (Sony Group Corporation), Koichi Saito (Sony Gruop Corporation), Yukara Ikemiya (Sony Research), Takashi Shibuya (Sony AI), Shusuke Takahashi (Sony Group Corporation), Yuki Mitsufuji (Sony AI)](/poster_96.html)\n* [Long-form music generation with latent diffusion - Zach Evans (Stability AI), Julian D Parker (Stability AI)*, CJ Carr (Stability AI), Zachary Zuckowski (Stability AI), Josiah Taylor (Stability AI), Jordi Pons (Stability AI)](/poster_258.html)\n* [Composer's Assistant 2: Interactive Multi-Track MIDI Infilling with Fine-Grained User Control - Martin E Malandro (Sam Houston State University)*](/poster_60.html)\n* [Piano Concerto Dataset (PCD): A Multitrack Dataset of Piano Concertos - Yigitcan \u00d6zer, Simon Schw\u00e4r, Vlora Arifi-M\u00fcller, Jeremy Lawrence, Emre Sen, and Meinard M\u00fcller*](/poster_512.html)\n* [Towards Zero-Shot Amplifier Modeling: One-to-Many Amplifier Modeling via Tone Embedding Control - Yu-Hua Chen (NTU)*, Yen-Tung Yeh (National Taiwan University), Yuan-Chiao Cheng  (Positive Grid), Jui-Te Wu (Positive Grid), Yu-Hsiang Ho (Positive Grid ), Jyh-Shing Roger Jang (National Taiwan University), Yi-Hsuan Yang (National Taiwan University)](/poster_184.html)\n* [Mel-RoFormer for Vocal Separation and Vocal Melody Transcription - Ju-Chiang Wang (ByteDance)*, Wei-Tsung Lu (New Your University), Jitong Chen (ByteDance)](/poster_374.html)\n* [Unsupervised Synthetic-to-Real Adaptation for Optical Music Recognition - Noelia N Luna-Barahona (Universidad de Alicante), Adri\u00e1n Rosell\u00f3 (Universidad de Alicante), Mar\u00eda Alfaro-Contreras (University of Alicante), David Rizo (University of Alicante. Instituto Superior de Ense\u00f1anzas Art\u00edsrticas de la Comunidad Valenciana), Jorge Calvo-Zaragoza (University of Alicante)*](/poster_45.html)\n* [MMT-BERT: Chord-aware Symbolic Music Generation Based on Multitrack Music Transformer and MusicBERT - Jinlong ZHU (Hokkaido University)*, Keigo Sakurai (Hokkaido University), Ren Togo (Hokkaido University), Takahiro Ogawa (Hokkaido University), Miki Haseyama (Hokkaido University)](/poster_101.html)\n* [Discogs-VI: A Musical Version Identification Dataset Based on Public Editorial Metadata - Recep Oguz Araz (Universitat Pompeu Fabra)*, Xavier Serra (Universitat Pompeu Fabra ), Dmitry Bogdanov (Universitat Pompeu Fabra)](/poster_166.html)\n\n**Remote presentations:**\n\n* [Green MIR? Investigating computational cost of recent music-Ai research in ISMIR - Andre Holzapfel (KTH Royal Institute of Technology in Stockholm)*, Anna-Kaisa Kaila (KTH Royal Institute of Technology, Stockholm), Petra J\u00e4\u00e4skel\u00e4inen (KTH)](/poster_113.html)\n* [Inner Metric Analysis as a Measure of Rhythmic Syncopation - Brian Bemman (Durham University)*, Justin Christensen (The University of Sheffield)](/poster_251.html)\n* [WHO'S AFRAID OF THE `ARTYFYSHALL BYRD'? HISTORICAL NOTIONS AND CURRENT CHALLENGES OF MUSICAL ARTIFICIALITY - Nicholas Cornia (Orpheus Instituut)*, Bruno Forment (Orpheus Instituut)](/poster_212.html)\n* [End-to-end automatic singing skill evaluation using cross-attention and data augmentation for solo singing and singing with accompaniment - Yaolong Ju (Huawei)*, Chun Yat Wu (Huawei), Betty Corti\u00f1as Lorenzo  (Huawei), Jing Yang (Huawei 2012 Labs), Jiajun Deng (Huawei), Fan Fan (Huawei), Simon Lui (Huawei)](/poster_89.html)\n",
     "end_time": "11:00",
     "image": "",
-    "organiser": "Rachel Bittner",
+    "organiser": "Nicholas Bryan",
     "organiser_affiliation": "",
     "organiser_bio": "",
     "organiser_emails": "",
@@ -594,6 +627,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "Industry",
     "channel_url": "https://ismir2024.slack.com/archives/C07V56WJC07",
     "day": "3",
@@ -612,6 +646,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "Music",
     "channel_url": "https://ismir2024.slack.com/archives/C07V56WJC07",
     "day": "3",
@@ -630,6 +665,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "",
     "category": "Poster session",
     "channel_url": "https://ismir2024.slack.com/archives/C07V56WJC07",
     "day": "3",
@@ -648,6 +684,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "All Meeting",
     "channel_url": "https://ismir2024.slack.com/archives/C080JDEU39P",
     "day": "3",
@@ -666,6 +703,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "",
     "category": "Music",
     "channel_url": "https://ismir2024.slack.com/archives/C07V56WJC07",
     "day": "3",
@@ -684,6 +722,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "Meetup",
     "channel_url": "https://ismir2024.slack.com/archives/C07TPGHFWR0",
     "day": "3",
@@ -702,6 +741,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "Meetup",
     "channel_url": "https://ismir2024.slack.com/archives/C07TPGHFWR0",
     "day": "4",
@@ -720,6 +760,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "",
     "category": "",
     "channel_url": "",
     "day": "",
@@ -738,13 +779,14 @@
     "web_link": ""
   },
   {
+    "Zoom link": "",
     "category": "Poster session",
     "channel_url": "https://ismir2024.slack.com/archives/C07V56WJC07",
     "day": "4",
     "description": "**In-person presentations:**\n\n* [ST-ITO: Controlling audio effects for style transfer with inference-time optimization - Christian J. Steinmetz (Queen Mary University of London)*, Shubhr singh (Queen Mary University of London), Marco Comunita (Queen Mary University of London), Ilias Ibnyahya (Queen Mary University of London), Shanxin Yuan (Queen Mary University of London), Emmanouil Benetos (Queen Mary University of London), Joshua D. Reiss (Queen Mary University of London)](/poster_249.html)\n* [ComposerX: Multi-Agent Music Generation with LLMs - Qixin Deng (University of Rochester), Qikai Yang (University of Illinois at Urbana-Champaign), Ruibin Yuan (CMU)*, Yipeng Huang  (Multimodal Art Projection Research Community), Yi Wang (CMU), Xubo Liu (University of Surrey), Zeyue Tian (Hong Kong University of Science and Technology), Jiahao Pan (The Hong Kong University of Science and Technology), Ge Zhang (University of Michigan), Hanfeng Lin (Multimodal Art Projection Research Community), Yizhi Li (The University  of Sheffield), Yinghao MA (Queen Mary University of London), Jie Fu (HKUST), Chenghua Lin (University of Manchester), Emmanouil Benetos (Queen Mary University of London), Wenwu  Wang (University of Surrey), Guangyu Xia (NYU Shanghai), Wei Xue (The Hong Kong University of Science and Technology), Yike Guo (Hong Kong University of Science and Technology)](/poster_237.html)\n* [Do Music Generation Models Encode Music Theory? - Megan Wei (Brown University)*, Michael Freeman (Brown University), Chris Donahue (Carnegie Mellon University), Chen Sun (Brown University)](/poster_189.html)\n* [PolySinger: Singing-Voice to Singing-Voice Translation from English to Japanese - Silas Antonisen (University of Granada)*, Iv\u00e1n L\u00f3pez-Espejo (University of Granada)](/poster_218.html)\n* [Sanidha: A Studio Quality Multi-Modal Dataset for Carnatic Music - Venkatakrishnan Vaidyanathapuram Krishnan (Georgia Institute of Technology)*, Noel Alben (Georgia Institute Of Technology), Anish Nair (Georgia Institute of Technology), Nathaniel Condit-Schultz (Georgia Institute of Technology)](/poster_354.html)\n* [Between the AI and Me: Analysing Listeners' Perspectives on AI- and Human-Composed Progressive Metal Music - Pedro Pereira Sarmento (Centre for Digital Music), Jackson J Loth (Queen Mary University of London)*, Mathieu Barthet (Queen Mary University of London)](/poster_131.html)\n* [Combining audio control and style transfer using latent diffusion - Nils Demerl\u00e9 (IRCAM)*, Philippe  Esling (IRCAM), Guillaume Doras (Ircam), David Genova (Ircam)](/poster_316.html)\n* [Computational Analysis of Yaredawi YeZema Silt in Ethiopian Orthodox Tewahedo Church Chants - Mequanent Argaw Muluneh (Academia Sinica, National Chengchi University, Debre Markos University)*, Yan-Tsung Peng (National Chengchi University), Li Su (Academia Sinica)](/poster_160.html)\n* [Wagner Ring Dataset: A Complex Opera Scenario for Music Processing and Computational Musicology - Christof Wei\u00df, Vlora Arifi-M\u00fcller*, Michael Krause, Frank Zalkow, Stephanie Klauk, Rainer Kleinertz, and Meinard M\u00fcller](/poster_514.html)\n* [Lyrics Transcription for Humans: A Readability-Aware Benchmark - Ond\u0159ej C\u00edfka (AudioShake)*, Hendrik Schreiber (AudioShake), Luke Miner (AudioShake), Fabian-Robert St\u00f6ter (AudioShake)](/poster_272.html)\n* [Content-based Controls for Music Large-scale Language Modeling - Liwei Lin (New York University Shanghai)*, Gus Xia (New York University Shanghai), Junyan Jiang (New York University Shanghai), Yixiao Zhang (Queen Mary University of London)](/poster_61.html)\n* [Exploring the inner mechanisms of large generative music models - Marcel A V\u00e9lez V\u00e1squez (University of Amsterdam)*, Charlotte Pouw (University of Amsterdam), John Ashley Burgoyne (University of Amsterdam), Willem Zuidema (ILLC, UvA)](/poster_119.html)\n* [Quantitative Analysis of Melodic Similarity in Music Copyright Infringement Cases - Saebyul Park (KAIST)*, Halla Kim (KAIST), Jiye Jung (Heinrich Heine University D\u00fcsseldorf), Juyong Park (KAIST), Jeounghoon Kim (KAIST), Juhan Nam (KAIST)](/poster_181.html)\n* [Robust lossy audio compression identification - Hendrik Vincent Koops (Universal Music Group)*, Gianluca Micchi (Universal Music Group), Elio Quinton (Universal Music Group)](/poster_304.html)\n* [RNBert: Fine-Tuning a Masked Language Model for Roman Numeral Analysis - Malcolm Sailor (Yale University)*](/poster_322.html)\n* [Automatic Note-Level Score-to-Performance Alignments in the ASAP Dataset - Silvan David Peter*, Carlos Eduardo Cancino-Chac\u00f3n, Francesco Foscarin, Andrew Philip McLeod, Florian Henkel, Emmanouil Karystinaios, Gerhard Widmer](/poster_518.html)\n\n**Remote presentations:**\n\n* [On the validity of employing ChatGPT for distant reading of music similarity - Arthur Flexer (Johannes Kepler University Linz)*](/poster_1.html)\n* [A Critical Survey of Research in Music Genre Recognition - Owen Green (Max Planck Institute for Empirical Aesthetics)*, Bob L. T.  Sturm (KTH Royal Institute of Technology), Georgina Born (University College London), Melanie Wald-Fuhrmann (Max Planck Institute for Empirical Aesthetics)](/poster_149.html)\n",
     "end_time": "11:00",
     "image": "",
-    "organiser": "Nicholas Bryan",
+    "organiser": "Rachel Bittner",
     "organiser_affiliation": "",
     "organiser_bio": "",
     "organiser_emails": "",
@@ -756,6 +798,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "Music",
     "channel_url": "https://ismir2024.slack.com/archives/C07V56WJC07",
     "day": "4",
@@ -774,6 +817,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "",
     "category": "",
     "channel_url": "",
     "day": "",
@@ -792,6 +836,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "",
     "category": "",
     "channel_url": "",
     "day": "",
@@ -810,6 +855,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "All Meeting",
     "channel_url": "https://ismir2024.slack.com/archives/C0805L30JTV",
     "day": "4",
@@ -828,6 +874,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "",
     "category": "",
     "channel_url": "",
     "day": "",
@@ -846,6 +893,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "",
     "category": "Poster session",
     "channel_url": "https://ismir2024.slack.com/archives/C07V56WJC07",
     "day": "4",
@@ -864,6 +912,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "Industry",
     "channel_url": "https://ismir2024.slack.com/archives/C07V56WJC07",
     "day": "4",
@@ -882,6 +931,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "Meetup",
     "channel_url": "https://ismir2024.slack.com/archives/C07V56WJC07",
     "day": "4",
@@ -900,6 +950,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "Industry",
     "channel_url": "https://ismir2024.slack.com/archives/C07V56WJC07",
     "day": "4",
@@ -918,6 +969,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "Meetup",
     "channel_url": "https://ismir2024.slack.com/archives/C07TPGHFWR0",
     "day": "4",
@@ -936,6 +988,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "",
     "category": "Registration",
     "channel_url": "",
     "day": "5",
@@ -954,6 +1007,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "Meetup",
     "channel_url": "https://ismir2024.slack.com/archives/C07TPGHFWR0",
     "day": "5",
@@ -972,6 +1026,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "",
     "category": "",
     "channel_url": "",
     "day": "",
@@ -990,6 +1045,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "",
     "category": "Poster session",
     "channel_url": "https://ismir2024.slack.com/archives/C07V56WJC07",
     "day": "5",
@@ -1008,6 +1064,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "",
     "category": "",
     "channel_url": "",
     "day": "",
@@ -1026,6 +1083,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "",
     "category": "LBD",
     "channel_url": "https://ismir2024.slack.com/archives/C07V56WJC07",
     "day": "5",
@@ -1044,6 +1102,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "LBD",
     "channel_url": "https://ismir2024.slack.com/archives/C07V56WJC07",
     "day": "5",
@@ -1062,6 +1121,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "Social ",
     "channel_url": "https://ismir2024.slack.com/archives/C07V56WJC07",
     "day": "5",
@@ -1080,6 +1140,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "Meetup",
     "channel_url": "https://ismir2024.slack.com/archives/C07V6E270HX",
     "day": "5",
@@ -1098,6 +1159,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "Meetup",
     "channel_url": "https://ismir2024.slack.com/archives/C07TPGHFWR0",
     "day": "5",
@@ -1116,6 +1178,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "LBD",
     "channel_url": "https://ismir2024.slack.com/archives/C07V56WJC07",
     "day": "5",
@@ -1134,6 +1197,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "",
     "category": "",
     "channel_url": "",
     "day": "",
@@ -1152,6 +1216,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "Awards",
     "channel_url": "https://ismir2024.slack.com/archives/C07V56WJC07",
     "day": "6",
@@ -1170,6 +1235,7 @@
     "web_link": ""
   },
   {
+    "Zoom link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1",
     "category": "Meetup",
     "channel_url": "https://ismir2024.slack.com/archives/C07V56WJC07",
     "day": "6",
