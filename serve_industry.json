@@ -13,7 +13,7 @@
     "pdf": "",
     "registered_email": "eddie@moises.ai",
     "title": "Music.ai",
-    "video": ""
+    "video": "https://www.youtube.com/embed/p9exoLDs9qE\nhttps://www.youtube.com/embed/JxSGiL4Gg1o"
   },
   {
     "Notes": "",
@@ -40,7 +40,7 @@
     "company": "",
     "company_url": "https://riffusion.com",
     "image": "sponsors/riffusion.png",
-    "jobs": "Riffusion is excited to connect with candidates for the following roles:\n\n- Research Scientist\n- Research Engineer\n- Research Intern (Masters or PhD)\n- Software Engineer\n\nPlease reach out to [careers@riffusion.com](careers@riffusion.com) to make some music with us!",
+    "jobs": "Riffusion is excited to connect with candidates for the following roles:\n\nResearch Scientist\nResearch Engineer\nResearch Intern (Masters or PhD)\nSoftware Engineer\nPlease reach out to [careers@riffusion.com](careers@riffusion.com) to make some music with us!",
     "level": "Gold",
     "pdf": "",
     "registered_email": "seth@riffusion.com",
@@ -72,12 +72,12 @@
     "company": "",
     "company_url": "",
     "image": "sponsors/splice.png",
-    "jobs": "",
+    "jobs": "[Sr. Applied Machine Learning Researcher - Generative Models (Remote)](https://job-boards.greenhouse.io/splice/jobs/7682122002)<br/>\n[Senior Machine Learning Engineer - Generative Models (Remote)](https://job-boards.greenhouse.io/splice/jobs/7682156002)",
     "level": "Gold",
     "pdf": "",
     "registered_email": "alejandro.koretzky@splice.com",
     "title": "Splice",
-    "video": ""
+    "video": "https://www.youtube.com/embed/3d6kSWwnv6k\nhttps://www.youtube.com/embed/-hCX5KLzW3k\nhttps://www.youtube.com/embed/40Gy8okBoLo"
   },
   {
     "Notes": "",
@@ -103,8 +103,8 @@
     "channel_url": "https://ismir2024.slack.com/archives/C0805R0J9C2",
     "company": "",
     "company_url": "",
-    "image": "sponsors/google.png",
-    "jobs": "Careers at Google DeepMind: [https://www.deepmind.com/careers](https://www.deepmind.com/careers)<br/>\nCareers at Google Research: [https://research.google/careers/](https://research.google/careers/)",
+    "image": "",
+    "jobs": "Careers at Google DeepMind: https://www.deepmind.com/careers\n<br/>Careers at Google Research: https://research.google/careers/",
     "level": "Gold",
     "pdf": "",
     "registered_email": "chrisdonahue@google.com",
