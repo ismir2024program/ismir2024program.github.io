@@ -302,7 +302,7 @@ const card_html = (paper) =>
     paper.content.title
   } </h5></a>
                 <h6 class="card-subtitle text-muted" align="left">
-                        ${paper.content.authors.join(", ")}
+                        ${paper.content.authors_and_affil.join(", ")}
                 </h6>
                 ${card_image(paper, render_mode !== MODE.mini)}
                 
