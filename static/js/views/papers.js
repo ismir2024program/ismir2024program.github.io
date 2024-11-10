@@ -103,8 +103,7 @@ const render = () => {
   Object.keys(filters).forEach((k) => {
     filters[k] ? f_test.push([k, filters[k]]) : null;
   });
-  console.log(allPapers);
-  console.log(f_test, filters, "--- f_test, filters");
+  
   if (f_test.length === 0) updateCards(allPapers);
   else {
     const fList = allPapers.filter((d) => {
@@ -112,19 +111,22 @@ const render = () => {
       let pass_test = true;
       while (i < f_test.length && pass_test) {
         if (f_test[i][0] === "titles") {
-          pass_test &=
-            d.content.title.toLowerCase().indexOf(f_test[i][1].toLowerCase()) >
-            -1;
+          pass_test &= d.content.title.toLowerCase().indexOf(f_test[i][1].toLowerCase()) > -1;
         } else if (f_test[i][0] === "session") {
-          pass_test &= d["session"].indexOf(f_test[i][1]) > -1;
-        } else {
-          pass_test &= d[f_test[i][0]].indexOf(f_test[i][1]) > -1;
+          pass_test &= d.content.session.indexOf(f_test[i][1]) > -1;
+        } else if (f_test[i][0] === "authors") {
+          pass_test &= d.content.authors.some(author => 
+            author.toLowerCase().indexOf(f_test[i][1].toLowerCase()) > -1
+          );
+        } else if (f_test[i][0] === "keywords") {
+          pass_test &= d.content.keywords.some(keyword =>
+            keyword.toLowerCase().indexOf(f_test[i][1].toLowerCase()) > -1
+          );
         }
         i++;
       }
       return pass_test;
     });
-    // console.log(fList, "--- fList");
     updateCards(fList);
   }
 };
@@ -158,7 +160,6 @@ const start = () => {
 
   Promise.all([API.getPapers(), API.getConfig()])
     .then(([papers, config]) => {
-      console.log(papers, "--- papers");
 
       // persistor = new Persistor("miniconf-" + config.name);
 
@@ -168,6 +169,7 @@ const start = () => {
       calcAllKeys(allPapers, allKeys);
       setTypeAhead(urlFilter, allKeys, filters, render);
       updateCards(allPapers);
+      console.log(allPapers, allKeys);
 
       const urlSearch = getUrlParameter("search");
       if (urlSearch !== "" || updateSession()) {
@@ -221,7 +223,6 @@ const keyword = (kw) => `<a href="papers.html?filter=keywords&search=${kw}"
                        class="text-secondary text-decoration-none">${kw.toLowerCase()}</a>`;
 
 const card_image = (paper, show) => {
-  console.log(API.thumbnailPath(paper), "--- API.thumbnailPath(paper)");
   if (show)
     return ` <center><img class="lazy-load-img cards_img" data-src="${API.thumbnailPath(paper)}" width="80%"/></center>`;
   return "";
