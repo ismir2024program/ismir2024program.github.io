@@ -325,3 +325,13 @@ body .carousel-control-prev {
   cursor: pointer; 
   filter: brightness(120%);
 }
+
+img[alt="Riffusion"]{
+  max-width: 200px;
+  height: "auto";
+}
+
+img[alt="SoundBrilliance"]{
+  max-width: 200px;
+  height: "auto";
+}
