@@ -36,12 +36,15 @@
         {% endif %}
 
         {% if industry.video %}
-        <div class="video_embed"> 
-            <iframe width="100%" height="315" src="{{industry.video}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        {% set videos = industry.video.split("\n") %}
+            {% for video in videos %}
+            <div class="video_embed"> 
+                <iframe width="100%" height="315" src="{{video}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            {% endfor %}
         {% endif %}
 
-        {% if industry.registered_email %}
+        <!-- {% if industry.registered_email %}
         <div class="email">
             Contact:
             {% set emails = industry.registered_email.split("\n") %}
@@ -49,7 +52,7 @@
             <span> <a href="mailto:{{industry.registered_email}}" class="card-link"> {{email}} </a> </span> <br/> 
             {% endfor %}
         </div>
-        {% endif %}
+        {% endif %} -->
         </div>
         {% if industry.company_url %}
         <div class="url">      

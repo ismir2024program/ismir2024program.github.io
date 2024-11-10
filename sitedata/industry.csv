@@ -1,21 +1,24 @@
 UID,title,level,registered_email,abstract,pdf,video,jobs,company,channel_name,channel_url,company_url,image,Notes
-1,Music.ai,Diamond,eddie@moises.ai,,,,Apply for jobs [here](https://moises.bamboohr.com/careers/45),,sponsor-music-ai,https://ismir2024.slack.com/archives/C080JFRC63T,,sponsors/musicai.png,
+1,Music.ai,Diamond,eddie@moises.ai,,,"https://www.youtube.com/embed/p9exoLDs9qE
+https://www.youtube.com/embed/JxSGiL4Gg1o",Apply for jobs [here](https://moises.bamboohr.com/careers/45),,sponsor-music-ai,https://ismir2024.slack.com/archives/C080JFRC63T,,sponsors/musicai.png,
 2,Adobe,Platinum,"gmysore@adobe.com
 salamon@adobe.com
 onieto@adobe.com",,,,,,sponsor-adobe,https://ismir2024.slack.com/archives/C0808AKMJ7N,,sponsors/adobe.png,
 3,Riffusion,Gold,seth@riffusion.com,"We’re a small team of artists, engineers, researchers, and musicians pioneering the future of creative AI in San Francisco. We train foundation models for music generation, and envision Riffusion as a new musical instrument.<br/><br/>We strive to build an instrument that both empowers anyone to create music, while also enabling the deep levels of craft and experimentation that we love in physical instruments.",,,"Riffusion is excited to connect with candidates for the following roles:
 
-- Research Scientist
-- Research Engineer
-- Research Intern (Masters or PhD)
-- Software Engineer
-
+Research Scientist
+Research Engineer
+Research Intern (Masters or PhD)
+Software Engineer
 Please reach out to [careers@riffusion.com](careers@riffusion.com) to make some music with us!",,sponsor-riffusion,https://ismir2024.slack.com/archives/C0805NDEZHR,https://riffusion.com,sponsors/riffusion.png,
 4,Suno,Gold,minz@suno.com,"Suno is building a future where anyone can make great music. Whether you're a shower singer or a charting artist, we break barriers between you and the song you dream of making. No instrument needed, just imagination. From your mind to music.",,https://www.youtube.com/embed/ghwEgqDvvaI,"- [Machine Learning Infrastructure Enginee](https://jobs.ashbyhq.com/suno/7522d696-7ce8-4ece-a983-4be03dffde20)
 - [Machine Learning Scientist](https://jobs.ashbyhq.com/suno/1e23d125-d72c-49b6-891d-77d62c96cd13)
 - [Staff Software Engineer](https://jobs.ashbyhq.com/suno/adb5c5ef-5897-4acb-8014-0a7f162742d8)
 - [Design Engineer](https://jobs.ashbyhq.com/suno/161291ab-ccdd-443f-98fb-2184e8572543)",,sponsor-suno,https://ismir2024.slack.com/archives/C0805NDFY75,,sponsors/suno.png,
-5,Splice,Gold,alejandro.koretzky@splice.com,,,,,,sponsor-splice,https://ismir2024.slack.com/archives/C07VD6VKDDL,,sponsors/splice.png,
+5,Splice,Gold,alejandro.koretzky@splice.com,,,"https://www.youtube.com/embed/3d6kSWwnv6k
+https://www.youtube.com/embed/-hCX5KLzW3k
+https://www.youtube.com/embed/40Gy8okBoLo","[Sr. Applied Machine Learning Researcher - Generative Models (Remote)](https://job-boards.greenhouse.io/splice/jobs/7682122002)<br/>
+[Senior Machine Learning Engineer - Generative Models (Remote)](https://job-boards.greenhouse.io/splice/jobs/7682156002)",,sponsor-splice,https://ismir2024.slack.com/archives/C07VD6VKDDL,,sponsors/splice.png,
 6,Bytedance,Gold,"chengyihang@bytedance.com
 ju-chiang.wang@bytedance.com",,,,,,sponsor-bytedance,https://ismir2024.slack.com/archives/C0805R0H89Y,,sponsors/bytedance.png,
 7,Google,Gold,chrisdonahue@google.com,"For nearly a decade, our teams have been exploring [how artificial intelligence (AI) can support the creative process](https://magenta.withgoogle.com/blog/2016/06/01/welcome-to-magenta/), building tools that empower enthusiasts and professionals to discover new forms of creative expression.
@@ -26,8 +29,8 @@ Recently, in partnership with [Google Labs](https://blog.google/technology/ai/ja
 
 We've also recently released updates to our music AI toolkit, called [Music AI Sandbox](https://blog.google/technology/ai/google-generative-ai-veo-imagen-3/), and highlighted our latest AI music technologies in [YouTube’s Dream Track](https://deepmind.google/discover/blog/transforming-the-future-of-music-creation/), a suite of experiments that creators can use to generate high-quality instrumentals for their Shorts and videos.
 
-To learn more about our recent efforts in music AI, [please see this blog post](https://deepmind.google/discover/blog/new-generative-ai-tools-open-the-doors-of-music-creation/), and look out for future job openings at [Google DeepMind](https://www.deepmind.com/careers) and [Google Research](https://research.google/careers/).",,https://www.youtube.com/embed/y7gKlzvg8xk,"Careers at Google DeepMind: [https://www.deepmind.com/careers](https://www.deepmind.com/careers)<br/>
-Careers at Google Research: [https://research.google/careers/](https://research.google/careers/)",,sponsor-google,https://ismir2024.slack.com/archives/C0805R0J9C2,,sponsors/google.png,"Where to add links? I added the careers links to jobs, but what about that blog link Chris shared in the email?"
+To learn more about our recent efforts in music AI, [please see this blog post](https://deepmind.google/discover/blog/new-generative-ai-tools-open-the-doors-of-music-creation/), and look out for future job openings at [Google DeepMind](https://www.deepmind.com/careers) and [Google Research](https://research.google/careers/).",,https://www.youtube.com/embed/y7gKlzvg8xk,"Careers at Google DeepMind: https://www.deepmind.com/careers
+<br/>Careers at Google Research: https://research.google/careers/",,sponsor-google,https://ismir2024.slack.com/archives/C0805R0J9C2,,,"Where to add links? I added the careers links to jobs, but what about that blog link Chris shared in the email?"
 8,Pro Sound Effects,Silver,douglas@prosoundeffects.com,"Over the past 20 years, Pro Sound Effects (PSE) has developed the world’s largest library of professionally recorded sound effects (1.2M) - optimized with robust human-created metadata to find the right sound fast. Companies everywhere rely on PSE’s custom licensing for creating content and audio innovations at the highest level.
 
 Learn more about how PSE can help support your teams and research [at our website](https://www.prosoundeffects.com/machine-learning-ai).",,https://www.youtube.com/embed/RYJAOInujTU,,,sponsor-pro-sound-effects,https://ismir2024.slack.com/archives/C080JFRK56D,,sponsors/prosoundeffects.png,
