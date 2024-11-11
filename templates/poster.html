@@ -20,8 +20,10 @@
 
 {% endblock %}
 
+
 {% block content %}
 <div class="pp-card m-3" style="background-color: #fff">
+  <!-- {{ paper.content | tojson }} -->
     <div class="card-header" style="background-color: rgba(0,0,0,0);">
         <h2 class="card-title main-title text-left" style="color: #4383EC">
             {{paper.content.title}}
@@ -78,9 +80,13 @@
       <li class="nav-item" role="presentation">
         <a class="nav-link" id="video-tab" data-toggle="tab" href="#video" role="tab" aria-controls="video" aria-selected="false">Video</a>
       </li>
+      <li class="nav-item" role="presentation"> 
+        <a class="nav-link" id="slides-tab" data-toggle="tab" href="#slides" role="tab" aria-controls="slides" aria-selected="false">Slides</a>
+      </li>
       <li class="nav-item" role="presentation">
         <a class="nav-link" id="Reviews-tab" data-toggle="tab" href="#Reviews" role="tab" aria-controls="Reviews" aria-selected="false">Reviews</a>
       </li>
+ 
     </ul>
   </div>
   
@@ -117,7 +123,7 @@
     <div class="tab-pane fade" id="video" role="tabpanel" aria-labelledby="video-tab">
       {% if paper.content.video %}
       <div class="text-center">
-        <div class="embed-responsive embed-responsive-16by9">
+        <div class="embed-responsive" style="height: 80vh;">
           <iframe class="embed-responsive-item"           
                   src="{{ paper.content.video | replace('/view?usp=sharing', '/preview') | replace('/view', '/preview') | replace('/view?usp=drive_link&#39', '/preview') }}" 
                   frameborder="0" 
@@ -129,6 +135,24 @@
       <p class="text-center mt-3"><em>No video available</em></p>
       {% endif %}
     </div>
+    <div class="tab-pane fade" id="slides" role="tabpanel" aria-labelledby="slides-tab"> 
+      {% if paper.content.slides_pdf %}
+        <div class="text-center"> 
+          <div class="embed-responsive" style="height:80vh;"> 
+            <iframe class="embed-responsive-item" 
+                    src="{{ paper.content.slides_pdf | replace('/view?usp=sharing', '/preview') | replace('/view', '/preview') }}" 
+                    frameborder="0" 
+                    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                  </iframe>
+          </div>
+        </div>
+      {% else %}
+      <p class="text-center mt-3"><em>No slides available</em></p>
+      {% endif %}
+    </div>
+
+
     <div class="tab-pane fade" id="Reviews" role="tabpanel" aria-labelledby="Reviews-tab">
       <div class="pp-card m-3">
         <div class="card-body">

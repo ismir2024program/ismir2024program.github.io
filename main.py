@@ -273,6 +273,7 @@ def format_paper(v):
             "video": v["video"],
             "channel_url": v["channel_url"],
             "slack_channel": v["slack_channel"],
+            "slides_pdf": v.get("slides_pdf", ""),
             "day": v["day"],
             "review_1": v.get("Review 1", ""),
             "review_2": v.get("Review 2", ""),
