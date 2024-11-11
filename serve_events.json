@@ -688,7 +688,7 @@
     "category": "All Meeting",
     "channel_url": "https://ismir2024.slack.com/archives/C080JDEU39P",
     "day": "3",
-    "description": "",
+    "description": "This speech explores the complex relationship between artificial intelligence and the music industry, tracing the evolution from early digital disruptions like Napster to today's AI-driven landscape. It examines how streaming platforms revolutionized music consumption and distribution, while also introducing new challenges such as streaming fraud. The speech delves into AI's multifaceted impact on music creation, production, and personalization, highlighting both its transformative potential and ethical concerns. The presentation also addresses controversial uses of voice AI technology and the legal and ethical considerations surrounding AI training data, including a fair use arguments and budding internal laws. Finally, we address proposed solutions, including the use of transparent attribution systems modeled after YouTube\u2019s Content ID and policies for opt-in/out rights management. This keynote calls for a balanced approach, urging collaboration between artists, technologists, and policymakers to ensure that AI\u2019s integration into music creation and distribution respects artistic integrity and promotes innovation.",
     "end_time": "18:00",
     "image": "https://confcats-siteplex.s3.us-east-1.amazonaws.com/ismir24/large_Elizabeth_Moody_USE_c3dcedcde8.jpeg",
     "organiser": "Elizabeth Moody",
@@ -698,7 +698,7 @@
     "slack_channel": "keynote-2-moody",
     "start_date": "2024-11-12",
     "start_time": "17:00",
-    "title": "Keynote II",
+    "title": "Navigating the Intersection of AI and Music: Innovation, Ethics, and the Future of the Industry",
     "uid": "52",
     "web_link": ""
   },
@@ -1269,7 +1269,7 @@
     "start_date": "2024-11-12",
     "start_time": "11:45",
     "title": "Mindfulness session",
-    "uid": "22",
+    "uid": "104",
     "web_link": ""
   },
   {
@@ -1288,7 +1288,7 @@
     "start_date": "2024-11-13",
     "start_time": "11:45",
     "title": "Mindfulness session",
-    "uid": "22",
+    "uid": "105",
     "web_link": ""
   },
   {
@@ -1307,7 +1307,7 @@
     "start_date": "2024-11-14",
     "start_time": "11:45",
     "title": "Mindfulness session",
-    "uid": "22",
+    "uid": "106",
     "web_link": ""
   }
 ]
