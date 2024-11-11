@@ -170,6 +170,7 @@
     <div class="content">
         
 <div class="pp-card m-3" style="background-color: #fff">
+  <!-- {"TLDR": "Representing symbolic music with compound tokens, where each token consists of several different sub-tokens representing a distinct musical feature or attribute, offers the advantage of reducing sequence length. While previous research has validated the efficacy of compound tokens in music sequence modeling, predicting all sub-tokens simultaneously can lead to suboptimal results as it may not fully capture the interdependencies between them. We introduce the Nested Music Transformer (NMT), an architecture tailored for decoding compound tokens autoregressively, similar to processing flattened tokens, but with low memory usage. The NMT consists of two transformers: the main decoder that models a sequence of compound tokens and the sub-decoder for modeling sub-tokens of each compound token. The experiment results showed that applying the NMT to compound tokens can enhance the performance in terms of better perplexity in processing various symbolic music datasets and discrete audio tokens from the MAESTRO dataset.", "abstract": "Representing symbolic music with compound tokens, where each token consists of several different sub-tokens representing a distinct musical feature or attribute, offers the advantage of reducing sequence length. While previous research has validated the efficacy of compound tokens in music sequence modeling, predicting all sub-tokens simultaneously can lead to suboptimal results as it may not fully capture the interdependencies between them. We introduce the Nested Music Transformer (NMT), an architecture tailored for decoding compound tokens autoregressively, similar to processing flattened tokens, but with low memory usage. The NMT consists of two transformers: the main decoder that models a sequence of compound tokens and the sub-decoder for modeling sub-tokens of each compound token. The experiment results showed that applying the NMT to compound tokens can enhance the performance in terms of better perplexity in processing various symbolic music datasets and discrete audio tokens from the MAESTRO dataset.", "author_changes": "", "authors": ["Ryu, Jiwoo", " Dong, Hao-Wen", " Jung, Jongmin", " Jeong, Dasaem*"], "authors_and_affil": ["Jiwoo Ryu (Sogang University)", " Hao-Wen Dong (University of Michigan)", " Jongmin Jung (Sogang University)", " Dasaem Jeong (Sogang University)*"], "channel_url": "https://ismir2024.slack.com/archives/C07V2ML0VSM", "day": "2", "keywords": ["MIR tasks -\u003e music generation", "Knowledge-driven approaches to MIR -\u003e machine learning/artificial intelligence for music; MIR fundamentals and methodology -\u003e symbolic music processing"], "long_presentation": "FALSE", "meta_review": "", "paper_presentation": "San Francisco", "pdf_path": "https://drive.google.com/file/d/1E8CTFJvSUaksQAHwn5DzFUtPTiuSNZ4L/view?usp=share_link", "poster_pdf": "https://drive.google.com/file/d/19ZkRhN2wiJdL1LnQt8dfOMXD__2YV6LW/view?usp=sharing", "review_1": "", "review_2": "", "review_3": "", "session": ["4"], "slack_channel": "p4-12-nested-music-transformer", "slides_pdf": "https://drive.google.com/file/d/1zpIzBSfRxyU4f4PIJR_kc6hxOb41Dud7/view?usp=sharing", "title": "Nested Music Transformer: Sequentially Decoding Compound Tokens in Symbolic Music and Audio Generation", "video": "https://drive.google.com/file/d/1d4vhwOeI7Ve1w0niVr5Y-qRko_ONQcoN/view?usp=share_link"} -->
     <div class="card-header" style="background-color: rgba(0,0,0,0);">
         <h2 class="card-title main-title text-left" style="color: #4383EC">
             Nested Music Transformer: Sequentially Decoding Compound Tokens in Symbolic Music and Audio Generation
@@ -233,15 +234,15 @@
             <span class="">Keywords:</span>
             
             <a
-                    href="papers.html?filter=keywords&search=Knowledge-driven approaches to MIR -&gt; machine learning/artificial intelligence for music; MIR fundamentals and methodology -&gt; symbolic music processing"
-                    class="text-secondary text-decoration-none"
-            >Knowledge-driven approaches to MIR -&gt; machine learning/artificial intelligence for music; MIR fundamentals and methodology -&gt; symbolic music processing</a
-            >,
-            
-            <a
                     href="papers.html?filter=keywords&search=MIR tasks -&gt; music generation"
                     class="text-secondary text-decoration-none"
             >MIR tasks -&gt; music generation</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=Knowledge-driven approaches to MIR -&gt; machine learning/artificial intelligence for music; MIR fundamentals and methodology -&gt; symbolic music processing"
+                    class="text-secondary text-decoration-none"
+            >Knowledge-driven approaches to MIR -&gt; machine learning/artificial intelligence for music; MIR fundamentals and methodology -&gt; symbolic music processing</a
             >
             
         </p>
@@ -274,9 +275,13 @@
       <li class="nav-item" role="presentation">
         <a class="nav-link" id="video-tab" data-toggle="tab" href="#video" role="tab" aria-controls="video" aria-selected="false">Video</a>
       </li>
+      <li class="nav-item" role="presentation"> 
+        <a class="nav-link" id="slides-tab" data-toggle="tab" href="#slides" role="tab" aria-controls="slides" aria-selected="false">Slides</a>
+      </li>
       <li class="nav-item" role="presentation">
         <a class="nav-link" id="Reviews-tab" data-toggle="tab" href="#Reviews" role="tab" aria-controls="Reviews" aria-selected="false">Reviews</a>
       </li>
+ 
     </ul>
   </div>
   
@@ -309,7 +314,7 @@
     <div class="tab-pane fade" id="video" role="tabpanel" aria-labelledby="video-tab">
       
       <div class="text-center">
-        <div class="embed-responsive embed-responsive-16by9">
+        <div class="embed-responsive" style="height: 80vh;">
           <iframe class="embed-responsive-item"           
                   src="https://drive.google.com/file/d/1d4vhwOeI7Ve1w0niVr5Y-qRko_ONQcoN/preview?usp=share_link" 
                   frameborder="0" 
@@ -319,6 +324,22 @@
       </div>
       
     </div>
+    <div class="tab-pane fade" id="slides" role="tabpanel" aria-labelledby="slides-tab"> 
+      
+        <div class="text-center"> 
+          <div class="embed-responsive" style="height:80vh;"> 
+            <iframe class="embed-responsive-item" 
+                    src="https://drive.google.com/file/d/1zpIzBSfRxyU4f4PIJR_kc6hxOb41Dud7/preview" 
+                    frameborder="0" 
+                    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                  </iframe>
+          </div>
+        </div>
+      
+    </div>
+
+
     <div class="tab-pane fade" id="Reviews" role="tabpanel" aria-labelledby="Reviews-tab">
       <div class="pp-card m-3">
         <div class="card-body">
@@ -342,7 +363,7 @@
 
   <script>
   document.addEventListener('DOMContentLoaded', function() {
-    console.log(JSON.stringify("{&#39;id&#39;: &#39;5&#39;, &#39;session&#39;: &#39;4&#39;, &#39;position&#39;: &#39;13&#39;, &#39;forum&#39;: &#39;5&#39;, &#39;pic_id&#39;: &#39;https://drive.google.com/file/d/1ulzf3JND3fCeQwGLr8ueKujOh5F-arSI/view?usp=sharing&#39;, &#39;content&#39;: {&#39;title&#39;: &#39;Nested Music Transformer: Sequentially Decoding Compound Tokens in Symbolic Music and Audio Generation&#39;, &#39;paper_presentation&#39;: &#39;San Francisco&#39;, &#39;long_presentation&#39;: &#39;FALSE&#39;, &#39;authors&#39;: [&#39;Ryu, Jiwoo&#39;, &#39; Dong, Hao-Wen&#39;, &#39; Jung, Jongmin&#39;, &#39; Jeong, Dasaem*&#39;], &#39;authors_and_affil&#39;: [&#39;Jiwoo Ryu (Sogang University)&#39;, &#39; Hao-Wen Dong (University of Michigan)&#39;, &#39; Jongmin Jung (Sogang University)&#39;, &#39; Dasaem Jeong (Sogang University)*&#39;], &#39;keywords&#39;: [&#39;Knowledge-driven approaches to MIR -&gt; machine learning/artificial intelligence for music; MIR fundamentals and methodology -&gt; symbolic music processing&#39;, &#39;MIR tasks -&gt; music generation&#39;], &#39;abstract&#39;: &#39;Representing symbolic music with compound tokens, where each token consists of several different sub-tokens representing a distinct musical feature or attribute, offers the advantage of reducing sequence length. While previous research has validated the efficacy of compound tokens in music sequence modeling, predicting all sub-tokens simultaneously can lead to suboptimal results as it may not fully capture the interdependencies between them. We introduce the Nested Music Transformer (NMT), an architecture tailored for decoding compound tokens autoregressively, similar to processing flattened tokens, but with low memory usage. The NMT consists of two transformers: the main decoder that models a sequence of compound tokens and the sub-decoder for modeling sub-tokens of each compound token. The experiment results showed that applying the NMT to compound tokens can enhance the performance in terms of better perplexity in processing various symbolic music datasets and discrete audio tokens from the MAESTRO dataset.&#39;, &#39;TLDR&#39;: &#39;Representing symbolic music with compound tokens, where each token consists of several different sub-tokens representing a distinct musical feature or attribute, offers the advantage of reducing sequence length. While previous research has validated the efficacy of compound tokens in music sequence modeling, predicting all sub-tokens simultaneously can lead to suboptimal results as it may not fully capture the interdependencies between them. We introduce the Nested Music Transformer (NMT), an architecture tailored for decoding compound tokens autoregressively, similar to processing flattened tokens, but with low memory usage. The NMT consists of two transformers: the main decoder that models a sequence of compound tokens and the sub-decoder for modeling sub-tokens of each compound token. The experiment results showed that applying the NMT to compound tokens can enhance the performance in terms of better perplexity in processing various symbolic music datasets and discrete audio tokens from the MAESTRO dataset.&#39;, &#39;poster_pdf&#39;: &#39;https://drive.google.com/file/d/19ZkRhN2wiJdL1LnQt8dfOMXD__2YV6LW/view?usp=sharing&#39;, &#39;session&#39;: [&#39;4&#39;], &#39;pdf_path&#39;: &#39;https://drive.google.com/file/d/1E8CTFJvSUaksQAHwn5DzFUtPTiuSNZ4L/view?usp=share_link&#39;, &#39;video&#39;: &#39;https://drive.google.com/file/d/1d4vhwOeI7Ve1w0niVr5Y-qRko_ONQcoN/view?usp=share_link&#39;, &#39;channel_url&#39;: &#39;https://ismir2024.slack.com/archives/C07V2ML0VSM&#39;, &#39;slack_channel&#39;: &#39;p4-12-nested-music-transformer&#39;, &#39;day&#39;: &#39;2&#39;, &#39;review_1&#39;: &#39;&#39;, &#39;review_2&#39;: &#39;&#39;, &#39;review_3&#39;: &#39;&#39;, &#39;meta_review&#39;: &#39;&#39;, &#39;author_changes&#39;: &#39;&#39;}, &#39;poster_pdf&#39;: &#39;GLTR_poster.pdf&#39;}"));
+    console.log(JSON.stringify("{&#39;id&#39;: &#39;5&#39;, &#39;session&#39;: &#39;4&#39;, &#39;position&#39;: &#39;13&#39;, &#39;forum&#39;: &#39;5&#39;, &#39;pic_id&#39;: &#39;https://drive.google.com/file/d/1ulzf3JND3fCeQwGLr8ueKujOh5F-arSI/view?usp=sharing&#39;, &#39;content&#39;: {&#39;title&#39;: &#39;Nested Music Transformer: Sequentially Decoding Compound Tokens in Symbolic Music and Audio Generation&#39;, &#39;paper_presentation&#39;: &#39;San Francisco&#39;, &#39;long_presentation&#39;: &#39;FALSE&#39;, &#39;authors&#39;: [&#39;Ryu, Jiwoo&#39;, &#39; Dong, Hao-Wen&#39;, &#39; Jung, Jongmin&#39;, &#39; Jeong, Dasaem*&#39;], &#39;authors_and_affil&#39;: [&#39;Jiwoo Ryu (Sogang University)&#39;, &#39; Hao-Wen Dong (University of Michigan)&#39;, &#39; Jongmin Jung (Sogang University)&#39;, &#39; Dasaem Jeong (Sogang University)*&#39;], &#39;keywords&#39;: [&#39;MIR tasks -&gt; music generation&#39;, &#39;Knowledge-driven approaches to MIR -&gt; machine learning/artificial intelligence for music; MIR fundamentals and methodology -&gt; symbolic music processing&#39;], &#39;abstract&#39;: &#39;Representing symbolic music with compound tokens, where each token consists of several different sub-tokens representing a distinct musical feature or attribute, offers the advantage of reducing sequence length. While previous research has validated the efficacy of compound tokens in music sequence modeling, predicting all sub-tokens simultaneously can lead to suboptimal results as it may not fully capture the interdependencies between them. We introduce the Nested Music Transformer (NMT), an architecture tailored for decoding compound tokens autoregressively, similar to processing flattened tokens, but with low memory usage. The NMT consists of two transformers: the main decoder that models a sequence of compound tokens and the sub-decoder for modeling sub-tokens of each compound token. The experiment results showed that applying the NMT to compound tokens can enhance the performance in terms of better perplexity in processing various symbolic music datasets and discrete audio tokens from the MAESTRO dataset.&#39;, &#39;TLDR&#39;: &#39;Representing symbolic music with compound tokens, where each token consists of several different sub-tokens representing a distinct musical feature or attribute, offers the advantage of reducing sequence length. While previous research has validated the efficacy of compound tokens in music sequence modeling, predicting all sub-tokens simultaneously can lead to suboptimal results as it may not fully capture the interdependencies between them. We introduce the Nested Music Transformer (NMT), an architecture tailored for decoding compound tokens autoregressively, similar to processing flattened tokens, but with low memory usage. The NMT consists of two transformers: the main decoder that models a sequence of compound tokens and the sub-decoder for modeling sub-tokens of each compound token. The experiment results showed that applying the NMT to compound tokens can enhance the performance in terms of better perplexity in processing various symbolic music datasets and discrete audio tokens from the MAESTRO dataset.&#39;, &#39;poster_pdf&#39;: &#39;https://drive.google.com/file/d/19ZkRhN2wiJdL1LnQt8dfOMXD__2YV6LW/view?usp=sharing&#39;, &#39;session&#39;: [&#39;4&#39;], &#39;pdf_path&#39;: &#39;https://drive.google.com/file/d/1E8CTFJvSUaksQAHwn5DzFUtPTiuSNZ4L/view?usp=share_link&#39;, &#39;video&#39;: &#39;https://drive.google.com/file/d/1d4vhwOeI7Ve1w0niVr5Y-qRko_ONQcoN/view?usp=share_link&#39;, &#39;channel_url&#39;: &#39;https://ismir2024.slack.com/archives/C07V2ML0VSM&#39;, &#39;slack_channel&#39;: &#39;p4-12-nested-music-transformer&#39;, &#39;slides_pdf&#39;: &#39;https://drive.google.com/file/d/1zpIzBSfRxyU4f4PIJR_kc6hxOb41Dud7/view?usp=sharing&#39;, &#39;day&#39;: &#39;2&#39;, &#39;review_1&#39;: &#39;&#39;, &#39;review_2&#39;: &#39;&#39;, &#39;review_3&#39;: &#39;&#39;, &#39;meta_review&#39;: &#39;&#39;, &#39;author_changes&#39;: &#39;&#39;}, &#39;poster_pdf&#39;: &#39;GLTR_poster.pdf&#39;}"));
     // Ensure jQuery and Bootstrap are loaded
     if (typeof $ === 'undefined') {
       console.error('jQuery is not loaded');

@@ -170,6 +170,7 @@
     <div class="content">
         
 <div class="pp-card m-3" style="background-color: #fff">
+  <!-- {"TLDR": "This paper describes a deep learning method for music structure analysis (MSA) that aims to split a music signal into temporal segments and assign a function label (e.g., intro, verse, or chorus) to each segment. The computational base for MSA is a spectro-temporal representation of input audio such as the spectrogram, where the compositional relationships of the spectral components provide valuable clues (e.g., chords) to the identification of structural units. However, such implicit features might be vulnerable to local operations such as convolution and pooling operations. In this paper, we hypothesize that the self-attention over the spectral domain as well as the temporal domain plays a key role in tackling MSA. Based on this hypothesis, we propose a novel MSA model built on the Transformer-in-Transformer architecture that alternately stacks spectral and temporal self-attention layers. Experiments with the Beatles, RWC, and SALAMI datasets showed the superiority of the dual-aspect self-attention. In particular, the differentiation between spectral and temporal self-attentions can provide extra performance gain. By analyzing the attention maps, we also demonstrate that self-attention can unfold tonal relationships and the internal structure of music.", "abstract": "This paper describes a deep learning method for music structure analysis (MSA) that aims to split a music signal into temporal segments and assign a function label (e.g., intro, verse, or chorus) to each segment. The computational base for MSA is a spectro-temporal representation of input audio such as the spectrogram, where the compositional relationships of the spectral components provide valuable clues (e.g., chords) to the identification of structural units. However, such implicit features might be vulnerable to local operations such as convolution and pooling operations. In this paper, we hypothesize that the self-attention over the spectral domain as well as the temporal domain plays a key role in tackling MSA. Based on this hypothesis, we propose a novel MSA model built on the Transformer-in-Transformer architecture that alternately stacks spectral and temporal self-attention layers. Experiments with the Beatles, RWC, and SALAMI datasets showed the superiority of the dual-aspect self-attention. In particular, the differentiation between spectral and temporal self-attentions can provide extra performance gain. By analyzing the attention maps, we also demonstrate that self-attention can unfold tonal relationships and the internal structure of music.", "author_changes": "", "authors": ["Chen, Tsung-Ping*", " Yoshii, Kazuyoshi"], "authors_and_affil": ["Tsung-Ping Chen (Kyoto University)*", " Kazuyoshi Yoshii (Kyoto University)"], "channel_url": "https://ismir2024.slack.com/archives/C07VCQWBJ3A", "day": "1", "keywords": ["Musical features and properties -\u003e representations of music", "Musical features and properties -\u003e structure, segmentation, and form"], "long_presentation": "FALSE", "meta_review": "", "paper_presentation": "San Francisco", "pdf_path": "https://drive.google.com/file/d/13xy02rQcrgv5C8TZKQF17dUUO3CkQP52/view?usp=sharing", "poster_pdf": "https://drive.google.com/file/d/14RwLEkmKADHV1DAkWTXs6rCRe0KDXOoa/view?usp=sharing", "review_1": "", "review_2": "", "review_3": "", "session": ["1"], "slack_channel": "p1-18-learning-multifaceted-self", "slides_pdf": "https://drive.google.com/file/d/1S9UiInHkTAylonAZoTPHrnfTgZzq6L30/view?usp=sharing", "title": "Learning Multifaceted Self-Similarity over Time and Frequency for Music Structure Analysis", "video": "https://drive.google.com/file/d/112O5L8XUnDxGENRx4lG4MJSImunVRW5p/view?usp=sharing"} -->
     <div class="card-header" style="background-color: rgba(0,0,0,0);">
         <h2 class="card-title main-title text-left" style="color: #4383EC">
             Learning Multifaceted Self-Similarity over Time and Frequency for Music Structure Analysis
@@ -223,15 +224,15 @@
             <span class="">Keywords:</span>
             
             <a
-                    href="papers.html?filter=keywords&search=Musical features and properties -&gt; structure, segmentation, and form"
-                    class="text-secondary text-decoration-none"
-            >Musical features and properties -&gt; structure, segmentation, and form</a
-            >,
-            
-            <a
                     href="papers.html?filter=keywords&search=Musical features and properties -&gt; representations of music"
                     class="text-secondary text-decoration-none"
             >Musical features and properties -&gt; representations of music</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=Musical features and properties -&gt; structure, segmentation, and form"
+                    class="text-secondary text-decoration-none"
+            >Musical features and properties -&gt; structure, segmentation, and form</a
             >
             
         </p>
@@ -264,9 +265,13 @@
       <li class="nav-item" role="presentation">
         <a class="nav-link" id="video-tab" data-toggle="tab" href="#video" role="tab" aria-controls="video" aria-selected="false">Video</a>
       </li>
+      <li class="nav-item" role="presentation"> 
+        <a class="nav-link" id="slides-tab" data-toggle="tab" href="#slides" role="tab" aria-controls="slides" aria-selected="false">Slides</a>
+      </li>
       <li class="nav-item" role="presentation">
         <a class="nav-link" id="Reviews-tab" data-toggle="tab" href="#Reviews" role="tab" aria-controls="Reviews" aria-selected="false">Reviews</a>
       </li>
+ 
     </ul>
   </div>
   
@@ -299,7 +304,7 @@
     <div class="tab-pane fade" id="video" role="tabpanel" aria-labelledby="video-tab">
       
       <div class="text-center">
-        <div class="embed-responsive embed-responsive-16by9">
+        <div class="embed-responsive" style="height: 80vh;">
           <iframe class="embed-responsive-item"           
                   src="https://drive.google.com/file/d/112O5L8XUnDxGENRx4lG4MJSImunVRW5p/preview" 
                   frameborder="0" 
@@ -309,6 +314,22 @@
       </div>
       
     </div>
+    <div class="tab-pane fade" id="slides" role="tabpanel" aria-labelledby="slides-tab"> 
+      
+        <div class="text-center"> 
+          <div class="embed-responsive" style="height:80vh;"> 
+            <iframe class="embed-responsive-item" 
+                    src="https://drive.google.com/file/d/1S9UiInHkTAylonAZoTPHrnfTgZzq6L30/preview" 
+                    frameborder="0" 
+                    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                  </iframe>
+          </div>
+        </div>
+      
+    </div>
+
+
     <div class="tab-pane fade" id="Reviews" role="tabpanel" aria-labelledby="Reviews-tab">
       <div class="pp-card m-3">
         <div class="card-body">
@@ -332,7 +353,7 @@
 
   <script>
   document.addEventListener('DOMContentLoaded', function() {
-    console.log(JSON.stringify("{&#39;id&#39;: &#39;12&#39;, &#39;session&#39;: &#39;1&#39;, &#39;position&#39;: &#39;19&#39;, &#39;forum&#39;: &#39;12&#39;, &#39;pic_id&#39;: &#39;https://drive.google.com/file/d/1gw9zu9cfPC_Z8Ar-nB8AiYEhOUKOWORL/view?usp=sharing&#39;, &#39;content&#39;: {&#39;title&#39;: &#39;Learning Multifaceted Self-Similarity over Time and Frequency for Music Structure Analysis&#39;, &#39;paper_presentation&#39;: &#39;San Francisco&#39;, &#39;long_presentation&#39;: &#39;FALSE&#39;, &#39;authors&#39;: [&#39;Chen, Tsung-Ping*&#39;, &#39; Yoshii, Kazuyoshi&#39;], &#39;authors_and_affil&#39;: [&#39;Tsung-Ping Chen (Kyoto University)*&#39;, &#39; Kazuyoshi Yoshii (Kyoto University)&#39;], &#39;keywords&#39;: [&#39;Musical features and properties -&gt; structure, segmentation, and form&#39;, &#39;Musical features and properties -&gt; representations of music&#39;], &#39;abstract&#39;: &#39;This paper describes a deep learning method for music structure analysis (MSA) that aims to split a music signal into temporal segments and assign a function label (e.g., intro, verse, or chorus) to each segment. The computational base for MSA is a spectro-temporal representation of input audio such as the spectrogram, where the compositional relationships of the spectral components provide valuable clues (e.g., chords) to the identification of structural units. However, such implicit features might be vulnerable to local operations such as convolution and pooling operations. In this paper, we hypothesize that the self-attention over the spectral domain as well as the temporal domain plays a key role in tackling MSA. Based on this hypothesis, we propose a novel MSA model built on the Transformer-in-Transformer architecture that alternately stacks spectral and temporal self-attention layers. Experiments with the Beatles, RWC, and SALAMI datasets showed the superiority of the dual-aspect self-attention. In particular, the differentiation between spectral and temporal self-attentions can provide extra performance gain. By analyzing the attention maps, we also demonstrate that self-attention can unfold tonal relationships and the internal structure of music.&#39;, &#39;TLDR&#39;: &#39;This paper describes a deep learning method for music structure analysis (MSA) that aims to split a music signal into temporal segments and assign a function label (e.g., intro, verse, or chorus) to each segment. The computational base for MSA is a spectro-temporal representation of input audio such as the spectrogram, where the compositional relationships of the spectral components provide valuable clues (e.g., chords) to the identification of structural units. However, such implicit features might be vulnerable to local operations such as convolution and pooling operations. In this paper, we hypothesize that the self-attention over the spectral domain as well as the temporal domain plays a key role in tackling MSA. Based on this hypothesis, we propose a novel MSA model built on the Transformer-in-Transformer architecture that alternately stacks spectral and temporal self-attention layers. Experiments with the Beatles, RWC, and SALAMI datasets showed the superiority of the dual-aspect self-attention. In particular, the differentiation between spectral and temporal self-attentions can provide extra performance gain. By analyzing the attention maps, we also demonstrate that self-attention can unfold tonal relationships and the internal structure of music.&#39;, &#39;poster_pdf&#39;: &#39;https://drive.google.com/file/d/14RwLEkmKADHV1DAkWTXs6rCRe0KDXOoa/view?usp=sharing&#39;, &#39;session&#39;: [&#39;1&#39;], &#39;pdf_path&#39;: &#39;https://drive.google.com/file/d/13xy02rQcrgv5C8TZKQF17dUUO3CkQP52/view?usp=sharing&#39;, &#39;video&#39;: &#39;https://drive.google.com/file/d/112O5L8XUnDxGENRx4lG4MJSImunVRW5p/view?usp=sharing&#39;, &#39;channel_url&#39;: &#39;https://ismir2024.slack.com/archives/C07VCQWBJ3A&#39;, &#39;slack_channel&#39;: &#39;p1-18-learning-multifaceted-self&#39;, &#39;day&#39;: &#39;1&#39;, &#39;review_1&#39;: &#39;&#39;, &#39;review_2&#39;: &#39;&#39;, &#39;review_3&#39;: &#39;&#39;, &#39;meta_review&#39;: &#39;&#39;, &#39;author_changes&#39;: &#39;&#39;}, &#39;poster_pdf&#39;: &#39;GLTR_poster.pdf&#39;}"));
+    console.log(JSON.stringify("{&#39;id&#39;: &#39;12&#39;, &#39;session&#39;: &#39;1&#39;, &#39;position&#39;: &#39;19&#39;, &#39;forum&#39;: &#39;12&#39;, &#39;pic_id&#39;: &#39;https://drive.google.com/file/d/1gw9zu9cfPC_Z8Ar-nB8AiYEhOUKOWORL/view?usp=sharing&#39;, &#39;content&#39;: {&#39;title&#39;: &#39;Learning Multifaceted Self-Similarity over Time and Frequency for Music Structure Analysis&#39;, &#39;paper_presentation&#39;: &#39;San Francisco&#39;, &#39;long_presentation&#39;: &#39;FALSE&#39;, &#39;authors&#39;: [&#39;Chen, Tsung-Ping*&#39;, &#39; Yoshii, Kazuyoshi&#39;], &#39;authors_and_affil&#39;: [&#39;Tsung-Ping Chen (Kyoto University)*&#39;, &#39; Kazuyoshi Yoshii (Kyoto University)&#39;], &#39;keywords&#39;: [&#39;Musical features and properties -&gt; representations of music&#39;, &#39;Musical features and properties -&gt; structure, segmentation, and form&#39;], &#39;abstract&#39;: &#39;This paper describes a deep learning method for music structure analysis (MSA) that aims to split a music signal into temporal segments and assign a function label (e.g., intro, verse, or chorus) to each segment. The computational base for MSA is a spectro-temporal representation of input audio such as the spectrogram, where the compositional relationships of the spectral components provide valuable clues (e.g., chords) to the identification of structural units. However, such implicit features might be vulnerable to local operations such as convolution and pooling operations. In this paper, we hypothesize that the self-attention over the spectral domain as well as the temporal domain plays a key role in tackling MSA. Based on this hypothesis, we propose a novel MSA model built on the Transformer-in-Transformer architecture that alternately stacks spectral and temporal self-attention layers. Experiments with the Beatles, RWC, and SALAMI datasets showed the superiority of the dual-aspect self-attention. In particular, the differentiation between spectral and temporal self-attentions can provide extra performance gain. By analyzing the attention maps, we also demonstrate that self-attention can unfold tonal relationships and the internal structure of music.&#39;, &#39;TLDR&#39;: &#39;This paper describes a deep learning method for music structure analysis (MSA) that aims to split a music signal into temporal segments and assign a function label (e.g., intro, verse, or chorus) to each segment. The computational base for MSA is a spectro-temporal representation of input audio such as the spectrogram, where the compositional relationships of the spectral components provide valuable clues (e.g., chords) to the identification of structural units. However, such implicit features might be vulnerable to local operations such as convolution and pooling operations. In this paper, we hypothesize that the self-attention over the spectral domain as well as the temporal domain plays a key role in tackling MSA. Based on this hypothesis, we propose a novel MSA model built on the Transformer-in-Transformer architecture that alternately stacks spectral and temporal self-attention layers. Experiments with the Beatles, RWC, and SALAMI datasets showed the superiority of the dual-aspect self-attention. In particular, the differentiation between spectral and temporal self-attentions can provide extra performance gain. By analyzing the attention maps, we also demonstrate that self-attention can unfold tonal relationships and the internal structure of music.&#39;, &#39;poster_pdf&#39;: &#39;https://drive.google.com/file/d/14RwLEkmKADHV1DAkWTXs6rCRe0KDXOoa/view?usp=sharing&#39;, &#39;session&#39;: [&#39;1&#39;], &#39;pdf_path&#39;: &#39;https://drive.google.com/file/d/13xy02rQcrgv5C8TZKQF17dUUO3CkQP52/view?usp=sharing&#39;, &#39;video&#39;: &#39;https://drive.google.com/file/d/112O5L8XUnDxGENRx4lG4MJSImunVRW5p/view?usp=sharing&#39;, &#39;channel_url&#39;: &#39;https://ismir2024.slack.com/archives/C07VCQWBJ3A&#39;, &#39;slack_channel&#39;: &#39;p1-18-learning-multifaceted-self&#39;, &#39;slides_pdf&#39;: &#39;https://drive.google.com/file/d/1S9UiInHkTAylonAZoTPHrnfTgZzq6L30/view?usp=sharing&#39;, &#39;day&#39;: &#39;1&#39;, &#39;review_1&#39;: &#39;&#39;, &#39;review_2&#39;: &#39;&#39;, &#39;review_3&#39;: &#39;&#39;, &#39;meta_review&#39;: &#39;&#39;, &#39;author_changes&#39;: &#39;&#39;}, &#39;poster_pdf&#39;: &#39;GLTR_poster.pdf&#39;}"));
     // Ensure jQuery and Bootstrap are loaded
     if (typeof $ === 'undefined') {
       console.error('jQuery is not loaded');
