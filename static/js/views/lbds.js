@@ -304,6 +304,9 @@ const card_html = (paper) =>
                 <h6 class="card-subtitle text-muted" align="left">
                         ${paper.content.authors.join(", ")}
                 </h6>
+                <div class="text-left text-muted card-subtitle mt-3">
+                <i> Poster is presented ${paper.virtual ? "virtually" : "in-person"}. </i>
+                </div>
                 ${card_image(paper, render_mode !== MODE.mini)}
                 
             </div>
