@@ -285,7 +285,8 @@ def format_paper(v):
     }
 
 def format_lbd(v):
-    list_keys = ["authors", "primary_subject", "secondary_subject", "session", "authors_and_affil", "Author Names"]
+    print(v)
+    list_keys = ["authors", "primary_subject", "secondary_subject", "session", "authors_and_affil", "Author Names", "virtual?"]
     list_fields = {}
     for key in list_keys:
         list_fields[key] = extract_list_field(v, key)
@@ -306,7 +307,10 @@ def format_lbd(v):
             "video": v["Video link"],
             "channel_url": v["channel_url"],
             "slack_channel": v["slack_channel"],
-            "virtual": v.get("virtual?", "0")
+            "virtual": v.get("virtual?", "0"),
+            "virtual_slot1": v.get("virtual_slot1", "0"),
+            "virtual_slot2": v.get("virtual_slot2", "0"),
+
         },
         "poster_pdf": "GLTR_poster.pdf",  
     }

@@ -39,17 +39,21 @@
           <a href="{{lbd.content.channel_url}}" class="btn btn-primary" style="background-color: #2294e0;">{% include 'slack_svg.html' %} {{lbd.content.slack_channel}}</a>
         </div>
         {% endif %}
-        <p class="card-text text-left">
-            <span class="">Keywords:</span>
-            {% for keyword in lbd.content.keywords %}
-            <a
-                    href="lbds.html?filter=keywords&search={{keyword}}"
-                    class="text-secondary text-decoration-none"
-            >{{keyword}}</a
-            >{{ "," if not loop.last }}
-            {% endfor %}
-        </p>
+        {% if lbd.content.virtual == "1" %}         
+          {% if lbd.content.virtual_slot1 == "1" and lbd.content.virtual_slot2 == "1" %}
+            <p> This paper will be presented virtually at 12:15 PM - 12:45 PM PST and 11:15 PM - 11:45 PM PST sessions </p>
+          {% elif lbd.content.virtual_slot1 == "1" %}          
+            <p> This paper will be presented virtually at 12:15 PM - 12:45 PM PST session </p>
+          {% elif lbd.content.virtual_slot2 == "1" %}
+            <p> This paper will be presented virtually at 11:15 PM - 11:45 PM PST session </p>
+          {% else %}
+            <p> This paper will be presented virtually </p>            
+          {% endif %}
+        {% else %}
+          <p> This paper will be presented in person </p>
+        {% endif %}
     </div>
+
 </div>
 <div id="details" class="pp-card m-3">
     <div class="card-body">

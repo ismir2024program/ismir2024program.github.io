@@ -288,7 +288,7 @@ const card_time_detail = (paper, show) => {
 
 // language=HTML
 const card_html = (paper) =>
-  // console.log(paper)
+
   `
         <div class="pp-card pp-mode-${render_mode} ">
             <div class="pp-card-header" style="">
@@ -305,7 +305,7 @@ const card_html = (paper) =>
                         ${paper.content.authors.join(", ")}
                 </h6>
                 <div class="text-left text-muted card-subtitle mt-3">
-                <i> Poster is presented ${paper.virtual ? "virtually" : "in-person"}. </i>
+                <i> Poster is presented ${paper.content.virtual == "1" ? "virtually" : "in-person"}. </i>
                 </div>
                 ${card_image(paper, render_mode !== MODE.mini)}
                 
