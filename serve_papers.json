@@ -844,8 +844,8 @@
     "StudentAuthor.1": "",
     "UID": "68",
     "abstract_short": "",
-    "authors": "Zehren, Mickael*",
-    "authors_and_affil": "Mickael Zehren (Ume\u00e5 University)*",
+    "authors": "Zehren, Micka\u00ebl; Alunno, Marc;Bientinesi,  Paolo ",
+    "authors_and_affil": "Micka\u00ebl Zehren (Ume\u00e5 University)*; Marco Alunno (Universidad EAFIT Medell\u00edn); Paolo Bientinesi (Ume\u00e5 Universitet)",
     "channel_url": "https://ismir2024.slack.com/archives/C07UQ1DE84S",
     "day": "4",
     "long_presentation": "FALSE",
@@ -861,7 +861,7 @@
     "slides_pdf": "https://drive.google.com/file/d/1dcuhK2-Ilmm-r5sqtTMUGiMHdfwgbQYU/view?usp=drive_link",
     "thumbnail": "https://drive.google.com/file/d/1mRt3ZrQqeDvZexbXDGXITLTB_vTM9ok0/view?usp=drive_link",
     "title": "In-depth performance analysis of the ADTOF-based algorithm for automatic drum transcription",
-    "video": "https://drive.google.com/file/d/1MZQ9UD99OaWpbzK6z2m1h28hCphyEh3U/view?usp=sharing"
+    "video": "https://drive.google.com/file/d/1biLZBwAARYLLHVHA1k-PYlqgItjrYykB/view?usp=drive_link"
   },
   {
     "Abstract": "Variation in music is defined as repetition of a theme, but with various modifications, playing an important role in many musical genres in developing core music ideas into longer passages. Existing research on variation in music is mostly confined to datasets consisting of classical theme-and-variation pieces, and generative models limited to melody-only representations. In this paper, to address the problem of the lack of datasets, we propose an algorithm to extract theme-and-variation pairs automatically, and use it to annotate two datasets called POP909-TVar (2,871 theme-and-variation pairs) and VGMIDI-TVar (7,830 theme-and-variation pairs). We propose both non-deep learning and deep learning based symbolic music variation generation models, and report the results of a listening study and feature-based evaluation for these models. One of our two newly proposed models, called Variation Transformer, outperforms all other models that listeners evaluated for \"variation success\", including non-deep learning and deep learning based approaches. An implication of this work for the wider field of music making is that we now have a model that can generate material with stronger and perceivably more successful relationships to some given prompt or theme.",
@@ -925,7 +925,7 @@
     "slides_pdf": "https://docs.google.com/presentation/d/1iYX8GBypuG0bKPD_Llf-D7Jf7t7bladrtw3YgKG7kHM/edit?usp=sharing",
     "thumbnail": "https://drive.google.com/file/d/1MMgr2dhkmNjdfdcLItJes-4fwbYPNM3a/view?usp=drive_link",
     "title": "Music Proofreading with RefinPaint: Where and How to Modify Compositions given Context",
-    "video": "video_77_ramoneda.mp4"
+    "video": "https://drive.google.com/file/d/1MZQ9UD99OaWpbzK6z2m1h28hCphyEh3U/view?usp=sharing"
   },
   {
     "Abstract": "Estimating music piece difficulty is important for organizing educational music collections. This process could be partially automatized to facilitate the educators role. Nevertheless, the decisions performed by prevalent deep-learning models are hardly understandable, which may impair the acceptance of such a technology in music education curricula. Our work employs explainable descriptors for difficulty estimation in symbolic music representations. Furthermore, through a novel parameter-efficient white-box model, we outperform previous efforts while delivering interpretable results. These comprehensible outcomes emulate the functionality of a rubric, a tool widely used in music education. Our approach, evaluated in piano repertoire, achieved 41.4% accuracy independently, with a mean squared error (MSE) of 1.7, showing precise difficulty estimation. This work illustrates how building on top of past research can  offer alternatives for music difficulty assessment which are explainable and interpretable. With this, we aim to promote a more effective communication between the MIR community and the music education one.",
