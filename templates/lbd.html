@@ -34,6 +34,11 @@
             >{{ "," if not loop.last }}
             {% endfor %}
         </h3>
+        {% if lbd.content.channel_url %}
+        <div class="btn-group mb-3 mt-3">
+          <a href="{{lbd.content.channel_url}}" class="btn btn-primary" style="background-color: #2294e0;">{% include 'slack_svg.html' %} {{lbd.content.slack_channel}}</a>
+        </div>
+        {% endif %}
         <p class="card-text text-left">
             <span class="">Keywords:</span>
             {% for keyword in lbd.content.keywords %}
