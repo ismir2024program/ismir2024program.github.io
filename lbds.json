@@ -1314,7 +1314,7 @@
       "slack_channel": "lbd-465-how-does-the",
       "title": "How does the teacher rate? Observations from the NeuroPiano dataset",
       "video": "https://drive.google.com/file/d/1xV7RhPeOvmltCyuIW4-dSDW1anBbSxVz/view?usp=drive_link",
-      "virtual": "1",
+      "virtual": "2",
       "virtual_slot1": "1",
       "virtual_slot2": "0"
     },
@@ -1919,7 +1919,7 @@
       "slack_channel": "lbd-485-skip-that-beat",
       "title": "Skip That Beat: Augmenting Meter Tracking Models for Underrepresented Time Signatures",
       "video": "https://drive.google.com/file/d/1w0ZIqMIwTD6c4PdF8FMzyrLwwO1UnE6i/view",
-      "virtual": "1",
+      "virtual": "2",
       "virtual_slot1": "1",
       "virtual_slot2": "0"
     },
@@ -2421,7 +2421,7 @@
       "slack_channel": "lbd-500-perception-of-ragas",
       "title": "Perception of ragas is influenced by enculturation and musical training - a pilot study",
       "video": "https://drive.google.com/file/d/16AvAvBxPurGfZquw8egMdnPWEfD2ms0T/view?usp=drive_link",
-      "virtual": "1",
+      "virtual": "500",
       "virtual_slot1": "1",
       "virtual_slot2": "0"
     },
@@ -2649,7 +2649,7 @@
       "slack_channel": "lbd-507-score-reduction-for",
       "title": "Score Reduction for Guitar Through Reinforcement Learning",
       "video": "https://drive.google.com/file/d/1B6ba99qlae5IofApvfjfOSRQ-smQdcOl/view",
-      "virtual": "1",
+      "virtual": "2",
       "virtual_slot1": "1",
       "virtual_slot2": "0"
     },

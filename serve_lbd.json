@@ -1048,7 +1048,7 @@
     "comments": "",
     "reviewer": "CW",
     "slack_channel": "lbd-465-how-does-the",
-    "virtual?": "1",
+    "virtual?": "2",
     "virtual_slot1": "1",
     "virtual_slot2": "0"
   },
@@ -1534,7 +1534,7 @@
     "comments": "",
     "reviewer": "CN",
     "slack_channel": "lbd-485-skip-that-beat",
-    "virtual?": "1",
+    "virtual?": "2",
     "virtual_slot1": "1",
     "virtual_slot2": "0"
   },
@@ -1939,7 +1939,7 @@
     "comments": "",
     "reviewer": "CN",
     "slack_channel": "lbd-500-perception-of-ragas",
-    "virtual?": "1",
+    "virtual?": "500",
     "virtual_slot1": "1",
     "virtual_slot2": "0"
   },
@@ -2128,7 +2128,7 @@
     "comments": "",
     "reviewer": "CN",
     "slack_channel": "lbd-507-score-reduction-for",
-    "virtual?": "1",
+    "virtual?": "2",
     "virtual_slot1": "1",
     "virtual_slot2": "0"
   },
