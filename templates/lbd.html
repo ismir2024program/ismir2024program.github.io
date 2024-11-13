@@ -41,15 +41,25 @@
         {% endif %}
         {% if lbd.content.virtual == "1" %}         
           {% if lbd.content.virtual_slot1 == "1" and lbd.content.virtual_slot2 == "1" %}
-            <p> This paper will be presented virtually at 12:15 PM - 12:45 PM PST and 11:15 PM - 11:45 PM PST sessions </p>
+            <p> This paper will be presented virtually at the 12:15 PM - 12:45 PM PST and 11:15 PM - 11:45 PM PST sessions </p>
           {% elif lbd.content.virtual_slot1 == "1" %}          
-            <p> This paper will be presented virtually at 12:15 PM - 12:45 PM PST session </p>
+            <p> This paper will be presented virtually at the 12:15 PM - 12:45 PM PST session </p>
           {% elif lbd.content.virtual_slot2 == "1" %}
-            <p> This paper will be presented virtually at 11:15 PM - 11:45 PM PST session </p>
+            <p> This paper will be presented virtually at the 11:15 PM - 11:45 PM PST session </p>
           {% else %}
             <p> This paper will be presented virtually </p>            
           {% endif %}
-        {% else %}
+        {% elif lbd.content.virtual == "2" %}
+          <p> This paper will be presented both in person and virtually 
+            {% if lbd.content.virtual_slot1 == "1" and lbd.content.virtual_slot2 == "1" %}
+              at the 12:15 PM - 12:45 PM PST and the 11:15 PM - 11:45 PM PST sessions 
+            {% elif lbd.content.virtual_slot1 == "1" %}          
+              at the 12:15 PM - 12:45 PM PST session 
+            {% elif lbd.content.virtual_slot2 == "1" %}
+              at the 11:15 PM - 11:45 PM PST session 
+            {% endif %}
+          </p>
+          {% else %}
           <p> This paper will be presented in person </p>
         {% endif %}
     </div>
