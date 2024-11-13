@@ -21,7 +21,9 @@
       "slack_channel": "lbd-423-mshoxxdb-a-versioned",
       "title": "mshoxxDB - a Versioned Dataset for Electronic Music",
       "video": "https://drive.google.com/file/d/1H6N229-8QDOXCv9-aCw4AvZP-dlzktzA/view",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "423",
     "id": "423",
@@ -52,7 +54,9 @@
       "slack_channel": "lbd-424-musicgen-chord-advancing",
       "title": "MusicGen-Chord: Advancing Music Generation through Chord Progressions and Interactive Web-UI",
       "video": "https://drive.google.com/file/d/1XbSX99ikb7f2t5_ZTUuXqC7EZR0tTb-7/view",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "424",
     "id": "424",
@@ -84,7 +88,9 @@
       "slack_channel": "lbd-425-optical-music-recognition",
       "title": "Optical Music Recognition for Jeongganbo Notation of Korean Court Music",
       "video": "https://drive.google.com/file/d/1ltMP6z1MIDCk-Kd4U5gL8yvIhUV01x7P/view",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "425",
     "id": "425",
@@ -117,7 +123,9 @@
       "slack_channel": "lbd-426-symusic-a-swift",
       "title": "symusic: A swift and unified toolkit for symbolic music processing",
       "video": "https://drive.google.com/file/d/1IVbILS3hEESbeEedw0XiUMGYDJme85bW/view",
-      "virtual": "1"
+      "virtual": "1",
+      "virtual_slot1": "0",
+      "virtual_slot2": "1"
     },
     "forum": "426",
     "id": "426",
@@ -148,7 +156,9 @@
       "slack_channel": "lbd-427-facing-the-music",
       "title": "Facing the Music: Tackling Singing Voice Separation in Cinematic Audio Source Separation",
       "video": "https://drive.google.com/file/d/1ki1T4ihG9Shl8f9Ya-Kb4L3QRATtA_bs/view",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "427",
     "id": "427",
@@ -180,7 +190,9 @@
       "slack_channel": "lbd-428-groove-transfer-vst",
       "title": "Groove Transfer VST for Latin American Rhythms",
       "video": "https://drive.google.com/file/d/1Epl7nPpqYfFe1MZiKvrGTF12zbC9NlqK/view",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "428",
     "id": "428",
@@ -211,7 +223,9 @@
       "slack_channel": "lbd-429-optimizing-music-captioning",
       "title": "OPTIMIZING MUSIC CAPTIONING WITH REINFORCEMENT LEARNING AND RETRIEVAL-AUGMENTED METHODS",
       "video": "https://drive.google.com/file/d/1K7cLr1Cc5HM3DIRI9AbhxZRnRL4AzcLH/view",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "429",
     "id": "429",
@@ -242,7 +256,9 @@
       "slack_channel": "lbd-430-conditional-piano-music",
       "title": "Conditional piano music generation by flow matching for performance style transfer",
       "video": "https://drive.google.com/file/d/1jv0guf8Arbni5tonywdaF7nOae6ZYHsf/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "430",
     "id": "430",
@@ -275,7 +291,9 @@
       "slack_channel": "lbd-431-a-token-based",
       "title": "A Token-based Neural Synthesizer for Instrument Cloning and Text-to-Instrument",
       "video": "https://drive.google.com/file/d/1UkRqiH-3DRoBIEqInGM77hJTpN-asMWD/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "431",
     "id": "431",
@@ -311,7 +329,9 @@
       "slack_channel": "lbd-432-source-level-pitch",
       "title": "SOURCE-LEVEL PITCH AND TIMBRE EDITING FOR MIXTURES OF TONES USING DISENTANGLED REPRESENTATIONS",
       "video": "https://drive.google.com/file/d/1UmGP_4m4bNYI0DakfnTUQQS1ovPS9rUW/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "432",
     "id": "432",
@@ -341,7 +361,9 @@
       "slack_channel": "lbd-433-lycon-lyrics-reconstruction",
       "title": "LyCon: Lyrics Reconstruction from the Bag-of-Words Using Large Language Models",
       "video": "https://drive.google.com/file/d/1A4QGz7PHdte9265VIxjLug2tK0KUKaJ0/view?usp=drive_link",
-      "virtual": "1"
+      "virtual": "1",
+      "virtual_slot1": "1",
+      "virtual_slot2": "0"
     },
     "forum": "433",
     "id": "433",
@@ -372,7 +394,9 @@
       "slack_channel": "lbd-434-pyneuralfx-a-python",
       "title": "PyNeuralFx: A Python Package for Neural Audio Effect Modeling",
       "video": "https://drive.google.com/file/d/1SbEcGUZlZZKPvx_APQWbmM1Qy2ZMxwAU/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "434",
     "id": "434",
@@ -404,7 +428,9 @@
       "slack_channel": "lbd-435-matchmaker-a-python",
       "title": "Matchmaker: A Python library for Real-time Music Alignment",
       "video": "https://drive.google.com/file/d/1HZeRrvwPUcCx1b6KnZJoaG3KsHRT20Yp/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "435",
     "id": "435",
@@ -436,7 +462,9 @@
       "slack_channel": "lbd-437-audio-atlas-visualizing",
       "title": "Audio Atlas: Visualizing and Exploring Audio Datasets",
       "video": "https://drive.google.com/file/d/1fH3s3TRPbFON3snuP_lvi60HGUB7gqF_/view",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "437",
     "id": "437",
@@ -469,7 +497,9 @@
       "slack_channel": "lbd-438-a-new-dataset",
       "title": "A New Dataset for Tag- and Text-based Controllable Symbolic Music Generation",
       "video": "https://drive.google.com/file/d/167qlX0Wf2Tpbn23PjEKUKuMiT4w6qoF2/view",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "438",
     "id": "438",
@@ -500,7 +530,9 @@
       "slack_channel": "lbd-439-enhanced-formulation-of",
       "title": "ENHANCED FORMULATION OF THE LATENT ORDER LOGISTIC REGRESSION (LOLOG) MODEL FOR ANALYSIS OF AUSTRALIAN MUSICIAN NETWORKS",
       "video": "https://drive.google.com/file/d/1pD8q3R9R3qSgVYdiJ4pfo6L1j3NQB3dN/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "439",
     "id": "439",
@@ -533,7 +565,9 @@
       "slack_channel": "lbd-440-wavespace-a-highly",
       "title": "Wavespace: A Highly Explorable Wavetable Generator",
       "video": "https://drive.google.com/file/d/1TyBAf6ijNY3maKtWrbQEyutt3pLq17lw/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "440",
     "id": "440",
@@ -564,7 +598,9 @@
       "slack_channel": "lbd-441-a-dbn-based",
       "title": "A DBN-Based Regularization Approach for Training Postprocessing-free Joint Beat and Downbeat Estimator",
       "video": "https://drive.google.com/file/d/1bJj9FCfBjzPYWFVbIYKRtD5xdK_k5rQR/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "441",
     "id": "441",
@@ -593,7 +629,9 @@
       "slack_channel": "lbd-442-real-time-future",
       "title": "Real-time Future Rhythm Visualizer",
       "video": "https://drive.google.com/file/d/1m7kc1GPbT1OxaFqME44NCXXk7q5TEAbp/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "442",
     "id": "442",
@@ -624,7 +662,9 @@
       "slack_channel": "lbd-443-piano-concerto-accompaniment",
       "title": "Piano Concerto Accompaniment Creation",
       "video": "https://drive.google.com/file/d/153jkPslX3wxwgCdW0vBIYxD-h8lB28gH/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "443",
     "id": "443",
@@ -658,7 +698,9 @@
       "slack_channel": "lbd-445-vizmuc-vizualization-of",
       "title": "VizMuc - Vizualization of Music Corpora",
       "video": "https://drive.google.com/file/d/1YiB63tqyE8m1KEXL_3obm7dHkmEfuMJ5/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "445",
     "id": "445",
@@ -692,7 +734,9 @@
       "slack_channel": "lbd-446-ito-master-inference",
       "title": "ITO-Master: Inference-Time Optimization for Music Mastering Style Transfer",
       "video": "https://drive.google.com/file/d/1V69wnQv26BbuR55EOPaOAKoe-d_Fie4v/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "446",
     "id": "446",
@@ -727,7 +771,9 @@
       "slack_channel": "lbd-447-demo-of-zero",
       "title": "Demo of Zero-Shot Guitar Amplifier Modelling: Enhancing Modeling with Hyper Neural Networks",
       "video": "https://drive.google.com/file/d/1C5sQBWdUo5jVKVexYBrQI6kQ7JhyXzCV/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "447",
     "id": "447",
@@ -758,7 +804,9 @@
       "slack_channel": "lbd-448-hi-audio-online",
       "title": "HI-AUDIO ONLINE PLATFORM: OPPORTUNITIES AND CHALLENGES OF COLLECTING VARIED MUSIC DATA ON THE WEB",
       "video": "https://drive.google.com/file/d/186178KvHVwWoN8hNOgw-xqanh4qNpwYu/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "448",
     "id": "448",
@@ -787,7 +835,9 @@
       "slack_channel": "lbd-449-multimodal-structured-extraction",
       "title": "Multimodal Structured Extraction for Self-Querying Music Video Retrieval and Playlist Generation",
       "video": "https://drive.google.com/file/d/1MLZDLLKbdnyYq_tIeThbkvl9qpol_xsy/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "449",
     "id": "449",
@@ -818,7 +868,9 @@
       "slack_channel": "lbd-450-pyampact-a-score",
       "title": "PYAMPACT: A SCORE-AUDIO ALIGNMENT TOOLKIT FOR PERFORMANCE DATA ESTIMATION AND MULTI-MODAL PROCESSING",
       "video": "https://drive.google.com/file/d/1IBY3-Lzoe066pSEd37zglDqYHlIaEx3G/view",
-      "virtual": "1"
+      "virtual": "1",
+      "virtual_slot1": "1",
+      "virtual_slot2": "0"
     },
     "forum": "450",
     "id": "450",
@@ -848,7 +900,9 @@
       "slack_channel": "lbd-452-chord-naming-for",
       "title": "Chord Naming for Analysis",
       "video": "https://drive.google.com/file/d/140_eNWD_E-NBFKsaDjGavf6MpUBPPsOx/view",
-      "virtual": "1"
+      "virtual": "1",
+      "virtual_slot1": "1",
+      "virtual_slot2": "0"
     },
     "forum": "452",
     "id": "452",
@@ -880,7 +934,9 @@
       "slack_channel": "lbd-453-symbotunes-unified-hub",
       "title": "Symbotunes: unified hub for symbolic music generative models",
       "video": "https://drive.google.com/file/d/1YQOYEFMpmjT3LPEVNpiFgO1w7Qg6gENo/view?usp=drive_link",
-      "virtual": "1"
+      "virtual": "1",
+      "virtual_slot1": "1",
+      "virtual_slot2": "0"
     },
     "forum": "453",
     "id": "453",
@@ -916,7 +972,9 @@
       "slack_channel": "lbd-454-demonstrating-openmu-lightbench",
       "title": "Demonstrating OpenMU-LightBench: A benchmark suite for music understanding",
       "video": "https://drive.google.com/file/d/1oigG7u-34Zqd71Um06jqvD9OATnaInAX/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "454",
     "id": "454",
@@ -949,7 +1007,9 @@
       "slack_channel": "lbd-455-miditok-visualizer-a",
       "title": "MidiTok Visualizer: a tool for visualization and analysis of tokenized MIDI symbolic music",
       "video": "https://drive.google.com/file/d/1K_flJLTMyx8_npWijzPzh63Pwr1pisLi/view?usp=drive_link",
-      "virtual": "1"
+      "virtual": "1",
+      "virtual_slot1": "1",
+      "virtual_slot2": "0"
     },
     "forum": "455",
     "id": "455",
@@ -979,7 +1039,9 @@
       "slack_channel": "lbd-456-revamp-visualisation-and",
       "title": "REVAMP: VISUALISATION AND ANALYSIS IN THE DIGITAL AUDIO WORKSTATION",
       "video": "https://drive.google.com/file/d/1ZZoNlo5U2die_uN1JQJ9iU81Y3zSm58Y/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "456",
     "id": "456",
@@ -1010,7 +1072,9 @@
       "slack_channel": "lbd-457-the-surprising-effect",
       "title": "The Surprising Effect of Song-Level Demixing for Music Foundation Model Pretraining",
       "video": "https://drive.google.com/file/d/1a6OXzhavNHiFLCsYORQkJdOCfhdC-om3/view?usp=drive_link",
-      "virtual": "1"
+      "virtual": "1",
+      "virtual_slot1": "1",
+      "virtual_slot2": "1"
     },
     "forum": "457",
     "id": "457",
@@ -1040,7 +1104,9 @@
       "slack_channel": "lbd-458-enhancement-of-speech",
       "title": "Enhancement of Speech and Language Models through unsupervised Learning with Music Datasets",
       "video": "https://drive.google.com/file/d/10ppi18SZsalJmssLfgMW1IHDqomRfvUc/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "458",
     "id": "458",
@@ -1070,7 +1136,9 @@
       "slack_channel": "lbd-460-understanding-human-perception",
       "title": "Understanding Human Perception of Music Plagiarism Through a Computational Approach",
       "video": "https://drive.google.com/file/d/1XTtbQIFqMPKeLM4LtjW_3OZ1qFouNb7X/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "460",
     "id": "460",
@@ -1102,7 +1170,9 @@
       "slack_channel": "lbd-461-a-music-information",
       "title": "A Music Information Retrieval Approach to Classify Sub-Genres in Role Playing Games",
       "video": "https://drive.google.com/file/d/1zRP5eo1kVD__uw4GEzRKwf_z_MqqpQvQ/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "461",
     "id": "461",
@@ -1132,7 +1202,9 @@
       "slack_channel": "lbd-462-analysis-of-the",
       "title": "Analysis of the Originality of Gen-AI Song Audio",
       "video": "https://drive.google.com/file/d/1wfoif1YM1aFNcTExKQJvrkR4EYKDh9Nn/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "462",
     "id": "462",
@@ -1171,7 +1243,9 @@
       "slack_channel": "lbd-463-s3-a-symbolic",
       "title": "S3: A Symbolic Music Dataset for Computational Music Analysis of Symphonies",
       "video": "https://drive.google.com/file/d/1hnYjKxQnpB_tOGGNJcbzQPmeQiFZSv6v/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "463",
     "id": "463",
@@ -1205,7 +1279,9 @@
       "slack_channel": "lbd-464-localify-org-contextualizing",
       "title": "Localify.org: Contextualizing Long-Tail Music for Local Artist Discovery",
       "video": "https://drive.google.com/file/d/1iZPuRfbNgesL2iSrgISDLV0eQI93DTQM/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "464",
     "id": "464",
@@ -1238,7 +1314,9 @@
       "slack_channel": "lbd-465-how-does-the",
       "title": "How does the teacher rate? Observations from the NeuroPiano dataset",
       "video": "https://drive.google.com/file/d/1xV7RhPeOvmltCyuIW4-dSDW1anBbSxVz/view?usp=drive_link",
-      "virtual": "1"
+      "virtual": "1",
+      "virtual_slot1": "1",
+      "virtual_slot2": "0"
     },
     "forum": "465",
     "id": "465",
@@ -1268,7 +1346,9 @@
       "slack_channel": "lbd-466-mamba-based-model",
       "title": "Mamba-Based Model for Automatic Chord Recognition",
       "video": "https://drive.google.com/file/d/1-TCrsB8VqwYmIGKW_aRRIm9qKaxhWt2A/view?usp=drive_link",
-      "virtual": "1"
+      "virtual": "1",
+      "virtual_slot1": "1",
+      "virtual_slot2": "0"
     },
     "forum": "466",
     "id": "466",
@@ -1301,7 +1381,9 @@
       "slack_channel": "lbd-467-computationally-validating-synchronisation",
       "title": "Computationally Validating Synchronisation Between Musical Phrase Arcs and Autonomic Variables",
       "video": "https://drive.google.com/file/d/1dJvvWy7IzhC-avsqKpZEBYUgL0zzn6l3/view?usp=drive_link",
-      "virtual": "1"
+      "virtual": "1",
+      "virtual_slot1": "1",
+      "virtual_slot2": "0"
     },
     "forum": "467",
     "id": "467",
@@ -1333,7 +1415,9 @@
       "slack_channel": "lbd-468-text2eq-human-in",
       "title": "Text2EQ: Human-in-the-Loop Co-Creation Interface for EQ",
       "video": "https://drive.google.com/file/d/1I6D4497SwQjOOJF7Fn8d69Z_zUgpLpWG/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "468",
     "id": "468",
@@ -1367,7 +1451,9 @@
       "slack_channel": "lbd-469-language-models-for",
       "title": "Language Models for Music Medicine Generation",
       "video": "https://drive.google.com/file/d/1TAmuQygIuCJ4XD8c0zLF4tItc7piOerK/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "469",
     "id": "469",
@@ -1402,7 +1488,9 @@
       "slack_channel": "lbd-470-generative-singing-style",
       "title": "GENERATIVE SINGING STYLE TRANSFER ACROSS GENRES",
       "video": "https://drive.google.com/file/d/1f_zGJGI5-xQTu910bUgxYsSsz5yvjhbO/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "470",
     "id": "470",
@@ -1432,7 +1520,9 @@
       "slack_channel": "lbd-471-using-feature-based",
       "title": "Using feature-based composer classification to test musicological evidence for Josquin attribution",
       "video": "https://drive.google.com/file/d/13ugDIWrnPS2x7wscij_xplro8N0PGR3E/view",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "471",
     "id": "471",
@@ -1466,7 +1556,9 @@
       "slack_channel": "lbd-472-real-time-flutist",
       "title": "Real-time Flutist Gesture Cue Detection System for Auto-Accompaniment",
       "video": "https://drive.google.com/file/d/1MTqufFVhaVgTu6PbzpUgvv0LKjRtRJxj/view",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "472",
     "id": "472",
@@ -1498,7 +1590,9 @@
       "slack_channel": "lbd-473-exploring-tokenization-methods",
       "title": "Exploring Tokenization Methods for Multitrack Sheet Music Generation",
       "video": "https://drive.google.com/file/d/1eaAlFXR0D7Cz9ES3Hnlyye1EAt0w07R9/view",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "473",
     "id": "473",
@@ -1530,7 +1624,9 @@
       "slack_channel": "lbd-474-masked-token-modeling",
       "title": "Masked Token Modeling for Zero-Shot Anything-to-Drums Conversion",
       "video": "https://drive.google.com/file/d/1SETjengbSOtBNuaMQymE8OTBHRJJjTi9/view",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "474",
     "id": "474",
@@ -1562,7 +1658,9 @@
       "slack_channel": "lbd-475-diff-mst-c",
       "title": "Diff-MST^C: A Mixing Style Transfer Prototype for Cubase",
       "video": "https://drive.google.com/file/d/1Hyyhp1UBuHb6sn6odMuOabMI867uUSe3/view",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "475",
     "id": "475",
@@ -1592,7 +1690,9 @@
       "slack_channel": "lbd-477-song-review-generation",
       "title": "SONG REVIEW GENERATION USING ACOUSTIC INFORMATION AND LYRICS",
       "video": "https://drive.google.com/file/d/1o4uMoyOobzhYG3spIIv4GuW0z-qnftro/view",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "477",
     "id": "477",
@@ -1621,7 +1721,9 @@
       "slack_channel": "lbd-478-uncovering-the-microtones",
       "title": "UNCOVERING THE MICROTONES IN A RAAG FROM NOTE TRANSCRIPTIONS",
       "video": "https://drive.google.com/file/d/1c_3zvZlB3HV5lFAw-KpyPmuo0WKdJZeE/view",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "478",
     "id": "478",
@@ -1652,7 +1754,9 @@
       "slack_channel": "lbd-479-exploring-transformer-based",
       "title": "Exploring Transformer-Based Music Overpainting for Jazz Piano Variations",
       "video": "https://drive.google.com/file/d/1pv2-7r1dl2ccStz7r9MS4nknyxS9ASe3/view",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "479",
     "id": "479",
@@ -1684,7 +1788,9 @@
       "slack_channel": "lbd-480-pitch-controlnet-continuous",
       "title": "Pitch ControlNet: Continuous Pitch Control for Monophonic Instrument Sound Generation",
       "video": "https://drive.google.com/file/d/18be9r0WcGflWwevqbkB6jGGyuj9U9t2a/view",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "480",
     "id": "480",
@@ -1716,7 +1822,9 @@
       "slack_channel": "lbd-481-closermusicdb-a-modern",
       "title": "CloserMusicDB: A Modern Multipurpose Dataset of High Quality Music",
       "video": "https://drive.google.com/file/d/1R7ldjD-qv5jJZfXIvGUi_AM6qys5GlEO/view",
-      "virtual": "1"
+      "virtual": "1",
+      "virtual_slot1": "1",
+      "virtual_slot2": "1"
     },
     "forum": "481",
     "id": "481",
@@ -1746,7 +1854,9 @@
       "slack_channel": "lbd-482-enhanced-automatic-drum",
       "title": "Enhanced Automatic Drum Transcription via Drum Stem Source Separation",
       "video": "https://drive.google.com/file/d/1ANCBR8YXKfm8XkC0DlcgrZSm6MpCyDk0/view",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "482",
     "id": "482",
@@ -1776,7 +1886,9 @@
       "slack_channel": "lbd-483-modeling-predominant-instrumentation",
       "title": "MODELING PREDOMINANT INSTRUMENTATION WITH DIFFUSION",
       "video": "https://drive.google.com/file/d/1fWiB1jQQRPivvGGXxdsRU8m01HvMnt6_/view",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "483",
     "id": "483",
@@ -1807,7 +1919,9 @@
       "slack_channel": "lbd-485-skip-that-beat",
       "title": "Skip That Beat: Augmenting Meter Tracking Models for Underrepresented Time Signatures",
       "video": "https://drive.google.com/file/d/1w0ZIqMIwTD6c4PdF8FMzyrLwwO1UnE6i/view",
-      "virtual": "1"
+      "virtual": "1",
+      "virtual_slot1": "1",
+      "virtual_slot2": "0"
     },
     "forum": "485",
     "id": "485",
@@ -1838,7 +1952,9 @@
       "slack_channel": "lbd-486-beatlesfc-harmonic-function",
       "title": "BeatlesFC: Harmonic function annotations of Isophonics' The Beatles dataset",
       "video": "https://drive.google.com/file/d/1usG1LJFI97rFMlXHRayjwv9whqWMRURe/view",
-      "virtual": "1"
+      "virtual": "1",
+      "virtual_slot1": "1",
+      "virtual_slot2": "0"
     },
     "forum": "486",
     "id": "486",
@@ -1870,7 +1986,9 @@
       "slack_channel": "lbd-487-zero-shot-structure",
       "title": "Zero-Shot Structure Labeling with Audio and Language Model Embeddings",
       "video": "https://drive.google.com/file/d/1Fa2ZpA7eMEWnYMSyCCm9FpBepGaIPofu/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "487",
     "id": "487",
@@ -1902,7 +2020,9 @@
       "slack_channel": "lbd-488-local-deployment-of",
       "title": "Local Deployment of Large-Scale Music AI Models on Commodity Hardware",
       "video": "https://drive.google.com/file/d/1lf3P5jxIRKkEkK-1eFyFm79uME6qa5rM/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "488",
     "id": "488",
@@ -1936,7 +2056,9 @@
       "slack_channel": "lbd-489-hookpad-aria-a",
       "title": "Hookpad Aria: A Copilot for Songwriters",
       "video": "https://drive.google.com/file/d/1999UU9h6yiTv5VKlz281Syl73j1zZsK_/view",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "489",
     "id": "489",
@@ -1967,7 +2089,9 @@
       "slack_channel": "lbd-490-musical-source-separation",
       "title": "Musical Source Separation of Brazilian Percussion",
       "video": "https://drive.google.com/file/d/1NCccreEwDCs4CHAJWfwr7j1r41UXQWeG/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "490",
     "id": "490",
@@ -2000,7 +2124,9 @@
       "slack_channel": "lbd-491-collecting-managing-the",
       "title": "Collecting & Managing the Metadata on the Data of ISMIR",
       "video": "https://drive.google.com/file/d/1sYkke96_uJUUwdb7k-81kzaFB9d-AwrI/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "491",
     "id": "491",
@@ -2030,7 +2156,9 @@
       "slack_channel": "lbd-492-artificial-acoustic-piano",
       "title": "ARTIFICIAL ACOUSTIC PIANO RESONANCE WITH A SOUNDBOARD-MOUNTED SHAKER",
       "video": "https://drive.google.com/file/d/1tjiLt3D3vsuocMLbvooE-2Hq1FaeLe1p/view?usp=drive_link",
-      "virtual": "1"
+      "virtual": "1",
+      "virtual_slot1": "1",
+      "virtual_slot2": "0"
     },
     "forum": "492",
     "id": "492",
@@ -2060,7 +2188,9 @@
       "slack_channel": "lbd-493-an-exploration-of",
       "title": "AN EXPLORATION OF MUSIC STRUCTURE SEGMENTATION USING EEG DATA AND MSAF ALGORITHMS",
       "video": "https://drive.google.com/file/d/18fxMJXopRF7ARl-HY9Du9o_awZSoPXGt/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "493",
     "id": "493",
@@ -2095,7 +2225,9 @@
       "slack_channel": "lbd-494-audio-data-defenses",
       "title": "Audio Data Defenses: Protecting Music and Speech Data from Targeted Attacks",
       "video": "https://drive.google.com/file/d/1gOlpLG22nvjClQGbWZyFq995c0AjxymO/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "494",
     "id": "494",
@@ -2124,7 +2256,9 @@
       "slack_channel": "lbd-495-interval-mover-s",
       "title": "Interval Mover\u2019s Distance: Melodic Stylistic Analysis Using Theoretical Frameworks",
       "video": "https://drive.google.com/file/d/1cb-As6_pVMicgKaChL8bWsUD6gUdZ-Gv/view?usp=drive_link",
-      "virtual": "1"
+      "virtual": "1",
+      "virtual_slot1": "0",
+      "virtual_slot2": "1"
     },
     "forum": "495",
     "id": "495",
@@ -2154,7 +2288,9 @@
       "slack_channel": "lbd-496-towards-robust-transcription",
       "title": "Towards Robust Transcription: Exploring Noise Injection Strategies for Training Data Augmentation",
       "video": "https://drive.google.com/file/d/1WsCfHqi4TkTj1Zjv-gJU3R61MbrLZQo-/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "496",
     "id": "496",
@@ -2189,7 +2325,9 @@
       "slack_channel": "lbd-497-harp-2-0",
       "title": "HARP 2.0: Expanding Hosted, Asynchronous, Remote Processing for Deep Learning in the DAW",
       "video": "https://drive.google.com/file/d/1zTeocgH_ADCjMr7TtLxgvt_zFX5QouD3/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "497",
     "id": "497",
@@ -2218,7 +2356,9 @@
       "slack_channel": "lbd-498-zero-shot-crate",
       "title": "Zero-shot Crate Digging: DJ Tool retrieval using Speech Activity, Music Structure and CLAP embeddings",
       "video": "https://drive.google.com/file/d/14yU-TGYS4KkIoHnQUWCg8Tu9Dtr6T7b1/view",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "498",
     "id": "498",
@@ -2248,7 +2388,9 @@
       "slack_channel": "lbd-499-the-voice-of",
       "title": "The Voice of an Instrument: Analysis of X-vectors for Music Emotion Recognition",
       "video": "https://drive.google.com/file/d/1Itj1l2UImzSlAlfL1D2K4DwESodz9Jay/view?usp=drive_link",
-      "virtual": "1"
+      "virtual": "1",
+      "virtual_slot1": "1",
+      "virtual_slot2": "0"
     },
     "forum": "499",
     "id": "499",
@@ -2279,7 +2421,9 @@
       "slack_channel": "lbd-500-perception-of-ragas",
       "title": "Perception of ragas is influenced by enculturation and musical training - a pilot study",
       "video": "https://drive.google.com/file/d/16AvAvBxPurGfZquw8egMdnPWEfD2ms0T/view?usp=drive_link",
-      "virtual": "1"
+      "virtual": "1",
+      "virtual_slot1": "1",
+      "virtual_slot2": "0"
     },
     "forum": "500",
     "id": "500",
@@ -2309,7 +2453,9 @@
       "slack_channel": "lbd-501-emotion-based-piano",
       "title": "Emotion-based Piano Score Generation via Two-stage Transformer VAE",
       "video": "https://drive.google.com/file/d/1ciXOueg2BIR4eo9AnEEWx2U0s4yb9OKv/view",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "501",
     "id": "501",
@@ -2341,7 +2487,9 @@
       "slack_channel": "lbd-502-self-supervised-multi",
       "title": "Self-Supervised Multi-View Learning for Disentangled Music Audio Representations",
       "video": "https://drive.google.com/file/d/1KYaEUEH1kSoR2mbXaUjIpzLmccGi0lNA/view",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "502",
     "id": "502",
@@ -2372,7 +2520,9 @@
       "slack_channel": "lbd-503-towards-computational-analysis",
       "title": "Towards Computational Analysis of Pansori Singing",
       "video": "https://drive.google.com/file/d/1Nzu8SE9gVgNEez0fGSi0UzwCBVGFeSsz/view",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "503",
     "id": "503",
@@ -2403,7 +2553,9 @@
       "slack_channel": "lbd-504-automatic-album-sequencing",
       "title": "Automatic Album Sequencing",
       "video": "https://drive.google.com/file/d/1LVURXADHlAsJuxNT5_tTBhPe0ihn8vvA/view",
-      "virtual": "1"
+      "virtual": "1",
+      "virtual_slot1": "1",
+      "virtual_slot2": "1"
     },
     "forum": "504",
     "id": "504",
@@ -2433,7 +2585,9 @@
       "slack_channel": "lbd-505-do-captioning-metrics",
       "title": "Do Captioning Metrics Reflect Music Semantic Alignment?",
       "video": "https://drive.google.com/file/d/1o87GLdeMC8j4-J_cxjQW2F-WbHMElz9m/view",
-      "virtual": "1"
+      "virtual": "1",
+      "virtual_slot1": "1",
+      "virtual_slot2": "1"
     },
     "forum": "505",
     "id": "505",
@@ -2463,7 +2617,9 @@
       "slack_channel": "lbd-506-boundary-regression-for",
       "title": "Boundary Regression for Leitmotif Detection in Music Audio",
       "video": "https://drive.google.com/file/d/1GQ0H1X4-cgq6K6a3npZFKJFlZDdMq5fd/view?usp=drive_link",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "506",
     "id": "506",
@@ -2493,7 +2649,9 @@
       "slack_channel": "lbd-507-score-reduction-for",
       "title": "Score Reduction for Guitar Through Reinforcement Learning",
       "video": "https://drive.google.com/file/d/1B6ba99qlae5IofApvfjfOSRQ-smQdcOl/view",
-      "virtual": "1"
+      "virtual": "1",
+      "virtual_slot1": "1",
+      "virtual_slot2": "0"
     },
     "forum": "507",
     "id": "507",
@@ -2524,7 +2682,9 @@
       "slack_channel": "lbd-508-mirflex-music-information",
       "title": "MIRFLEX: Music Information Retrieval Feature Library for Extraction",
       "video": "https://drive.google.com/file/d/14inEgdotibJQkUmjjDMsaHEhonFAbZoq/view",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "508",
     "id": "508",
@@ -2553,7 +2713,9 @@
       "slack_channel": "lbd-509-reffly-melody-constrained",
       "title": "REFFLY: MELODY-CONSTRAINED LYRICS EDITING MODEL",
       "video": "https://drive.google.com/file/d/1AxJXBsHaJNJNoZJ6QicNgZyTGgupD_dX/view",
-      "virtual": "0"
+      "virtual": "0",
+      "virtual_slot1": "0",
+      "virtual_slot2": "0"
     },
     "forum": "509",
     "id": "509",
