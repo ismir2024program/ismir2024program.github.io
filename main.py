@@ -306,6 +306,7 @@ def format_lbd(v):
             "video": v["Video link"],
             "channel_url": v["channel_url"],
             "slack_channel": v["slack_channel"],
+            "virtual": v.get("virtual?", "0")
         },
         "poster_pdf": "GLTR_poster.pdf",  
     }
