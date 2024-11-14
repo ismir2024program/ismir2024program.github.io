@@ -5,8 +5,10 @@
     "end": "2024-11-10T09:00:00-08:00",
     "link": "",
     "location": "",
-    "start": "2024-11-10T08:00:00-08:00",
-    "title": "Registration"
+    "slack_channel": "",
+    "start": "2024-11-10T01:38:00-08:00",
+    "title": "Registration",
+    "zoom_link": ""
   },
   {
     "calendarId": "online",
@@ -14,8 +16,10 @@
     "end": "2024-11-10T09:00:00-08:00",
     "link": "",
     "location": "",
-    "start": "2024-11-10T08:00:00-08:00",
-    "title": "Online Q&A w/ volunteers"
+    "slack_channel": "help-desk",
+    "start": "2024-11-10T01:40:00-08:00",
+    "title": "Online Q&A w/ volunteers",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -23,8 +27,10 @@
     "end": "2024-11-10T12:30:00-08:00",
     "link": "/tutorial_1.html",
     "location": "/tutorial_1.html",
-    "start": "2024-11-10T09:00:00-08:00",
-    "title": "Morning Tutorial T1"
+    "slack_channel": "t1-connecting-music-audio",
+    "start": "2024-11-10T01:41:00-08:00",
+    "title": "Morning Tutorial T1",
+    "zoom_link": "https://us02web.zoom.us/j/87844902244?pwd=K6qQ3aCfsUKaNalKwZZKJ07wnRpNOa.1"
   },
   {
     "calendarId": "onsite",
@@ -32,8 +38,10 @@
     "end": "2024-11-10T12:30:00-08:00",
     "link": "/tutorial_2.html",
     "location": "/tutorial_2.html",
-    "start": "2024-11-10T09:00:00-08:00",
-    "title": "Morning Tutorial T2"
+    "slack_channel": "t2-exploring-25-years",
+    "start": "2024-11-10T01:41:00-08:00",
+    "title": "Morning Tutorial T2",
+    "zoom_link": "https://us02web.zoom.us/j/82635337236?pwd=hZdTOdR5SaXa3tES9kbfYkZPnUM4sn.1"
   },
   {
     "calendarId": "onsite",
@@ -41,8 +49,10 @@
     "end": "2024-11-10T12:30:00-08:00",
     "link": "/tutorial_3.html",
     "location": "/tutorial_3.html",
-    "start": "2024-11-10T09:00:00-08:00",
-    "title": "Morning Tutorial T3"
+    "slack_channel": "t3-from-white-noise",
+    "start": "2024-11-10T01:44:00-08:00",
+    "title": "Morning Tutorial T3",
+    "zoom_link": "https://us02web.zoom.us/j/82145705825?pwd=BgRaFJb9Zabtlqr8ylgUPNIikQkLcl.1"
   },
   {
     "calendarId": "onsite",
@@ -50,8 +60,10 @@
     "end": "2024-11-10T14:00:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "",
     "start": "2024-11-10T12:30:00-08:00",
-    "title": "Lunch (on your own)"
+    "title": "Lunch Break",
+    "zoom_link": ""
   },
   {
     "calendarId": "online",
@@ -59,8 +71,10 @@
     "end": "2024-11-10T14:00:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "help-desk",
     "start": "2024-11-10T13:00:00-08:00",
-    "title": "Online Q&A w/ volunteers"
+    "title": "Online Q&A w/ volunteers",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -68,8 +82,10 @@
     "end": "2024-11-10T17:30:00-08:00",
     "link": "",
     "location": "/tutorial_4.html",
+    "slack_channel": "t4-humans-at-the",
     "start": "2024-11-10T14:00:00-08:00",
-    "title": "Afternoon Tutorial T4"
+    "title": "Afternoon Tutorial T4",
+    "zoom_link": "https://us02web.zoom.us/j/83619614732?pwd=zG13FTM11QpdnTmGM6D6rA4IIfChs0.1"
   },
   {
     "calendarId": "onsite",
@@ -77,8 +93,10 @@
     "end": "2024-11-10T17:30:00-08:00",
     "link": "",
     "location": "/tutorial_5.html",
+    "slack_channel": "t5-deep-learning-101",
     "start": "2024-11-10T14:00:00-08:00",
-    "title": "Afternoon Tutorial T5"
+    "title": "Afternoon Tutorial T5",
+    "zoom_link": "https://us02web.zoom.us/j/87836725996?pwd=s1D2bvzrbPplz8ZrYVQSkY1Gqg7ENn.1"
   },
   {
     "calendarId": "onsite",
@@ -86,8 +104,10 @@
     "end": "2024-11-10T17:30:00-08:00",
     "link": "",
     "location": "/tutorial_6.html",
+    "slack_channel": "t6-lyrics-and-singing",
     "start": "2024-11-10T14:00:00-08:00",
-    "title": "Afternoon Tutorial T6"
+    "title": "Afternoon Tutorial T6",
+    "zoom_link": "https://us02web.zoom.us/j/84459641676?pwd=ZAwXfgHHP9bh9eWa1uEcGYyZ2sOaG2.1"
   },
   {
     "calendarId": "onsite",
@@ -95,8 +115,10 @@
     "end": "2024-11-10T21:00:00-08:00",
     "link": "",
     "location": "/day_1.html#social",
+    "slack_channel": "",
     "start": "2024-11-10T19:00:00-08:00",
-    "title": "Welcome Reception"
+    "title": "Welcome Reception",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "online",
@@ -104,8 +126,10 @@
     "end": "2024-11-10T19:30:00-08:00",
     "link": "",
     "location": "/day_2.html#social",
+    "slack_channel": "session-chatter",
     "start": "2024-11-10T18:00:00-08:00",
-    "title": "Online social event"
+    "title": "Online social event",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "online",
@@ -113,8 +137,10 @@
     "end": "2024-11-10T21:00:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "help-desk",
     "start": "2024-11-10T20:00:00-08:00",
-    "title": "Online Q&A w/ volunteers"
+    "title": "Online Q&A w/ volunteers",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "replay",
@@ -122,8 +148,10 @@
     "end": "2024-11-11T06:00:00-08:00",
     "link": "",
     "location": "/tutorials.html",
+    "slack_channel": "",
     "start": "2024-11-10T21:00:00-08:00",
-    "title": "All Tutorials"
+    "title": "All Tutorials",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "online",
@@ -131,8 +159,10 @@
     "end": "2024-11-11T02:00:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "help-desk",
     "start": "2024-11-11T01:00:00-08:00",
-    "title": "Online Q&A w/ volunteers"
+    "title": "Online Q&A w/ volunteers",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "online",
@@ -140,8 +170,10 @@
     "end": "2024-11-11T07:30:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "session-chatter",
     "start": "2024-11-11T06:00:00-08:00",
-    "title": "Online social event"
+    "title": "Online social event",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -149,8 +181,10 @@
     "end": "2024-11-11T08:30:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "",
     "start": "2024-11-11T08:00:00-08:00",
-    "title": "Registration"
+    "title": "Registration",
+    "zoom_link": ""
   },
   {
     "calendarId": "online",
@@ -158,8 +192,10 @@
     "end": "2024-11-11T08:30:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "help-desk",
     "start": "2024-11-11T08:00:00-08:00",
-    "title": "Online Q&A w/ volunteers"
+    "title": "Online Q&A w/ volunteers",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -167,8 +203,10 @@
     "end": "2024-11-11T09:00:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "session-chatter",
     "start": "2024-11-11T08:30:00-08:00",
-    "title": "Opening Remarks"
+    "title": "Opening Remarks",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -176,8 +214,10 @@
     "end": "2024-11-11T10:15:00-08:00",
     "link": "",
     "location": "/papers.html?session=1",
+    "slack_channel": "session-chatter",
     "start": "2024-11-11T09:00:00-08:00",
-    "title": "Oral Session I"
+    "title": "Oral Session I",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -185,8 +225,10 @@
     "end": "2024-11-11T11:45:00-08:00",
     "link": "",
     "location": "/papers.html?session=1",
+    "slack_channel": "",
     "start": "2024-11-11T10:15:00-08:00",
-    "title": "Posters and Coffee I"
+    "title": "Posters and Coffee I",
+    "zoom_link": ""
   },
   {
     "calendarId": "online",
@@ -194,8 +236,10 @@
     "end": "2024-11-11T11:45:00-08:00",
     "link": "",
     "location": "/papers.html?session=1",
+    "slack_channel": "",
     "start": "2024-11-11T10:15:00-08:00",
-    "title": "Posters I"
+    "title": "Posters I",
+    "zoom_link": ""
   },
   {
     "calendarId": "onsite",
@@ -203,8 +247,10 @@
     "end": "2024-11-11T13:00:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "",
     "start": "2024-11-11T11:45:00-08:00",
-    "title": "Lunch (on your own)"
+    "title": "Lunch Break",
+    "zoom_link": ""
   },
   {
     "calendarId": "online",
@@ -212,8 +258,10 @@
     "end": "2024-11-11T12:45:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "",
     "start": "2024-11-11T11:45:00-08:00",
-    "title": "Mindfulness session"
+    "title": "Mindfulness session",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -221,8 +269,10 @@
     "end": "2024-11-11T14:00:00-08:00",
     "link": "",
     "location": "/day_2.html",
+    "slack_channel": "keynote-1-newton-rex",
     "start": "2024-11-11T13:00:00-08:00",
-    "title": "Keynote I"
+    "title": "Keynote I",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -230,8 +280,10 @@
     "end": "2024-11-11T15:15:00-08:00",
     "link": "",
     "location": "/papers.html?session=2",
+    "slack_channel": "session-chatter",
     "start": "2024-11-11T14:00:00-08:00",
-    "title": "Oral Session II"
+    "title": "Oral Session II",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -239,17 +291,21 @@
     "end": "2024-11-11T16:45:00-08:00",
     "link": "",
     "location": "/papers.html?session=2",
+    "slack_channel": "",
     "start": "2024-11-11T15:15:00-08:00",
-    "title": "Posters and Coffee II"
+    "title": "Posters and Coffee II",
+    "zoom_link": ""
   },
   {
-    "calendarId": "onsite",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-11T16:45:00-08:00",
     "link": "",
     "location": "/papers.html?session=2",
+    "slack_channel": "",
     "start": "2024-11-11T15:15:00-08:00",
-    "title": "Posters II"
+    "title": "Posters II",
+    "zoom_link": ""
   },
   {
     "calendarId": "onsite",
@@ -257,8 +313,10 @@
     "end": "2024-11-11T17:45:00-08:00",
     "link": "",
     "location": "/day_2.html",
+    "slack_channel": "keynote-dei-joseph",
     "start": "2024-11-11T16:45:00-08:00",
-    "title": "DEI Keynote"
+    "title": "DEI Keynote",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -266,8 +324,10 @@
     "end": "2024-11-11T18:00:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "remembering-don-byrd",
     "start": "2024-11-11T17:45:00-08:00",
-    "title": "Remembering Don Byrd"
+    "title": "Remembering Don Byrd",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "online",
@@ -275,8 +335,10 @@
     "end": "2024-11-11T19:00:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "session-chatter",
     "start": "2024-11-11T18:00:00-08:00",
-    "title": "Online special session I"
+    "title": "Online special session I",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -284,8 +346,10 @@
     "end": "2024-11-11T23:59:59-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "",
     "start": "2024-11-11T19:00:00-08:00",
-    "title": "Banquet/Jam Session"
+    "title": "Banquet/Jam Session",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "online",
@@ -293,8 +357,10 @@
     "end": "2024-11-11T20:30:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "help-desk",
     "start": "2024-11-11T20:00:00-08:00",
-    "title": "Online Q&A w/ volunteers"
+    "title": "Online Q&A w/ volunteers",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "replay",
@@ -302,8 +368,10 @@
     "end": "2024-11-11T21:00:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "session-chatter",
     "start": "2024-11-11T20:30:00-08:00",
-    "title": "Opening Remarks"
+    "title": "Opening Remarks",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "replay",
@@ -311,8 +379,10 @@
     "end": "2024-11-11T22:15:00-08:00",
     "link": "",
     "location": "/papers.html?session=1",
+    "slack_channel": "session-chatter",
     "start": "2024-11-11T21:00:00-08:00",
-    "title": "Oral Session I"
+    "title": "Oral Session I",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "replay",
@@ -320,8 +390,10 @@
     "end": "2024-11-11T23:45:00-08:00",
     "link": "",
     "location": "/papers.html?session=1",
+    "slack_channel": "",
     "start": "2024-11-11T22:15:00-08:00",
-    "title": "Posters I"
+    "title": "Posters I",
+    "zoom_link": ""
   },
   {
     "calendarId": "online",
@@ -329,8 +401,10 @@
     "end": "2024-11-12T00:45:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "",
     "start": "2024-11-11T23:45:00-08:00",
-    "title": "Mindfulness session"
+    "title": "Mindfulness session",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "replay",
@@ -338,8 +412,10 @@
     "end": "2024-11-12T02:00:00-08:00",
     "link": "",
     "location": "/day_2.html",
+    "slack_channel": "keynote-1-newton-rex",
     "start": "2024-11-12T01:00:00-08:00",
-    "title": "Keynote I"
+    "title": "Keynote I",
+    "zoom_link": ""
   },
   {
     "calendarId": "replay",
@@ -347,8 +423,10 @@
     "end": "2024-11-12T03:15:00-08:00",
     "link": "",
     "location": "/papers.html?session=2",
+    "slack_channel": "session-chatter",
     "start": "2024-11-12T02:00:00-08:00",
-    "title": "Oral Session II"
+    "title": "Oral Session II",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "replay",
@@ -356,8 +434,10 @@
     "end": "2024-11-12T04:45:00-08:00",
     "link": "",
     "location": "/papers.html?session=2",
+    "slack_channel": "",
     "start": "2024-11-12T03:15:00-08:00",
-    "title": "Posters II"
+    "title": "Posters II",
+    "zoom_link": ""
   },
   {
     "calendarId": "replay",
@@ -365,8 +445,10 @@
     "end": "2024-11-12T05:45:00-08:00",
     "link": "",
     "location": "/day_2.html",
+    "slack_channel": "keynote-dei-joseph",
     "start": "2024-11-12T04:45:00-08:00",
-    "title": "DEI Keynote"
+    "title": "DEI Keynote",
+    "zoom_link": ""
   },
   {
     "calendarId": "replay",
@@ -374,8 +456,10 @@
     "end": "2024-11-12T06:00:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "remembering-don-byrd",
     "start": "2024-11-12T05:45:00-08:00",
-    "title": "Remembering Don Byrd"
+    "title": "Remembering Don Byrd",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "online",
@@ -383,8 +467,10 @@
     "end": "2024-11-12T07:00:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "session-chatter",
     "start": "2024-11-12T06:00:00-08:00",
-    "title": "Online special session II"
+    "title": "Online special session II",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -392,8 +478,10 @@
     "end": "2024-11-12T08:30:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "",
     "start": "2024-11-12T08:00:00-08:00",
-    "title": "Registration"
+    "title": "Registration",
+    "zoom_link": ""
   },
   {
     "calendarId": "online",
@@ -401,8 +489,10 @@
     "end": "2024-11-12T08:30:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "help-desk",
     "start": "2024-11-12T08:00:00-08:00",
-    "title": "Online Q&A w/ volunteers"
+    "title": "Online Q&A w/ volunteers",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -410,8 +500,10 @@
     "end": "2024-11-12T09:45:00-08:00",
     "link": "",
     "location": "/papers.html?session=3",
+    "slack_channel": "session-chatter",
     "start": "2024-11-12T08:30:00-08:00",
-    "title": "Oral Session III"
+    "title": "Oral Session III",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -419,8 +511,10 @@
     "end": "2024-11-12T11:00:00-08:00",
     "link": "",
     "location": "/papers.html?session=3",
+    "slack_channel": "",
     "start": "2024-11-12T09:45:00-08:00",
-    "title": "Posters and Coffee III"
+    "title": "Posters and Coffee III",
+    "zoom_link": ""
   },
   {
     "calendarId": "online",
@@ -428,8 +522,10 @@
     "end": "2024-11-12T11:00:00-08:00",
     "link": "",
     "location": "/papers.html?session=3",
+    "slack_channel": "",
     "start": "2024-11-12T09:45:00-08:00",
-    "title": "Posters III"
+    "title": "Posters III",
+    "zoom_link": ""
   },
   {
     "calendarId": "onsite",
@@ -437,8 +533,10 @@
     "end": "2024-11-12T12:00:00-08:00",
     "link": "",
     "location": "/day_3.html#industry",
+    "slack_channel": "session-chatter",
     "start": "2024-11-12T11:00:00-08:00",
-    "title": "Industry Session I"
+    "title": "Industry Session I",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -446,8 +544,10 @@
     "end": "2024-11-12T13:15:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "",
     "start": "2024-11-12T12:00:00-08:00",
-    "title": "Lunch (on your own)"
+    "title": "Lunch Break",
+    "zoom_link": ""
   },
   {
     "calendarId": "online",
@@ -455,8 +555,10 @@
     "end": "2024-11-12T13:00:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "",
     "start": "2024-11-12T12:00:00-08:00",
-    "title": "Mindfulness session"
+    "title": "Mindfulness session",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -464,8 +566,10 @@
     "end": "2024-11-12T14:15:00-08:00",
     "link": "",
     "location": "/day_3.html#mus",
+    "slack_channel": "session-chatter",
     "start": "2024-11-12T13:15:00-08:00",
-    "title": "Creative Practice Session I"
+    "title": "Creative Practice Session I",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -473,8 +577,10 @@
     "end": "2024-11-12T15:30:00-08:00",
     "link": "",
     "location": "/papers.html?session=4",
+    "slack_channel": "session-chatter",
     "start": "2024-11-12T14:15:00-08:00",
-    "title": "Oral Session IV"
+    "title": "Oral Session IV",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -482,17 +588,21 @@
     "end": "2024-11-12T17:00:00-08:00",
     "link": "",
     "location": "/papers.html?session=4",
+    "slack_channel": "",
     "start": "2024-11-12T15:30:00-08:00",
-    "title": "Posters and Coffee IV"
+    "title": "Posters and Coffee IV",
+    "zoom_link": ""
   },
   {
-    "calendarId": "onsite",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-12T17:00:00-08:00",
     "link": "",
     "location": "/papers.html?session=4",
+    "slack_channel": "",
     "start": "2024-11-12T15:30:00-08:00",
-    "title": "Posters IV"
+    "title": "Posters IV",
+    "zoom_link": ""
   },
   {
     "calendarId": "onsite",
@@ -500,8 +610,10 @@
     "end": "2024-11-12T18:00:00-08:00",
     "link": "",
     "location": "/day_3.html",
+    "slack_channel": "keynote-2-moody",
     "start": "2024-11-12T17:00:00-08:00",
-    "title": "Keynote II"
+    "title": "Keynote II",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -509,8 +621,10 @@
     "end": "2024-11-12T22:00:00-08:00",
     "link": "",
     "location": "/day_3.html#mus",
+    "slack_channel": "session-chatter",
     "start": "2024-11-12T18:00:00-08:00",
-    "title": "Creative Practice meetup at Riffusion"
+    "title": "Creative Practice meetup at Riffusion",
+    "zoom_link": ""
   },
   {
     "calendarId": "online",
@@ -518,8 +632,10 @@
     "end": "2024-11-12T20:30:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "help-desk",
     "start": "2024-11-12T20:00:00-08:00",
-    "title": "Online Q&A w/ volunteers"
+    "title": "Online Q&A w/ volunteers",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "replay",
@@ -527,8 +643,10 @@
     "end": "2024-11-12T21:45:00-08:00",
     "link": "",
     "location": "/papers.html?session=3",
+    "slack_channel": "session-chatter",
     "start": "2024-11-12T20:30:00-08:00",
-    "title": "Oral Session III"
+    "title": "Oral Session III",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "replay",
@@ -536,8 +654,10 @@
     "end": "2024-11-12T23:00:00-08:00",
     "link": "",
     "location": "/papers.html?session=3",
+    "slack_channel": "",
     "start": "2024-11-12T21:45:00-08:00",
-    "title": "Posters III"
+    "title": "Posters III",
+    "zoom_link": ""
   },
   {
     "calendarId": "replay",
@@ -545,8 +665,10 @@
     "end": "2024-11-13T00:01:00-08:00",
     "link": "",
     "location": "/day_3.html#industry",
+    "slack_channel": "session-chatter",
     "start": "2024-11-12T23:00:00-08:00",
-    "title": "Industry Session I"
+    "title": "Industry Session I",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "online",
@@ -554,8 +676,10 @@
     "end": "2024-11-13T01:00:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "",
     "start": "2024-11-13T00:00:00-08:00",
-    "title": "Mindfulness session"
+    "title": "Mindfulness session",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "replay",
@@ -563,8 +687,10 @@
     "end": "2024-11-13T02:15:00-08:00",
     "link": "",
     "location": "/day_2.html#mus",
+    "slack_channel": "session-chatter",
     "start": "2024-11-13T01:15:00-08:00",
-    "title": "Creative Practice Session I"
+    "title": "Creative Practice Session I",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "replay",
@@ -572,8 +698,10 @@
     "end": "2024-11-13T03:30:00-08:00",
     "link": "",
     "location": "/papers.html?session=4",
+    "slack_channel": "session-chatter",
     "start": "2024-11-13T02:15:00-08:00",
-    "title": "Oral Session IV"
+    "title": "Oral Session IV",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "replay",
@@ -581,8 +709,10 @@
     "end": "2024-11-13T05:00:00-08:00",
     "link": "",
     "location": "/papers.html?session=4",
+    "slack_channel": "",
     "start": "2024-11-13T03:30:00-08:00",
-    "title": "Posters IV"
+    "title": "Posters IV",
+    "zoom_link": ""
   },
   {
     "calendarId": "replay",
@@ -590,8 +720,10 @@
     "end": "2024-11-13T06:00:00-08:00",
     "link": "",
     "location": "/day_3.html",
+    "slack_channel": "keynote-2-moody",
     "start": "2024-11-13T05:00:00-08:00",
-    "title": "Keynote II"
+    "title": "Keynote II",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -599,8 +731,10 @@
     "end": "2024-11-13T08:30:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "",
     "start": "2024-11-13T08:00:00-08:00",
-    "title": "Registration"
+    "title": "Registration",
+    "zoom_link": ""
   },
   {
     "calendarId": "online",
@@ -608,8 +742,10 @@
     "end": "2024-11-13T08:30:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "help-desk",
     "start": "2024-11-13T08:00:00-08:00",
-    "title": "Online Q&A w/ volunteers"
+    "title": "Online Q&A w/ volunteers",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -617,8 +753,10 @@
     "end": "2024-11-13T09:45:00-08:00",
     "link": "",
     "location": "/papers.html?session=5",
+    "slack_channel": "session-chatter",
     "start": "2024-11-13T08:30:00-08:00",
-    "title": "Oral Session V"
+    "title": "Oral Session V",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -626,8 +764,10 @@
     "end": "2024-11-13T11:00:00-08:00",
     "link": "",
     "location": "/papers.html?session=5",
+    "slack_channel": "",
     "start": "2024-11-13T09:45:00-08:00",
-    "title": "Posters and Coffee V"
+    "title": "Posters and Coffee V",
+    "zoom_link": ""
   },
   {
     "calendarId": "online",
@@ -635,8 +775,10 @@
     "end": "2024-11-13T11:00:00-08:00",
     "link": "",
     "location": "/papers.html?session=5",
+    "slack_channel": "",
     "start": "2024-11-13T09:45:00-08:00",
-    "title": "Posters V"
+    "title": "Posters V",
+    "zoom_link": ""
   },
   {
     "calendarId": "onsite",
@@ -644,8 +786,10 @@
     "end": "2024-11-13T12:15:00-08:00",
     "link": "",
     "location": "/day_4.html#mus",
+    "slack_channel": "session-chatter",
     "start": "2024-11-13T11:00:00-08:00",
-    "title": "Creative Practice Session II"
+    "title": "Creative Practice Session II",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -653,8 +797,10 @@
     "end": "2024-11-13T13:30:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "",
     "start": "2024-11-13T12:15:00-08:00",
-    "title": "Lunch (on your own)"
+    "title": "Lunch Break",
+    "zoom_link": ""
   },
   {
     "calendarId": "online",
@@ -662,8 +808,10 @@
     "end": "2024-11-13T13:15:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "",
     "start": "2024-11-13T12:15:00-08:00",
-    "title": "Mindfulness session"
+    "title": "Mindfulness session",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -671,8 +819,10 @@
     "end": "2024-11-13T14:30:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "keynote-3-eck",
     "start": "2024-11-13T13:30:00-08:00",
-    "title": "Keynote III"
+    "title": "Keynote III",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -680,8 +830,10 @@
     "end": "2024-11-13T15:45:00-08:00",
     "link": "",
     "location": "/papers.html?session=6",
+    "slack_channel": "session-chatter",
     "start": "2024-11-13T14:30:00-08:00",
-    "title": "Oral Session VI"
+    "title": "Oral Session VI",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -689,17 +841,21 @@
     "end": "2024-11-13T17:00:00-08:00",
     "link": "",
     "location": "/papers.html?session=6",
+    "slack_channel": "",
     "start": "2024-11-13T15:45:00-08:00",
-    "title": "Posters and Coffee VI"
+    "title": "Posters and Coffee VI",
+    "zoom_link": ""
   },
   {
-    "calendarId": "onsite",
+    "calendarId": "online",
     "category": "time",
     "end": "2024-11-13T17:00:00-08:00",
     "link": "",
     "location": "/papers.html?session=6",
+    "slack_channel": "",
     "start": "2024-11-13T15:45:00-08:00",
-    "title": "Posters VI"
+    "title": "Posters VI",
+    "zoom_link": ""
   },
   {
     "calendarId": "onsite",
@@ -707,8 +863,10 @@
     "end": "2024-11-13T18:00:00-08:00",
     "link": "",
     "location": "/day_4.html#industry",
+    "slack_channel": "session-chatter",
     "start": "2024-11-13T17:00:00-08:00",
-    "title": "Industry Session II"
+    "title": "Industry Session II",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -716,8 +874,10 @@
     "end": "2024-11-13T20:00:00-08:00",
     "link": "",
     "location": "/day_4.html#industry",
+    "slack_channel": "session-chatter",
     "start": "2024-11-13T19:00:00-08:00",
-    "title": "Meetup with Industry"
+    "title": "Meetup with Industry",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -725,8 +885,10 @@
     "end": "2024-11-13T22:00:00-08:00",
     "link": "",
     "location": "/day_4.html#industry",
+    "slack_channel": "",
     "start": "2024-11-13T20:00:00-08:00",
-    "title": "Industry networking"
+    "title": "Industry networking",
+    "zoom_link": ""
   },
   {
     "calendarId": "online",
@@ -734,8 +896,10 @@
     "end": "2024-11-13T20:30:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "help-desk",
     "start": "2024-11-13T20:00:00-08:00",
-    "title": "Online Q&A w/ volunteers"
+    "title": "Online Q&A w/ volunteers",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "replay",
@@ -743,8 +907,10 @@
     "end": "2024-11-13T21:45:00-08:00",
     "link": "",
     "location": "/papers.html?session=5",
+    "slack_channel": "session-chatter",
     "start": "2024-11-13T20:30:00-08:00",
-    "title": "Oral Session V"
+    "title": "Oral Session V",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "replay",
@@ -752,8 +918,10 @@
     "end": "2024-11-13T23:00:00-08:00",
     "link": "",
     "location": "/papers.html?session=5",
+    "slack_channel": "",
     "start": "2024-11-13T21:45:00-08:00",
-    "title": "Posters V"
+    "title": "Posters V",
+    "zoom_link": ""
   },
   {
     "calendarId": "replay",
@@ -761,8 +929,10 @@
     "end": "2024-11-14T00:15:00-08:00",
     "link": "",
     "location": "/day_4.html#mus",
+    "slack_channel": "session-chatter",
     "start": "2024-11-13T23:00:00-08:00",
-    "title": "Creative Practice Session II"
+    "title": "Creative Practice Session II",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "online",
@@ -770,8 +940,10 @@
     "end": "2024-11-14T01:15:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "",
     "start": "2024-11-14T00:15:00-08:00",
-    "title": "Mindfulness session"
+    "title": "Mindfulness session",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "replay",
@@ -779,8 +951,10 @@
     "end": "2024-11-14T02:30:00-08:00",
     "link": "",
     "location": "/day_4.html",
+    "slack_channel": "keynote-3-eck",
     "start": "2024-11-14T01:30:00-08:00",
-    "title": "Keynote III"
+    "title": "Keynote III",
+    "zoom_link": ""
   },
   {
     "calendarId": "replay",
@@ -788,8 +962,10 @@
     "end": "2024-11-14T03:45:00-08:00",
     "link": "",
     "location": "/papers.html?session=6",
+    "slack_channel": "session-chatter",
     "start": "2024-11-14T02:30:00-08:00",
-    "title": "Oral Session VI"
+    "title": "Oral Session VI",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "replay",
@@ -797,8 +973,10 @@
     "end": "2024-11-14T05:00:00-08:00",
     "link": "",
     "location": "/papers.html?session=6",
+    "slack_channel": "",
     "start": "2024-11-14T03:45:00-08:00",
-    "title": "Posters VI"
+    "title": "Posters VI",
+    "zoom_link": ""
   },
   {
     "calendarId": "replay",
@@ -806,8 +984,10 @@
     "end": "2024-11-14T06:00:00-08:00",
     "link": "",
     "location": "/day_4.html#industry",
+    "slack_channel": "session-chatter",
     "start": "2024-11-14T05:00:00-08:00",
-    "title": "Industry Session II"
+    "title": "Industry Session II",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "replay",
@@ -815,8 +995,10 @@
     "end": "2024-11-14T08:00:00-08:00",
     "link": "",
     "location": "/day_4.html#industry",
+    "slack_channel": "session-chatter",
     "start": "2024-11-14T07:00:00-08:00",
-    "title": "Meetup with Industry"
+    "title": "Meetup with Industry",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -824,8 +1006,10 @@
     "end": "2024-11-14T08:30:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "",
     "start": "2024-11-14T08:00:00-08:00",
-    "title": "Registration"
+    "title": "Registration",
+    "zoom_link": ""
   },
   {
     "calendarId": "onsite",
@@ -833,8 +1017,10 @@
     "end": "2024-11-14T08:30:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "help-desk",
     "start": "2024-11-14T08:00:00-08:00",
-    "title": "Online Q&A w/ volunteers"
+    "title": "Online Q&A w/ volunteers",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -842,8 +1028,10 @@
     "end": "2024-11-14T09:45:00-08:00",
     "link": "",
     "location": "/papers.html?session=7",
+    "slack_channel": "session-chatter",
     "start": "2024-11-14T08:30:00-08:00",
-    "title": "Oral Session VII"
+    "title": "Oral Session VII",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -851,8 +1039,10 @@
     "end": "2024-11-14T11:00:00-08:00",
     "link": "",
     "location": "/papers.html?session=7",
+    "slack_channel": "",
     "start": "2024-11-14T09:45:00-08:00",
-    "title": "Posters and Coffee VII"
+    "title": "Posters and Coffee VII",
+    "zoom_link": ""
   },
   {
     "calendarId": "online",
@@ -860,8 +1050,10 @@
     "end": "2024-11-14T11:00:00-08:00",
     "link": "",
     "location": "/papers.html?session=7",
+    "slack_channel": "",
     "start": "2024-11-14T09:45:00-08:00",
-    "title": "Posters VII"
+    "title": "Posters VII",
+    "zoom_link": ""
   },
   {
     "calendarId": "onsite",
@@ -869,8 +1061,10 @@
     "end": "2024-11-14T11:15:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "",
     "start": "2024-11-14T11:00:00-08:00",
-    "title": "LBD Setup"
+    "title": "LBD Setup",
+    "zoom_link": ""
   },
   {
     "calendarId": "onsite",
@@ -878,8 +1072,10 @@
     "end": "2024-11-14T12:45:00-08:00",
     "link": "",
     "location": "/lbds.html",
+    "slack_channel": "session-chatter",
     "start": "2024-11-14T11:15:00-08:00",
-    "title": "LBD / MIREX (onsite)"
+    "title": "LBD / MIREX (onsite)",
+    "zoom_link": ""
   },
   {
     "calendarId": "online",
@@ -887,8 +1083,10 @@
     "end": "2024-11-14T12:45:00-08:00",
     "link": "",
     "location": "/lbds.html",
+    "slack_channel": "session-chatter",
     "start": "2024-11-14T11:15:00-08:00",
-    "title": "LBD / MIREX (online)"
+    "title": "LBD / MIREX (online)",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
@@ -896,8 +1094,10 @@
     "end": "2024-11-14T14:00:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "",
     "start": "2024-11-14T12:45:00-08:00",
-    "title": "Lunch (on your own)"
+    "title": "Lunch Break",
+    "zoom_link": ""
   },
   {
     "calendarId": "online",
@@ -905,26 +1105,32 @@
     "end": "2024-11-14T13:45:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "",
     "start": "2024-11-14T12:45:00-08:00",
-    "title": "Mindfulness session"
+    "title": "Mindfulness session",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
     "category": "time",
-    "end": "2024-11-14T15:30:00-08:00",
+    "end": "2024-11-14T15:45:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "session-chatter",
     "start": "2024-11-14T14:00:00-08:00",
-    "title": "Society meeting"
+    "title": "Society meeting",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "onsite",
     "category": "time",
-    "end": "2024-11-14T17:30:00-08:00",
+    "end": "2024-11-14T17:45:00-08:00",
     "link": "",
-    "location": "/day_5.html#Un",
-    "start": "2024-11-14T15:30:00-08:00",
-    "title": "Unconference"
+    "location": "/day_5.html",
+    "slack_channel": "unconference",
+    "start": "2024-11-14T15:45:00-08:00",
+    "title": "Unconference",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "online",
@@ -932,8 +1138,10 @@
     "end": "2024-11-14T20:30:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "help-desk",
     "start": "2024-11-14T20:00:00-08:00",
-    "title": "Online Q&A w/ volunteers"
+    "title": "Online Q&A w/ volunteers",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "replay",
@@ -941,8 +1149,10 @@
     "end": "2024-11-14T21:45:00-08:00",
     "link": "",
     "location": "/papers.html?session=7",
+    "slack_channel": "session-chatter",
     "start": "2024-11-14T20:30:00-08:00",
-    "title": "Oral Session VII"
+    "title": "Oral Session VII",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "replay",
@@ -950,8 +1160,10 @@
     "end": "2024-11-14T23:00:00-08:00",
     "link": "",
     "location": "/papers.html?session=7",
+    "slack_channel": "",
     "start": "2024-11-14T21:45:00-08:00",
-    "title": "Posters VII"
+    "title": "Posters VII",
+    "zoom_link": ""
   },
   {
     "calendarId": "replay",
@@ -959,8 +1171,10 @@
     "end": "2024-11-14T23:45:00-08:00",
     "link": "",
     "location": "/lbds.html",
+    "slack_channel": "session-chatter",
     "start": "2024-11-14T23:15:00-08:00",
-    "title": "LBD / MIREX (online)"
+    "title": "LBD / MIREX (online)",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "online",
@@ -968,25 +1182,31 @@
     "end": "2024-11-15T01:45:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "",
     "start": "2024-11-15T00:45:00-08:00",
-    "title": "Mindfulness session"
+    "title": "Mindfulness session",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "replay",
     "category": "time",
-    "end": "2024-11-15T03:30:00-08:00",
+    "end": "2024-11-15T03:45:00-08:00",
     "link": "",
     "location": "",
+    "slack_channel": "session-chatter",
     "start": "2024-11-15T02:00:00-08:00",
-    "title": "Society meeting etc. "
+    "title": "Society meeting",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   },
   {
     "calendarId": "online",
     "category": "time",
-    "end": "2024-11-15T06:00:00-08:00",
+    "end": "2024-11-15T06:15:00-08:00",
     "link": "",
     "location": "/day_6.html",
-    "start": "2024-11-15T03:30:00-08:00",
-    "title": "Ideation sessions"
+    "slack_channel": "session-chatter",
+    "start": "2024-11-15T03:45:00-08:00",
+    "title": "Ideation sessions",
+    "zoom_link": "https://us02web.zoom.us/j/81805661292?pwd=ZZKs8fVNlmJb9zuDHVFQEDshAOcDeG.1"
   }
 ]
